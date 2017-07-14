@@ -6,10 +6,14 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-puts "Importing Sources"
+puts 'Importing Sources'
 source_books = JSON.parse(File.read(Rails.root.join('db', 'seed_data', 'source_books.json')))
 SourceBook.create(source_books.fetch('source_books'))
 
-puts "Importing Armor"
+puts 'Importing Armor'
 armor = JSON.parse(File.read(Rails.root.join('db', 'seed_data', 'armor.json')))
 Armor.create(armor)
+
+puts 'Importing Gear'
+gear = JSON.parse(File.read(Rails.root.join('db', 'seed_data', 'gear.json')))
+Gear.create(gear)

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170714175442) do
+ActiveRecord::Schema.define(version: 20170714205145) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,6 +31,28 @@ ActiveRecord::Schema.define(version: 20170714175442) do
     t.json "base_mods"
     t.json "weapon_modifiers"
     t.string "image_filename", default: "missing.png"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "gears", force: :cascade do |t|
+    t.string "key", null: false
+    t.string "name", null: false
+    t.text "description"
+    t.string "short"
+    t.string "gear_type"
+    t.text "categories", default: [], array: true
+    t.integer "encumbrance", default: 0
+    t.integer "hit_points", default: 0
+    t.integer "price", default: 0
+    t.integer "rarity", default: 0
+    t.boolean "is_restricted", default: false
+    t.text "sources", default: [], array: true
+    t.string "image_filename", default: "missing.png"
+    t.json "base_mods"
+    t.json "weapon_modifiers"
+    t.string "adv_import_path"
+    t.json "modifiers"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
