@@ -1,0 +1,149 @@
+{
+  "source_books": [
+    {
+      "collection": "Age of Rebellion",
+      "title": "Age of Rebellion: Beginner's Guide",
+      "key": "AoR-BGR"
+    },
+    {
+      "collection": "Age of Rebellion",
+      "title": "Age of Rebellion: Core Rulebook",
+      "key": "AoR-CRB"
+    },
+    {
+      "collection": "Age of Rebellion",
+      "title": "Dead in the Water",
+      "key": "DitW"
+    },
+    {
+      "collection": "Age of Rebellion",
+      "title": "Desperate Allies",
+      "key": "DA"
+    },
+    {
+      "collection": "Age of Rebellion",
+      "title": "Lead By Example",
+      "key": "LBE"
+    },
+    {
+      "collection": "Age of Rebellion",
+      "title": "Onslaught at Arda I",
+      "key": "OaA"
+    },
+    {
+      "collection": "Age of Rebellion",
+      "title": "Operation Shadowpoint",
+      "key": "OS"
+    },
+    {
+      "collection": "Age of Rebellion",
+      "title": "Rescue at Glare Peak",
+      "key": "RaGP"
+    },
+    {
+      "collection": "Age of Rebellion",
+      "title": "Stay on Target",
+      "key": "SoT"
+    },
+    {
+      "collection": "Age of Rebellion",
+      "title": "Strongholds of Resistance",
+      "key": "SoR"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "Beyond the Rim",
+      "key": "BtR"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "Dangerous Covenants",
+      "key": "DC"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "Edge of the Empire: Beginner's Guide",
+      "key": "EotE-BGR"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "Edge of the Empire: Core Rulebook",
+      "key": "EotE-CRB"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "Enter the Unknown",
+      "key": "EtU"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "Far Horizons",
+      "key": "FH"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "Fly Casual",
+      "key": "FC"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "Jewel of Yavin",
+      "key": "JoY"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "Lords of Nal Hutta",
+      "key": "LoNH"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "Mask of the Pirate Queen",
+      "key": "MotPQ"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "Special Modifications",
+      "key": "SM"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "Suns of Fortune",
+      "key": "SoF"
+    },
+    {
+      "collection": "Force and Destiny",
+      "title": "Chronicles of the Gatekeeper",
+      "key": "CotG"
+    },
+    {
+      "collection": "Force and Destiny",
+      "title": "Force and Destiny: Beginner's Guide",
+      "key": "FaD-BGR"
+    },
+    {
+      "collection": "Force and Destiny",
+      "title": "Force and Destiny: Core RuleBook",
+      "key": "FaD-CRB"
+    },
+    {
+      "collection": "Force and Destiny",
+      "title": "Hidden Depths",
+      "key": "HD"
+    },
+    {
+      "collection": "Force and Destiny",
+      "title": "Keeping the Peace",
+      "key": "KtP"
+    },
+    {
+      "collection": "Force and Destiny",
+      "title": "Nexus of Power",
+      "key": "NoP"
+    },
+    {
+      "collection": "Force and Destiny",
+      "title": "Savage Spirits",
+      "key": "SS"
+    }
+  ]
+}
