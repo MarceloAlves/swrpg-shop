@@ -10,10 +10,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170714164023) do
+ActiveRecord::Schema.define(version: 20170714175442) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "armors", force: :cascade do |t|
+    t.string "key", null: false
+    t.string "name", null: false
+    t.text "description"
+    t.text "sources", default: [], array: true
+    t.integer "defense", default: 0
+    t.integer "soak", default: 0
+    t.integer "price", default: 0, null: false
+    t.integer "encumbrance", default: 0
+    t.integer "hit_points", default: 0
+    t.integer "rarity", default: 0
+    t.text "categories", default: [], array: true
+    t.boolean "is_restricted", default: false
+    t.json "base_mods"
+    t.json "weapon_modifiers"
+    t.string "image_filename", default: "missing.png"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "source_books", force: :cascade do |t|
     t.string "key", null: false
