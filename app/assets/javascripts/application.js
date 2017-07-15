@@ -1,7 +1,7 @@
 //= require rails-ujs
 //= require jquery
 //= require turbolinks
-//= require materialize-sprockets
+//= require popper
+//= require tether
+//= require bootstrap/bootstrap
 //= require_tree .
-
-$(".button-collapse").sideNav();
