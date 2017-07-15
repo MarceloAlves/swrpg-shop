@@ -17,3 +17,7 @@ Armor.create(armor)
 puts 'Importing Gear'
 gear = JSON.parse(File.read(Rails.root.join('db', 'seed_data', 'gear.json')))
 Gear.create(gear)
+
+puts 'Creating Worlds'
+worlds = JSON.parse(File.read(Rails.root.join('db', 'seed_data', 'worlds.json')))
+World.create(worlds)
