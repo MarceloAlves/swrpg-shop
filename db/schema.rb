@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 20170715045525) do
     t.boolean "is_restricted", default: false
     t.json "base_mods"
     t.json "weapon_modifiers"
+    t.string "item_type"
     t.string "image_filename", default: "missing.png"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -53,6 +54,7 @@ ActiveRecord::Schema.define(version: 20170715045525) do
     t.json "weapon_modifiers"
     t.string "adv_import_path"
     t.json "modifiers"
+    t.string "item_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

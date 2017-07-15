@@ -18,6 +18,7 @@ class CreateGears < ActiveRecord::Migration[5.1]
       t.json :weapon_modifiers
       t.string :adv_import_path
       t.json :modifiers
+      t.string :item_type
 
       t.timestamps
     end

@@ -20,6 +20,7 @@
 #  weapon_modifiers :json
 #  adv_import_path  :string
 #  modifiers        :json
+#  item_type        :string
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
 #
