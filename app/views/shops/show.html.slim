@@ -1,0 +1,13 @@
+h1 Shops#show
+p Find me in app/views/shops/show.html.slim
+
+table.table.table-hover
+  thead.thead-default
+    tr
+      th Item Name
+      th Description
+      th
+      th
+  tbody
+   = render partial: 'items/item_row', collection: shop, as: :item
+

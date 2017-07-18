@@ -42,7 +42,7 @@ class ItemList
         new_price = (@world.price_modifier * item.price) * (1 + ((markup + advantage_markup + triumph_markup) / 100.0 ))
         item.price = new_price.round
 
-        @shop_list << item.to_json
+        @shop_list << item.as_json
       end
     end
     true
