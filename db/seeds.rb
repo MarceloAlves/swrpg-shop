@@ -22,6 +22,10 @@ puts 'Importing Item Attachments'
 ia = JSON.parse(File.read(Rails.root.join('db', 'seed_data', 'item_attachments.json')))
 ItemAttachment.create(ia)
 
+puts 'Importing Weapons'
+weapons = JSON.parse(File.read(Rails.root.join('db', 'seed_data', 'weapons.json')))
+Weapon.create(weapons)
+
 puts 'Creating Worlds'
 worlds = JSON.parse(File.read(Rails.root.join('db', 'seed_data', 'worlds.json')))
 World.create(worlds)

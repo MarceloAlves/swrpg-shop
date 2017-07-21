@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170718044737) do
+ActiveRecord::Schema.define(version: 20170721025549) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -103,6 +103,38 @@ ActiveRecord::Schema.define(version: 20170718044737) do
     t.string "key", null: false
     t.string "title", null: false
     t.string "collection"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "weapons", force: :cascade do |t|
+    t.string "key"
+    t.string "name"
+    t.text "description"
+    t.text "sources", default: [], array: true
+    t.string "skill_key"
+    t.boolean "restricted", default: false
+    t.integer "damage"
+    t.integer "damage_add"
+    t.integer "crit"
+    t.string "range_value"
+    t.string "range"
+    t.boolean "no_melee"
+    t.integer "encumbrance"
+    t.integer "hit_points"
+    t.integer "price", default: 0
+    t.integer "rarity"
+    t.integer "size_low"
+    t.integer "size_high"
+    t.integer "attach_cost_mult"
+    t.boolean "ordnance"
+    t.string "hands"
+    t.string "weapon_type"
+    t.text "categories", default: [], array: true
+    t.json "qualities"
+    t.json "base_mods"
+    t.json "weapon_modifiers"
+    t.string "image_filename", default: "missing.png"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
