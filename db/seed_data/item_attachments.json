@@ -552,7 +552,7 @@
     ],
     "price": "2000",
     "rarity": "5",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "base_mods": [
       {
@@ -595,7 +595,7 @@
     ],
     "price": "3000",
     "rarity": "4",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "base_mods": [
       {
@@ -805,7 +805,7 @@
     "category_limit": null,
     "price": "500",
     "rarity": "7",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "base_mods": {
       "key": null,
@@ -836,7 +836,7 @@
     "category_limit": null,
     "price": "500",
     "rarity": "5",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -863,7 +863,7 @@
     ],
     "price": "400",
     "rarity": "3",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": [
@@ -900,7 +900,7 @@
     ],
     "price": "3000",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "3",
     "jury_rigged": "false",
     "base_mods": [
@@ -936,7 +936,7 @@
     "category_limit": null,
     "price": "275",
     "rarity": "5",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -960,7 +960,7 @@
     "category_limit": "Blaster",
     "price": "750",
     "rarity": "5",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": [
@@ -993,7 +993,7 @@
     "category_limit": "Ranged",
     "price": "700",
     "rarity": "5",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -1017,7 +1017,7 @@
     "category_limit": null,
     "price": "1500",
     "rarity": "5",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "max_enc": "2",
     "jury_rigged": "false",
@@ -1044,7 +1044,7 @@
     "category_limit": "Bludgeoning Brawl",
     "price": "250",
     "rarity": "5",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -1071,7 +1071,7 @@
     "category_limit": null,
     "price": "1000",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -1097,7 +1097,7 @@
     "category_limit": "Ranged",
     "price": "500",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -1124,7 +1124,7 @@
     "category_limit": "Ranged",
     "price": "100",
     "rarity": "2",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -1148,7 +1148,7 @@
     "category_limit": "Blaster Rifle",
     "price": "1200",
     "rarity": "4",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "3",
     "jury_rigged": "false",
     "base_mods": [
@@ -1193,7 +1193,7 @@
     "category_limit": null,
     "price": "1000",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -1222,7 +1222,7 @@
     "category_limit": null,
     "price": "100",
     "rarity": "4",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -1248,7 +1248,7 @@
     },
     "price": "0",
     "rarity": "9",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "0",
     "jury_rigged": "false",
     "base_mods": [
@@ -1282,7 +1282,7 @@
     },
     "price": "0",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "0",
     "jury_rigged": "false",
     "base_mods": [
@@ -1561,7 +1561,7 @@
     ],
     "price": "2500",
     "rarity": "7",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": [
@@ -1598,7 +1598,7 @@
     "category_limit": null,
     "price": "1000",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -1622,7 +1622,7 @@
     "category_limit": null,
     "price": "200",
     "rarity": "1",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "0",
     "jury_rigged": "false",
     "base_mods": {
@@ -1646,7 +1646,7 @@
     "category_limit": null,
     "price": "1000",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": [
@@ -1679,7 +1679,7 @@
     "category_limit": null,
     "price": "1500",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -1706,7 +1706,7 @@
     "category_limit": null,
     "price": "3000",
     "rarity": "7",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -1731,7 +1731,7 @@
     "category_limit": null,
     "price": "75",
     "rarity": "2",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -1754,7 +1754,7 @@
     "category_limit": null,
     "price": "500",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -1777,7 +1777,7 @@
     "category_limit": "Lightsaber",
     "price": "15000",
     "rarity": "7",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
@@ -1831,7 +1831,7 @@
     "category_limit": "Lightsaber",
     "price": "12000",
     "rarity": "9",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
@@ -1881,7 +1881,7 @@
     "category_limit": "Lightsaber",
     "price": "14000",
     "rarity": "7",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
@@ -1935,7 +1935,7 @@
     "category_limit": "Lightsaber",
     "price": "15000",
     "rarity": "10",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
@@ -1988,7 +1988,7 @@
     "category_limit": "Lightsaber",
     "price": "9600",
     "rarity": "8",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
@@ -2041,7 +2041,7 @@
     "category_limit": "Lightsaber",
     "price": "10000",
     "rarity": "10",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
@@ -2098,7 +2098,7 @@
     "category_limit": "Lightsaber",
     "price": "9000",
     "rarity": "10",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
@@ -2150,7 +2150,7 @@
     "category_limit": "Lightsaber",
     "price": "18000",
     "rarity": "10",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
@@ -2202,7 +2202,7 @@
     "category_limit": "Lightsaber",
     "price": "6500",
     "rarity": "8",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
@@ -2249,7 +2249,7 @@
     "category_limit": "Lightsaber",
     "price": "16000",
     "rarity": "9",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "4",
     "jury_rigged": "false",
     "is_crystal": "true",
@@ -2305,7 +2305,7 @@
     "category_limit": "Lightsaber",
     "price": "12500",
     "rarity": "8",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
@@ -2361,7 +2361,7 @@
     "category_limit": "Lightsaber",
     "price": "14000",
     "rarity": "9",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
@@ -2418,7 +2418,7 @@
     "category_limit": "Lightsaber",
     "price": "1500",
     "rarity": "8",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": [
@@ -2454,7 +2454,7 @@
     ],
     "price": "500",
     "rarity": "5",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "3",
     "jury_rigged": "false",
     "base_mods": {
@@ -2493,7 +2493,7 @@
     ],
     "price": "1000",
     "rarity": "8",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -2520,7 +2520,7 @@
     "category_limit": "Ranged",
     "price": "200",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "encumbrance": "1",
     "jury_rigged": "false",
@@ -2554,7 +2554,7 @@
     "category_limit": null,
     "price": "250",
     "rarity": "2",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "encumbrance": "0",
     "jury_rigged": "false",
@@ -2582,7 +2582,7 @@
     "category_limit": "Shield",
     "price": "800",
     "rarity": "5",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "encumbrance": "1",
     "jury_rigged": "false",
@@ -2619,7 +2619,7 @@
     ],
     "price": "500",
     "rarity": "2",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "3",
     "encumbrance": "0",
     "jury_rigged": "false",
@@ -2659,7 +2659,7 @@
     "category_limit": "Powered",
     "price": "900",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "encumbrance": "2",
     "jury_rigged": "false",
@@ -2687,7 +2687,7 @@
     ],
     "price": "2500",
     "rarity": "7",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "encumbrance": "1",
     "jury_rigged": "false",
@@ -2718,7 +2718,7 @@
     ],
     "price": "2500",
     "rarity": "7",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "encumbrance": "1",
     "jury_rigged": "false",
@@ -2752,7 +2752,7 @@
     "category_limit": null,
     "price": "750",
     "rarity": "5",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "encumbrance": "0",
     "jury_rigged": "false",
@@ -2778,7 +2778,7 @@
     "category_limit": null,
     "price": "2000",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "4",
     "encumbrance": "0",
     "jury_rigged": "false",
@@ -2813,7 +2813,7 @@
     "category_limit": null,
     "price": "1200",
     "rarity": "6",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "encumbrance": "0",
     "jury_rigged": "false",
@@ -2854,7 +2854,7 @@
     "category_limit": null,
     "price": "1750",
     "rarity": "3",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "3",
     "encumbrance": "0",
     "jury_rigged": "false",
@@ -2894,7 +2894,7 @@
     "category_limit": "Lightsaber",
     "price": "1000",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -2923,7 +2923,7 @@
     "category_limit": "Lightsaber",
     "price": "4500",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -2948,7 +2948,7 @@
     "category_limit": "Lightsaber",
     "price": "3800",
     "rarity": "7",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -2975,7 +2975,7 @@
     "category_limit": "Lightsaber",
     "price": "5000",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -2998,7 +2998,7 @@
     "category_limit": "Lightsaber",
     "price": "100",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": [
@@ -3037,7 +3037,7 @@
     "category_limit": "Lightsaber Hilt",
     "price": "0",
     "rarity": "0",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "0",
     "jury_rigged": "false",
     "base_mods": null,
@@ -3075,7 +3075,7 @@
     "category_limit": "Full Body",
     "price": "3300",
     "rarity": "5",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -3101,7 +3101,7 @@
     "type_limit": null,
     "price": "500",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -3125,7 +3125,7 @@
     "category_limit": null,
     "price": "200",
     "rarity": "1",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "0",
     "jury_rigged": "false",
     "base_mods": {
@@ -3149,7 +3149,7 @@
     "category_limit": null,
     "price": "750",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -3327,7 +3327,7 @@
     "item_limit": null,
     "price": "1200",
     "rarity": "1",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "min_encum_cap": "25",
     "base_mods": {
@@ -3502,7 +3502,7 @@
     "category_limit": null,
     "price": "3000",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": [
@@ -3550,7 +3550,7 @@
     "category_limit": null,
     "price": "1000",
     "rarity": "4",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "3",
     "jury_rigged": "false",
     "base_mods": {
@@ -3594,7 +3594,7 @@
     ],
     "price": "2750",
     "rarity": "2",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -3621,7 +3621,7 @@
     "category_limit": null,
     "price": "750",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "0",
     "jury_rigged": "false",
     "base_mods": {
@@ -3650,7 +3650,7 @@
     "category_limit": null,
     "price": "2500",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -3675,7 +3675,7 @@
     "category_limit": null,
     "price": "1000",
     "rarity": "0",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "0",
     "jury_rigged": "false",
     "base_mods": {
@@ -3700,7 +3700,7 @@
     "category_limit": null,
     "price": "500",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -3725,7 +3725,7 @@
     "category_limit": null,
     "price": "3000",
     "rarity": "5",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -3753,7 +3753,7 @@
     "category_limit": null,
     "price": "3500",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -3781,7 +3781,7 @@
     "category_limit": null,
     "price": "4500",
     "rarity": "5",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -3809,7 +3809,7 @@
     "category_limit": null,
     "price": "2500",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -3837,7 +3837,7 @@
     "category_limit": null,
     "price": "2200",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -3871,7 +3871,7 @@
     "category_limit": null,
     "price": "6500",
     "rarity": "3",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -3899,7 +3899,7 @@
     "category_limit": null,
     "price": "10000",
     "rarity": "2",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -3939,7 +3939,7 @@
     "category_limit": null,
     "price": "400",
     "rarity": "5",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -3965,7 +3965,7 @@
     "category_limit": "Blaster Pistol",
     "price": "750",
     "rarity": "5",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "base_mods": {
       "count": "1",
@@ -3981,7 +3981,7 @@
     "item_attachment_type": "Armor",
     "price": "750",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "base_mods": {
       "key": "ADVADDINIT",
@@ -4013,7 +4013,7 @@
     "category_limit": "Starship",
     "price": "7500",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "0",
     "jury_rigged": "false",
     "base_mods": {
@@ -4054,7 +4054,7 @@
     "category_limit": null,
     "price": "6000",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "0",
     "jury_rigged": "false",
     "base_mods": [
@@ -4115,7 +4115,7 @@
     "category_limit": null,
     "price": "2000",
     "rarity": "5",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": [
@@ -4199,7 +4199,7 @@
     "category_limit": null,
     "price": "2200",
     "rarity": "4",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": [
@@ -4235,7 +4235,7 @@
     "category_limit": null,
     "price": "450",
     "rarity": "4",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -4264,7 +4264,7 @@
     "category_limit": null,
     "price": "1500",
     "rarity": "6",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -4293,7 +4293,7 @@
     "category_limit": null,
     "price": "300",
     "rarity": "3",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -4320,7 +4320,7 @@
     ],
     "price": "750",
     "rarity": "5",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "3",
     "jury_rigged": "false",
     "base_mods": [
@@ -4376,7 +4376,7 @@
     "category_limit": null,
     "price": "500",
     "rarity": "3",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": [
@@ -4406,7 +4406,7 @@
     "category_limit": null,
     "price": "800",
     "rarity": "3",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -4430,7 +4430,7 @@
     "category_limit": null,
     "price": "3500",
     "rarity": "8",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -4457,7 +4457,7 @@
     "category_limit": null,
     "price": "750",
     "rarity": "3",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -4481,7 +4481,7 @@
     "category_limit": null,
     "price": "500",
     "rarity": "3",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -4508,7 +4508,7 @@
     "category_limit": null,
     "price": "7500",
     "rarity": "7",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -4533,7 +4533,7 @@
     "category_limit": null,
     "price": "6000",
     "rarity": "7",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": [
@@ -4574,7 +4574,7 @@
     "category_limit": null,
     "price": "2000",
     "rarity": "3",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -4598,7 +4598,7 @@
     "category_limit": null,
     "price": "25000",
     "rarity": "8",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -4632,7 +4632,7 @@
     "category_limit": null,
     "price": "7500",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -4661,7 +4661,7 @@
     "category_limit": null,
     "price": "7500",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -4686,7 +4686,7 @@
     "category_limit": null,
     "price": "7500",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -4708,7 +4708,7 @@
     "category_limit": null,
     "price": "1200",
     "rarity": "5",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -4738,7 +4738,7 @@
     "category_limit": null,
     "price": "0",
     "rarity": "0",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "0",
     "jury_rigged": "false",
     "base_mods": [
@@ -4796,7 +4796,7 @@
     "item_attachment_type": "Vehicle",
     "price": "2500",
     "rarity": "0",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "base_mods": {
       "count": "1",
@@ -4820,7 +4820,7 @@
     "item_attachment_type": "Vehicle",
     "price": "3500",
     "rarity": "6",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "base_mods": {
       "count": "1",
@@ -5062,7 +5062,7 @@
     "category_limit": "Blaster",
     "price": "1500",
     "rarity": "6",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "base_mods": [
       {
@@ -5233,7 +5233,7 @@
     ],
     "price": "250",
     "rarity": "2",
-    "restricted": "true",
+    "is_restricted": "true",
     "base_mods": [
       {
         "count": "1",
@@ -5887,7 +5887,7 @@
     "item_attachment_type": "Vehicle",
     "price": "5000",
     "rarity": "5",
-    "restricted": "true",
+    "is_restricted": "true",
     "base_mods": [
       {
         "count": "1",
@@ -6106,7 +6106,7 @@
     "item_attachment_type": "Vehicle",
     "price": "12000",
     "rarity": "8",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "base_mods": [
       {
@@ -6134,7 +6134,7 @@
     "item_attachment_type": "Vehicle",
     "price": "20000",
     "rarity": "7",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "base_mods": [
       {
@@ -6318,7 +6318,7 @@
     },
     "price": "1250",
     "rarity": "5",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "3",
     "base_mods": [
       {
@@ -6701,7 +6701,7 @@
     "item_attachment_type": "Weapon",
     "price": "12000",
     "rarity": "9",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "base_mods": [
       {
@@ -6760,7 +6760,7 @@
     "item_attachment_type": "Weapon",
     "price": "14000",
     "rarity": "9",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "1",
     "base_mods": [
       {
@@ -7756,7 +7756,7 @@
     "category_limit": "Ranged",
     "price": "1200",
     "rarity": "6",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "3",
     "encumbrance": "3",
     "base_mods": [
@@ -7837,7 +7837,7 @@
     "item_attachment_type": "Armor",
     "price": "800",
     "rarity": "6",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "encumbrance": "3",
     "base_mods": {
@@ -7881,7 +7881,7 @@
     "item_attachment_type": "Armor",
     "price": "1000",
     "rarity": "3",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "2",
     "encumbrance": "0",
     "category_limit": "Hard Full Body",
@@ -7911,7 +7911,7 @@
     "item_attachment_type": "Armor",
     "price": "1000",
     "rarity": "7",
-    "restricted": "false",
+    "is_restricted": "false",
     "hit_points": "1",
     "base_mods": [
       {
@@ -7988,7 +7988,7 @@
     "item_attachment_type": "Vehicle",
     "price": "7500",
     "rarity": "9",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "base_mods": [
       {
@@ -8034,7 +8034,7 @@
     "item_attachment_type": "Vehicle",
     "price": "4000",
     "rarity": "6",
-    "restricted": "true",
+    "is_restricted": "true",
     "hit_points": "2",
     "base_mods": [
       {

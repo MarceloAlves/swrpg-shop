@@ -10,7 +10,7 @@ class CreateGears < ActiveRecord::Migration[5.1]
       t.integer :encumbrance, default: 0
       t.integer :hit_points, default: 0
       t.integer :price, default: 0
-      t.integer :rarity, default: 0
+      t.integer :rarity, default: 1
       t.boolean :is_restricted, default: false
       t.text :sources, array: true, default: []
       t.string :image_filename, default: "missing.png"

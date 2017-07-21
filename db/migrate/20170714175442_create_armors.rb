@@ -10,7 +10,7 @@ class CreateArmors < ActiveRecord::Migration[5.1]
       t.integer :price, null: false, default: 0
       t.integer :encumbrance, default: 0
       t.integer :hit_points, default: 0
-      t.integer :rarity, default: 0
+      t.integer :rarity, default: 1
       t.text :categories, array:true, default: []
       t.boolean :is_restricted, default: false
       t.json :base_mods

@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.integer "price", default: 0, null: false
     t.integer "encumbrance", default: 0
     t.integer "hit_points", default: 0
-    t.integer "rarity", default: 0
+    t.integer "rarity", default: 1
     t.text "categories", default: [], array: true
     t.boolean "is_restricted", default: false
     t.json "base_mods"
@@ -46,7 +46,7 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.integer "encumbrance", default: 0
     t.integer "hit_points", default: 0
     t.integer "price", default: 0
-    t.integer "rarity", default: 0
+    t.integer "rarity", default: 1
     t.boolean "is_restricted", default: false
     t.text "sources", default: [], array: true
     t.string "image_filename", default: "missing.png"
@@ -70,8 +70,8 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.text "category_limit", default: [], array: true
     t.string "price_wepon_cat_mult", default: ""
     t.integer "price", default: 0
-    t.integer "rarity", default: 0
-    t.boolean "restricted", default: false
+    t.integer "rarity", default: 1
+    t.boolean "is_restricted", default: false
     t.integer "hit_points", default: 0
     t.integer "encumbrance", default: 0
     t.integer "min_enc", default: 0
@@ -113,7 +113,7 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.text "description"
     t.text "sources", default: [], array: true
     t.string "skill_key"
-    t.boolean "restricted", default: false
+    t.boolean "is_restricted", default: false
     t.integer "damage"
     t.integer "damage_add"
     t.integer "crit"
@@ -123,7 +123,7 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.integer "encumbrance"
     t.integer "hit_points"
     t.integer "price", default: 0
-    t.integer "rarity"
+    t.integer "rarity", default: 1
     t.integer "size_low"
     t.integer "size_high"
     t.integer "attach_cost_mult"

@@ -6,7 +6,7 @@ class CreateWeapons < ActiveRecord::Migration[5.1]
       t.text :description
       t.text :sources, array: true, default: []
       t.string :skill_key
-      t.boolean :restricted, default: false
+      t.boolean :is_restricted, default: false
       t.integer :damage
       t.integer :damage_add
       t.integer :crit
@@ -16,7 +16,7 @@ class CreateWeapons < ActiveRecord::Migration[5.1]
       t.integer :encumbrance
       t.integer :hit_points
       t.integer :price, default: 0
-      t.integer :rarity
+      t.integer :rarity, default: 1
       t.integer :size_low
       t.integer :size_high
       t.integer :attach_cost_mult

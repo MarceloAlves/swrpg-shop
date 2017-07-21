@@ -11,8 +11,8 @@ class CreateItemAttachments < ActiveRecord::Migration[5.1]
       t.text :category_limit, array: true, default: []
       t.string :price_wepon_cat_mult, default: ''
       t.integer :price, default: 0
-      t.integer :rarity, default: 0
-      t.boolean :restricted, default: false
+      t.integer :rarity, default: 1
+      t.boolean :is_restricted, default: false
       t.integer :hit_points, default: 0
       t.integer :encumbrance, default: 0
       t.integer :min_enc, default: 0
