@@ -8,7 +8,7 @@
 #  description      :text
 #  sources          :text             default([]), is an Array
 #  skill_key        :string
-#  restricted       :boolean          default(FALSE)
+#  is_restricted    :boolean          default(FALSE)
 #  damage           :integer
 #  damage_add       :integer
 #  crit             :integer
@@ -16,9 +16,9 @@
 #  range            :string
 #  no_melee         :boolean
 #  encumbrance      :integer
-#  hit_points       :integer
+#  hard_points      :integer
 #  price            :integer          default(0)
-#  rarity           :integer
+#  rarity           :integer          default(0)
 #  size_low         :integer
 #  size_high        :integer
 #  attach_cost_mult :integer

@@ -8,16 +8,16 @@ class CreateGears < ActiveRecord::Migration[5.1]
       t.string :gear_type
       t.text :categories, array: true, default: []
       t.integer :encumbrance, default: 0
-      t.integer :hit_points, default: 0
-      t.integer :price, default: 0
-      t.integer :rarity, default: 1
+      t.integer :hard_points
+      t.integer :price, null:false, default: 0
+      t.integer :rarity, default: 0
       t.boolean :is_restricted, default: false
       t.text :sources, array: true, default: []
       t.string :image_filename, default: "missing.png"
-      t.json :base_mods
-      t.json :weapon_modifiers
+      t.json :base_mods, default: []
+      t.json :weapon_modifiers, default: []
       t.string :adv_import_path
-      t.json :modifiers
+      t.json :modifiers, default: []
       t.string :item_type
 
       t.timestamps

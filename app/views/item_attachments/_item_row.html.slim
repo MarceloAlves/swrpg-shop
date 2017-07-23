@@ -1,0 +1,10 @@
+tr
+  td
+    = image_tag("items/#{item.fetch('image_filename')}", width: '150')
+  td
+    = item.fetch('name')
+  td
+    = item.fetch('description')
+  td
+    = number_with_delimiter item.fetch('price')
+  td

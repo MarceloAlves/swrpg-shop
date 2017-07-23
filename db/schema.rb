@@ -20,16 +20,16 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.string "name", null: false
     t.text "description"
     t.text "sources", default: [], array: true
-    t.integer "defense", default: 0
-    t.integer "soak", default: 0
+    t.integer "defense"
+    t.integer "soak"
     t.integer "price", default: 0, null: false
-    t.integer "encumbrance", default: 0
-    t.integer "hit_points", default: 0
-    t.integer "rarity", default: 1
+    t.integer "encumbrance"
+    t.integer "hard_points"
+    t.integer "rarity", default: 0
     t.text "categories", default: [], array: true
     t.boolean "is_restricted", default: false
-    t.json "base_mods"
-    t.json "weapon_modifiers"
+    t.json "base_mods", default: []
+    t.json "weapon_modifiers", default: []
     t.string "item_type"
     t.string "image_filename", default: "missing.png"
     t.datetime "created_at", null: false
@@ -44,16 +44,16 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.string "gear_type"
     t.text "categories", default: [], array: true
     t.integer "encumbrance", default: 0
-    t.integer "hit_points", default: 0
-    t.integer "price", default: 0
-    t.integer "rarity", default: 1
+    t.integer "hard_points"
+    t.integer "price", default: 0, null: false
+    t.integer "rarity", default: 0
     t.boolean "is_restricted", default: false
     t.text "sources", default: [], array: true
     t.string "image_filename", default: "missing.png"
-    t.json "base_mods"
-    t.json "weapon_modifiers"
+    t.json "base_mods", default: []
+    t.json "weapon_modifiers", default: []
     t.string "adv_import_path"
-    t.json "modifiers"
+    t.json "modifiers", default: []
     t.string "item_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -69,30 +69,30 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.json "type_limit"
     t.text "category_limit", default: [], array: true
     t.string "price_wepon_cat_mult", default: ""
-    t.integer "price", default: 0
-    t.integer "rarity", default: 1
+    t.integer "price", default: 0, null: false
+    t.integer "rarity", default: 0
     t.boolean "is_restricted", default: false
-    t.integer "hit_points", default: 0
-    t.integer "encumbrance", default: 0
-    t.integer "min_enc", default: 0
-    t.integer "max_enc", default: 0
-    t.integer "min_soak", default: 0
-    t.integer "max_soak", default: 0
-    t.integer "min_encum_cap", default: 0
-    t.integer "min_defense", default: 0
-    t.boolean "must_have_hyperdrive", default: false
-    t.boolean "must_be_starship", default: false
-    t.boolean "jury_rigged", default: false
-    t.boolean "use_mod_price", default: false
-    t.boolean "price_pass_mult", default: false
-    t.integer "mod_price", default: 0
-    t.integer "min_size", default: 0
-    t.integer "max_size", default: 0
-    t.boolean "is_crystal", default: false
-    t.boolean "price_size_mult", default: false
-    t.json "base_mods"
-    t.json "added_mods"
-    t.json "weapon_modifiers"
+    t.integer "hard_points"
+    t.integer "encumbrance"
+    t.integer "min_enc"
+    t.integer "max_enc"
+    t.integer "min_soak"
+    t.integer "max_soak"
+    t.integer "min_encum_cap"
+    t.integer "min_defense"
+    t.boolean "must_have_hyperdrive"
+    t.boolean "must_be_starship"
+    t.boolean "jury_rigged"
+    t.boolean "use_mod_price"
+    t.boolean "price_pass_mult"
+    t.integer "mod_price"
+    t.integer "min_size"
+    t.integer "max_size"
+    t.boolean "is_crystal"
+    t.boolean "price_size_mult"
+    t.json "base_mods", default: []
+    t.json "added_mods", default: []
+    t.json "weapon_modifiers", default: []
     t.text "skill_limit", default: [], array: true
     t.string "image_filename", default: "missing.png"
     t.datetime "created_at", null: false
@@ -121,9 +121,9 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.string "range"
     t.boolean "no_melee"
     t.integer "encumbrance"
-    t.integer "hit_points"
+    t.integer "hard_points"
     t.integer "price", default: 0
-    t.integer "rarity", default: 1
+    t.integer "rarity", default: 0
     t.integer "size_low"
     t.integer "size_high"
     t.integer "attach_cost_mult"
@@ -131,9 +131,9 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.string "hands"
     t.string "weapon_type"
     t.text "categories", default: [], array: true
-    t.json "qualities"
-    t.json "base_mods"
-    t.json "weapon_modifiers"
+    t.json "qualities", default: []
+    t.json "base_mods", default: []
+    t.json "weapon_modifiers", default: []
     t.string "image_filename", default: "missing.png"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

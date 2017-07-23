@@ -14,9 +14,9 @@ class CreateWeapons < ActiveRecord::Migration[5.1]
       t.string :range
       t.boolean :no_melee
       t.integer :encumbrance
-      t.integer :hit_points
+      t.integer :hard_points
       t.integer :price, default: 0
-      t.integer :rarity, default: 1
+      t.integer :rarity, default: 0
       t.integer :size_low
       t.integer :size_high
       t.integer :attach_cost_mult
@@ -24,9 +24,9 @@ class CreateWeapons < ActiveRecord::Migration[5.1]
       t.string :hands
       t.string :weapon_type
       t.text :categories, array: true, default: []
-      t.json :qualities
-      t.json :base_mods
-      t.json :weapon_modifiers
+      t.json :qualities, default: []
+      t.json :base_mods, default: []
+      t.json :weapon_modifiers, default: []
       t.string :image_filename, default: 'missing.png'
 
       t.timestamps

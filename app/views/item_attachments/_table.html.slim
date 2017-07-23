@@ -1,0 +1,9 @@
+table.table.table-hover.table-sm.item-table
+  thead.thead-inverse
+    tr
+      th
+      th Item Name
+      th Description
+      th Price
+  tbody
+    = render partial: 'item_attachments/item_row', collection: item_attachments, as: :item

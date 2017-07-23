@@ -1,0 +1,19 @@
+table.table.table-hover.table-bordered.item-table
+  thead.thead-inverse
+    tr
+      th[width="125"]
+      th Item Name
+      th[width="15%"] Description
+      th Price
+      th Damage
+      th Crit
+      th Rarity
+      th Encumbrance
+      th Hard Points
+      th Type
+      th Skill
+      th Range
+      th Qualities
+
+  tbody
+    = render partial: 'weapons/item_row', collection: weapons, as: :item

@@ -7,11 +7,11 @@
 #  name             :string           not null
 #  description      :text
 #  sources          :text             default([]), is an Array
-#  defense          :integer          default(0)
-#  soak             :integer          default(0)
+#  defense          :integer
+#  soak             :integer
 #  price            :integer          default(0), not null
-#  encumbrance      :integer          default(0)
-#  hit_points       :integer          default(0)
+#  encumbrance      :integer
+#  hard_points      :integer
 #  rarity           :integer          default(0)
 #  categories       :text             default([]), is an Array
 #  is_restricted    :boolean          default(FALSE)

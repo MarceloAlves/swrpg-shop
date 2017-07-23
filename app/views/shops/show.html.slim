@@ -1,13 +1,23 @@
-h1 Shops#show
-p Find me in app/views/shops/show.html.slim
+/ h1 Shops#show
+/ p Find me in app/views/shops/show.html.slim
 
-table.table.table-hover
-  thead.thead-default
-    tr
-      th Item Name
-      th Description
-      th
-      th
-  tbody
-   = render partial: 'items/item_row', collection: shop, as: :item
 
+ul.nav.nav-tabs role="tablist" 
+  li.nav-item
+    a.nav-link.active data-toggle="tab" href="#weapons" role="tab"  Weapons
+  li.nav-item
+    a.nav-link data-toggle="tab" href="#gear" role="tab"  Gear
+  li.nav-item
+    a.nav-link data-toggle="tab" href="#item-attachments" role="tab"  Item Attachments
+  li.nav-item
+    a.nav-link data-toggle="tab" href="#armor" role="tab"  Armor
+
+.tab-content
+  #weapons.tab-pane.fade.show.active role="tabpanel"
+    = render partial: 'weapons/table', locals: { weapons: shop['weapons'] }
+  #gear.tab-pane.fade role="tabpanel"
+    = render partial: 'gear/table', locals: { gear: shop['gear'] }
+  #item-attachments.tab-pane.fade role="tabpanel"
+    = render partial: 'item_attachments/table', locals: { item_attachments: shop['item_attachments'] }
+  #armor.tab-pane.fade role="tabpanel"
+    = render partial: 'armor/table', locals: { armor: shop['armor'] }

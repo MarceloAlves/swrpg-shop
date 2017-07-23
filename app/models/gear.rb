@@ -10,8 +10,8 @@
 #  gear_type        :string
 #  categories       :text             default([]), is an Array
 #  encumbrance      :integer          default(0)
-#  hit_points       :integer          default(0)
-#  price            :integer          default(0)
+#  hard_points      :integer
+#  price            :integer          default(0), not null
 #  rarity           :integer          default(0)
 #  is_restricted    :boolean          default(FALSE)
 #  sources          :text             default([]), is an Array

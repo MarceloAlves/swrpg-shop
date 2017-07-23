@@ -1,0 +1,14 @@
+table.table.table-hover.table-sm.item-table
+  thead.thead-inverse
+    tr
+      th[width="125"]
+      th[width="15%"] Item Name
+      th[width="20%"] Description
+      th Price
+      th Defense
+      th Soak
+      th Encumbrance
+      th Hard Points
+      th Rarity
+  tbody
+    = render partial: 'armor/item_row', collection: armor, as: :item

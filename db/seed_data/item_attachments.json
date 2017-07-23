@@ -10,9 +10,9 @@
     "item_attachment_type": "Weapon",
     "item_limit": null,
     "price": "0",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "true",
-    "base_mods": null,
+    "base_mods": [],
     "added_mods": [
       {
         "key": "DAMADD",
@@ -44,9 +44,9 @@
     "item_attachment_type": "Armor",
     "item_limit": null,
     "price": "0",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "true",
-    "base_mods": null,
+    "base_mods": [],
     "added_mods": [
       {
         "key": "MELEEDEFADD",
@@ -79,7 +79,7 @@
     ],
     "price": "1750",
     "rarity": "4",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "key": "DAMADD",
@@ -120,7 +120,7 @@
     },
     "price": "1500",
     "rarity": "5",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "ACCURATE",
       "count": "1"
@@ -153,7 +153,7 @@
     ],
     "price": "500",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "key": "DAMADD",
@@ -192,7 +192,7 @@
     ],
     "price": "0",
     "rarity": "1",
-    "hit_points": "0",
+    "hard_points": "0",
     "base_mods": [
       {
         "key": "REMQUALSTUNSETTING"
@@ -226,7 +226,7 @@
     ],
     "price": "100",
     "rarity": "1",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "CUMBERSOME",
       "count": "-2"
@@ -241,7 +241,7 @@
     "category_limit": "Bowcaster",
     "price": "500",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "misc_desc": "\n          Removes reloading maneuver requirement from bowcaster.\n        ",
       "count": "1"
@@ -264,7 +264,7 @@
     "category_limit": "Bowcaster",
     "price": "250",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "DAMADD",
       "count": "1"
@@ -296,7 +296,7 @@
     "item_limit": null,
     "category_limit": "Pistol",
     "price": "25",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "misc_desc": "\n          Increases the difficulty of combat checks to hit targets at\n          ranges beyond Short range by one.\n        ",
@@ -328,7 +328,7 @@
     ],
     "price": "250",
     "rarity": "1",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "misc_desc": "\n          Decreases the additional difficulty of making Ranged (Heavy)\n          checks with this weapon while engaged to an\n          additional [DIFFICULTY] (rather than [DIFFICULTY][DIFFICULTY]).\n        ",
       "count": "1"
@@ -357,7 +357,7 @@
     "category_limit": "Blaster Rifle",
     "price": "1200",
     "rarity": "4",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "key": "RANGEADD",
@@ -394,7 +394,7 @@
     "category_limit": "Cutting Edge Melee",
     "price": "1000",
     "rarity": "5",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "CRITSUB",
       "count": "1"
@@ -419,7 +419,7 @@
     "category_limit": "Ranged",
     "price": "2000",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "misc_desc": "\n          Removes up to [SETBACK][SETBACK]  on any checks\n          to use this weapon due to smoke, darkness, or other\n          environmental conditions that obstruct vision.\n        ",
       "count": "1"
@@ -446,7 +446,7 @@
     ],
     "price": "1725",
     "rarity": "4",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "key": "RANGESUB",
@@ -478,7 +478,7 @@
     "category_limit": "Cutting Edge Melee",
     "price": "50",
     "rarity": "1",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "VICIOUS",
       "count": "1"
@@ -499,7 +499,7 @@
     "item_limit": null,
     "price": "5000",
     "rarity": "6",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "SUPERIOR"
     },
@@ -519,7 +519,7 @@
     "category_limit": "Pistol",
     "price": "250",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "misc_desc": "\n          Reduces the difficulty of checks made to conceal\n          this weapon by 1.\n        ",
@@ -553,7 +553,7 @@
     "price": "2000",
     "rarity": "5",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "misc_desc": "\n          Weapon can fire grenades using the grenade profile, Ranged (Heavy) skill, and has Medium range.\n        ",
@@ -596,7 +596,7 @@
     "price": "3000",
     "rarity": "4",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "misc_desc": "\n          Adds a flame projector to the weapon.\n        ",
@@ -645,7 +645,7 @@
     "category_limit": "Ranged",
     "price": "250",
     "rarity": "1",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "DIFFSUBLONGEXT",
       "count": "1"
@@ -672,7 +672,7 @@
     "category_limit": "Portable Gunnery",
     "price": "250",
     "rarity": "3",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "CUMBERSOME",
       "count": "-3"
@@ -698,7 +698,7 @@
       "RANGHVY"
     ],
     "price": "100",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "CUMBERSOME",
       "count": "-1"
@@ -724,7 +724,7 @@
     ],
     "price": "500",
     "rarity": "2",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "CUMBERSOME",
       "count": "-2"
@@ -752,7 +752,7 @@
     ],
     "price": "250",
     "rarity": "3",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "DAMADD",
       "count": "1"
@@ -781,7 +781,7 @@
     "type_limit": null,
     "category_limit": null,
     "price": "500",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "false",
     "base_mods": {
       "key": null,
@@ -806,7 +806,7 @@
     "price": "500",
     "rarity": "7",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": null,
       "count": "1",
@@ -837,7 +837,7 @@
     "price": "500",
     "rarity": "5",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "key": "ADVADD",
@@ -864,7 +864,7 @@
     "price": "400",
     "rarity": "3",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -901,7 +901,7 @@
     "price": "3000",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "3",
+    "hard_points": "3",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -937,7 +937,7 @@
     "price": "275",
     "rarity": "5",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -961,7 +961,7 @@
     "price": "750",
     "rarity": "5",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -994,7 +994,7 @@
     "price": "700",
     "rarity": "5",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -1018,7 +1018,7 @@
     "price": "1500",
     "rarity": "5",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "max_enc": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -1045,7 +1045,7 @@
     "price": "250",
     "rarity": "5",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "key": "STUN",
@@ -1072,7 +1072,7 @@
     "price": "1000",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -1098,7 +1098,7 @@
     "price": "500",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -1125,7 +1125,7 @@
     "price": "100",
     "rarity": "2",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -1149,7 +1149,7 @@
     "price": "1200",
     "rarity": "4",
     "is_restricted": "true",
-    "hit_points": "3",
+    "hard_points": "3",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -1194,7 +1194,7 @@
     "price": "1000",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -1223,7 +1223,7 @@
     "price": "100",
     "rarity": "4",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -1249,7 +1249,7 @@
     "price": "0",
     "rarity": "9",
     "is_restricted": "true",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -1283,7 +1283,7 @@
     "price": "0",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -1313,7 +1313,7 @@
     "use_mod_price": "true",
     "mod_price": "15",
     "rarity": "1",
-    "hit_points": "0",
+    "hard_points": "0",
     "base_mods": {
       "key": "ENCTADD",
       "count": "1"
@@ -1339,7 +1339,7 @@
     "use_mod_price": "true",
     "mod_price": "15",
     "rarity": "1",
-    "hit_points": "0",
+    "hard_points": "0",
     "base_mods": {
       "key": "ENCTADD",
       "count": "1"
@@ -1364,7 +1364,7 @@
     "item_attachment_type": "Armor",
     "price": "10000",
     "rarity": "8",
-    "hit_points": "2",
+    "hard_points": "2",
     "item_limit": null,
     "base_mods": {
       "key": "CORTOSIS"
@@ -1384,7 +1384,7 @@
     "category_limit": "Sealed",
     "price": "1000",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "misc_desc": "\n          Reduces the difficulty of Resilience checks made\n          to resist the effects of fire and extreme heat by one.\n          Removes up to [SETBACK][SETBACK] added to checks\n          due to extreme heat or fire.\n        ",
       "count": "1"
@@ -1404,7 +1404,7 @@
     "category_limit": "Sealed",
     "price": "1000",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "misc_desc": "\n          Reduces the difficulty of Resilience checks made\n          to resist the effects extreme cold by one.\n          Removes up to [SETBACK][SETBACK] added to checks\n          due to extreme cold.\n        ",
       "count": "1"
@@ -1422,7 +1422,7 @@
     "item_attachment_type": "Armor",
     "price": "1000",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "misc_desc": "\n          Removes up to [SETBACK][SETBACK] added to all Perception,\n          Vigilance, and combat skill checks\n          due to darkness, smoke, or other environmental effects\n          that obscure vision.\n        ",
       "count": "1"
@@ -1446,7 +1446,7 @@
     "category_limit": "Hard Full Body",
     "price": "5500",
     "rarity": "4",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "BR",
       "count": "1"
@@ -1476,7 +1476,7 @@
     "item_limit": null,
     "price": "5500",
     "rarity": "6",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "count": "1",
       "misc_desc": "\n          Upgrades the ability of all Stealth\n          checks twice while wearing this armor.\n        ",
@@ -1512,7 +1512,7 @@
     "item_limit": null,
     "price": "5000",
     "rarity": "6",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "SUPERIOR",
       "count": "1"
@@ -1534,7 +1534,7 @@
     "category_limit": "Sealable",
     "price": "1000",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "misc_desc": "\n          Allows the user to ignore the effects of\n          vacuum or poisonous atmospheric environments\n          for up to 10 minutes.\n        "
@@ -1562,7 +1562,7 @@
     "price": "2500",
     "rarity": "7",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -1599,7 +1599,7 @@
     "price": "1000",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -1623,7 +1623,7 @@
     "price": "200",
     "rarity": "1",
     "is_restricted": "false",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -1647,7 +1647,7 @@
     "price": "1000",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -1680,7 +1680,7 @@
     "price": "1500",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "key": "SNIPSHOT",
@@ -1707,7 +1707,7 @@
     "price": "3000",
     "rarity": "7",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "misc_desc": "Add [BOOST] to all Ranged attacks at long or extreme range."
@@ -1732,7 +1732,7 @@
     "price": "75",
     "rarity": "2",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "misc_desc": "Add [SE] to Perception or Vigilance checks made to detect a character wearing this armor in appropriate environment."
@@ -1755,7 +1755,7 @@
     "price": "500",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "misc_desc": "Upgrades ability of Resiliance and Survival checks made in dry or hot environments due to scarcity of water twice."
@@ -1778,7 +1778,7 @@
     "price": "15000",
     "rarity": "7",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
     "base_mods": [
@@ -1832,7 +1832,7 @@
     "price": "12000",
     "rarity": "9",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
     "base_mods": [
@@ -1882,7 +1882,7 @@
     "price": "14000",
     "rarity": "7",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
     "base_mods": [
@@ -1936,7 +1936,7 @@
     "price": "15000",
     "rarity": "10",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
     "base_mods": [
@@ -1989,7 +1989,7 @@
     "price": "9600",
     "rarity": "8",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
     "base_mods": [
@@ -2042,7 +2042,7 @@
     "price": "10000",
     "rarity": "10",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
     "base_mods": [
@@ -2099,7 +2099,7 @@
     "price": "9000",
     "rarity": "10",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
     "base_mods": [
@@ -2151,7 +2151,7 @@
     "price": "18000",
     "rarity": "10",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
     "base_mods": [
@@ -2203,7 +2203,7 @@
     "price": "6500",
     "rarity": "8",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
     "base_mods": [
@@ -2250,7 +2250,7 @@
     "price": "16000",
     "rarity": "9",
     "is_restricted": "true",
-    "hit_points": "4",
+    "hard_points": "4",
     "jury_rigged": "false",
     "is_crystal": "true",
     "base_mods": [
@@ -2306,7 +2306,7 @@
     "price": "12500",
     "rarity": "8",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
     "base_mods": [
@@ -2362,7 +2362,7 @@
     "price": "14000",
     "rarity": "9",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "is_crystal": "true",
     "base_mods": [
@@ -2419,7 +2419,7 @@
     "price": "1500",
     "rarity": "8",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -2455,7 +2455,7 @@
     "price": "500",
     "rarity": "5",
     "is_restricted": "false",
-    "hit_points": "3",
+    "hard_points": "3",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -2494,7 +2494,7 @@
     "price": "1000",
     "rarity": "8",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -2521,7 +2521,7 @@
     "price": "200",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "encumbrance": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -2555,7 +2555,7 @@
     "price": "250",
     "rarity": "2",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "encumbrance": "0",
     "jury_rigged": "false",
     "base_mods": {
@@ -2583,7 +2583,7 @@
     "price": "800",
     "rarity": "5",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "encumbrance": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -2620,7 +2620,7 @@
     "price": "500",
     "rarity": "2",
     "is_restricted": "false",
-    "hit_points": "3",
+    "hard_points": "3",
     "encumbrance": "0",
     "jury_rigged": "false",
     "base_mods": [
@@ -2660,7 +2660,7 @@
     "price": "900",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "encumbrance": "2",
     "jury_rigged": "false",
     "base_mods": {
@@ -2688,7 +2688,7 @@
     "price": "2500",
     "rarity": "7",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "encumbrance": "1",
     "jury_rigged": "false",
     "base_mods": {
@@ -2719,7 +2719,7 @@
     "price": "2500",
     "rarity": "7",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "encumbrance": "1",
     "jury_rigged": "false",
     "base_mods": [
@@ -2753,7 +2753,7 @@
     "price": "750",
     "rarity": "5",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "encumbrance": "0",
     "jury_rigged": "false",
     "min_enc": "3",
@@ -2779,7 +2779,7 @@
     "price": "2000",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "4",
+    "hard_points": "4",
     "encumbrance": "0",
     "jury_rigged": "false",
     "min_soak": "2",
@@ -2814,7 +2814,7 @@
     "price": "1200",
     "rarity": "6",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "encumbrance": "0",
     "jury_rigged": "false",
     "max_soak": "2",
@@ -2855,7 +2855,7 @@
     "price": "1750",
     "rarity": "3",
     "is_restricted": "false",
-    "hit_points": "3",
+    "hard_points": "3",
     "encumbrance": "0",
     "jury_rigged": "false",
     "base_mods": [
@@ -2895,7 +2895,7 @@
     "price": "1000",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "key": null,
@@ -2924,7 +2924,7 @@
     "price": "4500",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "key": null,
@@ -2949,7 +2949,7 @@
     "price": "3800",
     "rarity": "7",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "key": "DAMADD",
@@ -2976,7 +2976,7 @@
     "price": "5000",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "key": "SUPERIOR"
@@ -2999,7 +2999,7 @@
     "price": "100",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -3038,9 +3038,9 @@
     "price": "0",
     "rarity": "0",
     "is_restricted": "false",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "false",
-    "base_mods": null,
+    "base_mods": [],
     "added_mods": [
       {
         "key": "HPADD",
@@ -3076,7 +3076,7 @@
     "price": "3300",
     "rarity": "5",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "key": "STRAINADD",
@@ -3102,7 +3102,7 @@
     "price": "500",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -3126,7 +3126,7 @@
     "price": "200",
     "rarity": "1",
     "is_restricted": "false",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -3150,7 +3150,7 @@
     "price": "750",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -3175,7 +3175,7 @@
     "item_limit": null,
     "price": "4000",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "UPGUNN",
       "count": "1"
@@ -3210,7 +3210,7 @@
     "price": "2000",
     "rarity": "3",
     "price_size_mult": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "key": "ARMORADD",
@@ -3237,7 +3237,7 @@
     "item_limit": null,
     "price": "3000",
     "rarity": "6",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "misc_desc": "Blocks sensors within range, counting the ship's silhouette as one smaller when being fired upon."
@@ -3265,7 +3265,7 @@
     "category_limit": "Non-Fighter Starship",
     "item_limit": null,
     "price": "1000",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "misc_desc": "Half damage from weapons with Ion quality"
@@ -3304,7 +3304,7 @@
     "item_limit": null,
     "price": "3800",
     "rarity": "5",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "DEFZONEADD",
       "count": "1"
@@ -3328,7 +3328,7 @@
     "price": "1200",
     "rarity": "1",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "min_encum_cap": "25",
     "base_mods": {
       "key": "SMUGENC",
@@ -3355,7 +3355,7 @@
     "rarity": "3",
     "price_size_mult": "true",
     "min_size": "5",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "HANGER",
       "count": "1"
@@ -3379,7 +3379,7 @@
     "item_limit": null,
     "price": "6400",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "must_have_hyperdrive": "true",
     "base_mods": {
       "key": "HYPERDRIVESUB",
@@ -3404,7 +3404,7 @@
     "item_limit": null,
     "price": "5300",
     "rarity": "5",
-    "hit_points": "1",
+    "hard_points": "1",
     "type_limit": null,
     "category_limit": null,
     "base_mods": [
@@ -3432,7 +3432,7 @@
     "item_limit": null,
     "price": "4800",
     "rarity": "6",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "CRANGEADD",
       "count": "1"
@@ -3453,7 +3453,7 @@
     },
     "price": "1200",
     "rarity": "2",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "key": "SPEEDADD",
@@ -3481,7 +3481,7 @@
     "item_limit": null,
     "price": "2000",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "misc_desc": "\n          When making auto-fire attack, do not increase difficulty by 1.\n        "
     },
@@ -3503,7 +3503,7 @@
     "price": "3000",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -3551,7 +3551,7 @@
     "price": "1000",
     "rarity": "4",
     "is_restricted": "true",
-    "hit_points": "3",
+    "hard_points": "3",
     "jury_rigged": "false",
     "base_mods": {
       "key": null,
@@ -3595,7 +3595,7 @@
     "price": "2750",
     "rarity": "2",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "key": null,
@@ -3622,7 +3622,7 @@
     "price": "750",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "false",
     "base_mods": {
       "key": "SSTRAINADD",
@@ -3651,7 +3651,7 @@
     "price": "2500",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -3676,7 +3676,7 @@
     "price": "1000",
     "rarity": "0",
     "is_restricted": "false",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "false",
     "base_mods": {
       "key": "DAMWEAPSYSADD",
@@ -3701,7 +3701,7 @@
     "price": "500",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "key": "HANDLINGADD",
@@ -3726,7 +3726,7 @@
     "price": "3000",
     "rarity": "5",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -3754,7 +3754,7 @@
     "price": "3500",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -3782,7 +3782,7 @@
     "price": "4500",
     "rarity": "5",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "count": "2",
@@ -3810,7 +3810,7 @@
     "price": "2500",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "count": "2",
@@ -3838,7 +3838,7 @@
     "price": "2200",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -3872,7 +3872,7 @@
     "price": "6500",
     "rarity": "3",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -3900,7 +3900,7 @@
     "price": "10000",
     "rarity": "2",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -3940,7 +3940,7 @@
     "price": "400",
     "rarity": "5",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "key": null,
@@ -3966,7 +3966,7 @@
     "price": "750",
     "rarity": "5",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "Adds [SETBACK][SETBACK] to Perception or Vigilance checks made to locate a concealed shooter firing silenced blaster."
@@ -3982,7 +3982,7 @@
     "price": "750",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "ADVADDINIT",
       "count": "1"
@@ -4014,7 +4014,7 @@
     "price": "7500",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "false",
     "base_mods": {
       "misc_desc": "Adds a Droid Brain with Astrogation Skill 2 and Intellect 0",
@@ -4055,7 +4055,7 @@
     "price": "6000",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -4116,7 +4116,7 @@
     "price": "2000",
     "rarity": "5",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -4200,7 +4200,7 @@
     "price": "2200",
     "rarity": "4",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -4236,7 +4236,7 @@
     "price": "450",
     "rarity": "4",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -4265,7 +4265,7 @@
     "price": "1500",
     "rarity": "6",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -4294,7 +4294,7 @@
     "price": "300",
     "rarity": "3",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -4321,7 +4321,7 @@
     "price": "750",
     "rarity": "5",
     "is_restricted": "true",
-    "hit_points": "3",
+    "hard_points": "3",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -4377,7 +4377,7 @@
     "price": "500",
     "rarity": "3",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -4407,7 +4407,7 @@
     "price": "800",
     "rarity": "3",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -4431,7 +4431,7 @@
     "price": "3500",
     "rarity": "8",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -4458,7 +4458,7 @@
     "price": "750",
     "rarity": "3",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -4482,7 +4482,7 @@
     "price": "500",
     "rarity": "3",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -4509,7 +4509,7 @@
     "price": "7500",
     "rarity": "7",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "count": "1",
@@ -4534,7 +4534,7 @@
     "price": "6000",
     "rarity": "7",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -4575,7 +4575,7 @@
     "price": "2000",
     "rarity": "3",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "key": null,
@@ -4599,7 +4599,7 @@
     "price": "25000",
     "rarity": "8",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "key": null,
@@ -4633,7 +4633,7 @@
     "price": "7500",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "key": null,
@@ -4662,7 +4662,7 @@
     "price": "7500",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "jury_rigged": "false",
     "base_mods": {
       "key": null,
@@ -4687,7 +4687,7 @@
     "price": "7500",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "key": null,
@@ -4709,7 +4709,7 @@
     "price": "1200",
     "rarity": "5",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "jury_rigged": "false",
     "base_mods": {
       "key": "HANDLINGADD",
@@ -4739,7 +4739,7 @@
     "price": "0",
     "rarity": "0",
     "is_restricted": "false",
-    "hit_points": "0",
+    "hard_points": "0",
     "jury_rigged": "false",
     "base_mods": [
       {
@@ -4771,7 +4771,7 @@
           "count": "2"
         }
       ],
-      "base_mods": null,
+      "base_mods": [],
       "vehicle_weapon_properties": {
         "location": "Unspecified",
         "turret": "false",
@@ -4779,7 +4779,7 @@
         "firing_arcs": {
           "fore": "true"
         },
-        "qualities": null
+        "qualities": []
       },
       "vehicle_weapon_count": "1",
       "range_value": "wrClose"
@@ -4797,7 +4797,7 @@
     "price": "2500",
     "rarity": "0",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "Characters briefed in this auditorium prior to a mission remove [SE] due to known mission conditions from skill checks for the duration of the mission."
@@ -4821,7 +4821,7 @@
     "price": "3500",
     "rarity": "6",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "Make a [B]Hard ([DI][DI][DI]) Computers check[b] to cancel all effects of an electronic countermeasures suite."
@@ -4842,7 +4842,7 @@
     "item_attachment_type": "Vehicle",
     "price": "5000",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "Characters utilizing a holo-tank may always use Cool or Knowledge (Warfare)  when making Initiative checks."
@@ -4869,7 +4869,7 @@
     "item_attachment_type": "Vehicle",
     "price": "4200",
     "rarity": "6",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "While active, a force commander in the vehicle upgrades the ability of all Mass Combat checks once"
@@ -4896,7 +4896,7 @@
     "item_attachment_type": "Vehicle",
     "price": "8500",
     "rarity": "6",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "count": "1",
       "misc_desc": "While active, force commander on the bridge upgrades the ability of all Mass Combat checks twice"
@@ -4949,7 +4949,7 @@
     },
     "price": "100",
     "rarity": "2",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "DAMSET",
       "count": "5"
@@ -4979,7 +4979,7 @@
     },
     "price": "50",
     "rarity": "1",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "REMQUALLIMITEDAMMO",
       "count": "1"
@@ -4999,7 +4999,7 @@
     },
     "price": "150",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "encumbrance": "1",
     "base_mods": {
       "key": "RANGEADD",
@@ -5034,7 +5034,7 @@
     ],
     "price": "500",
     "rarity": "6",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "key": "SETBACKSUB",
@@ -5063,7 +5063,7 @@
     "price": "1500",
     "rarity": "6",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "key": "CRITSUB",
@@ -5094,7 +5094,7 @@
     ],
     "price": "1000",
     "rarity": "6",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "SUBQUALCUMBERSOME",
       "count": "1"
@@ -5124,7 +5124,7 @@
     ],
     "price": "675",
     "rarity": "5",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "count": "1",
@@ -5154,7 +5154,7 @@
     },
     "price": "100",
     "rarity": "5",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "When GM spends [DE] or [TH] to cause the weapon to run out of ammo, it requires an additional [TH]."
@@ -5175,7 +5175,7 @@
     ],
     "price": "650",
     "rarity": "7",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "key": "DAMADD",
@@ -5203,7 +5203,7 @@
     "category_limit": "Blaster",
     "price": "750",
     "rarity": "7",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "key": "AUTOFIRE"
@@ -5259,7 +5259,7 @@
     ],
     "price": "400",
     "rarity": "6",
-    "hit_points": "2",
+    "hard_points": "2",
     "encumbrance": "2",
     "base_mods": [
       {
@@ -5308,7 +5308,7 @@
     ],
     "price": "1500",
     "rarity": "8",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "May observe and target enemies who are completely hidden by solid objects."
@@ -5343,7 +5343,7 @@
     ],
     "price": "250",
     "rarity": "4",
-    "hit_points": "3",
+    "hard_points": "3",
     "base_mods": [
       {
         "key": "ENCSUB",
@@ -5374,7 +5374,7 @@
     ],
     "price": "500",
     "rarity": "3",
-    "hit_points": "2",
+    "hard_points": "2",
     "encumbrance": "2",
     "base_mods": [
       {
@@ -5401,7 +5401,7 @@
     ],
     "price": "500",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "encumbrance": "1",
     "base_mods": {
       "count": "1",
@@ -5449,7 +5449,7 @@
     ],
     "price": "500",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "count": "1",
@@ -5476,7 +5476,7 @@
     "item_attachment_type": "Armor",
     "price": "400",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "Removes [SE] from Athletics and Stealth checks.",
@@ -5521,7 +5521,7 @@
     "item_attachment_type": "Armor",
     "price": "350",
     "rarity": "3",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "count": "1",
@@ -5544,7 +5544,7 @@
     "item_attachment_type": "Armor",
     "price": "750",
     "rarity": "6",
-    "hit_points": "3",
+    "hard_points": "3",
     "base_mods": {
       "count": "1",
       "misc_desc": "Counts as having Slicer Gear.  Can be controlled by gesture or voice."
@@ -5565,7 +5565,7 @@
     "item_attachment_type": "Armor",
     "price": "2000",
     "rarity": "7",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "Increase soak by 3 against weapons with Ion quality."
@@ -5591,7 +5591,7 @@
     ],
     "price": "500",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "Add [BO][BO] to Resilience checks to resist radiation."
@@ -5612,7 +5612,7 @@
     "item_attachment_type": "Armor",
     "price": "250",
     "rarity": "2",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "count": "1",
       "misc_desc": "May use gauntlets as a melee weapon."
@@ -5647,7 +5647,7 @@
     "item_attachment_type": "Armor",
     "price": "3000",
     "rarity": "6",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "count": "1",
@@ -5674,7 +5674,7 @@
     },
     "price": "1400",
     "rarity": "2",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "ENCCADD",
       "count": "50"
@@ -5698,7 +5698,7 @@
     },
     "price": "3000",
     "rarity": "6",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "HANDLINGADD",
       "count": "1"
@@ -5722,7 +5722,7 @@
     },
     "price": "3000",
     "rarity": "6",
-    "hit_points": "4",
+    "hard_points": "4",
     "base_mods": [
       {
         "key": "HYPERDRIVEADD8"
@@ -5751,7 +5751,7 @@
     },
     "price": "5000",
     "rarity": "9",
-    "hit_points": "4",
+    "hard_points": "4",
     "base_mods": [
       {
         "key": "HYPERDRIVEADD4"
@@ -5780,7 +5780,7 @@
     },
     "price": "8000",
     "rarity": "6",
-    "hit_points": "3",
+    "hard_points": "3",
     "base_mods": {
       "key": "DEFZONEADD",
       "count": "1"
@@ -5804,7 +5804,7 @@
     },
     "price": "9000",
     "rarity": "7",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "key": "SPEEDADD",
@@ -5835,7 +5835,7 @@
     ],
     "price": "3000",
     "rarity": "5",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "count": "1",
       "misc_desc": "As a maneuver, pilot may shift in or out of walker mode.  In walker mode, pilot uses Piloting (Planetary) and speed is reduced to 2."
@@ -5868,7 +5868,7 @@
     ],
     "price": "1000",
     "rarity": "5",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "Vehicle can operate underwater without penalty."
@@ -5966,7 +5966,7 @@
     "item_attachment_type": "Vehicle",
     "price": "4000",
     "rarity": "5",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "Downgrade difficulty of Astrogation checks made to navigate the ship through hyperspace once."
@@ -5993,7 +5993,7 @@
     },
     "price": "1000",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "key": "SPEEDADD",
@@ -6053,7 +6053,7 @@
     "item_attachment_type": "Vehicle",
     "price": "3000",
     "rarity": "6",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "count": "1",
       "misc_desc": "Add automatic [AD] to combat checks made with the ship's laser cannons and turbolasers."
@@ -6072,7 +6072,7 @@
     "item_attachment_type": "Vehicle",
     "price": "9500",
     "rarity": "4",
-    "hit_points": "3",
+    "hard_points": "3",
     "base_mods": [
       {
         "key": "SPEEDADD",
@@ -6107,7 +6107,7 @@
     "price": "12000",
     "rarity": "8",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "count": "1",
@@ -6135,7 +6135,7 @@
     "price": "20000",
     "rarity": "7",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "count": "1",
@@ -6190,7 +6190,7 @@
     "item_attachment_type": "Vehicle",
     "price": "5000",
     "rarity": "6",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "count": "1",
@@ -6229,7 +6229,7 @@
     "use_mod_price": "true",
     "mod_price": "350",
     "rarity": "4",
-    "hit_points": "0",
+    "hard_points": "0",
     "min_size": "2",
     "base_mods": {
       "key": "ENCTADD3",
@@ -6255,7 +6255,7 @@
     "price": "1200",
     "encumbrance": "2",
     "rarity": "5",
-    "hit_points": "0",
+    "hard_points": "0",
     "base_mods": {
       "count": "1",
       "misc_desc": "Pacified beasts gain [BOOST] to any [B]Displine Checks[b]."
@@ -6277,7 +6277,7 @@
     "price": "100",
     "encumbrance": "3",
     "rarity": "4",
-    "hit_points": "0",
+    "hard_points": "0",
     "base_mods": {
       "count": "1",
       "misc_desc": "Characters may ride beast without suffering bareback riding penalties."
@@ -6298,7 +6298,7 @@
     },
     "price": "25",
     "rarity": "4",
-    "hit_points": "0",
+    "hard_points": "0",
     "base_mods": {
       "key": "ENCTADD",
       "count": "4"
@@ -6319,7 +6319,7 @@
     "price": "1250",
     "rarity": "5",
     "is_restricted": "true",
-    "hit_points": "3",
+    "hard_points": "3",
     "base_mods": [
       {
         "key": "BLAST",
@@ -6351,7 +6351,7 @@
     },
     "price": "150",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "misc_desc": "Remove [SE] added by the Called Shot use of the Aim maneuver from Ranged Light and Ranged Heavy checks."
     },
@@ -6372,7 +6372,7 @@
     ],
     "price": "1000",
     "rarity": "5",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "key": "DAMADD",
@@ -6408,7 +6408,7 @@
     "price": "500",
     "encumbrance": "2",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "misc_desc": "Removes up to [SE][SE] from checks to resist extreme heat or cold."
     },
@@ -6428,7 +6428,7 @@
     "price": "250",
     "encumbrance": "3",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "misc_desc": "May recharge a depleted piece of equipment as an action, or a droid or larger piece of machinery in two hours."
@@ -6453,7 +6453,7 @@
     "price": "500",
     "encumbrance": "2",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "misc_desc": "May route communications up to long range on the planetary scale."
@@ -6478,7 +6478,7 @@
     "price": "3000",
     "encumbrance": "2",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "misc_desc": "Adds [AD] to Vigilance checks.",
       "die_modifiers": {
@@ -6504,7 +6504,7 @@
     "price": "300",
     "encumbrance": "3",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "misc_desc": "Adds additional twelve hours of oxygen when connected to any rebreather, breath mask, or sealed suit."
     },
@@ -6524,7 +6524,7 @@
     "price": "25",
     "encumbrance": "0",
     "rarity": "2",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "ENCTADD",
       "count": "3"
@@ -6544,7 +6544,7 @@
     },
     "price": "2000",
     "rarity": "7",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "As a maneuver, my adjust lightsaber to deal Stun damage.  Decrease damage by 2, increase critical rating by 1, lose Breach quality."
@@ -6568,7 +6568,7 @@
     },
     "price": "500",
     "rarity": "6",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "Wielder can spend [AD] from combat checks to increase damage by 1.  GM can spend [TH][TH] to decrease damage by 1."
@@ -6588,7 +6588,7 @@
     },
     "price": "750",
     "rarity": "5",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "count": "1",
       "misc_desc": "Includes a built-in blaster pistol."
@@ -6621,7 +6621,7 @@
     },
     "price": "4000",
     "rarity": "8",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "count": "1",
       "misc_desc": "When lightsaber is used to Parry or Reflect, suffer 1 additional strain, but count Parry and Reflect ranks as 1 higher."
@@ -6651,7 +6651,7 @@
     },
     "price": "100",
     "rarity": "6",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "misc_desc": "\n          Wielder adds [AD] to all Lightsaber (Cunning) checks, but adds [TH] to all other Lightsaber checks.\n        ",
       "die_modifiers": {
@@ -6702,7 +6702,7 @@
     "price": "12000",
     "rarity": "9",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "key": "DAMSET",
@@ -6761,7 +6761,7 @@
     "price": "14000",
     "rarity": "9",
     "is_restricted": "true",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "key": "DAMSET",
@@ -7418,7 +7418,7 @@
     },
     "price": "2200",
     "rarity": "6",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "Reduce silhouette by 1 for purposes of determining difficulty of Piloting checks."
@@ -7438,7 +7438,7 @@
     },
     "price": "400",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "count": "1",
       "misc_desc": "To eject, make an [B]Average ([DI][DI]) Piloting (Planetary) check[b] as an out-of-turn incidental.  On success, pilot is ejected unharmed.  On failure, pilot suffers vehicle speed in strain, plus one Critical Injury.  GM can spend [TH][TH] or [DE] to cause wounds to be suffered instead."
@@ -7458,7 +7458,7 @@
     },
     "price": "1100",
     "rarity": "5",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "key": "SPEEDADD",
@@ -7484,7 +7484,7 @@
     },
     "price": "900",
     "rarity": "3",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "count": "1",
@@ -7510,7 +7510,7 @@
     },
     "price": "4000",
     "rarity": "6",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "HANDLINGADD",
       "count": "1"
@@ -7534,7 +7534,7 @@
     },
     "price": "4500",
     "rarity": "3",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "ADDALT50",
       "count": "1"
@@ -7578,7 +7578,7 @@
     },
     "price": "4200",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "SETDEFFORE",
       "count": "1"
@@ -7602,7 +7602,7 @@
     },
     "price": "1000",
     "rarity": "2",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "SETHAND",
       "count": "-1"
@@ -7622,7 +7622,7 @@
     },
     "price": "4000",
     "rarity": "5",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "SETSPEED",
       "count": "4"
@@ -7640,7 +7640,7 @@
     "category_limit": "Micro-Rocket",
     "price": "50",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "GUIDED",
       "count": "2",
@@ -7669,7 +7669,7 @@
     "category_limit": "Micro-Rocket",
     "price": "25",
     "rarity": "2",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "key": "RANGEADD",
@@ -7703,7 +7703,7 @@
     "category_limit": "Ranged",
     "price": "900",
     "rarity": "4",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": {
       "key": "THRCANCEL",
       "count": "1"
@@ -7728,7 +7728,7 @@
     ],
     "price": "1500",
     "rarity": "5",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": {
       "key": "STUN",
       "count": "2"
@@ -7757,7 +7757,7 @@
     "price": "1200",
     "rarity": "6",
     "is_restricted": "true",
-    "hit_points": "3",
+    "hard_points": "3",
     "encumbrance": "3",
     "base_mods": [
       {
@@ -7806,7 +7806,7 @@
     "item_attachment_type": "Armor",
     "price": "300",
     "rarity": "4",
-    "hit_points": "2",
+    "hard_points": "2",
     "encumbrance": "4",
     "base_mods": {
       "key": "HOLSTER3",
@@ -7838,7 +7838,7 @@
     "price": "800",
     "rarity": "6",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "encumbrance": "3",
     "base_mods": {
       "count": "1",
@@ -7882,7 +7882,7 @@
     "price": "1000",
     "rarity": "3",
     "is_restricted": "false",
-    "hit_points": "2",
+    "hard_points": "2",
     "encumbrance": "0",
     "category_limit": "Hard Full Body",
     "base_mods": {
@@ -7912,7 +7912,7 @@
     "price": "1000",
     "rarity": "7",
     "is_restricted": "false",
-    "hit_points": "1",
+    "hard_points": "1",
     "base_mods": [
       {
         "misc_desc": "As a maneuver, may designate a target for tracking.  Only one target may be designated at a time.",
@@ -7948,7 +7948,7 @@
     },
     "price": "45000",
     "rarity": "7",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "key": "SETARMOR",
@@ -7989,7 +7989,7 @@
     "price": "7500",
     "rarity": "9",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "count": "1",
@@ -8013,7 +8013,7 @@
     "item_attachment_type": "Vehicle",
     "price": "3500",
     "rarity": "7",
-    "hit_points": "3",
+    "hard_points": "3",
     "base_mods": {
       "count": "1",
       "misc_desc": "Full incarceration and security suite for 2 prisoners."
@@ -8035,7 +8035,7 @@
     "price": "4000",
     "rarity": "6",
     "is_restricted": "true",
-    "hit_points": "2",
+    "hard_points": "2",
     "base_mods": [
       {
         "count": "1",
