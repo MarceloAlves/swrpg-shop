@@ -1,17 +1,18 @@
 class DicePool
+  attr_reader :dice_counts
   def initialize(skill_level: 0, characteristic_level: 0, number_boost_dice: 0, number_setback_dice: 0)
     number_ability_dice   = calculate_ability_dice(characteristic_level: characteristic_level, skill_level: skill_level)
-    number_profiency_dice = calculate_profiency_dice(characteristic_level: characteristic_level, skill_level: skill_level)
-    dice_counts = {
+    number_proficiency_dice = calculate_proficiency_dice(characteristic_level: characteristic_level, skill_level: skill_level)
+    @dice_counts = {
       ability_dice:   number_ability_dice,
-      profiency_dice: number_profiency_dice,
+      proficiency_dice: number_proficiency_dice,
       boost_dice:     number_boost_dice,
       setback_dice:   number_setback_dice
     }
     @dice_pool = []
     @dice_face_count = []
-    @dice_count = dice_counts.values.sum
-    create_dice_pool(dice_counts)
+    @dice_count = @dice_counts.values.sum
+    create_dice_pool(@dice_counts)
   end
 
   def roll(item_rarity: 1)
@@ -40,17 +41,17 @@ class DicePool
     characteristic_level >= skill_level ? characteristic_level - skill_level : skill_level - characteristic_level
   end
 
-  def calculate_profiency_dice(characteristic_level:, skill_level:)
+  def calculate_proficiency_dice(characteristic_level:, skill_level:)
     characteristic_level >= skill_level ? skill_level : characteristic_level
   end
 
-  def create_dice_pool(ability_dice:, profiency_dice:, boost_dice:, setback_dice:)
+  def create_dice_pool(ability_dice:, proficiency_dice:, boost_dice:, setback_dice:)
     ability_dice.times do
       @dice_pool       << Dice.ability
       @dice_face_count << Dice.ability.count
     end
 
-    profiency_dice.times do
+    proficiency_dice.times do
       @dice_pool       << Dice.proficiency
       @dice_face_count << Dice.proficiency.count
     end

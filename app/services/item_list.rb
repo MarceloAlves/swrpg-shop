@@ -5,7 +5,8 @@ class ItemList
     @item_list = build_item_list
     @shop_modifiers = shop_types[shop_type]
     @dice_pool = DicePool.new(skill_level: skill_level, characteristic_level: characteristic_level, number_boost_dice: boost_dice, number_setback_dice: setback_dice)
-    @shop_list = { armor: [], gear: [], item_attachments: [], weapons: [] }
+    shop_info = { shop_type: shop_type, dice_pool: @dice_pool.dice_counts, characteristic_level: characteristic_level, skill_level: skill_level, world: world.as_json }
+    @shop_list = { items: { armor: [], gear: [], item_attachments: [], weapons: [] }, info: shop_info }
     @world = world
   end
 
@@ -43,7 +44,7 @@ class ItemList
           new_price = (@world.price_modifier * item.fetch('price')) * (1 + ((markup + advantage_markup + triumph_markup) / 100.0 ))
           item['price'] = new_price.round
 
-          @shop_list[item_type] << item
+          @shop_list[:items][item_type] << item
         end
       end
     end

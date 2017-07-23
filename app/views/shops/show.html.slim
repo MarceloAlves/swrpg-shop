@@ -1,6 +1,25 @@
 / h1 Shops#show
 / p Find me in app/views/shops/show.html.slim
 
+.card
+  .card-block
+    dl.row
+      dt.col-sm-2 Shop Type
+      dd.col-sm-10= shop_info.fetch('shop_type', nil)
+      dt.col-sm-2 Dice Pool
+      dd.col-sm-10= dice_display(shop_info.fetch('dice_pool'))
+      dt.col-sm-2 Characteristic Level
+      dd.col-sm-10= shop_info.fetch('characteristic_level', nil)
+      dt.col-sm-2 Skill Level
+      dd.col-sm-10= shop_info.fetch('skill_level', nil)
+      dt.col-sm-2 World
+      dd.col-sm-10
+          = shop_info.fetch('world', {}).fetch('name', nil)
+          br
+          | Modifiers - Rarity: 
+          = shop_info.fetch('world', {}).fetch('rarity_modifier', nil)
+          |  - Price: 
+          = shop_info.fetch('world', {}).fetch('price_modifier', nil)
 
 ul.nav.nav-tabs role="tablist" 
   li.nav-item

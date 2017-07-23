@@ -37,4 +37,12 @@ module ShopsHelper
                    end
     qualities.join(' - ')
   end
+
+  def dice_display(dice_pool)
+    dice = []
+    dice_pool.each do |dice_type, amount|
+      amount.times { dice << image_tag("dice/#{dice_type.gsub('_dice', '')}.png") }
+    end
+    dice.join.html_safe
+  end
 end
