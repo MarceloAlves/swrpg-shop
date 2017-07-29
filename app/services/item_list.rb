@@ -2,12 +2,12 @@ class ItemList
   attr_reader :shop_list
 
   def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world:)
+    @world = World.find(world)
     @item_list = build_item_list
     @shop_modifiers = shop_types[shop_type]
-    @dice_pool = DicePool.new(skill_level: skill_level, characteristic_level: characteristic_level, number_boost_dice: boost_dice, number_setback_dice: setback_dice)
-    shop_info = { shop_type: shop_type, dice_pool: @dice_pool.dice_counts, characteristic_level: characteristic_level, skill_level: skill_level, world: world.as_json }
+    @dice_pool = DicePool.new(skill_level: skill_level.to_i, characteristic_level: characteristic_level.to_i, number_boost_dice: boost_dice.to_i, number_setback_dice: setback_dice.to_i)
+    shop_info = { shop_type: shop_type, dice_pool: @dice_pool.dice_counts, characteristic_level: characteristic_level.to_i, skill_level: skill_level.to_i, world: @world.as_json }
     @shop_list = { items: { armor: [], gear: [], item_attachments: [], weapons: [] }, info: shop_info }
-    @world = world
   end
 
   def randomize

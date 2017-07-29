@@ -1,2 +1,29 @@
-= simple_form_for :shop, url: shops_path do |f|
-  = f.submit
+.container
+  = simple_form_for :shop, url: shops_path do |f|
+    .form-group.row
+      label.col-sm-2.col-form-label Shop Type
+      .col-sm-10
+        = f.input :shop_type, collection: ['On The Level', 'Shady', 'Black Market'], label: false, selected: 'On The Level', input_html: { class: 'form-control' }
+    .form-group.row
+      label.col-sm-2.col-form-label Boost Dice
+      .col-sm-10
+        = f.input :boost_dice, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+    .form-group.row
+      label.col-sm-2.col-form-label Setback Dice
+      .col-sm-10
+        = f.input :setback_dice, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+    .form-group.row
+      label.col-sm-2.col-form-label Characteristic Level
+      .col-sm-10
+        = f.input :characteristic_level, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+    .form-group.row
+      label.col-sm-2.col-form-label Skill Level
+      .col-sm-10
+        = f.input :skill_level, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+    .form-group.row
+      label.col-sm-2.col-form-label World
+      .col-sm-10
+        = f.input :world, collection: World.all.map { |w| ["#{w.name} / Rarity Modifier: #{w.rarity_modifier} / Price Modifier: #{w.price_modifier}", w.id] }, selected: 1, label: false, input_html: { class: 'form-control' }
+    .row.justify-content-center
+      .col-sm-3
+        = f.button :submit, 'Generate Shop', class: 'btn btn-success btn-lg btn-block'
