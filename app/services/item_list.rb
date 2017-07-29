@@ -14,14 +14,17 @@ class ItemList
     @item_list.keys.each do |item_type|
       @item_list[item_type].each do |item|
         shop_type_modifier = if item.fetch('is_restricted', nil)
-                              @shop_modifiers.fetch('restricted')
-                            elsif item.fetch('item_type', nil) == 'Lightsaber'
-                              @shop_modifiers.fetch('lightsaber')
-                            else
-                              @shop_modifiers.fetch('nonrestricted')
-                            end
+                               @shop_modifiers.fetch('restricted')
+                             elsif item.fetch('item_type', item.fetch('weapon_type', nil)) == 'Lightsaber'
+                               @shop_modifiers.fetch('lightsaber')
+                             elsif item.fetch('skill_key', nil) == 'LTSABER'
+                               @shop_modifiers.fetch('lightsaber')
+                             else
+                               @shop_modifiers.fetch('nonrestricted')
+                             end
 
         roll_total = @dice_pool.roll(item_rarity: @world.rarity_modifier + item.fetch('rarity', 1))
+        roll_total[0] += shop_type_modifier
 
         # This is set in settings
         advantage_value = 0
