@@ -51,6 +51,7 @@ class ItemList
         end
       end
     end
+    @shop_list[:items].keys.each { |item_type| @shop_list[:items][item_type].sort_by! { |i| i['name'] } }
     true
   end
 
