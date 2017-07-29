@@ -20,6 +20,9 @@
           = shop_info.fetch('world', {}).fetch('rarity_modifier', nil)
           |  - Price: 
           = shop_info.fetch('world', {}).fetch('price_modifier', nil)
+      - unless ttl == -1
+        dt.col-sm-2 Time Left
+        dd.col-sm-10= time_ago_in_words(Time.now + ttl.seconds).titleize
 
 ul.nav.nav-tabs role="tablist" 
   li.nav-item

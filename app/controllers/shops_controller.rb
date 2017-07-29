@@ -5,7 +5,8 @@ class ShopsController < ApplicationController
 
   def show
     shop = JSON.parse(Redis.current.get("shops:#{params[:id]}"))
-    render :show, locals: { shop: shop['items'], shop_info: shop['info'] }
+    time_left = Redis.current.pttl("shops:#{params[:id]}")
+    render :show, locals: { shop: shop['items'], shop_info: shop['info'], ttl: time_left / 1000 }
   end
 
   def new; end
