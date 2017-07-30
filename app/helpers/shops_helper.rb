@@ -41,7 +41,7 @@ module ShopsHelper
   def dice_display(dice_pool)
     dice = []
     dice_pool.each do |dice_type, amount|
-      amount.times { dice << image_tag("dice/#{dice_type.gsub('_dice', '')}.png") }
+      amount.times { dice << image_tag("#{dice_type.gsub('_dice', '')}.svg", width: 15) }
     end
     dice.join.html_safe
   end
