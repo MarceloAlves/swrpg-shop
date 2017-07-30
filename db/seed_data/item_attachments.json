@@ -86,7 +86,7 @@
         "count": "1"
       },
       {
-        "misc_desc": "\n          Add [SETBACK] to all Mechanics checks when performing\n          maintenance on this weapon.\n        ",
+        "misc_desc": "Add [SETBACK] to all Mechanics checks when performingmaintenance on this weapon.",
         "count": "1"
       }
     ],
@@ -121,10 +121,12 @@
     "price": "1500",
     "rarity": "5",
     "hard_points": "2",
-    "base_mods": {
-      "key": "ACCURATE",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "ACCURATE",
+        "count": "1"
+      }
+    ],
     "added_mods": [
       {
         "key": "ENCSUB",
@@ -227,10 +229,12 @@
     "price": "100",
     "rarity": "1",
     "hard_points": "1",
-    "base_mods": {
-      "key": "CUMBERSOME",
-      "count": "-2"
-    },
+    "base_mods": [
+      {
+        "key": "CUMBERSOME",
+        "count": "-2"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -242,10 +246,12 @@
     "price": "500",
     "rarity": "3",
     "hard_points": "1",
-    "base_mods": {
-      "misc_desc": "\n          Removes reloading maneuver requirement from bowcaster.\n        ",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "misc_desc": "Removes reloading maneuver requirement from bowcaster.",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "AUTOFIRE",
       "count": "1"
@@ -265,10 +271,12 @@
     "price": "250",
     "rarity": "4",
     "hard_points": "1",
-    "base_mods": {
-      "key": "DAMADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "DAMADD",
+        "count": "1"
+      }
+    ],
     "added_mods": [
       {
         "key": "DAMADD",
@@ -299,7 +307,7 @@
     "hard_points": "1",
     "base_mods": [
       {
-        "misc_desc": "\n          Increases the difficulty of combat checks to hit targets at\n          ranges beyond Short range by one.\n        ",
+        "misc_desc": "Increases the difficulty of combat checks to hit targets atranges beyond Short range by one.",
         "count": "1"
       },
       {
@@ -329,10 +337,12 @@
     "price": "250",
     "rarity": "1",
     "hard_points": "1",
-    "base_mods": {
-      "misc_desc": "\n          Decreases the additional difficulty of making Ranged (Heavy)\n          checks with this weapon while engaged to an\n          additional [DIFFICULTY] (rather than [DIFFICULTY][DIFFICULTY]).\n        ",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "misc_desc": "Decreases the additional difficulty of making Ranged (Heavy)checks with this weapon while engaged to anadditional [DIFFICULTY] (rather than [DIFFICULTY][DIFFICULTY]).",
+        "count": "1"
+      }
+    ],
     "added_mods": [
       {
         "key": "POINTBL",
@@ -395,10 +405,12 @@
     "price": "1000",
     "rarity": "5",
     "hard_points": "1",
-    "base_mods": {
-      "key": "CRITSUB",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "CRITSUB",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "PIERCE",
       "count": "2"
@@ -420,10 +432,12 @@
     "price": "2000",
     "rarity": "3",
     "hard_points": "1",
-    "base_mods": {
-      "misc_desc": "\n          Removes up to [SETBACK][SETBACK]  on any checks\n          to use this weapon due to smoke, darkness, or other\n          environmental conditions that obstruct vision.\n        ",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "misc_desc": "Removes up to [SETBACK][SETBACK]  on any checksto use this weapon due to smoke, darkness, or otherenvironmental conditions that obstruct vision.",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "PERC",
       "count": "2"
@@ -479,10 +493,12 @@
     "price": "50",
     "rarity": "1",
     "hard_points": "1",
-    "base_mods": {
-      "key": "VICIOUS",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "VICIOUS",
+        "count": "1"
+      }
+    ],
     "added_mods": null,
     "image_filename": "missing.png"
   },
@@ -500,9 +516,11 @@
     "price": "5000",
     "rarity": "6",
     "hard_points": "1",
-    "base_mods": {
-      "key": "SUPERIOR"
-    },
+    "base_mods": [
+      {
+        "key": "SUPERIOR"
+      }
+    ],
     "added_mods": null,
     "image_filename": "missing.png"
   },
@@ -522,7 +540,7 @@
     "hard_points": "1",
     "base_mods": [
       {
-        "misc_desc": "\n          Reduces the difficulty of checks made to conceal\n          this weapon by 1.\n        ",
+        "misc_desc": "Reduces the difficulty of checks made to concealthis weapon by 1.",
         "count": "1"
       },
       {
@@ -556,7 +574,7 @@
     "hard_points": "2",
     "base_mods": [
       {
-        "misc_desc": "\n          Weapon can fire grenades using the grenade profile, Ranged (Heavy) skill, and has Medium range.\n        ",
+        "misc_desc": "Weapon can fire grenades using the grenade profile, Ranged (Heavy) skill, and has Medium range.",
         "count": "1"
       },
       {
@@ -599,7 +617,7 @@
     "hard_points": "2",
     "base_mods": [
       {
-        "misc_desc": "\n          Adds a flame projector to the weapon.\n        ",
+        "misc_desc": "Adds a flame projector to the weapon.",
         "count": "1"
       },
       {
@@ -646,10 +664,12 @@
     "price": "250",
     "rarity": "1",
     "hard_points": "1",
-    "base_mods": {
-      "key": "DIFFSUBLONGEXT",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "DIFFSUBLONGEXT",
+        "count": "1"
+      }
+    ],
     "added_mods": null,
     "image_filename": "missing.png"
   },
@@ -673,10 +693,12 @@
     "price": "250",
     "rarity": "3",
     "hard_points": "2",
-    "base_mods": {
-      "key": "CUMBERSOME",
-      "count": "-3"
-    },
+    "base_mods": [
+      {
+        "key": "CUMBERSOME",
+        "count": "-3"
+      }
+    ],
     "added_mods": {
       "key": "CUMBERSOME",
       "count": "-2"
@@ -699,10 +721,12 @@
     ],
     "price": "100",
     "hard_points": "1",
-    "base_mods": {
-      "key": "CUMBERSOME",
-      "count": "-1"
-    },
+    "base_mods": [
+      {
+        "key": "CUMBERSOME",
+        "count": "-1"
+      }
+    ],
     "added_mods": {
       "key": "QUICKDR"
     },
@@ -725,10 +749,12 @@
     "price": "500",
     "rarity": "2",
     "hard_points": "2",
-    "base_mods": {
-      "key": "CUMBERSOME",
-      "count": "-2"
-    },
+    "base_mods": [
+      {
+        "key": "CUMBERSOME",
+        "count": "-2"
+      }
+    ],
     "added_mods": {
       "key": "BRA",
       "count": "1"
@@ -753,10 +779,12 @@
     "price": "250",
     "rarity": "3",
     "hard_points": "2",
-    "base_mods": {
-      "key": "DAMADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "DAMADD",
+        "count": "1"
+      }
+    ],
     "added_mods": [
       {
         "key": "DAMADD",
@@ -783,11 +811,13 @@
     "price": "500",
     "hard_points": "0",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": null,
-      "count": "1",
-      "misc_desc": "Upon hit, target must make [B]Average ([DIFFICULTY][DIFFICULTY]) Resilience check[b].  If fail, target takes 5 strain, plus 2 strain per [THREAT].  GM may use [DESPAIR] to make target check again next round at increased difficulty."
-    },
+    "base_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "misc_desc": "Upon hit, target must make [B]Average ([DIFFICULTY][DIFFICULTY]) Resilience check[b].  If fail, target takes 5 strain, plus 2 strain per [THREAT].  GM may use [DESPAIR] to make target check again next round at increased difficulty."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Enter the Unknown"
@@ -807,11 +837,13 @@
     "rarity": "7",
     "is_restricted": "false",
     "hard_points": "1",
-    "base_mods": {
-      "key": null,
-      "count": "1",
-      "misc_desc": "Weapon functions only in the hands of its authorized user."
-    },
+    "base_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "misc_desc": "Weapon functions only in the hands of its authorized user."
+      }
+    ],
     "added_mods": {
       "key": null,
       "count": "1",
@@ -839,10 +871,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": "ADVADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "ADVADD",
+        "count": "1"
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Dangerous Covenants"
@@ -939,10 +973,12 @@
     "is_restricted": "false",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Weapon can be worn on the wrist, freeing user's hands."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Weapon can be worn on the wrist, freeing user's hands."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Dangerous Covenants"
@@ -996,10 +1032,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Remove up to [SETBACK][SETBACK] on any checks to use this weapon due to darkness"
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Remove up to [SETBACK][SETBACK] on any checks to use this weapon due to darkness"
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Force and Destiny Core Rulebook"
@@ -1021,10 +1059,12 @@
     "hard_points": "1",
     "max_enc": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Increases the difficulty of any checks made to detect the sheath or the weapon it holds by two"
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Increases the difficulty of any checks made to detect the sheath or the weapon it holds by two"
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Force and Destiny Core Rulebook"
@@ -1047,10 +1087,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": "STUN",
-      "count": "2"
-    },
+    "base_mods": [
+      {
+        "key": "STUN",
+        "count": "2"
+      }
+    ],
     "added_mods": {
       "key": "STUN",
       "count": "3"
@@ -1074,10 +1116,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Increase the difficulty checks using scanners to search for this weapon by 2.  Add [SE] to all Mechanics checks to perform maintenance on this weapon."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Increase the difficulty checks using scanners to search for this weapon by 2.  Add [SE] to all Mechanics checks to perform maintenance on this weapon."
+      }
+    ],
     "added_mods": null,
     "min_enc": "0",
     "max_enc": "3",
@@ -1100,10 +1144,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Allows shooter to aim as an incidental once per round at short range.  Decreases the difficulty of Perception checks to locate the shooter in low light conditions by 1."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Allows shooter to aim as an incidental once per round at short range.  Decreases the difficulty of Perception checks to locate the shooter in low light conditions by 1."
+      }
+    ],
     "added_mods": {
       "key": "ACCURATE",
       "count": "1"
@@ -1127,10 +1173,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Prevents a weapon from breaking down as a result of a specific type of environment."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Prevents a weapon from breaking down as a result of a specific type of environment."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Savage Spirits"
@@ -1196,10 +1244,12 @@
     "is_restricted": "false",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Remove [SE] due to target movement or use of Guarded Stance."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Remove [SE] due to target movement or use of Guarded Stance."
+      }
+    ],
     "added_mods": {
       "count": "1",
       "key": "PRECAIM"
@@ -1225,10 +1275,12 @@
     "is_restricted": "true",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Adds [SE][SE] to Perception or Vigilance checks made to locate a concealed shooter firing a silenced slugthrower."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Adds [SE][SE] to Perception or Vigilance checks made to locate a concealed shooter firing a silenced slugthrower."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Savage Spirits"
@@ -1314,10 +1366,12 @@
     "mod_price": "15",
     "rarity": "1",
     "hard_points": "0",
-    "base_mods": {
-      "key": "ENCTADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "ENCTADD",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "ENCTADD",
       "count": "2"
@@ -1340,10 +1394,12 @@
     "mod_price": "15",
     "rarity": "1",
     "hard_points": "0",
-    "base_mods": {
-      "key": "ENCTADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "ENCTADD",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "ENCTADD",
       "count": "3"
@@ -1366,9 +1422,11 @@
     "rarity": "8",
     "hard_points": "2",
     "item_limit": null,
-    "base_mods": {
-      "key": "CORTOSIS"
-    },
+    "base_mods": [
+      {
+        "key": "CORTOSIS"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -1385,10 +1443,12 @@
     "price": "1000",
     "rarity": "3",
     "hard_points": "1",
-    "base_mods": {
-      "misc_desc": "\n          Reduces the difficulty of Resilience checks made\n          to resist the effects of fire and extreme heat by one.\n          Removes up to [SETBACK][SETBACK] added to checks\n          due to extreme heat or fire.\n        ",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "misc_desc": "Reduces the difficulty of Resilience checks madeto resist the effects of fire and extreme heat by one.Removes up to [SETBACK][SETBACK] added to checksdue to extreme heat or fire.",
+        "count": "1"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -1405,10 +1465,12 @@
     "price": "1000",
     "rarity": "3",
     "hard_points": "1",
-    "base_mods": {
-      "misc_desc": "\n          Reduces the difficulty of Resilience checks made\n          to resist the effects extreme cold by one.\n          Removes up to [SETBACK][SETBACK] added to checks\n          due to extreme cold.\n        ",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "misc_desc": "Reduces the difficulty of Resilience checks madeto resist the effects extreme cold by one.Removes up to [SETBACK][SETBACK] added to checksdue to extreme cold.",
+        "count": "1"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -1423,10 +1485,12 @@
     "price": "1000",
     "rarity": "3",
     "hard_points": "1",
-    "base_mods": {
-      "misc_desc": "\n          Removes up to [SETBACK][SETBACK] added to all Perception,\n          Vigilance, and combat skill checks\n          due to darkness, smoke, or other environmental effects\n          that obscure vision.\n        ",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "misc_desc": "Removes up to [SETBACK][SETBACK] added to all Perception,Vigilance, and combat skill checksdue to darkness, smoke, or other environmental effectsthat obscure vision.",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "VIGIL",
       "count": "1"
@@ -1447,10 +1511,12 @@
     "price": "5500",
     "rarity": "4",
     "hard_points": "2",
-    "base_mods": {
-      "key": "BR",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "BR",
+        "count": "1"
+      }
+    ],
     "added_mods": [
       {
         "key": "ATHL",
@@ -1477,16 +1543,18 @@
     "price": "5500",
     "rarity": "6",
     "hard_points": "2",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "\n          Upgrades the ability of all Stealth\n          checks twice while wearing this armor.\n        ",
-      "die_modifiers": {
-        "die_modifier": {
-          "skill_key": "STEAL",
-          "upgrade_ability_count": "2"
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Upgrades the ability of all Stealthchecks twice while wearing this armor.",
+        "die_modifiers": {
+          "die_modifier": {
+            "skill_key": "STEAL",
+            "upgrade_ability_count": "2"
+          }
         }
       }
-    },
+    ],
     "added_mods": [
       {
         "key": "MASSHAD",
@@ -1513,10 +1581,12 @@
     "price": "5000",
     "rarity": "6",
     "hard_points": "1",
-    "base_mods": {
-      "key": "SUPERIOR",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "SUPERIOR",
+        "count": "1"
+      }
+    ],
     "added_mods": null,
     "image_filename": "missing.png"
   },
@@ -1537,7 +1607,7 @@
     "hard_points": "1",
     "base_mods": [
       {
-        "misc_desc": "\n          Allows the user to ignore the effects of\n          vacuum or poisonous atmospheric environments\n          for up to 10 minutes.\n        "
+        "misc_desc": "Allows the user to ignore the effects ofvacuum or poisonous atmospheric environmentsfor up to 10 minutes."
       },
       {
         "count": "1",
@@ -1601,10 +1671,12 @@
     "is_restricted": "false",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Mounts single weapon on armor.  User can aim and fire without using his hands.  Use \"Notes\" feature to specify which weapon is mounted."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Mounts single weapon on armor.  User can aim and fire without using his hands.  Use \"Notes\" feature to specify which weapon is mounted."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Dangerous Covenants"
@@ -1625,10 +1697,12 @@
     "is_restricted": "false",
     "hard_points": "0",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "A long range comlink is integrated into helmet."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "A long range comlink is integrated into helmet."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Dangerous Covenants"
@@ -1682,10 +1756,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": "SNIPSHOT",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "SNIPSHOT",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "SNIPSHOT",
       "count": "1"
@@ -1709,9 +1785,11 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "misc_desc": "Add [BOOST] to all Ranged attacks at long or extreme range."
-    },
+    "base_mods": [
+      {
+        "misc_desc": "Add [BOOST] to all Ranged attacks at long or extreme range."
+      }
+    ],
     "added_mods": {
       "key": "NATMAR"
     },
@@ -1734,9 +1812,11 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "misc_desc": "Add [SE] to Perception or Vigilance checks made to detect a character wearing this armor in appropriate environment."
-    },
+    "base_mods": [
+      {
+        "misc_desc": "Add [SE] to Perception or Vigilance checks made to detect a character wearing this armor in appropriate environment."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Savage Spirits"
@@ -1757,9 +1837,11 @@
     "is_restricted": "false",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "misc_desc": "Upgrades ability of Resiliance and Survival checks made in dry or hot environments due to scarcity of water twice."
-    },
+    "base_mods": [
+      {
+        "misc_desc": "Upgrades ability of Resiliance and Survival checks made in dry or hot environments due to scarcity of water twice."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Savage Spirits"
@@ -1823,7 +1905,9 @@
     "key": "DANTARI",
     "name": "Dantari Crystal",
     "description": "Please see page 196 of the Force and Destiny Core Rulebook for details.",
-    "sources": ["Force and Destiny Core Rulebook"],
+    "sources": [
+      "Force and Destiny Core Rulebook"
+    ],
     "item_attachment_type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
@@ -2457,10 +2541,12 @@
     "is_restricted": "false",
     "hard_points": "3",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Once per turn, spend a maneuver to add Vicious +3 to weapon until end of round.  [TH][TH][TH] or [DE] causes weapon to cease functioning until end of encounter."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Once per turn, spend a maneuver to add Vicious +3 to weapon until end of round.  [TH][TH][TH] or [DE] causes weapon to cease functioning until end of encounter."
+      }
+    ],
     "added_mods": [
       {
         "count": "1",
@@ -2496,10 +2582,12 @@
     "is_restricted": "true",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Must possess Force Rating 1+ to operate this weapon."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Must possess Force Rating 1+ to operate this weapon."
+      }
+    ],
     "added_mods": {
       "count": "1",
       "key": "PRESSHOT"
@@ -2524,10 +2612,12 @@
     "hard_points": "1",
     "encumbrance": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Removes up to [SE][SE] due to darkness on targets within short range."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Removes up to [SE][SE] due to darkness on targets within short range."
+      }
+    ],
     "added_mods": [
       {
         "count": "1",
@@ -2558,10 +2648,12 @@
     "hard_points": "1",
     "encumbrance": "0",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Wielder may recover engaged weapon as incidental."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Wielder may recover engaged weapon as incidental."
+      }
+    ],
     "added_mods": {
       "count": "1",
       "key": "QUICKDR"
@@ -2586,10 +2678,12 @@
     "hard_points": "1",
     "encumbrance": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "When wielder suffers hit from Melee, Brawl, or Lightsaber combat check, may spend [TH][TH] or [DE] to cause attacker to suffer 3 strain, ignoring soak."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "When wielder suffers hit from Melee, Brawl, or Lightsaber combat check, may spend [TH][TH] or [DE] to cause attacker to suffer 3 strain, ignoring soak."
+      }
+    ],
     "added_mods": [
       {
         "count": "2",
@@ -2663,10 +2757,12 @@
     "hard_points": "2",
     "encumbrance": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Prevents deactivation of power armor by electromagnetic or ion weapons."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Prevents deactivation of power armor by electromagnetic or ion weapons."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Keeping the Peace"
@@ -2691,10 +2787,12 @@
     "hard_points": "2",
     "encumbrance": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "+1 soak vs. blaster and flame attacks"
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "+1 soak vs. blaster and flame attacks"
+      }
+    ],
     "added_mods": {
       "count": "2",
       "misc_desc": "Decrease the difficulty of Resilience checks made to resist the effects of fire and extreme heat by 1"
@@ -2757,10 +2855,12 @@
     "encumbrance": "0",
     "jury_rigged": "false",
     "min_enc": "3",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "As a maneuver, wearer by shed the armor.  Armor must be reassembled before donning again, requiring several minutes and an [B]Average ([DI][DI]) Mechanics check[b]."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "As a maneuver, wearer by shed the armor.  Armor must be reassembled before donning again, requiring several minutes and an [B]Average ([DI][DI]) Mechanics check[b]."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Keeping the Peace"
@@ -2818,16 +2918,18 @@
     "encumbrance": "0",
     "jury_rigged": "false",
     "max_soak": "2",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Add automatic [AD] to Stealth checks",
-      "die_modifiers": {
-        "die_modifier": {
-          "skill_key": "STEAL",
-          "advantage_count": "1"
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Add automatic [AD] to Stealth checks",
+        "die_modifiers": {
+          "die_modifier": {
+            "skill_key": "STEAL",
+            "advantage_count": "1"
+          }
         }
       }
-    },
+    ],
     "added_mods": [
       {
         "key": "STALK",
@@ -2897,12 +2999,14 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": null,
-      "count": "1",
-      "index": "0",
-      "misc_desc": "Adds automatic [ADVANTAGE] to successful Lightsaber combat checks when engaged with a single opponent."
-    },
+    "base_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "index": "0",
+        "misc_desc": "Adds automatic [ADVANTAGE] to successful Lightsaber combat checks when engaged with a single opponent."
+      }
+    ],
     "added_mods": {
       "key": "DEFENSIVE",
       "count": "1"
@@ -2926,11 +3030,13 @@
     "is_restricted": "false",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": null,
-      "count": "1",
-      "misc_desc": "May change blade length once per encounter as an incidental.  Next attack that turn ignores target's melee defense."
-    },
+    "base_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "misc_desc": "May change blade length once per encounter as an incidental.  Next attack that turn ignores target's melee defense."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Force and Destiny Core Rulebook"
@@ -2951,10 +3057,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": "DAMADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "DAMADD",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "VICIOUS",
       "count": "1"
@@ -2978,9 +3086,11 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": "SUPERIOR"
-    },
+    "base_mods": [
+      {
+        "key": "SUPERIOR"
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Force and Destiny Core Rulebook"
@@ -3078,10 +3188,12 @@
     "is_restricted": "false",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": "STRAINADD",
-      "count": "4"
-    },
+    "base_mods": [
+      {
+        "key": "STRAINADD",
+        "count": "4"
+      }
+    ],
     "added_mods": {
       "key": "RAPREC",
       "count": "1"
@@ -3104,10 +3216,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "When reducing strain damage by soak, count soak as two higher"
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "When reducing strain damage by soak, count soak as two higher"
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Force and Destiny Core Rulebook"
@@ -3128,10 +3242,12 @@
     "is_restricted": "false",
     "hard_points": "0",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "A long-range comlink is integrated into the helmet"
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "A long-range comlink is integrated into the helmet"
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Force and Destiny Beta Rulebook"
@@ -3152,10 +3268,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "\n          Adds a general purpose scanner\n          to the user’s helmet. The scanner allows the user to\n          remove [SETBACK] imposed on any checks due to darkness\n          or environmental conditions such as smoke or fog. It\n          also allows the user to detect heat sources and motion\n          within medium range.\n        "
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Adds a general purpose scannerto the user’s helmet. The scanner allows the user toremove [SETBACK] imposed on any checks due to darknessor environmental conditions such as smoke or fog. Italso allows the user to detect heat sources and motionwithin medium range."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Force and Destiny Core Rulebook"
@@ -3176,10 +3294,12 @@
     "price": "4000",
     "rarity": "4",
     "hard_points": "1",
-    "base_mods": {
-      "key": "UPGUNN",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "UPGUNN",
+        "count": "1"
+      }
+    ],
     "added_mods": [
       {
         "key": "UPGUNN",
@@ -3305,10 +3425,12 @@
     "price": "3800",
     "rarity": "5",
     "hard_points": "2",
-    "base_mods": {
-      "key": "DEFZONEADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "DEFZONEADD",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "DEFZONEADD",
       "count": "2"
@@ -3330,10 +3452,12 @@
     "is_restricted": "true",
     "hard_points": "1",
     "min_encum_cap": "25",
-    "base_mods": {
-      "key": "SMUGENC",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "SMUGENC",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "SMUGENC",
       "count": "2"
@@ -3356,10 +3480,12 @@
     "price_size_mult": "true",
     "min_size": "5",
     "hard_points": "2",
-    "base_mods": {
-      "key": "HANGER",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "HANGER",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "HANGERSIZE",
       "count": "5"
@@ -3381,10 +3507,12 @@
     "rarity": "4",
     "hard_points": "1",
     "must_have_hyperdrive": "true",
-    "base_mods": {
-      "key": "HYPERDRIVESUB",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "HYPERDRIVESUB",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "HYPERDRIVESUB5",
       "count": "2"
@@ -3433,10 +3561,12 @@
     "price": "4800",
     "rarity": "6",
     "hard_points": "1",
-    "base_mods": {
-      "key": "CRANGEADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "CRANGEADD",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "CRANGEADD",
       "count": "2"
@@ -3482,9 +3612,11 @@
     "price": "2000",
     "rarity": "4",
     "hard_points": "1",
-    "base_mods": {
-      "misc_desc": "\n          When making auto-fire attack, do not increase difficulty by 1.\n        "
-    },
+    "base_mods": [
+      {
+        "misc_desc": "When making auto-fire attack, do not increase difficulty by 1."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Suns of Fortune"
@@ -3553,13 +3685,15 @@
     "is_restricted": "true",
     "hard_points": "3",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": null,
-      "count": "1",
-      "index": "0",
-      "misc_desc": "May cut a hole in a docked craft's hull or airlock.",
-      "def_zone": null
-    },
+    "base_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "index": "0",
+        "misc_desc": "May cut a hole in a docked craft's hull or airlock.",
+        "def_zone": null
+      }
+    ],
     "added_mods": {
       "key": "BOARDTUBETIME",
       "count": "4",
@@ -3597,13 +3731,15 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": null,
-      "count": "1",
-      "index": "0",
-      "misc_desc": "Provides concealment that adds [SETBACK][SETBACK][SETBACK].",
-      "def_zone": null
-    },
+    "base_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "index": "0",
+        "misc_desc": "Provides concealment that adds [SETBACK][SETBACK][SETBACK].",
+        "def_zone": null
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Dangerous Covenants"
@@ -3624,10 +3760,12 @@
     "is_restricted": "false",
     "hard_points": "0",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": "SSTRAINADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "SSTRAINADD",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "SSTRAINADD",
       "count": "2"
@@ -3653,10 +3791,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "As a maneuver, suffer 1 system strain to add +1 maximum speed for one round."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "As a maneuver, suffer 1 system strain to add +1 maximum speed for one round."
+      }
+    ],
     "added_mods": null,
     "max_size": "2",
     "sources": [
@@ -3678,10 +3818,12 @@
     "is_restricted": "false",
     "hard_points": "0",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": "DAMWEAPSYSADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "DAMWEAPSYSADD",
+        "count": "1"
+      }
+    ],
     "added_mods": null,
     "max_size": "2",
     "sources": [
@@ -3703,10 +3845,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": "HANDLINGADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "HANDLINGADD",
+        "count": "1"
+      }
+    ],
     "added_mods": null,
     "max_size": "2",
     "sources": [
@@ -3728,10 +3872,12 @@
     "is_restricted": "false",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Allows starship to link to an astromech droid via SCOMP"
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Allows starship to link to an astromech droid via SCOMP"
+      }
+    ],
     "added_mods": {
       "count": "1",
       "misc_desc": "Automated droid ejection system"
@@ -3756,10 +3902,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Allows vehicle to deploy gravity mines within close range"
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Allows vehicle to deploy gravity mines within close range"
+      }
+    ],
     "added_mods": {
       "count": "1",
       "misc_desc": "Increase deployable range to short"
@@ -3784,10 +3932,12 @@
     "is_restricted": "false",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "2",
-      "key": "SSTRAINADD"
-    },
+    "base_mods": [
+      {
+        "count": "2",
+        "key": "SSTRAINADD"
+      }
+    ],
     "added_mods": {
       "count": "2",
       "key": "SSTRAINADD"
@@ -3812,10 +3962,12 @@
     "is_restricted": "false",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "2",
-      "key": "HULLADD"
-    },
+    "base_mods": [
+      {
+        "count": "2",
+        "key": "HULLADD"
+      }
+    ],
     "added_mods": {
       "count": "2",
       "key": "HULLADD"
@@ -3840,10 +3992,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Adds [SETBACK] to all Gunnery checks made using misiles, rockets, or torpedoes targeting the starship."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Adds [SETBACK] to all Gunnery checks made using misiles, rockets, or torpedoes targeting the starship."
+      }
+    ],
     "added_mods": [
       {
         "count": "1",
@@ -3874,10 +4028,12 @@
     "is_restricted": "false",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Treats the starship or vehicle's defense as 2 higher when instigating a collision."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Treats the starship or vehicle's defense as 2 higher when instigating a collision."
+      }
+    ],
     "added_mods": {
       "count": "2",
       "misc_desc": "Add 1 more defense when instigating a collision."
@@ -3902,10 +4058,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Allows a ship or vehicle to be activated or deactivated by remote control."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Allows a ship or vehicle to be activated or deactivated by remote control."
+      }
+    ],
     "added_mods": [
       {
         "count": "1",
@@ -3926,7 +4084,9 @@
     "key": "POISONRES",
     "name": "Poison Reservoir",
     "description": "Please see page 105 of the Lords of Nal Hutta Sourcebook for details.",
-    "sources": ["Lords of Nal Hutta"],
+    "sources": [
+      "Lords of Nal Hutta"
+    ],
     "item_attachment_type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
@@ -3942,11 +4102,13 @@
     "is_restricted": "true",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": null,
-      "count": "1",
-      "misc_desc": "Allows user to store one dose of neurotoxin, anesthetic, neuroparalytic, or similar toxins."
-    },
+    "base_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "misc_desc": "Allows user to store one dose of neurotoxin, anesthetic, neuroparalytic, or similar toxins."
+      }
+    ],
     "added_mods": {
       "key": "RESDOSE",
       "count": "4"
@@ -3967,10 +4129,12 @@
     "rarity": "5",
     "is_restricted": "true",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Adds [SETBACK][SETBACK] to Perception or Vigilance checks made to locate a concealed shooter firing silenced blaster."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Adds [SETBACK][SETBACK] to Perception or Vigilance checks made to locate a concealed shooter firing silenced blaster."
+      }
+    ],
     "added_mods": null,
     "image_filename": "missing.png"
   },
@@ -3983,10 +4147,12 @@
     "rarity": "4",
     "is_restricted": "false",
     "hard_points": "1",
-    "base_mods": {
-      "key": "ADVADDINIT",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "ADVADDINIT",
+        "count": "1"
+      }
+    ],
     "added_mods": [
       {
         "key": "QUICKST",
@@ -4016,17 +4182,19 @@
     "is_restricted": "false",
     "hard_points": "0",
     "jury_rigged": "false",
-    "base_mods": {
-      "misc_desc": "Adds a Droid Brain with Astrogation Skill 2 and Intellect 0",
-      "count": "1",
-      "innate_skills": {
-        "innate_skill": {
-          "skill_key": "ASTRO",
-          "skill_rank": "2",
-          "ability_rank": "0"
+    "base_mods": [
+      {
+        "misc_desc": "Adds a Droid Brain with Astrogation Skill 2 and Intellect 0",
+        "count": "1",
+        "innate_skills": {
+          "innate_skill": {
+            "skill_key": "ASTRO",
+            "skill_rank": "2",
+            "ability_rank": "0"
+          }
         }
       }
-    },
+    ],
     "added_mods": {
       "count": "2",
       "misc_desc": "Increase Droid Brain's Astrogation Skill by 1",
@@ -4191,7 +4359,9 @@
     "key": "CLOAKSMUGG",
     "name": "Cloaked Smuggling Compartments",
     "description": "Please see page 63 of the Fly Casual Sourcebook, for details.",
-    "sources": ["Fly Casual"],
+    "sources": [
+      "Fly Casual"
+    ],
     "item_attachment_type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
@@ -4238,10 +4408,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Automatic [SU][TH] to the first combat check made with this weapon each encounter."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Automatic [SU][TH] to the first combat check made with this weapon each encounter."
+      }
+    ],
     "added_mods": {
       "count": "1",
       "misc_desc": "Adds [SU] to the first combat check made with this weapon each encounter"
@@ -4267,10 +4439,12 @@
     "is_restricted": "true",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "As incidental, weapon gains Prepare 1 quality and +4 damage for next attack.  After firing, weapon runs out of ammo."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "As incidental, weapon gains Prepare 1 quality and +4 damage for next attack.  After firing, weapon runs out of ammo."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Fly Casual"
@@ -4296,10 +4470,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Reduce [AD] required to hit with second weapon when two-weapon fighting by 1."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Reduce [AD] required to hit with second weapon when two-weapon fighting by 1."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Fly Casual"
@@ -4409,10 +4585,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Increases the strain threshold of each crewmember by 1"
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Increases the strain threshold of each crewmember by 1"
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Fly Casual"
@@ -4433,10 +4611,12 @@
     "is_restricted": "true",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Reduces range of enemy ship's passive sensors by 1 (minimum of close range) for detecting a vessel with nightshadow coating."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Reduces range of enemy ship's passive sensors by 1 (minimum of close range) for detecting a vessel with nightshadow coating."
+      }
+    ],
     "added_mods": {
       "count": "1",
       "misc_desc": "Reduce the ship's silhouette by 1 in combat"
@@ -4460,10 +4640,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Upgrades ability of Charm, Deception, and Negotiation checks while aboard once."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Upgrades ability of Charm, Deception, and Negotiation checks while aboard once."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Fly Casual"
@@ -4484,10 +4666,12 @@
     "is_restricted": "true",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Make an [B]Average ([DI][DI]) Mechanics check[b] as an action while in the cockpit or cargo bay to eject everything currently stored in the cargo hold."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Make an [B]Average ([DI][DI]) Mechanics check[b] as an action while in the cockpit or cargo bay to eject everything currently stored in the cargo hold."
+      }
+    ],
     "added_mods": {
       "count": "1",
       "misc_desc": "May instead be activated as an action without making a check Mod."
@@ -4511,10 +4695,12 @@
     "is_restricted": "true",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Increases the difficulty of checks to detect this vessel by two while it is traveling at speed 3 or lower."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Increases the difficulty of checks to detect this vessel by two while it is traveling at speed 3 or lower."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Fly Casual"
@@ -4525,7 +4711,9 @@
     "key": "ASEA",
     "name": "Advanced Subspace Encryption Array",
     "description": "Please see page 65 of the Desperate Allies Sourcebook for details.",
-    "sources": ["Desperate Allies"],
+    "sources": [
+      "Desperate Allies"
+    ],
     "item_attachment_type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
@@ -4566,7 +4754,9 @@
     "key": "LUXPASSCOMP",
     "name": "Luxury Passenger Compartments",
     "description": "Please see page 65 of the Desperate Allies Sourcebook for details.",
-    "sources": ["Desperate Allies"],
+    "sources": [
+      "Desperate Allies"
+    ],
     "item_attachment_type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
@@ -4577,11 +4767,13 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": null,
-      "count": "1",
-      "misc_desc": "Add [BO] to all Charm, Deception, and Negotiation checks made against passengers within the vehicle.  Checks made against passengers who are accustomed to opulence and luxury have up to [SE][SE] removed instead."
-    },
+    "base_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "misc_desc": "Add [BO] to all Charm, Deception, and Negotiation checks made against passengers within the vehicle.  Checks made against passengers who are accustomed to opulence and luxury have up to [SE][SE] removed instead."
+      }
+    ],
     "added_mods": null,
     "price_pass_mult": "true",
     "image_filename": "missing.png"
@@ -4590,7 +4782,9 @@
     "key": "HNPA",
     "name": "Holonet Pirate Array",
     "description": "Please see page 65 of the Desperate Allies Sourcebook for details.",
-    "sources": ["Desperate Allies"],
+    "sources": [
+      "Desperate Allies"
+    ],
     "item_attachment_type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
@@ -4601,11 +4795,13 @@
     "is_restricted": "true",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": null,
-      "count": "1",
-      "misc_desc": "Transmissions sent with this attachment can reach any facility that has access to interstellar communications.  Transmissions can be intercepted with a [B]Hard ([DI][DI][DI]) Computers check[b], provided someone is aware of the transmission."
-    },
+    "base_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "misc_desc": "Transmissions sent with this attachment can reach any facility that has access to interstellar communications.  Transmissions can be intercepted with a [B]Hard ([DI][DI][DI]) Computers check[b], provided someone is aware of the transmission."
+      }
+    ],
     "added_mods": [
       {
         "key": null,
@@ -4624,7 +4820,9 @@
     "key": "ENVSIM",
     "name": "Environmental Simulators",
     "description": "Please see page 64 of the Desperate Allies Sourcebook for details.",
-    "sources": ["Desperate Allies"],
+    "sources": [
+      "Desperate Allies"
+    ],
     "item_attachment_type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
@@ -4635,11 +4833,13 @@
     "is_restricted": "false",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": null,
-      "count": "1",
-      "misc_desc": "Can replicate up to three different planetary environments, one at a time.  When making Charm or Negotiation checks against members of species native to replicated environment, add an automatic [AD][AD] to pool."
-    },
+    "base_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "misc_desc": "Can replicate up to three different planetary environments, one at a time.  When making Charm or Negotiation checks against members of species native to replicated environment, add an automatic [AD][AD] to pool."
+      }
+    ],
     "added_mods": {
       "key": null,
       "count": "2",
@@ -4651,7 +4851,9 @@
     "key": "ENGACCESS",
     "name": "Engineering Access",
     "description": "Please see page 61 of the Enter the Unknown Sourcebook for details.",
-    "sources": ["Enter the Unknown"],
+    "sources": [
+      "Enter the Unknown"
+    ],
     "item_attachment_type": "Vehicle",
     "item_limit": {
       "key": "LORONARE9"
@@ -4664,11 +4866,13 @@
     "is_restricted": "false",
     "hard_points": "2",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": null,
-      "count": "1",
-      "misc_desc": "\n          Anyone working on internal systems, such as power systems, hyperdrive, computers, sensors, gain [BOOST] to Mechanics and Computer checks due to the ease of reaching such typically hidden systems.\n        "
-    },
+    "base_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "misc_desc": "Anyone working on internal systems, such as power systems, hyperdrive, computers, sensors, gain [BOOST] to Mechanics and Computer checks due to the ease of reaching such typically hidden systems."
+      }
+    ],
     "added_mods": null,
     "image_filename": "missing.png"
   },
@@ -4676,7 +4880,9 @@
     "key": "ANQ36",
     "name": "ANQ 3.6 Tracking Computer",
     "description": "Please see page 60 of the Enter the Unknown Sourcebook for details.",
-    "sources": ["Enter the Unknown"],
+    "sources": [
+      "Enter the Unknown"
+    ],
     "item_attachment_type": "Vehicle",
     "item_limit": {
       "key": "A36PTHFNDR"
@@ -4689,11 +4895,13 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": null,
-      "count": "1",
-      "misc_desc": "\n          Choose one target and make [B]Average ([DI][DI]) Computers check[b].  If successful, combat checks against target are upgraded once. [SU][SU][SU] or [TR] allows additional target.\n        "
-    },
+    "base_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "misc_desc": "Choose one target and make [B]Average ([DI][DI]) Computers check[b].  If successful, combat checks against target are upgraded once. [SU][SU][SU] or [TR] allows additional target."
+      }
+    ],
     "added_mods": null,
     "image_filename": "missing.png"
   },
@@ -4711,10 +4919,12 @@
     "is_restricted": "false",
     "hard_points": "1",
     "jury_rigged": "false",
-    "base_mods": {
-      "key": "HANDLINGADD",
-      "count": "2"
-    },
+    "base_mods": [
+      {
+        "key": "HANDLINGADD",
+        "count": "2"
+      }
+    ],
     "added_mods": null,
     "must_be_starship": "true",
     "min_size": "3",
@@ -4798,10 +5008,12 @@
     "rarity": "0",
     "is_restricted": "false",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Characters briefed in this auditorium prior to a mission remove [SE] due to known mission conditions from skill checks for the duration of the mission."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Characters briefed in this auditorium prior to a mission remove [SE] due to known mission conditions from skill checks for the duration of the mission."
+      }
+    ],
     "added_mods": {
       "count": "2",
       "misc_desc": "Add [AD] to Leadership checks made by characters within the briefing auditorium"
@@ -4822,10 +5034,12 @@
     "rarity": "6",
     "is_restricted": "false",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Make a [B]Hard ([DI][DI][DI]) Computers check[b] to cancel all effects of an electronic countermeasures suite."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Make a [B]Hard ([DI][DI][DI]) Computers check[b] to cancel all effects of an electronic countermeasures suite."
+      }
+    ],
     "added_mods": {
       "count": "1",
       "misc_desc": "Decrease difficulty of the Computers check by 1"
@@ -4843,10 +5057,12 @@
     "price": "5000",
     "rarity": "4",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Characters utilizing a holo-tank may always use Cool or Knowledge (Warfare)  when making Initiative checks."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Characters utilizing a holo-tank may always use Cool or Knowledge (Warfare)  when making Initiative checks."
+      }
+    ],
     "added_mods": [
       {
         "count": "2",
@@ -4870,10 +5086,12 @@
     "price": "4200",
     "rarity": "6",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "While active, a force commander in the vehicle upgrades the ability of all Mass Combat checks once"
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "While active, a force commander in the vehicle upgrades the ability of all Mass Combat checks once"
+      }
+    ],
     "added_mods": [
       {
         "key": "SITAWARE",
@@ -4897,10 +5115,12 @@
     "price": "8500",
     "rarity": "6",
     "hard_points": "2",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "While active, force commander on the bridge upgrades the ability of all Mass Combat checks twice"
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "While active, force commander on the bridge upgrades the ability of all Mass Combat checks twice"
+      }
+    ],
     "added_mods": [
       {
         "count": "2",
@@ -4926,10 +5146,12 @@
     "item_limit": {
       "key": "IONTHRUST"
     },
-    "base_mods": {
-      "key": "REMQUALION",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "REMQUALION",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "PIERCE",
       "count": "5"
@@ -4950,10 +5172,12 @@
     "price": "100",
     "rarity": "2",
     "hard_points": "1",
-    "base_mods": {
-      "key": "DAMSET",
-      "count": "5"
-    },
+    "base_mods": [
+      {
+        "key": "DAMSET",
+        "count": "5"
+      }
+    ],
     "added_mods": [
       {
         "key": "BURN",
@@ -4980,10 +5204,12 @@
     "price": "50",
     "rarity": "1",
     "hard_points": "1",
-    "base_mods": {
-      "key": "REMQUALLIMITEDAMMO",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "REMQUALLIMITEDAMMO",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5001,10 +5227,12 @@
     "rarity": "3",
     "hard_points": "1",
     "encumbrance": "1",
-    "base_mods": {
-      "key": "RANGEADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "RANGEADD",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "SUBQUALINACCURATE",
       "count": "2"
@@ -5095,10 +5323,12 @@
     "price": "1000",
     "rarity": "6",
     "hard_points": "2",
-    "base_mods": {
-      "key": "SUBQUALCUMBERSOME",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "SUBQUALCUMBERSOME",
+        "count": "1"
+      }
+    ],
     "added_mods": [
       {
         "key": "SUBQUALCUMBERSOME",
@@ -5155,10 +5385,12 @@
     "price": "100",
     "rarity": "5",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "When GM spends [DE] or [TH] to cause the weapon to run out of ammo, it requires an additional [TH]."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "When GM spends [DE] or [TH] to cause the weapon to run out of ammo, it requires an additional [TH]."
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5309,10 +5541,12 @@
     "price": "1500",
     "rarity": "8",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "May observe and target enemies who are completely hidden by solid objects."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "May observe and target enemies who are completely hidden by solid objects."
+      }
+    ],
     "added_mods": [
       {
         "key": "COOL",
@@ -5403,10 +5637,12 @@
     "rarity": "3",
     "hard_points": "1",
     "encumbrance": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Adds a vibro-bayonet to the weapon"
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Adds a vibro-bayonet to the weapon"
+      }
+    ],
     "added_mods": {
       "key": "DAMADD",
       "count": "2",
@@ -5477,22 +5713,24 @@
     "price": "400",
     "rarity": "3",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Removes [SE] from Athletics and Stealth checks.",
-      "die_modifiers": {
-        "die_modifier": [
-          {
-            "skill_key": "ATHL",
-            "setback_count": "1"
-          },
-          {
-            "skill_key": "STEAL",
-            "setback_count": "1"
-          }
-        ]
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Removes [SE] from Athletics and Stealth checks.",
+        "die_modifiers": {
+          "die_modifier": [
+            {
+              "skill_key": "ATHL",
+              "setback_count": "1"
+            },
+            {
+              "skill_key": "STEAL",
+              "setback_count": "1"
+            }
+          ]
+        }
       }
-    },
+    ],
     "added_mods": {
       "count": "1",
       "misc_desc": "Remove an additional [SE] from Athletics and Stealth checks",
@@ -5545,10 +5783,12 @@
     "price": "750",
     "rarity": "6",
     "hard_points": "3",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Counts as having Slicer Gear.  Can be controlled by gesture or voice."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Counts as having Slicer Gear.  Can be controlled by gesture or voice."
+      }
+    ],
     "added_mods": {
       "key": "TECHAPT",
       "count": "1"
@@ -5566,10 +5806,12 @@
     "price": "2000",
     "rarity": "7",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Increase soak by 3 against weapons with Ion quality."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Increase soak by 3 against weapons with Ion quality."
+      }
+    ],
     "added_mods": {
       "count": "1",
       "misc_desc": "Increase ranged and melee defense by 1 against weapons with Ion quality"
@@ -5592,10 +5834,12 @@
     "price": "500",
     "rarity": "3",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Add [BO][BO] to Resilience checks to resist radiation."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Add [BO][BO] to Resilience checks to resist radiation."
+      }
+    ],
     "added_mods": {
       "count": "2",
       "misc_desc": "Increase armor's soak by 1 against damage caused by radiation"
@@ -5613,10 +5857,12 @@
     "price": "250",
     "rarity": "2",
     "hard_points": "2",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "May use gauntlets as a melee weapon."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "May use gauntlets as a melee weapon."
+      }
+    ],
     "added_mods": {
       "key": "DURA",
       "count": "1"
@@ -5675,10 +5921,12 @@
     "price": "1400",
     "rarity": "2",
     "hard_points": "2",
-    "base_mods": {
-      "key": "ENCCADD",
-      "count": "50"
-    },
+    "base_mods": [
+      {
+        "key": "ENCCADD",
+        "count": "50"
+      }
+    ],
     "added_mods": {
       "key": "PASSADD2",
       "count": "3"
@@ -5699,10 +5947,12 @@
     "price": "3000",
     "rarity": "6",
     "hard_points": "2",
-    "base_mods": {
-      "key": "HANDLINGADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "HANDLINGADD",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "HANDLINGADD",
       "count": "1"
@@ -5781,10 +6031,12 @@
     "price": "8000",
     "rarity": "6",
     "hard_points": "3",
-    "base_mods": {
-      "key": "DEFZONEADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "DEFZONEADD",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "DEFZONEADD",
       "count": "2"
@@ -5836,10 +6088,12 @@
     "price": "3000",
     "rarity": "5",
     "hard_points": "2",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "As a maneuver, pilot may shift in or out of walker mode.  In walker mode, pilot uses Piloting (Planetary) and speed is reduced to 2."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "As a maneuver, pilot may shift in or out of walker mode.  In walker mode, pilot uses Piloting (Planetary) and speed is reduced to 2."
+      }
+    ],
     "added_mods": [
       {
         "count": "2",
@@ -5869,10 +6123,12 @@
     "price": "1000",
     "rarity": "5",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Vehicle can operate underwater without penalty."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Vehicle can operate underwater without penalty."
+      }
+    ],
     "max_size": "6",
     "price_size_mult": "true",
     "sources": [
@@ -5926,10 +6182,12 @@
     "item_attachment_type": "Vehicle",
     "price": "1000",
     "rarity": "6",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Upgrade difficulty of all Computers checks made to slice the ship's computer system once."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Upgrade difficulty of all Computers checks made to slice the ship's computer system once."
+      }
+    ],
     "added_mods": {
       "count": "2",
       "misc_desc": "Add [SE] to Computers checks made to slice the ship's computer systems"
@@ -5946,10 +6204,12 @@
     "item_attachment_type": "Vehicle",
     "price": "1000",
     "rarity": "6",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Upgrade difficulty of all Computers checks made to slice the ship's computer system once."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Upgrade difficulty of all Computers checks made to slice the ship's computer system once."
+      }
+    ],
     "added_mods": {
       "count": "2",
       "misc_desc": "Add [SE] to Computers checks made to slice the ship's computer systems"
@@ -5967,10 +6227,12 @@
     "price": "4000",
     "rarity": "5",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Downgrade difficulty of Astrogation checks made to navigate the ship through hyperspace once."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Downgrade difficulty of Astrogation checks made to navigate the ship through hyperspace once."
+      }
+    ],
     "added_mods": {
       "count": "2",
       "misc_desc": "Remove [SE] from Astrogation checks made to navigate the ship through hyperspace"
@@ -6021,16 +6283,18 @@
     "item_attachment_type": "Vehicle",
     "price": "7000",
     "rarity": "6",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Add a droid brain with Gunnery 2 and Agility 0.",
-      "innate_skills": {
-        "innate_skill": {
-          "skill_key": "GUNN",
-          "skill_rank": "2"
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Add a droid brain with Gunnery 2 and Agility 0.",
+        "innate_skills": {
+          "innate_skill": {
+            "skill_key": "GUNN",
+            "skill_rank": "2"
+          }
         }
       }
-    },
+    ],
     "added_mods": {
       "count": "2",
       "misc_desc": "Increase the droid brain's Gunnery skill by 1",
@@ -6054,10 +6318,12 @@
     "price": "3000",
     "rarity": "6",
     "hard_points": "2",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Add automatic [AD] to combat checks made with the ship's laser cannons and turbolasers."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Add automatic [AD] to combat checks made with the ship's laser cannons and turbolasers."
+      }
+    ],
     "must_be_starship": "true",
     "price_wepon_cat_mult": "Laser",
     "sources": [
@@ -6169,10 +6435,12 @@
     "item_attachment_type": "Vehicle",
     "price": "500",
     "rarity": "4",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Upgrade the difficulty Computers and Skulduggery checks made to gain unauthorized access to the ship twice."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Upgrade the difficulty Computers and Skulduggery checks made to gain unauthorized access to the ship twice."
+      }
+    ],
     "added_mods": {
       "count": "2",
       "misc_desc": "Add [SE] to Computers and Skulduggery checks made to gain unauthorized access to the ship"
@@ -6231,10 +6499,12 @@
     "rarity": "4",
     "hard_points": "0",
     "min_size": "2",
-    "base_mods": {
-      "key": "ENCTADD3",
-      "count": "2"
-    },
+    "base_mods": [
+      {
+        "key": "ENCTADD3",
+        "count": "2"
+      }
+    ],
     "added_mods": {
       "key": "ENCTADD3",
       "count": "10"
@@ -6256,10 +6526,12 @@
     "encumbrance": "2",
     "rarity": "5",
     "hard_points": "0",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Pacified beasts gain [BOOST] to any [B]Displine Checks[b]."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Pacified beasts gain [BOOST] to any [B]Displine Checks[b]."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Stay on Target"
@@ -6278,10 +6550,12 @@
     "encumbrance": "3",
     "rarity": "4",
     "hard_points": "0",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Characters may ride beast without suffering bareback riding penalties."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Characters may ride beast without suffering bareback riding penalties."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Savage Spirits"
@@ -6299,10 +6573,12 @@
     "price": "25",
     "rarity": "4",
     "hard_points": "0",
-    "base_mods": {
-      "key": "ENCTADD",
-      "count": "4"
-    },
+    "base_mods": [
+      {
+        "key": "ENCTADD",
+        "count": "4"
+      }
+    ],
     "sources": [
       "Savage Spirits"
     ],
@@ -6352,9 +6628,11 @@
     "price": "150",
     "rarity": "4",
     "hard_points": "1",
-    "base_mods": {
-      "misc_desc": "Remove [SE] added by the Called Shot use of the Aim maneuver from Ranged Light and Ranged Heavy checks."
-    },
+    "base_mods": [
+      {
+        "misc_desc": "Remove [SE] added by the Called Shot use of the Aim maneuver from Ranged Light and Ranged Heavy checks."
+      }
+    ],
     "added_mods": null,
     "sources": [
       "Forged in Battle"
@@ -6409,9 +6687,11 @@
     "encumbrance": "2",
     "rarity": "3",
     "hard_points": "1",
-    "base_mods": {
-      "misc_desc": "Removes up to [SE][SE] from checks to resist extreme heat or cold."
-    },
+    "base_mods": [
+      {
+        "misc_desc": "Removes up to [SE][SE] from checks to resist extreme heat or cold."
+      }
+    ],
     "sources": [
       "Forged in Battle"
     ],
@@ -6479,15 +6759,17 @@
     "encumbrance": "2",
     "rarity": "3",
     "hard_points": "1",
-    "base_mods": {
-      "misc_desc": "Adds [AD] to Vigilance checks.",
-      "die_modifiers": {
-        "die_modifier": {
-          "skill_key": "VIGIL",
-          "advantage_count": "1"
+    "base_mods": [
+      {
+        "misc_desc": "Adds [AD] to Vigilance checks.",
+        "die_modifiers": {
+          "die_modifier": {
+            "skill_key": "VIGIL",
+            "advantage_count": "1"
+          }
         }
       }
-    },
+    ],
     "sources": [
       "Forged in Battle"
     ],
@@ -6505,9 +6787,11 @@
     "encumbrance": "3",
     "rarity": "3",
     "hard_points": "1",
-    "base_mods": {
-      "misc_desc": "Adds additional twelve hours of oxygen when connected to any rebreather, breath mask, or sealed suit."
-    },
+    "base_mods": [
+      {
+        "misc_desc": "Adds additional twelve hours of oxygen when connected to any rebreather, breath mask, or sealed suit."
+      }
+    ],
     "sources": [
       "Forged in Battle"
     ],
@@ -6525,10 +6809,12 @@
     "encumbrance": "0",
     "rarity": "2",
     "hard_points": "1",
-    "base_mods": {
-      "key": "ENCTADD",
-      "count": "3"
-    },
+    "base_mods": [
+      {
+        "key": "ENCTADD",
+        "count": "3"
+      }
+    ],
     "sources": [
       "Forged in Battle"
     ],
@@ -6545,10 +6831,12 @@
     "price": "2000",
     "rarity": "7",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "As a maneuver, my adjust lightsaber to deal Stun damage.  Decrease damage by 2, increase critical rating by 1, lose Breach quality."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "As a maneuver, my adjust lightsaber to deal Stun damage.  Decrease damage by 2, increase critical rating by 1, lose Breach quality."
+      }
+    ],
     "added_mods": {
       "count": "2",
       "misc_desc": "Stun Damage +1"
@@ -6569,10 +6857,12 @@
     "price": "500",
     "rarity": "6",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Wielder can spend [AD] from combat checks to increase damage by 1.  GM can spend [TH][TH] to decrease damage by 1."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Wielder can spend [AD] from combat checks to increase damage by 1.  GM can spend [TH][TH] to decrease damage by 1."
+      }
+    ],
     "sources": [
       "Endless Vigil"
     ],
@@ -6589,10 +6879,12 @@
     "price": "750",
     "rarity": "5",
     "hard_points": "2",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Includes a built-in blaster pistol."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Includes a built-in blaster pistol."
+      }
+    ],
     "weapon_modifiers": {
       "unarmed_name": "Built-In Blaster Pistol",
       "skill_key": "RANGLT",
@@ -6622,10 +6914,12 @@
     "price": "4000",
     "rarity": "8",
     "hard_points": "2",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "When lightsaber is used to Parry or Reflect, suffer 1 additional strain, but count Parry and Reflect ranks as 1 higher."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "When lightsaber is used to Parry or Reflect, suffer 1 additional strain, but count Parry and Reflect ranks as 1 higher."
+      }
+    ],
     "added_mods": [
       {
         "key": "DEFENSIVE",
@@ -6652,43 +6946,45 @@
     "price": "100",
     "rarity": "6",
     "hard_points": "1",
-    "base_mods": {
-      "misc_desc": "\n          Wielder adds [AD] to all Lightsaber (Cunning) checks, but adds [TH] to all other Lightsaber checks.\n        ",
-      "die_modifiers": {
-        "die_modifier": [
-          {
-            "skill_key": "LTSABER",
-            "skill_char": "CUN",
-            "advantage_count": "1"
-          },
-          {
-            "skill_key": "LTSABER",
-            "skill_char": "BR",
-            "threat_count": "1"
-          },
-          {
-            "skill_key": "LTSABER",
-            "skill_char": "AG",
-            "threat_count": "1"
-          },
-          {
-            "skill_key": "LTSABER",
-            "skill_char": "INT",
-            "threat_count": "1"
-          },
-          {
-            "skill_key": "LTSABER",
-            "skill_char": "PR",
-            "threat_count": "1"
-          },
-          {
-            "skill_key": "LTSABER",
-            "skill_char": "WIL",
-            "threat_count": "1"
-          }
-        ]
+    "base_mods": [
+      {
+        "misc_desc": "Wielder adds [AD] to all Lightsaber (Cunning) checks, but adds [TH] to all other Lightsaber checks.",
+        "die_modifiers": {
+          "die_modifier": [
+            {
+              "skill_key": "LTSABER",
+              "skill_char": "CUN",
+              "advantage_count": "1"
+            },
+            {
+              "skill_key": "LTSABER",
+              "skill_char": "BR",
+              "threat_count": "1"
+            },
+            {
+              "skill_key": "LTSABER",
+              "skill_char": "AG",
+              "threat_count": "1"
+            },
+            {
+              "skill_key": "LTSABER",
+              "skill_char": "INT",
+              "threat_count": "1"
+            },
+            {
+              "skill_key": "LTSABER",
+              "skill_char": "PR",
+              "threat_count": "1"
+            },
+            {
+              "skill_key": "LTSABER",
+              "skill_char": "WIL",
+              "threat_count": "1"
+            }
+          ]
+        }
       }
-    },
+    ],
     "sources": [
       "Endless Vigil"
     ],
@@ -7419,10 +7715,12 @@
     "price": "2200",
     "rarity": "6",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Reduce silhouette by 1 for purposes of determining difficulty of Piloting checks."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Reduce silhouette by 1 for purposes of determining difficulty of Piloting checks."
+      }
+    ],
     "sources": [
       "Endless Vigil"
     ],
@@ -7439,10 +7737,12 @@
     "price": "400",
     "rarity": "4",
     "hard_points": "1",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "To eject, make an [B]Average ([DI][DI]) Piloting (Planetary) check[b] as an out-of-turn incidental.  On success, pilot is ejected unharmed.  On failure, pilot suffers vehicle speed in strain, plus one Critical Injury.  GM can spend [TH][TH] or [DE] to cause wounds to be suffered instead."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "To eject, make an [B]Average ([DI][DI]) Piloting (Planetary) check[b] as an out-of-turn incidental.  On success, pilot is ejected unharmed.  On failure, pilot suffers vehicle speed in strain, plus one Critical Injury.  GM can spend [TH][TH] or [DE] to cause wounds to be suffered instead."
+      }
+    ],
     "sources": [
       "Endless Vigil"
     ],
@@ -7511,10 +7811,12 @@
     "price": "4000",
     "rarity": "6",
     "hard_points": "1",
-    "base_mods": {
-      "key": "HANDLINGADD",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "HANDLINGADD",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "HANDLINGADD",
       "count": "2"
@@ -7535,10 +7837,12 @@
     "price": "4500",
     "rarity": "3",
     "hard_points": "2",
-    "base_mods": {
-      "key": "ADDALT50",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "ADDALT50",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "ADDALT50",
       "count": "3"
@@ -7555,10 +7859,12 @@
     "item_attachment_type": "Vehicle",
     "price": "2500",
     "rarity": "3",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Reduce Critical Hit result from collision by 20"
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Reduce Critical Hit result from collision by 20"
+      }
+    ],
     "added_mods": {
       "count": "1",
       "misc_desc": "Reduce Critical Hit result from collision by 20"
@@ -7579,10 +7885,12 @@
     "price": "4200",
     "rarity": "4",
     "hard_points": "1",
-    "base_mods": {
-      "key": "SETDEFFORE",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "SETDEFFORE",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "DEFZONEADD",
       "count": "1"
@@ -7603,10 +7911,12 @@
     "price": "1000",
     "rarity": "2",
     "hard_points": "1",
-    "base_mods": {
-      "key": "SETHAND",
-      "count": "-1"
-    },
+    "base_mods": [
+      {
+        "key": "SETHAND",
+        "count": "-1"
+      }
+    ],
     "sources": [
       "Endless Vigil"
     ],
@@ -7623,10 +7933,12 @@
     "price": "4000",
     "rarity": "5",
     "hard_points": "2",
-    "base_mods": {
-      "key": "SETSPEED",
-      "count": "4"
-    },
+    "base_mods": [
+      {
+        "key": "SETSPEED",
+        "count": "4"
+      }
+    ],
     "sources": [
       "Endless Vigil"
     ],
@@ -7641,11 +7953,13 @@
     "price": "50",
     "rarity": "4",
     "hard_points": "1",
-    "base_mods": {
-      "key": "GUIDED",
-      "count": "2",
-      "qual_set": "true"
-    },
+    "base_mods": [
+      {
+        "key": "GUIDED",
+        "count": "2",
+        "qual_set": "true"
+      }
+    ],
     "added_mods": [
       {
         "key": "GUIDED",
@@ -7704,10 +8018,12 @@
     "price": "900",
     "rarity": "4",
     "hard_points": "1",
-    "base_mods": {
-      "key": "THRCANCEL",
-      "count": "1"
-    },
+    "base_mods": [
+      {
+        "key": "THRCANCEL",
+        "count": "1"
+      }
+    ],
     "added_mods": {
       "key": "THRCANCEL",
       "count": "1"
@@ -7729,10 +8045,12 @@
     "price": "1500",
     "rarity": "5",
     "hard_points": "2",
-    "base_mods": {
-      "key": "STUN",
-      "count": "2"
-    },
+    "base_mods": [
+      {
+        "key": "STUN",
+        "count": "2"
+      }
+    ],
     "added_mods": [
       {
         "key": "STUN",
@@ -7808,10 +8126,12 @@
     "rarity": "4",
     "hard_points": "2",
     "encumbrance": "4",
-    "base_mods": {
-      "key": "HOLSTER3",
-      "count": "2"
-    },
+    "base_mods": [
+      {
+        "key": "HOLSTER3",
+        "count": "2"
+      }
+    ],
     "added_mods": [
       {
         "count": "2",
@@ -7840,10 +8160,12 @@
     "is_restricted": "true",
     "hard_points": "2",
     "encumbrance": "3",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Enables armor to fire loaded micro-rockets."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Enables armor to fire loaded micro-rockets."
+      }
+    ],
     "added_mods": [
       {
         "key": "LIMITEDAMMO",
@@ -7885,10 +8207,12 @@
     "hard_points": "2",
     "encumbrance": "0",
     "category_limit": "Hard Full Body",
-    "base_mods": {
-      "key": "ENCTBRADD",
-      "count": "5"
-    },
+    "base_mods": [
+      {
+        "key": "ENCTBRADD",
+        "count": "5"
+      }
+    ],
     "added_mods": [
       {
         "key": "ENCTBRADD",
@@ -8014,10 +8338,12 @@
     "price": "3500",
     "rarity": "7",
     "hard_points": "3",
-    "base_mods": {
-      "count": "1",
-      "misc_desc": "Full incarceration and security suite for 2 prisoners."
-    },
+    "base_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Full incarceration and security suite for 2 prisoners."
+      }
+    ],
     "added_mods": {
       "count": "4",
       "misc_desc": "Support for one additional prisoner."

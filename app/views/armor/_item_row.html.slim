@@ -5,6 +5,9 @@ tr
     = item.fetch('name')
   td
     = item.fetch('description')
+    br
+    - item.fetch('base_mods', []).each do |mod|
+      p= mod.fetch('misc_desc', '')
   td
     = number_with_delimiter item.fetch('price')
   td
