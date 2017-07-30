@@ -1,13 +1,14 @@
 class ItemList
   attr_reader :shop_list
 
-  def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world:)
+  def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world:, min_size: 0, max_size: 1_000)
     @world = World.find(world)
     @item_list = build_item_list
     @shop_modifiers = shop_types[shop_type]
     @dice_pool = DicePool.new(skill_level: skill_level.to_i, characteristic_level: characteristic_level.to_i, number_boost_dice: boost_dice.to_i, number_setback_dice: setback_dice.to_i)
-    shop_info = { shop_type: shop_type, dice_pool: @dice_pool.dice_counts, characteristic_level: characteristic_level.to_i, skill_level: skill_level.to_i, world: @world.as_json }
-    @shop_list = { items: { armor: [], gear: [], item_attachments: [], weapons: [] }, info: shop_info }
+    @shop_info = { shop_type: shop_type, dice_pool: @dice_pool.dice_counts, characteristic_level: characteristic_level.to_i, skill_level: skill_level.to_i, world: @world.as_json }
+    @shop_list = { items: { armor: [], gear: [], item_attachments: [], weapons: [] }, info: @shop_info }
+    @shop_size = rand(max_size.to_i - min_size.to_i + 1) + min_size.to_i
   end
 
   def randomize
@@ -51,8 +52,19 @@ class ItemList
         end
       end
     end
+
+    if @shop_size < @shop_list[:items].keys.map { |item_type| @shop_list[:items][item_type].count }.sum
+      @sized_shop = { items: { armor: [], gear: [], item_attachments: [], weapons: [] }, info: @shop_info }
+      @shop_list[:items].keys.each do |item_type|
+        (@shop_size / 4).times do |num|
+          next if num.nil?
+          item = @shop_list[:items][item_type].sample
+          @sized_shop[:items][item_type] << item
+        end
+      end
+      @shop_list = @sized_shop
+    end
     @shop_list[:items].keys.each { |item_type| @shop_list[:items][item_type].sort_by! { |i| i['name'].downcase } }
-    true
   end
 
   private

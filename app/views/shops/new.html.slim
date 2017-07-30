@@ -24,6 +24,14 @@
       label.col-sm-2.col-form-label World
       .col-sm-10
         = f.input :world, collection: World.all.map { |w| ["#{w.name} / Rarity Modifier: #{w.rarity_modifier} / Price Modifier: #{w.price_modifier}", w.id] }, selected: 1, label: false, input_html: { class: 'form-control' }
+    .form-group.row
+      label.col-sm-2.col-form-label Min Items
+      .col-sm-10
+        = f.input :min_size, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10_000, value: 10 }
+    .form-group.row
+      label.col-sm-2.col-form-label Max Items
+      .col-sm-10
+        = f.input :max_size, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10_000, value: 1_000 }
     .row.justify-content-center
       .col-sm-3
         = f.button :submit, 'Generate Shop', class: 'btn btn-success btn-lg btn-block'
