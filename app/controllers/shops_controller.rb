@@ -14,7 +14,7 @@ class ShopsController < ApplicationController
   def create
     item_list = ItemList.new(shop_params.to_h.symbolize_keys)
     item_list.randomize
-    shop_id = SecureRandom.base58(10)
+    shop_id = generate_key
     Redis.current.setex "shops:#{shop_id}", 24.hours, item_list.shop_list.to_json
     redirect_to shop_path(shop_id)
   end
@@ -24,5 +24,12 @@ class ShopsController < ApplicationController
   def shop_params
     params.require(:shop).permit(:shop_type, :boost_dice, :setback_dice, :characteristic_level,
                                  :skill_level, :world, :min_size, :max_size)
+  end
+
+  def generate_key
+    loop do
+      shop_id = SecureRandom.base58(10)
+      break shop_id if Redis.current.get("shops:#{shop_id}") == nil
+    end
   end
 end
