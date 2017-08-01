@@ -4,8 +4,7 @@ tr
   td
     = item.fetch('name')
   td
-    = item.fetch('description')
-    br
+    p= item.fetch('description')
     - item.fetch('base_mods', []).each do |mod|
       p= format_description(mod.fetch('misc_desc', ''))
   td
