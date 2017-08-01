@@ -45,4 +45,36 @@ module ShopsHelper
     end
     dice.join.html_safe
   end
+
+  def format_description(description)
+    return if description.nil?
+    types = {
+      '[-]'          => '[-]',
+      '[I]'          => '<i>',
+      '[i]'          => '</i>',
+      '[B]'          => '<b>',
+      '[b]'          => '</b>',
+      '[TH]'         => image_tag('threat.svg', width: 15),
+      '[THREAT]'     => image_tag('threat.svg', width: 15),
+      '[TR]'         => image_tag('triumph.svg', width: 15),
+      '[SE]'         => image_tag('setback.svg', width: 15),
+      '[SETBACK]'    => image_tag('setback.svg', width: 15),
+      '[AD]'         => image_tag('advantage.svg', width: 15),
+      '[ADVANTAGE]'  => image_tag('advantage.svg', width: 15),
+      '[DE]'         => image_tag('dispair.svg', width: 15),
+      '[DESPAIR]'    => image_tag('dispair.svg', width: 15),
+      '[CH]'         => image_tag('challenge.svg', width: 15),
+      '[DI]'         => image_tag('difficulty.svg', width: 15),
+      '[DIFFICULTY]' => image_tag('difficulty.svg', width: 15),
+      '[BOOST]'      => image_tag('boost.svg', width: 15),
+      '[BO]'         => image_tag('boost.svg', width: 15)
+    }.freeze
+
+    results = description.scan(/(\[(?:\[??[^\[]*?\]))/).flatten.uniq
+
+    results.each do |result|
+      description.gsub!(result, types[result])
+    end
+    description.html_safe
+  end
 end

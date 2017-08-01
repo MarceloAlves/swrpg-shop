@@ -7,7 +7,7 @@ tr
     = item.fetch('description')
     br
     - item.fetch('base_mods', []).each do |mod|
-      p= mod.fetch('misc_desc', '')
+      p= format_description(mod.fetch('misc_desc', ''))
   td
     = number_with_delimiter item.fetch('price')
   td
