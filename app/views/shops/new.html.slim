@@ -32,6 +32,10 @@
       label.col-sm-2.col-form-label Max Items
       .col-sm-10
         = f.input :max_size, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10_000, value: 1_000 }
+    .row
+      .col-sm-10
+        p.small 
+          span.text-muted Note: Free shops expire after 24 hours
     .row.justify-content-center
       .col-sm-3
         = f.button :submit, 'Generate Shop', class: 'btn btn-success btn-lg btn-block'
