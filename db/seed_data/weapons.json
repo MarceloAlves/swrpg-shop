@@ -4558,7 +4558,7 @@
         "base_mods": [
             {
                 "count": "1",
-                "misc_desc": "The first time a character hit by this grenade (even if he suffers no damage) must roll a single [CH]. As long as the character doesn't roll a\n        [DE], he is affected normally.  If he rolls a [DE], he immediately suffers 6 strain and begins to suffocate.  A [B]Hard ([DI][DI][DI]) Medicine check[b] is required to stop the subject from suffocating."
+                "misc_desc": "The first time a character hit by this grenade (even if he suffers no damage) must roll a single [CH]. As long as the character doesn't roll a [DE], he is affected normally.  If he rolls a [DE], he immediately suffers 6 strain and begins to suffocate.  A [B]Hard ([DI][DI][DI]) Medicine check[b] is required to stop the subject from suffocating."
             }
         ],
         "qualities": [
@@ -11315,7 +11315,7 @@
         "range_value": "wrClose",
         "base_mods": [
             {
-                "key": "\n        ",
+                "key": "",
                 "count": "1",
                 "index": "0",
                 "misc_desc": "Enemies caught in the tractor beam add [SETBACK][SETBACK] to all Piloting checks and attacks, and suffer 1 system strain when performing Accelerate/Decelerate, Fly/Drive, or Punch It maneuvers.",

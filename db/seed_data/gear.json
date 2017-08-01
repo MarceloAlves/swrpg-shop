@@ -3216,7 +3216,7 @@
       },
       {
         "count": "1",
-        "misc_desc": "\n          Decrease the difficulty of Medicine checks to heal Critical Injuries by 1 to a minimum of [B]Easy ([DI])[b].\n        "
+        "misc_desc": "Decrease the difficulty of Medicine checks to heal Critical Injuries by 1 to a minimum of [B]Easy ([DI])[b]."
       }
     ],
     "sources": [
@@ -6291,7 +6291,7 @@
     "image_filename": "missing.png",
     "base_mods": [
       {
-        "misc_desc": "\n          Cannot be seen visually.  All other means of detecting location use [B]Formidible ([DI][DI][DI][DI]) difficulty[b].\n        ",
+        "misc_desc": "Cannot be seen visually.  All other means of detecting location use [B]Formidible ([DI][DI][DI][DI]) difficulty[b].",
         "count": "1"
       }
     ]
@@ -6381,7 +6381,7 @@
         "key": "DEMONMASK"
       },
       {
-        "misc_desc": "\n          Characters making Discipline checks to resist fear caused by a character\n          wearing a Demon Mask add [SETBACK] equal to that character’s Force rating.\n        ",
+        "misc_desc": "Characters making Discipline checks to resist fear caused by a character wearing a Demon Mask add [SETBACK] equal to that character’s Force rating.",
         "count": "1"
       }
     ],
