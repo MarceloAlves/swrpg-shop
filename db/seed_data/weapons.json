@@ -7465,54 +7465,6 @@
         "image_filename": "missing.png"
     },
     {
-        "key": "SHISBLADE",
-        "name": "Shistavanen Combat Utility Vibroblade",
-        "description": "Please see page 48 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Melee",
-        "categories": [
-            "Cutting Edge Melee",
-            "Powered Melee"
-        ],
-        "encumbrance": "2",
-        "price": "600",
-        "rarity": "7",
-        "base_mods": [
-            {
-                "count": "1",
-                "misc_desc": "The Combat Utility Vibroblade serves as a tool kit to allow Mechanics checks to repair devices and to \"heal\" droids, but adds [SE] to such checks."
-            },
-            {
-                "count": "1",
-                "misc_desc": "Adds [BO] to the character's Survival checks.",
-                "die_modifiers": {
-                    "die_modifier": {
-                        "skill_key": "SURV",
-                        "boost_count": "1"
-                    }
-                }
-            }
-        ],
-        "skill_key": "MELEE",
-        "damage_add": "1",
-        "crit": "2",
-        "size_high": "10",
-        "range_value": "wrEngaged",
-        "qualities": [
-            {
-                "key": "PIERCE",
-                "count": "2"
-            },
-            {
-                "key": "VICIOUS",
-                "count": "1"
-            }
-        ],
-        "sources": [
-            "Forged in Battle"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
         "key": "PARRDAGG",
         "name": "Parrying Dagger",
         "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
@@ -9556,37 +9508,6 @@
         "image_filename": "missing.png"
     },
     {
-        "key": "STUNBATON",
-        "name": "Stun Baton",
-        "description": "Please see page 43 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Melee",
-        "categories": [],
-        "encumbrance": "2",
-        "hard_points": "2",
-        "price": "200",
-        "rarity": "4",
-        "is_restricted": "false",
-        "base_mods": [],
-        "skill_key": "MELEE",
-        "damage": "2",
-        "damage_add": "0",
-        "crit": "6",
-        "range_value": "wrEngaged",
-        "qualities": [
-            {
-                "key": "DISORIENT",
-                "count": "2"
-            },
-            {
-                "key": "STUNDAMAGE"
-            }
-        ],
-        "sources": [
-            "Far Horizons"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
         "key": "THNDRBOLT",
         "name": "Thunderbolt Shock Prod",
         "description": "Please see page 43 of the Far Horizons Sourcebook for details.",
@@ -10787,36 +10708,6 @@
             {
                 "key": "DISORIENT",
                 "count": "2"
-            },
-            {
-                "key": "STUNDAMAGE"
-            }
-        ],
-        "sources": [
-            "Far Horizons"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "THNDRBOLT",
-        "name": "Thunderbolt Shock Prod",
-        "description": "Please see page 43 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Melee",
-        "categories": [],
-        "encumbrance": "0",
-        "hard_points": "2",
-        "price": "875",
-        "rarity": "4",
-        "is_restricted": "false",
-        "skill_key": "MELEE",
-        "damage": "5",
-        "damage_add": "0",
-        "crit": "3",
-        "range_value": "wrEngaged",
-        "qualities": [
-            {
-                "key": "CONCUSSIVE",
-                "count": "1"
             },
             {
                 "key": "STUNDAMAGE"
