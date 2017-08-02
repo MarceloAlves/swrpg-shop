@@ -3,6 +3,7 @@ tr
     = image_tag("items/#{item.fetch('image_filename')}", width: '150')
   td
     = item.fetch('name')
+    = item.fetch('is_restricted', false) ? '&nbsp;<span class="restricted-item">(R)</span>'.html_safe : nil
   td
     = item.fetch('description')
     br
