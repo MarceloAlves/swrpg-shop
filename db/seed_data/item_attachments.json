@@ -206,7 +206,8 @@
         "key": "PRICEHALF"
       }
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "BIPOD",
@@ -235,7 +236,8 @@
         "count": "-2"
       }
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "BOWREC",
@@ -252,10 +254,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "AUTOFIRE",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "AUTOFIRE",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -314,10 +318,12 @@
         "key": "QUICKDR"
       }
     ],
-    "added_mods": {
-      "misc_desc": "Decreases the difficulty of checks to conceal the weapon by one.",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "misc_desc": "Decreases the difficulty of checks to conceal the weapon by one.",
+        "count": "1"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -411,10 +417,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "PIERCE",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "PIERCE",
+        "count": "2"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -438,10 +446,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "PERC",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "PERC",
+        "count": "2"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -472,10 +482,12 @@
         "qual_set": "true"
       }
     ],
-    "added_mods": {
-      "key": "BLAST",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "BLAST",
+        "count": "2"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -499,7 +511,7 @@
         "count": "1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "image_filename": "missing.png"
   },
   {
@@ -521,7 +533,7 @@
         "key": "SUPERIOR"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "image_filename": "missing.png"
   },
   {
@@ -548,9 +560,11 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "QUICKDR"
-    },
+    "added_mods": [
+      {
+        "key": "QUICKDR"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -590,10 +604,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "LIMITEDAMMO",
-      "count": "5"
-    },
+    "added_mods": [
+      {
+        "key": "LIMITEDAMMO",
+        "count": "5"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -625,7 +641,7 @@
         "count": "1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "weapon_modifiers": {
       "unarmed": "false",
       "unarmed_name": "Flame Projector",
@@ -670,7 +686,7 @@
         "count": "1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "image_filename": "missing.png"
   },
   {
@@ -699,10 +715,12 @@
         "count": "-3"
       }
     ],
-    "added_mods": {
-      "key": "CUMBERSOME",
-      "count": "-2"
-    },
+    "added_mods": [
+      {
+        "key": "CUMBERSOME",
+        "count": "-2"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -727,9 +745,11 @@
         "count": "-1"
       }
     ],
-    "added_mods": {
-      "key": "QUICKDR"
-    },
+    "added_mods": [
+      {
+        "key": "QUICKDR"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -755,10 +775,12 @@
         "count": "-2"
       }
     ],
-    "added_mods": {
-      "key": "BRA",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "BRA",
+        "count": "1"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -818,7 +840,7 @@
         "misc_desc": "Upon hit, target must make [B]Average ([DIFFICULTY][DIFFICULTY]) Resilience check[b].  If fail, target takes 5 strain, plus 2 strain per [THREAT].  GM may use [DESPAIR] to make target check again next round at increased difficulty."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Enter the Unknown"
     ],
@@ -844,11 +866,13 @@
         "misc_desc": "Weapon functions only in the hands of its authorized user."
       }
     ],
-    "added_mods": {
-      "key": null,
-      "count": "1",
-      "misc_desc": "Self-Destruct.  Inflicts one critical hit if unauthorized user tries to use locked weapon.  Weapon is destroyed."
-    },
+    "added_mods": [
+      {
+        "key": null,
+        "count": "1",
+        "misc_desc": "Self-Destruct.  Inflicts one critical hit if unauthorized user tries to use locked weapon.  Weapon is destroyed."
+      }
+    ],
     "sources": [
       "Dangerous Covenants"
     ],
@@ -877,7 +901,7 @@
         "count": "1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Dangerous Covenants"
     ],
@@ -914,7 +938,7 @@
         "count": "1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Dangerous Covenants"
     ],
@@ -951,7 +975,7 @@
         "count": "3"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Dangerous Covenants"
     ],
@@ -979,7 +1003,7 @@
         "misc_desc": "Weapon can be worn on the wrist, freeing user's hands."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Dangerous Covenants"
     ],
@@ -1009,10 +1033,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "misc_desc": "Add [SE] to checks made to detect this weapon's fire"
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Add [SE] to checks made to detect this weapon's fire"
+      }
+    ],
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -1038,7 +1064,7 @@
         "misc_desc": "Remove up to [SETBACK][SETBACK] on any checks to use this weapon due to darkness"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -1065,7 +1091,7 @@
         "misc_desc": "Increases the difficulty of any checks made to detect the sheath or the weapon it holds by two"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -1093,10 +1119,12 @@
         "count": "2"
       }
     ],
-    "added_mods": {
-      "key": "STUN",
-      "count": "3"
-    },
+    "added_mods": [
+      {
+        "key": "STUN",
+        "count": "3"
+      }
+    ],
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -1122,7 +1150,7 @@
         "misc_desc": "Increase the difficulty checks using scanners to search for this weapon by 2.  Add [SE] to all Mechanics checks to perform maintenance on this weapon."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "min_enc": "0",
     "max_enc": "3",
     "sources": [
@@ -1150,10 +1178,12 @@
         "misc_desc": "Allows shooter to aim as an incidental once per round at short range.  Decreases the difficulty of Perception checks to locate the shooter in low light conditions by 1."
       }
     ],
-    "added_mods": {
-      "key": "ACCURATE",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "ACCURATE",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Strongholds of Resistance"
     ],
@@ -1179,7 +1209,7 @@
         "misc_desc": "Prevents a weapon from breaking down as a result of a specific type of environment."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Savage Spirits"
     ],
@@ -1250,10 +1280,12 @@
         "misc_desc": "Remove [SE] due to target movement or use of Guarded Stance."
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "key": "PRECAIM"
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "key": "PRECAIM"
+      }
+    ],
     "sources": [
       "Savage Spirits"
     ],
@@ -1281,7 +1313,7 @@
         "misc_desc": "Adds [SE][SE] to Perception or Vigilance checks made to locate a concealed shooter firing a silenced slugthrower."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Savage Spirits"
     ],
@@ -1315,7 +1347,7 @@
         "def_zone": null
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Strongholds of Resistance"
     ],
@@ -1347,7 +1379,7 @@
         "misc_desc": "Immediately notifies all ships in a star system or within 100 kilometers if planetside to the ship or vehicle's existence."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Strongholds of Resistance"
     ],
@@ -1372,10 +1404,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "ENCTADD",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "ENCTADD",
+        "count": "2"
+      }
+    ],
     "sources": [
       "Enter the Unknown"
     ],
@@ -1400,10 +1434,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "ENCTADD",
-      "count": "3"
-    },
+    "added_mods": [
+      {
+        "key": "ENCTADD",
+        "count": "3"
+      }
+    ],
     "sources": [
       "Savage Spirits"
     ],
@@ -1427,7 +1463,8 @@
         "key": "CORTOSIS"
       }
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "TSS",
@@ -1449,7 +1486,8 @@
         "count": "1"
       }
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "HEAT",
@@ -1471,7 +1509,8 @@
         "count": "1"
       }
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "EOS",
@@ -1491,10 +1530,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "VIGIL",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "VIGIL",
+        "count": "1"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -1587,7 +1628,7 @@
         "count": "1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "image_filename": "missing.png"
   },
   {
@@ -1614,7 +1655,7 @@
         "key": "SEALED"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "image_filename": "missing.png"
   },
   {
@@ -1648,10 +1689,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "HEALPLUSONE",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "HEALPLUSONE",
+        "count": "2"
+      }
+    ],
     "sources": [
       "Dangerous Covenants"
     ],
@@ -1677,7 +1720,7 @@
         "misc_desc": "Mounts single weapon on armor.  User can aim and fire without using his hands.  Use \"Notes\" feature to specify which weapon is mounted."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Dangerous Covenants"
     ],
@@ -1703,7 +1746,7 @@
         "misc_desc": "A long range comlink is integrated into helmet."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Dangerous Covenants"
     ],
@@ -1733,10 +1776,12 @@
         "misc_desc": "Adds [BOOST] to Perception checks to detect movement or hidden enemies."
       }
     ],
-    "added_mods": {
-      "key": "PERC",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "PERC",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Dangerous Covenants"
     ],
@@ -1762,10 +1807,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "SNIPSHOT",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "SNIPSHOT",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Dangerous Covenants"
     ],
@@ -1790,9 +1837,11 @@
         "misc_desc": "Add [BOOST] to all Ranged attacks at long or extreme range."
       }
     ],
-    "added_mods": {
-      "key": "NATMAR"
-    },
+    "added_mods": [
+      {
+        "key": "NATMAR"
+      }
+    ],
     "sources": [
       "Dangerous Covenants"
     ],
@@ -1817,7 +1866,7 @@
         "misc_desc": "Add [SE] to Perception or Vigilance checks made to detect a character wearing this armor in appropriate environment."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Savage Spirits"
     ],
@@ -1842,7 +1891,7 @@
         "misc_desc": "Upgrades ability of Resiliance and Survival checks made in dry or hot environments due to scarcity of water twice."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Savage Spirits"
     ],
@@ -2515,10 +2564,12 @@
         "misc_desc": "When lightsaber is ignited, may choose which active crystal to use.  If already ignited, activating another crystal requires a maneuver."
       }
     ],
-    "added_mods": {
-      "key": "ADDCRYSTNC",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "ADDCRYSTNC",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Keeping the Peace"
     ],
@@ -2588,10 +2639,12 @@
         "misc_desc": "Must possess Force Rating 1+ to operate this weapon."
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "key": "PRESSHOT"
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "key": "PRESSHOT"
+      }
+    ],
     "sources": [
       "Keeping the Peace"
     ],
@@ -2654,10 +2707,12 @@
         "misc_desc": "Wielder may recover engaged weapon as incidental."
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "key": "QUICKDR"
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "key": "QUICKDR"
+      }
+    ],
     "sources": [
       "Keeping the Peace"
     ],
@@ -2763,7 +2818,7 @@
         "misc_desc": "Prevents deactivation of power armor by electromagnetic or ion weapons."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Keeping the Peace"
     ],
@@ -2793,10 +2848,12 @@
         "misc_desc": "+1 soak vs. blaster and flame attacks"
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Decrease the difficulty of Resilience checks made to resist the effects of fire and extreme heat by 1"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Decrease the difficulty of Resilience checks made to resist the effects of fire and extreme heat by 1"
+      }
+    ],
     "sources": [
       "Keeping the Peace"
     ],
@@ -2830,10 +2887,12 @@
         "misc_desc": "Add [SE][SE] to Mechanics checks to modify of maintain armor."
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "key": "COORD"
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "key": "COORD"
+      }
+    ],
     "sources": [
       "Keeping the Peace"
     ],
@@ -2861,7 +2920,7 @@
         "misc_desc": "As a maneuver, wearer by shed the armor.  Armor must be reassembled before donning again, requiring several minutes and an [B]Average ([DI][DI]) Mechanics check[b]."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Keeping the Peace"
     ],
@@ -2893,10 +2952,12 @@
         "misc_desc": "First time wearer is hit each encounter, reduce damage by 10.  After, armor suffers minor damage and must be repaired to function again."
       }
     ],
-    "added_mods": {
-      "key": "ENCSUB",
-      "count": "3"
-    },
+    "added_mods": [
+      {
+        "key": "ENCSUB",
+        "count": "3"
+      }
+    ],
     "sources": [
       "Keeping the Peace"
     ],
@@ -3007,10 +3068,12 @@
         "misc_desc": "Adds automatic [ADVANTAGE] to successful Lightsaber combat checks when engaged with a single opponent."
       }
     ],
-    "added_mods": {
-      "key": "DEFENSIVE",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "DEFENSIVE",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -3037,7 +3100,7 @@
         "misc_desc": "May change blade length once per encounter as an incidental.  Next attack that turn ignores target's melee defense."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -3063,10 +3126,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "VICIOUS",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "VICIOUS",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -3091,7 +3156,7 @@
         "key": "SUPERIOR"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -3130,7 +3195,7 @@
         "key": "REMQUALBREACH"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -3194,10 +3259,12 @@
         "count": "4"
       }
     ],
-    "added_mods": {
-      "key": "RAPREC",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "RAPREC",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -3222,7 +3289,7 @@
         "misc_desc": "When reducing strain damage by soak, count soak as two higher"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -3248,7 +3315,7 @@
         "misc_desc": "A long-range comlink is integrated into the helmet"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Force and Destiny Beta Rulebook"
     ],
@@ -3274,7 +3341,7 @@
         "misc_desc": "Adds a general purpose scannerto the user’s helmet. The scanner allows the user toremove [SETBACK] imposed on any checks due to darknessor environmental conditions such as smoke or fog. Italso allows the user to detect heat sources and motionwithin medium range."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -3341,7 +3408,7 @@
         "count": "1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "image_filename": "missing.png"
   },
   {
@@ -3366,10 +3433,12 @@
         "misc_desc": "Immediately notifies all ships in a star system or within 100 kilometers if planetside to the ship or vehicle's existence."
       }
     ],
-    "added_mods": {
-      "misc_desc": "Increase difficulty by one with Guided quality",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "misc_desc": "Increase difficulty by one with Guided quality",
+        "count": "1"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -3431,10 +3500,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "DEFZONEADD",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "DEFZONEADD",
+        "count": "2"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -3458,10 +3529,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "SMUGENC",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "SMUGENC",
+        "count": "2"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -3486,10 +3559,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "HANGERSIZE",
-      "count": "5"
-    },
+    "added_mods": [
+      {
+        "key": "HANGERSIZE",
+        "count": "5"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -3513,10 +3588,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "HYPERDRIVESUB5",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "HYPERDRIVESUB5",
+        "count": "2"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -3545,7 +3622,7 @@
         "count": "1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "image_filename": "missing.png"
   },
   {
@@ -3567,10 +3644,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "CRANGEADD",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "CRANGEADD",
+        "count": "2"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -3594,10 +3673,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "SSTRAINADD",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "SSTRAINADD",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Suns of Fortune"
     ],
@@ -3617,7 +3698,7 @@
         "misc_desc": "When making auto-fire attack, do not increase difficulty by 1."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Suns of Fortune"
     ],
@@ -3660,7 +3741,7 @@
         "def_zone": null
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "must_have_hyperdrive": "false",
     "must_be_starship": "false",
     "min_encum_cap": "0",
@@ -3694,13 +3775,15 @@
         "def_zone": null
       }
     ],
-    "added_mods": {
-      "key": "BOARDTUBETIME",
-      "count": "4",
-      "index": "0",
-      "misc_desc": null,
-      "def_zone": null
-    },
+    "added_mods": [
+      {
+        "key": "BOARDTUBETIME",
+        "count": "4",
+        "index": "0",
+        "misc_desc": null,
+        "def_zone": null
+      }
+    ],
     "must_have_hyperdrive": "false",
     "must_be_starship": "false",
     "min_encum_cap": "0",
@@ -3740,7 +3823,7 @@
         "def_zone": null
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Dangerous Covenants"
     ],
@@ -3766,10 +3849,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "SSTRAINADD",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "SSTRAINADD",
+        "count": "2"
+      }
+    ],
     "min_size": "0",
     "max_size": "2",
     "sources": [
@@ -3797,7 +3882,7 @@
         "misc_desc": "As a maneuver, suffer 1 system strain to add +1 maximum speed for one round."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "max_size": "2",
     "sources": [
       "Jewel of Yavin"
@@ -3824,7 +3909,7 @@
         "count": "1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "max_size": "2",
     "sources": [
       "Jewel of Yavin"
@@ -3851,7 +3936,7 @@
         "count": "1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "max_size": "2",
     "sources": [
       "Jewel of Yavin"
@@ -3878,10 +3963,12 @@
         "misc_desc": "Allows starship to link to an astromech droid via SCOMP"
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "misc_desc": "Automated droid ejection system"
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Automated droid ejection system"
+      }
+    ],
     "max_size": "10",
     "sources": [
       "Stay on Target"
@@ -3908,10 +3995,12 @@
         "misc_desc": "Allows vehicle to deploy gravity mines within close range"
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "misc_desc": "Increase deployable range to short"
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Increase deployable range to short"
+      }
+    ],
     "max_size": "10",
     "sources": [
       "Stay on Target"
@@ -3938,10 +4027,12 @@
         "key": "SSTRAINADD"
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "key": "SSTRAINADD"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "key": "SSTRAINADD"
+      }
+    ],
     "max_size": "10",
     "sources": [
       "Stay on Target"
@@ -3968,10 +4059,12 @@
         "key": "HULLADD"
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "key": "HULLADD"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "key": "HULLADD"
+      }
+    ],
     "max_size": "10",
     "sources": [
       "Stay on Target"
@@ -4034,10 +4127,12 @@
         "misc_desc": "Treats the starship or vehicle's defense as 2 higher when instigating a collision."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Add 1 more defense when instigating a collision."
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Add 1 more defense when instigating a collision."
+      }
+    ],
     "max_size": "10",
     "sources": [
       "Stay on Target"
@@ -4109,10 +4204,12 @@
         "misc_desc": "Allows user to store one dose of neurotoxin, anesthetic, neuroparalytic, or similar toxins."
       }
     ],
-    "added_mods": {
-      "key": "RESDOSE",
-      "count": "4"
-    },
+    "added_mods": [
+      {
+        "key": "RESDOSE",
+        "count": "4"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -4135,7 +4232,7 @@
         "misc_desc": "Adds [SETBACK][SETBACK] to Perception or Vigilance checks made to locate a concealed shooter firing silenced blaster."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "image_filename": "missing.png"
   },
   {
@@ -4195,17 +4292,19 @@
         }
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Increase Droid Brain's Astrogation Skill by 1",
-      "innate_skills": {
-        "innate_skill": {
-          "skill_key": "ASTRO",
-          "skill_rank": "1",
-          "ability_rank": "0"
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Increase Droid Brain's Astrogation Skill by 1",
+        "innate_skills": {
+          "innate_skill": {
+            "skill_key": "ASTRO",
+            "skill_rank": "1",
+            "ability_rank": "0"
+          }
         }
       }
-    },
+    ],
     "sources": [
       "Fly Casual"
     ],
@@ -4249,24 +4348,26 @@
         "misc_desc": "May summon vehicle via a beckon call."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Increase Droid Brain's Piloting Skills by 1",
-      "innate_skills": {
-        "innate_skill": [
-          {
-            "skill_key": "PILOTPL",
-            "skill_rank": "1",
-            "ability_rank": "0"
-          },
-          {
-            "skill_key": "PILOTSP",
-            "skill_rank": "1",
-            "ability_rank": "0"
-          }
-        ]
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Increase Droid Brain's Piloting Skills by 1",
+        "innate_skills": {
+          "innate_skill": [
+            {
+              "skill_key": "PILOTPL",
+              "skill_rank": "1",
+              "ability_rank": "0"
+            },
+            {
+              "skill_key": "PILOTSP",
+              "skill_rank": "1",
+              "ability_rank": "0"
+            }
+          ]
+        }
       }
-    },
+    ],
     "sources": [
       "Fly Casual"
     ],
@@ -4303,17 +4404,19 @@
         }
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Increase the weapon's automated Ranged (Heavy) skill by one",
-      "innate_skills": {
-        "innate_skill": {
-          "skill_key": "RANGHVY",
-          "skill_rank": "1",
-          "ability_rank": "0"
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Increase the weapon's automated Ranged (Heavy) skill by one",
+        "innate_skills": {
+          "innate_skill": {
+            "skill_key": "RANGHVY",
+            "skill_rank": "1",
+            "ability_rank": "0"
+          }
         }
       }
-    },
+    ],
     "weapon_modifiers": {
       "unarmed": "false",
       "unarmed_name": "Surface-Defense Blaster Cannon",
@@ -4383,10 +4486,12 @@
         "misc_desc": "Increases difficulty of checks made to find compartment by 3."
       }
     ],
-    "added_mods": {
-      "key": "SMUGENC",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "SMUGENC",
+        "count": "2"
+      }
+    ],
     "min_enc": "25",
     "max_enc": "0",
     "image_filename": "missing.png"
@@ -4414,10 +4519,12 @@
         "misc_desc": "Automatic [SU][TH] to the first combat check made with this weapon each encounter."
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "misc_desc": "Adds [SU] to the first combat check made with this weapon each encounter"
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Adds [SU] to the first combat check made with this weapon each encounter"
+      }
+    ],
     "sources": [
       "Fly Casual"
     ],
@@ -4445,7 +4552,7 @@
         "misc_desc": "As incidental, weapon gains Prepare 1 quality and +4 damage for next attack.  After firing, weapon runs out of ammo."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Fly Casual"
     ],
@@ -4476,7 +4583,7 @@
         "misc_desc": "Reduce [AD] required to hit with second weapon when two-weapon fighting by 1."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Fly Casual"
     ],
@@ -4509,7 +4616,7 @@
         "count": "1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "weapon_modifiers": {
       "unarmed": "false",
       "unarmed_name": "Scattergun",
@@ -4565,7 +4672,7 @@
         "count": "1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Fly Casual"
     ],
@@ -4591,7 +4698,7 @@
         "misc_desc": "Increases the strain threshold of each crewmember by 1"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Fly Casual"
     ],
@@ -4617,10 +4724,12 @@
         "misc_desc": "Reduces range of enemy ship's passive sensors by 1 (minimum of close range) for detecting a vessel with nightshadow coating."
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "misc_desc": "Reduce the ship's silhouette by 1 in combat"
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Reduce the ship's silhouette by 1 in combat"
+      }
+    ],
     "sources": [
       "Fly Casual"
     ],
@@ -4646,7 +4755,7 @@
         "misc_desc": "Upgrades ability of Charm, Deception, and Negotiation checks while aboard once."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Fly Casual"
     ],
@@ -4672,10 +4781,12 @@
         "misc_desc": "Make an [B]Average ([DI][DI]) Mechanics check[b] as an action while in the cockpit or cargo bay to eject everything currently stored in the cargo hold."
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "misc_desc": "May instead be activated as an action without making a check Mod."
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "misc_desc": "May instead be activated as an action without making a check Mod."
+      }
+    ],
     "sources": [
       "Fly Casual"
     ],
@@ -4701,7 +4812,7 @@
         "misc_desc": "Increases the difficulty of checks to detect this vessel by two while it is traveling at speed 3 or lower."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Fly Casual"
     ],
@@ -4774,7 +4885,7 @@
         "misc_desc": "Add [BO] to all Charm, Deception, and Negotiation checks made against passengers within the vehicle.  Checks made against passengers who are accustomed to opulence and luxury have up to [SE][SE] removed instead."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "price_pass_mult": "true",
     "image_filename": "missing.png"
   },
@@ -4840,11 +4951,13 @@
         "misc_desc": "Can replicate up to three different planetary environments, one at a time.  When making Charm or Negotiation checks against members of species native to replicated environment, add an automatic [AD][AD] to pool."
       }
     ],
-    "added_mods": {
-      "key": null,
-      "count": "2",
-      "misc_desc": "Additional planetary environment"
-    },
+    "added_mods": [
+      {
+        "key": null,
+        "count": "2",
+        "misc_desc": "Additional planetary environment"
+      }
+    ],
     "image_filename": "missing.png"
   },
   {
@@ -4873,7 +4986,7 @@
         "misc_desc": "Anyone working on internal systems, such as power systems, hyperdrive, computers, sensors, gain [BOOST] to Mechanics and Computer checks due to the ease of reaching such typically hidden systems."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "image_filename": "missing.png"
   },
   {
@@ -4902,7 +5015,7 @@
         "misc_desc": "Choose one target and make [B]Average ([DI][DI]) Computers check[b].  If successful, combat checks against target are upgraded once. [SU][SU][SU] or [TR] allows additional target."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "image_filename": "missing.png"
   },
   {
@@ -4925,7 +5038,7 @@
         "count": "2"
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "must_be_starship": "true",
     "min_size": "3",
     "max_size": "0",
@@ -4965,7 +5078,7 @@
         "misc_desc": "The stomach of an space slug is also generally home to mynocks, which will waste no time attacking a swallowed starship."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "weapon_modifiers": {
       "unarmed_name": "Insatiable Maw",
       "skill_key": "COORD",
@@ -5014,10 +5127,12 @@
         "misc_desc": "Characters briefed in this auditorium prior to a mission remove [SE] due to known mission conditions from skill checks for the duration of the mission."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Add [AD] to Leadership checks made by characters within the briefing auditorium"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Add [AD] to Leadership checks made by characters within the briefing auditorium"
+      }
+    ],
     "min_size": "5",
     "max_size": "0",
     "sources": [
@@ -5040,10 +5155,12 @@
         "misc_desc": "Make a [B]Hard ([DI][DI][DI]) Computers check[b] to cancel all effects of an electronic countermeasures suite."
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "misc_desc": "Decrease difficulty of the Computers check by 1"
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Decrease difficulty of the Computers check by 1"
+      }
+    ],
     "sources": [
       "Lead by Example"
     ],
@@ -5152,10 +5269,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "PIERCE",
-      "count": "5"
-    },
+    "added_mods": [
+      {
+        "key": "PIERCE",
+        "count": "5"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5213,7 +5332,8 @@
     "sources": [
       "Special Modifications"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "RIVETGUNBALBAR",
@@ -5233,10 +5353,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "SUBQUALINACCURATE",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "SUBQUALINACCURATE",
+        "count": "2"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5273,10 +5395,12 @@
         "misc_desc": "Anyone other than owner adds [SE][SE] to combat checks using this weapon."
       }
     ],
-    "added_mods": {
-      "key": "ACCURATE",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "ACCURATE",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5302,10 +5426,12 @@
         "misc_desc": "GM may spend [DE][DE] to cause blaster to explode, destroying blaster and inflicting automatic Critical Injury on wielder."
       }
     ],
-    "added_mods": {
-      "key": "PIERCE",
-      "count": "3"
-    },
+    "added_mods": [
+      {
+        "key": "PIERCE",
+        "count": "3"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5365,10 +5491,12 @@
         "misc_desc": "Wielder adds automatic [AD][AD] to Initiative checks while weapon is drawn."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Remove [SE] from Initiative checks"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Remove [SE] from Initiative checks"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5394,7 +5522,8 @@
     "sources": [
       "Special Modifications"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "OVERACTMOD",
@@ -5418,10 +5547,12 @@
         "misc_desc": "GM may spend [TH][TH] to damage weapon by one step."
       }
     ],
-    "added_mods": {
-      "key": "DAMADD",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "DAMADD",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5445,10 +5576,12 @@
         "count": "3"
       }
     ],
-    "added_mods": {
-      "key": "SUBQUALINACCURATE",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "SUBQUALINACCURATE",
+        "count": "2"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5479,7 +5612,8 @@
     "sources": [
       "Special Modifications"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "IONBLAST",
@@ -5503,11 +5637,13 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "DAMADD",
-      "count": "2",
-      "weapon_modifier_index": "0"
-    },
+    "added_mods": [
+      {
+        "key": "DAMADD",
+        "count": "2",
+        "weapon_modifier_index": "0"
+      }
+    ],
     "weapon_modifiers": {
       "unarmed_name": "Secondary Ion Blaster",
       "skill_key": "RANGHVY",
@@ -5588,10 +5724,12 @@
         "misc_desc": "Add [SE] to Perception checks to find the weapon when hidden."
       }
     ],
-    "added_mods": {
-      "key": "ENCSUB",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "ENCSUB",
+        "count": "2"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5623,7 +5761,8 @@
     "sources": [
       "Special Modifications"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "VIBBAY",
@@ -5643,11 +5782,13 @@
         "misc_desc": "Adds a vibro-bayonet to the weapon"
       }
     ],
-    "added_mods": {
-      "key": "DAMADD",
-      "count": "2",
-      "weapon_modifier_index": "0"
-    },
+    "added_mods": [
+      {
+        "key": "DAMADD",
+        "count": "2",
+        "weapon_modifier_index": "0"
+      }
+    ],
     "weapon_modifiers": {
       "unarmed_name": "Vibro-Bayonet",
       "skill_key": "MELEE",
@@ -5696,10 +5837,12 @@
         "misc_desc": "Removes [SE] from physical checks due to underwater conditions."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Increase oxygen supply by two hours"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Increase oxygen supply by two hours"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5731,22 +5874,24 @@
         }
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "misc_desc": "Remove an additional [SE] from Athletics and Stealth checks",
-      "die_modifiers": {
-        "die_modifier": [
-          {
-            "skill_key": "ATHL",
-            "setback_count": "1"
-          },
-          {
-            "skill_key": "STEAL",
-            "setback_count": "1"
-          }
-        ]
+    "added_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Remove an additional [SE] from Athletics and Stealth checks",
+        "die_modifiers": {
+          "die_modifier": [
+            {
+              "skill_key": "ATHL",
+              "setback_count": "1"
+            },
+            {
+              "skill_key": "STEAL",
+              "setback_count": "1"
+            }
+          ]
+        }
       }
-    },
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5773,7 +5918,8 @@
     "sources": [
       "Special Modifications"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "INTSLICGEAR",
@@ -5789,10 +5935,12 @@
         "misc_desc": "Counts as having Slicer Gear.  Can be controlled by gesture or voice."
       }
     ],
-    "added_mods": {
-      "key": "TECHAPT",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "TECHAPT",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5812,10 +5960,12 @@
         "misc_desc": "Increase soak by 3 against weapons with Ion quality."
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "misc_desc": "Increase ranged and melee defense by 1 against weapons with Ion quality"
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Increase ranged and melee defense by 1 against weapons with Ion quality"
+      }
+    ],
     "min_soak": "2",
     "sources": [
       "Special Modifications"
@@ -5840,10 +5990,12 @@
         "misc_desc": "Add [BO][BO] to Resilience checks to resist radiation."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Increase armor's soak by 1 against damage caused by radiation"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Increase armor's soak by 1 against damage caused by radiation"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5863,10 +6015,12 @@
         "misc_desc": "May use gauntlets as a melee weapon."
       }
     ],
-    "added_mods": {
-      "key": "DURA",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "DURA",
+        "count": "1"
+      }
+    ],
     "weapon_modifiers": {
       "unarmed_name": "Reinforced Gauntlets",
       "skill_key": "MELEE",
@@ -5908,7 +6062,8 @@
     "sources": [
       "Special Modifications"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "AD1SCARGOPOD",
@@ -5927,10 +6082,12 @@
         "count": "50"
       }
     ],
-    "added_mods": {
-      "key": "PASSADD2",
-      "count": "3"
-    },
+    "added_mods": [
+      {
+        "key": "PASSADD2",
+        "count": "3"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5953,10 +6110,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "HANDLINGADD",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "HANDLINGADD",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -5982,10 +6141,12 @@
         "misc_desc": "Add astromech droid socket."
       }
     ],
-    "added_mods": {
-      "key": "HYPERDRIVESUB5",
-      "count": "4"
-    },
+    "added_mods": [
+      {
+        "key": "HYPERDRIVESUB5",
+        "count": "4"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -6011,10 +6172,12 @@
         "misc_desc": "Add astromech droid socket."
       }
     ],
-    "added_mods": {
-      "key": "HYPERDRIVESUB5",
-      "count": "4"
-    },
+    "added_mods": [
+      {
+        "key": "HYPERDRIVESUB5",
+        "count": "4"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -6037,10 +6200,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "DEFZONEADD",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "DEFZONEADD",
+        "count": "2"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -6067,10 +6232,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "SPEEDADD",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "SPEEDADD",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -6134,7 +6301,8 @@
     "sources": [
       "Special Modifications"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "DECOYBUOY",
@@ -6166,10 +6334,12 @@
         "misc_desc": "After being jettisoned, buoy no longer counts as being attached to the ship until it is reattached."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Add [SE] to Computers checks to identify the buoy"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Add [SE] to Computers checks to identify the buoy"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -6188,10 +6358,12 @@
         "misc_desc": "Upgrade difficulty of all Computers checks made to slice the ship's computer system once."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Add [SE] to Computers checks made to slice the ship's computer systems"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Add [SE] to Computers checks made to slice the ship's computer systems"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -6210,10 +6382,12 @@
         "misc_desc": "Upgrade difficulty of all Computers checks made to slice the ship's computer system once."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Add [SE] to Computers checks made to slice the ship's computer systems"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Add [SE] to Computers checks made to slice the ship's computer systems"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -6233,10 +6407,12 @@
         "misc_desc": "Downgrade difficulty of Astrogation checks made to navigate the ship through hyperspace once."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Remove [SE] from Astrogation checks made to navigate the ship through hyperspace"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Remove [SE] from Astrogation checks made to navigate the ship through hyperspace"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -6266,10 +6442,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "DEFDRI",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "DEFDRI",
+        "count": "1"
+      }
+    ],
     "price_size_mult": "true",
     "sources": [
       "Special Modifications"
@@ -6295,16 +6473,18 @@
         }
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Increase the droid brain's Gunnery skill by 1",
-      "innate_skills": {
-        "innate_skill": {
-          "skill_key": "GUNN",
-          "skill_rank": "1"
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Increase the droid brain's Gunnery skill by 1",
+        "innate_skills": {
+          "innate_skill": {
+            "skill_key": "GUNN",
+            "skill_rank": "1"
+          }
         }
       }
-    },
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -6329,7 +6509,8 @@
     "sources": [
       "Special Modifications"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "OVERCHIONENG",
@@ -6384,10 +6565,12 @@
         "misc_desc": "Upgrade the difficulty of all combat checks once against the ship at Short range or further."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Add [SE] to combat checks targetting ship at Short range or further"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Add [SE] to combat checks targetting ship at Short range or further"
+      }
+    ],
     "sources": [
       "Special Modifications"
     ],
@@ -6441,10 +6624,12 @@
         "misc_desc": "Upgrade the difficulty Computers and Skulduggery checks made to gain unauthorized access to the ship twice."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Add [SE] to Computers and Skulduggery checks made to gain unauthorized access to the ship"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Add [SE] to Computers and Skulduggery checks made to gain unauthorized access to the ship"
+      }
+    ],
     "price_size_mult": "true",
     "sources": [
       "Special Modifications"
@@ -6505,10 +6690,12 @@
         "count": "2"
       }
     ],
-    "added_mods": {
-      "key": "ENCTADD3",
-      "count": "10"
-    },
+    "added_mods": [
+      {
+        "key": "ENCTADD3",
+        "count": "10"
+      }
+    ],
     "sources": [
       "Savage Spirits"
     ],
@@ -6532,7 +6719,7 @@
         "misc_desc": "Pacified beasts gain [BOOST] to any [B]Displine Checks[b]."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Stay on Target"
     ],
@@ -6556,7 +6743,7 @@
         "misc_desc": "Characters may ride beast without suffering bareback riding penalties."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Savage Spirits"
     ],
@@ -6582,7 +6769,8 @@
     "sources": [
       "Savage Spirits"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "BEAMSPLIT",
@@ -6608,10 +6796,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "DISORIENT",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "DISORIENT",
+        "count": "2"
+      }
+    ],
     "sources": [
       "Forged in Battle"
     ],
@@ -6633,7 +6823,7 @@
         "misc_desc": "Remove [SE] added by the Called Shot use of the Aim maneuver from Ranged Light and Ranged Heavy checks."
       }
     ],
-    "added_mods": null,
+    "added_mods": [],
     "sources": [
       "Forged in Battle"
     ],
@@ -6695,7 +6885,8 @@
     "sources": [
       "Forged in Battle"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "MILMODBACKPOW",
@@ -6720,7 +6911,8 @@
     "sources": [
       "Forged in Battle"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "MILMODBACKCOM",
@@ -6745,7 +6937,8 @@
     "sources": [
       "Forged in Battle"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "MILMODBACKSEN",
@@ -6773,7 +6966,8 @@
     "sources": [
       "Forged in Battle"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "MILMODBACKOXY",
@@ -6795,7 +6989,8 @@
     "sources": [
       "Forged in Battle"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "MILMODBACKSTO",
@@ -6818,7 +7013,8 @@
     "sources": [
       "Forged in Battle"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "DAMPEMIT",
@@ -6837,10 +7033,12 @@
         "misc_desc": "As a maneuver, my adjust lightsaber to deal Stun damage.  Decrease damage by 2, increase critical rating by 1, lose Breach quality."
       }
     ],
-    "added_mods": {
-      "count": "2",
-      "misc_desc": "Stun Damage +1"
-    },
+    "added_mods": [
+      {
+        "count": "2",
+        "misc_desc": "Stun Damage +1"
+      }
+    ],
     "sources": [
       "Endless Vigil"
     ],
@@ -6866,7 +7064,8 @@
     "sources": [
       "Endless Vigil"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PISTOLHILT",
@@ -6901,7 +7100,8 @@
     "sources": [
       "Endless Vigil"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "REFLEXGRIP",
@@ -6988,7 +7188,8 @@
     "sources": [
       "Endless Vigil"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "ETAAN",
@@ -7144,7 +7345,8 @@
     "sources": [
       "Dangerous Covenants"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PARACLOUD",
@@ -7195,7 +7397,8 @@
     "sources": [
       "Dangerous Covenants"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PARALAND",
@@ -7248,7 +7451,8 @@
     "sources": [
       "Dangerous Covenants"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PARAWALK",
@@ -7294,7 +7498,8 @@
     "sources": [
       "Dangerous Covenants"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PARAWHEEL",
@@ -7348,7 +7553,8 @@
     "sources": [
       "Dangerous Covenants"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PARABIKE",
@@ -7410,7 +7616,8 @@
     "sources": [
       "Dangerous Covenants"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PARALTFREIGHT",
@@ -7477,7 +7684,8 @@
     "sources": [
       "Dangerous Covenants"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PARAMEDTRANS",
@@ -7528,7 +7736,8 @@
     "sources": [
       "Dangerous Covenants"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PARABULK",
@@ -7583,7 +7792,8 @@
     "sources": [
       "Dangerous Covenants"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PARASHUTTLE",
@@ -7639,7 +7849,8 @@
     "sources": [
       "Dangerous Covenants"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PARAYACHT",
@@ -7702,7 +7913,8 @@
     "sources": [
       "Dangerous Covenants"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "COLLAVOID",
@@ -7724,7 +7936,8 @@
     "sources": [
       "Endless Vigil"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PODEJECT",
@@ -7746,7 +7959,8 @@
     "sources": [
       "Endless Vigil"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PODENGINEBOOST",
@@ -7772,7 +7986,8 @@
     "sources": [
       "Endless Vigil"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "POSFORDEB",
@@ -7798,7 +8013,8 @@
     "sources": [
       "Endless Vigil"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PODHAND",
@@ -7817,10 +8033,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "HANDLINGADD",
-      "count": "2"
-    },
+    "added_mods": [
+      {
+        "key": "HANDLINGADD",
+        "count": "2"
+      }
+    ],
     "sources": [
       "Endless Vigil"
     ],
@@ -7843,10 +8061,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "ADDALT50",
-      "count": "3"
-    },
+    "added_mods": [
+      {
+        "key": "ADDALT50",
+        "count": "3"
+      }
+    ],
     "sources": [
       "Endless Vigil"
     ],
@@ -7865,10 +8085,12 @@
         "misc_desc": "Reduce Critical Hit result from collision by 20"
       }
     ],
-    "added_mods": {
-      "count": "1",
-      "misc_desc": "Reduce Critical Hit result from collision by 20"
-    },
+    "added_mods": [
+      {
+        "count": "1",
+        "misc_desc": "Reduce Critical Hit result from collision by 20"
+      }
+    ],
     "sources": [
       "Endless Vigil"
     ],
@@ -7891,10 +8113,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "DEFZONEADD",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "DEFZONEADD",
+        "count": "1"
+      }
+    ],
     "sources": [
       "Endless Vigil"
     ],
@@ -7920,7 +8144,8 @@
     "sources": [
       "Endless Vigil"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "PODENGINE",
@@ -7942,7 +8167,8 @@
     "sources": [
       "Endless Vigil"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "MICROROCKGUIDE",
@@ -8024,10 +8250,12 @@
         "count": "1"
       }
     ],
-    "added_mods": {
-      "key": "THRCANCEL",
-      "count": "1"
-    },
+    "added_mods": [
+      {
+        "key": "THRCANCEL",
+        "count": "1"
+      }
+    ],
     "sources": [
       "No Disintegrations"
     ],
@@ -8328,7 +8556,8 @@
     "sources": [
       "No Disintegrations"
     ],
-    "image_filename": "missing.png"
+    "image_filename": "missing.png",
+    "added_mods": []
   },
   {
     "key": "ENPRISONLOCK",
@@ -8344,10 +8573,12 @@
         "misc_desc": "Full incarceration and security suite for 2 prisoners."
       }
     ],
-    "added_mods": {
-      "count": "4",
-      "misc_desc": "Support for one additional prisoner."
-    },
+    "added_mods": [
+      {
+        "count": "4",
+        "misc_desc": "Support for one additional prisoner."
+      }
+    ],
     "sources": [
       "No Disintegrations"
     ],
