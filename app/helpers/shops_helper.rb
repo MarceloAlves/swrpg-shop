@@ -73,7 +73,10 @@ module ShopsHelper
       '[FAILURE]'    => image_tag('failure.svg', width: 15),
       '[PR]'         => image_tag('proficiency.svg', width: 15),
       '[AB]'         => image_tag('ability.svg', width: 15),
-      '[FO]'         => image_tag('force.svg', width: 15)
+      '[FO]'         => image_tag('force.svg', width: 15),
+      '[FP]'         => image_tag('force_pip.svg', width: 15),
+      '[DA]'         => image_tag('dark_pip.svg', width: 15),
+      '[FORCEPOINT]' => image_tag('force_pip.svg', width: 15)
     }.freeze
 
     results = description.scan(/(\[(?:\[??[^\[]*?\]))/).flatten.uniq
