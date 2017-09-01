@@ -71,6 +71,7 @@ module ShopsHelper
       '[SU]'         => image_tag('success.svg', width: 15),
       '[SUCCESS]'    => image_tag('success.svg', width: 15),
       '[FAILURE]'    => image_tag('failure.svg', width: 15),
+      '[FA]'         => image_tag('failure.svg', width: 15),
       '[PR]'         => image_tag('proficiency.svg', width: 15),
       '[AB]'         => image_tag('ability.svg', width: 15),
       '[FO]'         => image_tag('force.svg', width: 15),
