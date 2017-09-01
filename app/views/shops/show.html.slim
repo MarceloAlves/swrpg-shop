@@ -15,10 +15,14 @@
       dt.col-sm-2 World
       dd.col-sm-10
           = shop_info.fetch('world', {}).fetch('name', nil)
-          br
-          | Modifiers - Rarity: 
+      dt.col-sm-2 Modifiers
+      dd.col-sm-10
+        ul.list-unstyled
+          li 
+          | Rarity: &nbsp;
           = shop_info.fetch('world', {}).fetch('rarity_modifier', nil)
-          |  - Price: 
+          li
+          | Price:&nbsp;
           = shop_info.fetch('world', {}).fetch('price_modifier', nil)
       - unless ttl == -1
         dt.col-sm-2 Time Left
