@@ -8,6 +8,7 @@ html
     = csrf_meta_tags
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
   body
+    = render 'layouts/analytics'
     = render 'layouts/navigation/navbar'
     = yield
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
