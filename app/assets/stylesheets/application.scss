@@ -4,7 +4,7 @@
  *= require_self
  */
 
-@import "bootswatch/yeti/variables";
+$enable-shadows: true;
+
 @import "bootstrap/bootstrap";
-@import "bootswatch/yeti/bootswatch";
 @import "font-awesome";
