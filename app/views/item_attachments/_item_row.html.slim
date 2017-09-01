@@ -1,16 +1,16 @@
 tr
-  td
+  td.p-3.align-middle
     = image_tag("items/#{item.fetch('image_filename')}", width: '150')
-  td
+  td.p-3.align-middle
     = item.fetch('name')
     = item.fetch('is_restricted', false) ? '&nbsp;<span class="restricted-item">(R)</span>'.html_safe : nil
-  td
+  td.p-3.align-middle
     = item.fetch('description')
     br
     - item.fetch('base_mods', []).each do |mod|
       p= format_description(mod.fetch('misc_desc', ''))
-  td
+  td.p-3.align-middle.text-center
     = number_with_delimiter item.fetch('price')
-  td
+  td.p-3.align-middle
     - item.fetch('added_mods', []).each do |mod|
       p= format_description(mod.fetch('misc_desc', ''))

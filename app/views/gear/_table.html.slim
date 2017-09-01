@@ -1,12 +1,12 @@
-table.table.table-hover.table-sm.item-table.table-responsive
+table.table.table-hover.table-sm.item-table.table-responsive.table-bordered
   thead.thead-inverse
     tr
       th[width="125"]
-      th Item Name
-      th Description
-      th Price
-      th Encumbrance
-      th Rarity
-      th Type
+      th.p-1.text-center.align-middle Item Name
+      th.p-1.text-center.align-middle Description
+      th.p-1.text-center.align-middle Price
+      th.p-1.text-center.align-middle Encumbrance
+      th.p-1.text-center.align-middle Rarity
+      th.p-1.text-center.align-middle Type
   tbody
     = render partial: 'gear/item_row', collection: gear, as: :item

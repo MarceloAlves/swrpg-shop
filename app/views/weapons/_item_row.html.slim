@@ -1,31 +1,31 @@
 tr
-  td
+  td.p-3.align-middle
     = image_tag("items/#{item.fetch('image_filename')}", width: '125')
-  td
+  td.p-3.align-middle
     = item.fetch('name')
     = item.fetch('is_restricted', false) ? '&nbsp;<span class="restricted-item">(R)</span>'.html_safe : nil
-  td
+  td.p-3.align-middle
     p= item.fetch('description')
     - item.fetch('base_mods', []).each do |mod|
       p= format_description(mod.fetch('misc_desc', ''))
-  td
+  td.p-3.align-middle.text-center
     = number_with_delimiter item.fetch('price')
-  td
+  td.p-3.align-middle.text-center
     = item.fetch('damage')
-  td
+  td.p-3.align-middle.text-center
     = item.fetch('crit')
-  td
+  td.p-3.align-middle.text-center
     = item.fetch('rarity')
-  td
+  td.p-3.align-middle.text-center
     = item.fetch('encumbrance')
-  td
+  td.p-3.align-middle.text-center
     = item.fetch('hard_points')
-  td
+  td.p-3.align-middle
     = item.fetch('weapon_type')
-  td
+  td.p-3.align-middle
     = format_skill(item.fetch('skill_key'))
-  td
+  td.p-3.align-middle
     = item.fetch('range_value').delete('wr')
-  td
+  td.p-3.align-middle
     - item.fetch('qualities', []).each do |quality|
       p= format_qualities(quality.values)
