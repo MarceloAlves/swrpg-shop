@@ -33,6 +33,31 @@
       label.col-sm-2.col-form-label Max Items
       .col-sm-10
         = f.input :max_size, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10_000, value: 1_000 }
+    .form-group.row
+      .col-12
+        .card
+          .card-header
+            h5.mb-0
+              a[data-toggle="collapse" href="#sourcebooks"]
+                | Sourcebooks
+                | &nbsp;
+                span.small.font-italic[data-sourcebooks-selected]
+                  | (29 of 29 selected)
+                .pull-right
+                  i.fa.fa-angle-left.fa-lg[data-collapse-icon]
+          #sourcebooks.collapse
+            .card-body
+              .row
+                - SourceBook.all.order('title ASC').in_groups_of(10).each do |slice|
+                    - slice.compact.each do |book|
+                      .col-sm-4.col-12
+                        .form-check
+                          = f.input :sources, as: :boolean, inline_label: book.title, required: false, checked_value: book.title, unchecked_value: nil, include_hidden: false, input_html: { checked: true, name: 'shop[sources][]', data: { sourcebook_checkbox: '' } }
+              .row
+                button.btn.btn-light.mx-1[data-select-all]
+                  | Select All
+                button.btn.btn-dark.mx-1[data-select-none]
+                  | Select None
     .row
       .col-sm-10
         p.small 

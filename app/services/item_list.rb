@@ -1,7 +1,7 @@
 class ItemList
   attr_reader :shop_list
 
-  def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world:, min_size: 0, max_size: 1_000)
+  def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world:, min_size: 0, max_size: 1_000, sources:)
     @world = World.find(world)
     @item_list = build_item_list
     @shop_modifiers = shop_types[shop_type]
@@ -9,11 +9,13 @@ class ItemList
     @shop_info = { shop_type: shop_type, dice_pool: @dice_pool.dice_counts, characteristic_level: characteristic_level.to_i, skill_level: skill_level.to_i, world: @world.as_json }
     @shop_list = { items: { armor: [], gear: [], item_attachments: [], weapons: [] }, info: @shop_info }
     @shop_size = rand(max_size.to_i - min_size.to_i + 1) + min_size.to_i
+    @sources = sources
   end
 
   def randomize
     @item_list.keys.each do |item_type|
       @item_list[item_type].each do |item|
+        next unless item.fetch('sources', []).any? { |i| @sources.include? i }
         shop_type_modifier = if item.fetch('is_restricted', nil)
                                @shop_modifiers.fetch('restricted')
                              elsif item.fetch('item_type', item.fetch('weapon_type', nil)) == 'Lightsaber'
