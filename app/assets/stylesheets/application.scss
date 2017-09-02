@@ -8,3 +8,7 @@ $enable-shadows: true;
 
 @import "bootstrap/bootstrap";
 @import "font-awesome";
+
+.card {
+  box-shadow: 0px 1px 2px 0px rgba(202, 202, 202, 0.59)
+}
