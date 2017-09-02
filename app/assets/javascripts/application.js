@@ -4,4 +4,5 @@
 //= require popper
 //= require tether
 //= require bootstrap/bootstrap
+//= require stupidtable
 //= require_tree .

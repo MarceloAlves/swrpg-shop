@@ -8,7 +8,7 @@ tr
     p= item.fetch('description')
     - item.fetch('base_mods', []).each do |mod|
       p= format_description(mod.fetch('misc_desc', ''))
-  td.p-3.align-middle.text-center
+  td.p-3.align-middle.text-center[data-sort-value="#{item.fetch('price')}"]
     = number_with_delimiter item.fetch('price')
   td.p-3.align-middle.text-center
     = item.fetch('damage')
@@ -25,7 +25,7 @@ tr
   td.p-3.align-middle
     = format_skill(item.fetch('skill_key'))
   td.p-3.align-middle
-    = item.fetch('range_value').delete('wr')
+    = item.fetch('range_value').gsub(/wr/, '')
   td.p-3.align-middle
     - item.fetch('qualities', []).each do |quality|
       p= format_qualities(quality.values)

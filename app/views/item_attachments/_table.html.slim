@@ -2,9 +2,9 @@ table.table.table-hover.table-sm.item-table.table-responsive.table-bordered
   thead.thead-inverse
     tr
       th[width="125"]
-      th.p-1.text-center.align-middle Item Name
+      th.p-1.text-center.align-middle[data-sort="string-ins" data-sort-onload="yes"] Item Name
       th.p-1.text-center.align-middle Description
-      th.p-1.text-center.align-middle Price
+      th.p-1.text-center.align-middle[data-sort="int"] Price
       th.p-1.text-center.align-middle Added Mods
   tbody
     = render partial: 'item_attachments/item_row', collection: item_attachments, as: :item

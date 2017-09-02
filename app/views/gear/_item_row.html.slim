@@ -9,7 +9,7 @@ tr
     br
     - item.fetch('base_mods', []).each do |mod|
       p= format_description(mod.fetch('misc_desc', ''))
-  td.p-3.align-middle.text-center
+  td.p-3.align-middle.text-center[data-sort-value="#{item.fetch('price')}"]
     = number_with_delimiter item.fetch('price')
   td.p-3.align-middle.text-center
     = item.fetch('encumbrance')
