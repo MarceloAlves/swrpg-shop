@@ -48,11 +48,12 @@
           #sourcebooks.collapse
             .card-body
               .row
-                - SourceBook.all.order('title ASC').in_groups_of(10).each do |slice|
-                    - slice.compact.each do |book|
-                      .col-sm-4.col-12
-                        .form-check
-                          = f.input :sources, as: :boolean, inline_label: book.title, required: false, checked_value: book.title, unchecked_value: nil, include_hidden: false, input_html: { checked: true, name: 'shop[sources][]', data: { sourcebook_checkbox: '' } }
+                - SourceBook.all.order('collection asc, title asc').group_by { |sb| sb.collection }.each do |collection, books|
+                  .col-sm-4.col-12
+                    h5= collection
+                    - books.each do |book|
+                      .form-check
+                        = f.input :sources, as: :boolean, inline_label: book.title, required: false, checked_value: book.title, unchecked_value: nil, include_hidden: false, input_html: { checked: true, name: 'shop[sources][]', data: { sourcebook_checkbox: '' } }
               .row
                 button.btn.btn-light.mx-1[data-select-all]
                   | Select All
