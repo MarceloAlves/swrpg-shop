@@ -17,6 +17,7 @@ class ShopsController < ApplicationController
     item_list.randomize
     shop_id = generate_key
     Redis.current.setex "shops:#{shop_id}", 24.hours, item_list.shop_list.to_json
+    Redis.current.incr 'shops_generated'
     redirect_to shop_path(shop_id)
   end
 
