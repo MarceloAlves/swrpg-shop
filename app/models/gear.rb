@@ -7,7 +7,7 @@
 #  name             :string           not null
 #  description      :text
 #  short            :string
-#  gear_type        :string
+#  type             :string
 #  categories       :text             default([]), is an Array
 #  encumbrance      :integer          default(0)
 #  hard_points      :integer
@@ -26,5 +26,6 @@
 #
 
 class Gear < ApplicationRecord
+  self.inheritance_column = nil
   validates :key, :name, presence: true
 end

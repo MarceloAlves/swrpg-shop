@@ -12,7 +12,7 @@
     "encumbrance": "0",
     "price": "25",
     "rarity": "0",
-    "gear_type": "Communications",
+    "type": "Communications",
     "image_filename": "COMLINKH.png",
     "base_mods": []
   },
@@ -28,7 +28,7 @@
     "encumbrance": "2",
     "price": "200",
     "rarity": "1",
-    "gear_type": "Communications",
+    "type": "Communications",
     "image_filename": "COMLINKL.png",
     "base_mods": []
   },
@@ -44,7 +44,7 @@
     "encumbrance": "0",
     "price": "250",
     "rarity": "4",
-    "gear_type": "Communications",
+    "type": "Communications",
     "image_filename": "HOLO.png",
     "base_mods": []
   },
@@ -55,7 +55,7 @@
     "encumbrance": "5",
     "price": "1000",
     "rarity": "3",
-    "gear_type": "Communications",
+    "type": "Communications",
     "sources": [
       "Suns of Fortune"
     ],
@@ -69,7 +69,7 @@
     "price": "1250",
     "encumbrance": "3",
     "rarity": "6",
-    "gear_type": "Communications",
+    "type": "Communications",
     "sources": [
       "Suns of Fortune"
     ],
@@ -83,7 +83,7 @@
     "price": "300",
     "encumbrance": "0",
     "rarity": "4",
-    "gear_type": "Communications",
+    "type": "Communications",
     "sources": [
       "Suns of Fortune"
     ],
@@ -97,7 +97,7 @@
     "price": "1500",
     "encumbrance": "0",
     "rarity": "7",
-    "gear_type": "Communications",
+    "type": "Communications",
     "sources": [
       "Suns of Fortune"
     ],
@@ -108,7 +108,7 @@
     "key": "COMLINKHARD",
     "name": "Shockhold Hardened Comlink",
     "description": "Please see page 56 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Communications",
+    "type": "Communications",
     "categories": [],
     "encumbrance": "3",
     "hard_points": "0",
@@ -130,7 +130,7 @@
     "key": "COLLARAMP",
     "name": "Collar-Amp",
     "description": "Please see page 45 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Communications",
+    "type": "Communications",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -147,7 +147,7 @@
     "key": "COLLARAMPUP",
     "name": "Collar-Amp (Upgraded)",
     "description": "Please see page 45 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Communications",
+    "type": "Communications",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -164,7 +164,7 @@
     "key": "HOLORELAY",
     "name": "HoloNet Relay",
     "description": "Please see page 45 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Communications",
+    "type": "Communications",
     "categories": [],
     "encumbrance": "15",
     "hard_points": "0",
@@ -185,7 +185,7 @@
     "encumbrance": "6",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Communications",
+    "type": "Communications",
     "sources": [
       "Desperate Allies"
     ],
@@ -200,7 +200,7 @@
     "encumbrance": "4",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Communications",
+    "type": "Communications",
     "sources": [
       "Desperate Allies"
     ],
@@ -215,7 +215,7 @@
     "encumbrance": "4",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Communications",
+    "type": "Communications",
     "base_mods": [
       {
         "count": "1",
@@ -235,7 +235,7 @@
     "encumbrance": "1",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Communications",
+    "type": "Communications",
     "sources": [
       "Strongholds of Resistance"
     ],
@@ -250,7 +250,7 @@
     "encumbrance": "2",
     "rarity": "7",
     "is_restricted": "false",
-    "gear_type": "Communications",
+    "type": "Communications",
     "sources": [
       "Strongholds of Resistance"
     ],
@@ -265,7 +265,7 @@
     "encumbrance": "1",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Communications",
+    "type": "Communications",
     "sources": [
       "Strongholds of Resistance"
     ],
@@ -285,7 +285,7 @@
     "price": "50",
     "rarity": "6",
     "is_restricted": "true",
-    "gear_type": "Poisons",
+    "type": "Poisons",
     "base_mods": [
       {
         "misc_desc": "[B]Average ([DI][DI])[b] (1 dose) or [B]Hard ([DI][DI][DI])[b] (2 doses) [B]Resilience Check[b].  Fail: 5 wound plus 1 strain per [THREAT], extra rounds per [DESPAIR]",
@@ -306,7 +306,7 @@
     ],
     "price": "35",
     "rarity": "4",
-    "gear_type": "Poisons",
+    "type": "Poisons",
     "base_mods": [
       {
         "misc_desc": "[B]Average ([DI][DI])[b] (1 dose) or [B]Hard ([DI][DI][DI])[b] (2+ doses) [B]Resilience Check[b].  Fail: 5 strain.  [THREAT] or [THREAT][THREAT]: no free maneuver, [THREAT][THREAT][THREAT] or more: Staggered next turn, extra rounds per [DESPAIR]",
@@ -328,7 +328,7 @@
     "price": "75",
     "rarity": "6",
     "is_restricted": "true",
-    "gear_type": "Poisons",
+    "type": "Poisons",
     "base_mods": [
       {
         "misc_desc": "[B]Hard ([DI][DI][DI]) Resilience Check[b].  Fail: Stuns for 3 rounds, plus 1 strain per [THREAT], extra rounds per [DESPAIR]",
@@ -345,7 +345,7 @@
     "price": "125",
     "rarity": "7",
     "is_restricted": "true",
-    "gear_type": "Poisons",
+    "type": "Poisons",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -365,7 +365,7 @@
     "price": "100",
     "rarity": "6",
     "is_restricted": "true",
-    "gear_type": "Poisons",
+    "type": "Poisons",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -385,7 +385,7 @@
     "price": "150",
     "rarity": "7",
     "is_restricted": "true",
-    "gear_type": "Poisons",
+    "type": "Poisons",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -405,7 +405,7 @@
     "price": "150",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Poisons",
+    "type": "Poisons",
     "sources": [
       "Chronicles of the Gatekeeper"
     ],
@@ -425,7 +425,7 @@
     "price": "100",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Poisons",
+    "type": "Poisons",
     "sources": [
       "Chronicles of the Gatekeeper"
     ],
@@ -445,7 +445,7 @@
     "price": "250",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Antidotes",
+    "type": "Antidotes",
     "sources": [
       "Desperate Allies"
     ],
@@ -469,7 +469,7 @@
     "price": "10000",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "image_filename": "CYARMV.png",
     "base_mods": [
       {
@@ -490,7 +490,7 @@
     "price": "10000",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "image_filename": "CYARMVI.png",
     "base_mods": [
       {
@@ -511,7 +511,7 @@
     "price": "10000",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "image_filename": "CYBRAIN.png",
     "base_mods": [
       {
@@ -532,7 +532,7 @@
     "price": "7500",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "base_mods": [
       {
         "key": "VIGIL",
@@ -557,7 +557,7 @@
     "price": "10000",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "image_filename": "CYLEGII.png",
     "base_mods": [
       {
@@ -578,7 +578,7 @@
     "price": "10000",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "image_filename": "CYLEGIII.png",
     "base_mods": [
       {
@@ -599,7 +599,7 @@
     "price": "4000",
     "encumbrance": "0",
     "rarity": "7",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -614,7 +614,7 @@
     "price": "5000",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -634,7 +634,7 @@
     "price": "7500",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -655,7 +655,7 @@
     "price": "2000",
     "encumbrance": "0",
     "rarity": "4",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -671,7 +671,7 @@
     "price": "1000",
     "encumbrance": "0",
     "rarity": "4",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -683,7 +683,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -721,7 +721,7 @@
     "price": "8000",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "base_mods": [
       {
         "key": "PILOTSP",
@@ -742,7 +742,7 @@
     "key": "CYREPULSORFIST",
     "name": "Repulsor Fist",
     "description": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -789,7 +789,7 @@
     "key": "CYADRENAL",
     "name": "Adrenal Implant",
     "description": "Please see page 106 of the Lords of Nal Hutta Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -812,7 +812,7 @@
     "key": "CYREFLEX",
     "name": "Cybernetic Reflexes",
     "description": "Please see page 106 of the Lords of Nal Hutta Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -835,7 +835,7 @@
     "key": "CYRESPIR",
     "name": "Cybernetic Respirator",
     "description": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -862,7 +862,7 @@
     "key": "CYGANKCOMM",
     "name": "Gank Comm Implant",
     "description": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -880,7 +880,7 @@
     "key": "CYCYBERJACK",
     "name": "Implanted Cyberjack",
     "description": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -903,7 +903,7 @@
     "key": "CYNEUROMACH",
     "name": "Neuromachine Interface",
     "description": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -926,7 +926,7 @@
     "key": "CYRETINALTRACK",
     "name": "Q-22 Retinal Tracker",
     "description": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -959,7 +959,7 @@
     "key": "CYDROIDINTF",
     "name": "Cyborg/Droid Interface",
     "description": "Please see page 112 of the Strongholds of Resistance Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -986,7 +986,7 @@
     "key": "CRATVISCYC",
     "name": "Cratala's Vision Cycling Implant",
     "description": "Please see page 66 of the Beyond the Rim Adventure for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -1015,7 +1015,7 @@
     "key": "CRATLEGENH",
     "name": "Cratala's Leg Enhancement Implant",
     "description": "Please see page 66 of the Beyond the Rim Adventure for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -1039,7 +1039,7 @@
     "key": "CRATARMENH",
     "name": "Cratala's Arm Enhancement Implant",
     "description": "Please see page 66 of the Beyond the Rim Adventure for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -1063,7 +1063,7 @@
     "key": "78BCOUR",
     "name": "Swift 78B Vessel Courier System",
     "description": "Please see page 112 of the Strongholds of Resistance Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -1081,7 +1081,7 @@
     "key": "BIOFEEDREG",
     "name": "Biofeedback Regulator",
     "description": "Please see page 49 of the Special Modifications Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "price": "5000",
     "encumbrance": "0",
@@ -1113,7 +1113,7 @@
     "key": "ESCCIR",
     "name": "Escape Circuit",
     "description": "Please see page 49 of the Special Modifications Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "price": "1000",
     "encumbrance": "0",
@@ -1138,7 +1138,7 @@
     "key": "NETUPLINK",
     "name": "Networked Slicing Uplink",
     "description": "Please see page 50 of the Special Modifications Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "price": "1250",
     "encumbrance": "0",
@@ -1166,7 +1166,7 @@
     "key": "NEURALREC",
     "name": "Neural Recorder",
     "description": "Please see page 50 of the Special Modifications Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "price": "250",
     "encumbrance": "0",
@@ -1191,7 +1191,7 @@
     "key": "SURGESWITCH",
     "name": "Surge Override Switch",
     "description": "Please see page 50 of the Special Modifications Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "price": "1000",
     "encumbrance": "0",
@@ -1224,7 +1224,7 @@
     "price": "250",
     "encumbrance": "1",
     "rarity": "1",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "base_mods": [
       {
         "misc_desc": "User may see in low light or extreme bright light conditions."
@@ -1250,7 +1250,7 @@
     "price": "500",
     "encumbrance": "2",
     "rarity": "3",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -1266,7 +1266,7 @@
     "price": "100",
     "encumbrance": "0",
     "rarity": "2",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -1282,7 +1282,7 @@
     "price": "75",
     "encumbrance": "1",
     "rarity": "2",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "image_filename": "MBIN.png",
     "base_mods": []
   },
@@ -1298,7 +1298,7 @@
     "price": "150",
     "encumbrance": "0",
     "rarity": "3",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "image_filename": "SCANG.png",
     "base_mods": []
   },
@@ -1309,7 +1309,7 @@
     "price": "100",
     "encumbrance": "0",
     "rarity": "2",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "sources": [
       "Unofficial Species Menagerie"
     ],
@@ -1328,7 +1328,7 @@
     "is_restricted": "true",
     "encumbrance": "0",
     "rarity": "4",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "image_filename": "STAG.png",
     "base_mods": []
   },
@@ -1336,7 +1336,7 @@
     "key": "LNGRNGSCNR",
     "name": "Long Range Terrain Scanner",
     "description": "Please see page 47 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "6",
     "hard_points": "0",
@@ -1352,7 +1352,7 @@
     "key": "GRNDPENPCK",
     "name": "Ground-Penetrating Sensor Pack",
     "description": "Please see page 47 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "5",
     "hard_points": "0",
@@ -1368,7 +1368,7 @@
     "key": "LIFESCANNER",
     "name": "ILF-6500 Life Form Scanner",
     "description": "Please see page 47 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "4",
     "hard_points": "0",
@@ -1384,7 +1384,7 @@
     "key": "HNTGOGGLE",
     "name": "Hunting Goggles",
     "description": "Please see page 48 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -1412,7 +1412,7 @@
     "price": "10500",
     "encumbrance": "5",
     "rarity": "8",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "sources": [
       "Suns of Fortune"
     ],
@@ -1426,7 +1426,7 @@
     "price": "750",
     "encumbrance": "1",
     "rarity": "5",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "sources": [
       "Suns of Fortune"
     ],
@@ -1442,7 +1442,7 @@
     "key": "SCANCOMBAT",
     "name": "Mark 6  Combat Scanner",
     "description": "Please see page 56 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -1467,7 +1467,7 @@
     "key": "SCANDEMO",
     "name": "Mark 10 Demolitions Scanner",
     "description": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -1492,7 +1492,7 @@
     "key": "RECONREM",
     "name": "Recon Remote",
     "description": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Remotes",
+    "type": "Remotes",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -1509,7 +1509,7 @@
     "key": "PX7HEATSENSOR",
     "name": "PX-7 Heat Sensor",
     "description": "Please see page 50 of the Keeping the Peace sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "3",
     "hard_points": "0",
@@ -1536,7 +1536,7 @@
     "key": "VERIDICATOR",
     "name": "Veridicator 200",
     "description": "Please see page 51 of the Keeping the Peace sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -1566,7 +1566,7 @@
     "price": "800",
     "encumbrance": "0",
     "rarity": "3",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Suns of Fortune\\Adversaries\\J57 Cam Droid - Minion.xml",
     "sources": [
       "Suns of Fortune"
@@ -1581,7 +1581,7 @@
     "price": "8000",
     "encumbrance": "10",
     "rarity": "4",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Suns of Fortune\\Adversaries\\FD-Series Extinguisher Droid - Minion.xml",
     "sources": [
       "Suns of Fortune"
@@ -1596,7 +1596,7 @@
     "price": "11000",
     "encumbrance": "10",
     "rarity": "6",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Stay on Target\\Droids\\R7-Series Astromech Droid - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -1611,7 +1611,7 @@
     "price": "6500",
     "encumbrance": "10",
     "rarity": "8",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Stay on Target\\Droids\\Q7-Series Astromech Droid - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -1626,7 +1626,7 @@
     "price": "9600",
     "rarity": "5",
     "is_restricted": "true",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Far Horizons\\Droids\\AC Law Enforcement Droid - Rival.xml",
     "sources": [
       "Far Horizons"
@@ -1641,7 +1641,7 @@
     "price": "9800",
     "rarity": "4",
     "is_restricted": "true",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Far Horizons\\Droids\\Dz-70 Fugitive Tracker Droid - Rival.xml",
     "sources": [
       "Far Horizons"
@@ -1656,7 +1656,7 @@
     "price": "900",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Far Horizons\\Droids\\MedTech Mini-Med - Minion.xml",
     "sources": [
       "Far Horizons"
@@ -1671,7 +1671,7 @@
     "price": "6500",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Far Horizons\\Droids\\GyroWheel 1.42.08-Series Recycling Droid - Minion.xml",
     "sources": [
       "Far Horizons"
@@ -1686,7 +1686,7 @@
     "price": "4000",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Far Horizons\\Droids\\SDMN Series Session Droid - Rival.xml",
     "sources": [
       "Far Horizons"
@@ -1701,7 +1701,7 @@
     "price": "6500",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Edge of the Empire Core\\Droids\\Antiquated Battle Droid - Minion.xml",
     "sources": [
       "Edge of the Empire Core Rulebook"
@@ -1716,7 +1716,7 @@
     "price": "65000",
     "rarity": "8",
     "is_restricted": "true",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Edge of the Empire Core\\Droids\\Assassin Droid - Nemesis.xml",
     "sources": [
       "Edge of the Empire Core Rulebook"
@@ -1731,7 +1731,7 @@
     "price": "8250",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Edge of the Empire Core\\Droids\\Astromech Droid - Rival.xml",
     "sources": [
       "Edge of the Empire Core Rulebook"
@@ -1750,7 +1750,7 @@
     "price": "8000",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Edge of the Empire Core\\Droids\\Protocol Droid - Rival.xml",
     "image_filename": "DROIDPROT.png",
     "base_mods": []
@@ -1762,7 +1762,7 @@
     "price": "7500",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Edge of the Empire Core\\Droids\\Maintenance Droid - Minion.xml",
     "sources": [
       "Edge of the Empire Core Rulebook"
@@ -1777,7 +1777,7 @@
     "price": "9600",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Edge of the Empire Core\\Droids\\Security Droid - Rival.xml",
     "sources": [
       "Edge of the Empire Core Rulebook"
@@ -1796,7 +1796,7 @@
     "price": "12000",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Edge of the Empire Core\\Droids\\Medical Droid - Rival.xml",
     "image_filename": "DROIDMEDIC.png",
     "base_mods": []
@@ -1808,7 +1808,7 @@
     "price": "7500",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Force and Destiny Core\\Droids\\Analysis Droid - Minion.xml",
     "sources": [
       "Force and Destiny Core Rulebook"
@@ -1823,7 +1823,7 @@
     "price": "90000",
     "rarity": "10",
     "is_restricted": "true",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Force and Destiny Core\\Droids\\IG-100 Magnaguard - Nemesis.xml",
     "sources": [
       "Force and Destiny Core Rulebook"
@@ -1838,7 +1838,7 @@
     "price": "9600",
     "rarity": "8",
     "is_restricted": "true",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Force and Destiny Core\\Droids\\Interrogation Droid - Rival.xml",
     "sources": [
       "Force and Destiny Core Rulebook"
@@ -1853,7 +1853,7 @@
     "price": "13700",
     "rarity": "7",
     "is_restricted": "true",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Force and Destiny Core\\Droids\\Viper Probe Droid - Rival.xml",
     "sources": [
       "Force and Destiny Core Rulebook"
@@ -1868,7 +1868,7 @@
     "price": "7750",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Desperate Allies\\Droids\\3PX-Series Protocol Droid - Rival.xml",
     "sources": [
       "Desperate Allies"
@@ -1883,7 +1883,7 @@
     "price": "5500",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Desperate Allies\\Droids\\5YQ-Series Protocol Droid - Rival.xml",
     "sources": [
       "Desperate Allies"
@@ -1898,7 +1898,7 @@
     "price": "9000",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Desperate Allies\\Droids\\CZ-Series Communications_Business Droid - Rival.xml",
     "sources": [
       "Desperate Allies"
@@ -1913,7 +1913,7 @@
     "price": "10000",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Desperate Allies\\Droids\\TC-Series Protocol Droid - Rival.xml",
     "sources": [
       "Desperate Allies"
@@ -1928,7 +1928,7 @@
     "price": "12000",
     "rarity": "5",
     "is_restricted": "true",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Desperate Allies\\Droids\\M-3Po-Series Military Protocol Droid - Rival.xml",
     "sources": [
       "Desperate Allies"
@@ -1943,7 +1943,7 @@
     "price": "15000",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Desperate Allies\\Droids\\LRD-Series Envoy Droid - Rival.xml",
     "sources": [
       "Desperate Allies"
@@ -1958,7 +1958,7 @@
     "price": "8500",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Desperate Allies\\Droids\\LOM-Series Protocol Droid - Rival.xml",
     "sources": [
       "Desperate Allies"
@@ -1973,7 +1973,7 @@
     "price": "7500",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Enter the Unknown\\K-9 Series Hunting Droid - Rival.xml",
     "sources": [
       "Enter the Unknown"
@@ -1988,7 +1988,7 @@
     "price": "8900",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Enter the Unknown\\All-Terrain Exploration Droid - Rival.xml",
     "sources": [
       "Enter the Unknown"
@@ -2003,7 +2003,7 @@
     "price": "15000",
     "rarity": "7",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Enter the Unknown\\JC Series Pilot Droid - Rival.xml",
     "sources": [
       "Enter the Unknown"
@@ -2018,7 +2018,7 @@
     "price": "10000",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Enter the Unknown\\KLC Series Exchequer Droid - Rival.xml",
     "sources": [
       "Enter the Unknown"
@@ -2033,7 +2033,7 @@
     "price": "6000",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Enter the Unknown\\87-RM Collector - Rival.xml",
     "sources": [
       "Enter the Unknown"
@@ -2048,7 +2048,7 @@
     "price": "2500",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Enter the Unknown\\Wanderer Scout Surveyor - Rival.xml",
     "sources": [
       "Enter the Unknown"
@@ -2063,7 +2063,7 @@
     "price": "20000",
     "rarity": "8",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Strongholds of Resistance\\Adversaries\\Droids\\CT-4 Medical Droid - Rival.xml",
     "sources": [
       "Strongholds of Resistance"
@@ -2078,7 +2078,7 @@
     "price": "2000",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Strongholds of Resistance\\Adversaries\\Droids\\Q-4 Borer Droid - Minion.xml",
     "sources": [
       "Strongholds of Resistance"
@@ -2093,7 +2093,7 @@
     "price": "7000",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Strongholds of Resistance\\Adversaries\\Droids\\Roche J9 Worker Drone - Rival.xml",
     "sources": [
       "Strongholds of Resistance"
@@ -2108,7 +2108,7 @@
     "price": "10000",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Strongholds of Resistance\\Adversaries\\Droids\\Roche Siak-Series Protocol Droid - Rival.xml",
     "sources": [
       "Strongholds of Resistance"
@@ -2123,7 +2123,7 @@
     "price": "6000",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Strongholds of Resistance\\Adversaries\\Droids\\G2 Repair Droid - Rival.xml",
     "sources": [
       "Strongholds of Resistance"
@@ -2138,7 +2138,7 @@
     "price": "2500",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Droids",
+    "type": "Droids",
     "adv_import_path": "Strongholds of Resistance\\Adversaries\\Droids\\Wanderer Scout Survey Droid - Rival.xml",
     "sources": [
       "Strongholds of Resistance"
@@ -2150,7 +2150,7 @@
     "key": "GV3SERIES",
     "name": "GV/3-series Guardian Droid",
     "description": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
-    "gear_type": "Droids",
+    "type": "Droids",
     "categories": [],
     "encumbrance": "10",
     "hard_points": "0",
@@ -2169,7 +2169,7 @@
     "key": "MARKSMANHREMOTE",
     "name": "Marksman-H Combat Training Remote",
     "description": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
-    "gear_type": "Remotes",
+    "type": "Remotes",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -2188,7 +2188,7 @@
     "key": "RMD20DROID",
     "name": "RMD-20 \"Eye in the Sky\"",
     "description": "Please see page 50 of the Keeping the Peace Sourcebook for details.",
-    "gear_type": "Droids",
+    "type": "Droids",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -2207,7 +2207,7 @@
     "key": "DROIDTSERIES",
     "name": "T-Series Tactical Droid",
     "description": "Please see page 45 of the Lead by Example Sourcebook for details.",
-    "gear_type": "Droids",
+    "type": "Droids",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -2229,7 +2229,7 @@
     "price": "25000",
     "encumbrance": "0",
     "rarity": "8",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Aiwha - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2244,7 +2244,7 @@
     "price": "2500",
     "encumbrance": "0",
     "rarity": "1",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Bantha - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2259,7 +2259,7 @@
     "price": "7500",
     "encumbrance": "0",
     "rarity": "2",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Cracian Thumper - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2274,7 +2274,7 @@
     "price": "15000",
     "encumbrance": "0",
     "rarity": "5",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Dalgo - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2289,7 +2289,7 @@
     "price": "6500",
     "encumbrance": "0",
     "rarity": "3",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Dewback - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2304,7 +2304,7 @@
     "price": "6500",
     "encumbrance": "0",
     "rarity": "3",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Eopie (Cameloid) - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2319,7 +2319,7 @@
     "price": "5000",
     "encumbrance": "0",
     "rarity": "1",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Horse (Equinoid) - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2334,7 +2334,7 @@
     "price": "60000",
     "encumbrance": "0",
     "rarity": "4",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Fambaa - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2350,7 +2350,7 @@
     "encumbrance": "0",
     "rarity": "7",
     "is_restricted": "true",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Kaadu - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2366,7 +2366,7 @@
     "encumbrance": "0",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Kybuck - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2382,7 +2382,7 @@
     "encumbrance": "0",
     "rarity": "8",
     "is_restricted": "false",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Mustafarian Lava Flea - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2401,7 +2401,7 @@
     "price": "9000",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Narglatch - Rival.xml",
     "image_filename": "BEASTNARGLATCH.png",
     "base_mods": []
@@ -2413,7 +2413,7 @@
     "price": "4500",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Ronto - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2428,7 +2428,7 @@
     "price": "16000",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Ruping - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2443,7 +2443,7 @@
     "price": "10000",
     "rarity": "10",
     "is_restricted": "false",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Tauntaun - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2458,7 +2458,7 @@
     "price": "120000",
     "rarity": "9",
     "is_restricted": "true",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Thranta - Rival.xml",
     "sources": [
       "Stay on Target"
@@ -2477,7 +2477,7 @@
     "price": "35000",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Stay on Target\\Riding Beasts\\Varactyl - Rival.xml",
     "image_filename": "BEASTVARACTYL.png",
     "base_mods": []
@@ -2489,7 +2489,7 @@
     "price": "700",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Albek - Rival.xml",
     "sources": [
       "Savage Spirits"
@@ -2504,7 +2504,7 @@
     "price": "400",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Creereen - Minion.xml",
     "sources": [
       "Savage Spirits"
@@ -2519,7 +2519,7 @@
     "price": "1500",
     "rarity": "7",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Fissrit - Minion.xml",
     "sources": [
       "Savage Spirits"
@@ -2534,7 +2534,7 @@
     "price": "2000",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Hurghol - Rival.xml",
     "sources": [
       "Savage Spirits"
@@ -2549,7 +2549,7 @@
     "price": "30000",
     "rarity": "7",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Jerethian Clamberwolf - Rival.xml",
     "sources": [
       "Savage Spirits"
@@ -2564,7 +2564,7 @@
     "price": "7500",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Kath Hound - Rival.xml",
     "sources": [
       "Savage Spirits"
@@ -2579,7 +2579,7 @@
     "price": "40000",
     "rarity": "8",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Manka Cat - Rival.xml",
     "sources": [
       "Savage Spirits"
@@ -2594,7 +2594,7 @@
     "price": "2500",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Mantellian Flutterplume - Minion.xml",
     "sources": [
       "Savage Spirits"
@@ -2609,7 +2609,7 @@
     "price": "8000",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Nexu - Rival.xml",
     "sources": [
       "Savage Spirits"
@@ -2624,7 +2624,7 @@
     "price": "100",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Porvir - Minion.xml",
     "sources": [
       "Savage Spirits"
@@ -2639,7 +2639,7 @@
     "price": "10000",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Reek - Rival.xml",
     "sources": [
       "Savage Spirits"
@@ -2654,7 +2654,7 @@
     "price": "25",
     "rarity": "1",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Runderen - Minion.xml",
     "sources": [
       "Savage Spirits"
@@ -2669,7 +2669,7 @@
     "price": "800",
     "rarity": "7",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Spintiri Glowbat - Minion.xml",
     "sources": [
       "Savage Spirits"
@@ -2684,7 +2684,7 @@
     "price": "2500",
     "rarity": "2",
     "is_restricted": "false",
-    "gear_type": "Riding Beasts",
+    "type": "Riding Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Uxibeast - Rival.xml",
     "sources": [
       "Savage Spirits"
@@ -2699,7 +2699,7 @@
     "price": "3000",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Trainable Beasts",
+    "type": "Trainable Beasts",
     "adv_import_path": "Savage Spirits\\Creatures and Riding Beasts\\Vrblther - Minion.xml",
     "sources": [
       "Savage Spirits"
@@ -2714,7 +2714,7 @@
     "price": "25",
     "encumbrance": "1",
     "rarity": "2",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Suns of Fortune"
     ],
@@ -2728,7 +2728,7 @@
     "price": "500",
     "encumbrance": "20",
     "rarity": "2",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Suns of Fortune"
     ],
@@ -2742,7 +2742,7 @@
     "price": "100",
     "encumbrance": "1",
     "rarity": "4",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Suns of Fortune"
     ],
@@ -2756,7 +2756,7 @@
     "price": "1500",
     "encumbrance": "10",
     "rarity": "5",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Suns of Fortune"
     ],
@@ -2770,7 +2770,7 @@
     "price": "50",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Suns of Fortune"
     ],
@@ -2784,7 +2784,7 @@
     "price": "3000",
     "encumbrance": "5",
     "rarity": "7",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Suns of Fortune"
     ],
@@ -2798,7 +2798,7 @@
     "price": "300",
     "encumbrance": "0",
     "rarity": "2",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Suns of Fortune"
     ],
@@ -2812,7 +2812,7 @@
     "price": "10",
     "encumbrance": "0",
     "rarity": "2",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Suns of Fortune"
     ],
@@ -2826,7 +2826,7 @@
     "price": "15",
     "encumbrance": "1",
     "rarity": "5",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -2840,7 +2840,7 @@
     "price": "20",
     "encumbrance": "1",
     "rarity": "4",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -2854,7 +2854,7 @@
     "price": "1750",
     "encumbrance": "25",
     "rarity": "5",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -2869,7 +2869,7 @@
     "encumbrance": "1",
     "rarity": "4",
     "is_restricted": "true",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -2889,7 +2889,7 @@
     "encumbrance": "25",
     "rarity": "5",
     "is_restricted": "true",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -2909,7 +2909,7 @@
     "encumbrance": "1",
     "rarity": "5",
     "is_restricted": "true",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -2929,7 +2929,7 @@
     "encumbrance": "25",
     "rarity": "6",
     "is_restricted": "true",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -2949,7 +2949,7 @@
     "encumbrance": "1",
     "rarity": "6",
     "is_restricted": "true",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -2969,7 +2969,7 @@
     "encumbrance": "25",
     "rarity": "7",
     "is_restricted": "true",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -2989,7 +2989,7 @@
     "encumbrance": "0",
     "rarity": "10",
     "is_restricted": "true",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Nexus of Power"
     ],
@@ -3009,7 +3009,7 @@
     "encumbrance": "0",
     "rarity": "8",
     "is_restricted": "true",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "sources": [
       "Nexus of Power"
     ],
@@ -3033,7 +3033,7 @@
     "encumbrance": "0",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -3054,7 +3054,7 @@
     "price": "20",
     "encumbrance": "1",
     "rarity": "1",
-    "gear_type": "Medical",
+    "type": "Medical",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -3070,7 +3070,7 @@
     "price": "4000",
     "encumbrance": "12",
     "rarity": "1",
-    "gear_type": "Medical",
+    "type": "Medical",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -3081,7 +3081,7 @@
     "price": "100",
     "encumbrance": "1",
     "rarity": "1",
-    "gear_type": "Medical",
+    "type": "Medical",
     "sources": [
       "Force and Destiny Beta Rulebook"
     ],
@@ -3100,7 +3100,7 @@
     "price": "100",
     "encumbrance": "1",
     "rarity": "1",
-    "gear_type": "Medical",
+    "type": "Medical",
     "image_filename": "EMP.png",
     "base_mods": []
   },
@@ -3115,7 +3115,7 @@
     "price": "400",
     "encumbrance": "2",
     "rarity": "2",
-    "gear_type": "Medical",
+    "type": "Medical",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -3137,7 +3137,7 @@
     "price": "400",
     "encumbrance": "2",
     "rarity": "2",
-    "gear_type": "Medical",
+    "type": "Medical",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -3168,7 +3168,7 @@
     "price": "25",
     "encumbrance": "0",
     "rarity": "1",
-    "gear_type": "Medical",
+    "type": "Medical",
     "image_filename": "STIMPACK.png",
     "base_mods": [
       {
@@ -3189,7 +3189,7 @@
     "price": "10",
     "encumbrance": "0",
     "rarity": "1",
-    "gear_type": "Medical",
+    "type": "Medical",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -3197,7 +3197,7 @@
     "key": "MEDBCKPCK",
     "name": "ECM-598 Medical Backpack",
     "description": "Please see page 48 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Medical",
+    "type": "Medical",
     "categories": [],
     "encumbrance": "2",
     "hard_points": "0",
@@ -3228,7 +3228,7 @@
     "key": "SYNTHEROPE",
     "name": "Syntherope",
     "description": "Please see page 49 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -3244,7 +3244,7 @@
     "key": "FLASHCAMPST",
     "name": "FlashFire Camp Stove",
     "description": "Please see page 47 of the Savage Spirits Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "2",
     "hard_points": "0",
@@ -3260,7 +3260,7 @@
     "key": "SURVMESSKIT",
     "name": "\"Survivalist\" Mess Kit",
     "description": "Please see page 47 of the Savage Spirits Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -3276,7 +3276,7 @@
     "key": "WATPUR",
     "name": "Water Purifier",
     "description": "Please see page 48 of the Savage Spirits Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -3292,7 +3292,7 @@
     "key": "CERESTAB",
     "name": "IRAPS Cerebral Stabilizer",
     "description": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Medical",
+    "type": "Medical",
     "categories": [],
     "encumbrance": "3",
     "hard_points": "0",
@@ -3309,7 +3309,7 @@
     "key": "MEDPACMIL",
     "name": "Military Medpac",
     "description": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Medical",
+    "type": "Medical",
     "categories": [],
     "encumbrance": "2",
     "hard_points": "0",
@@ -3334,7 +3334,7 @@
     "key": "XV38",
     "name": "XV-38 Veterinary Kit",
     "description": "Please see page 44 of the Stay on Target Sourcebook for details.",
-    "gear_type": "Medical",
+    "type": "Medical",
     "categories": [],
     "price": "600",
     "encumbrance": "3",
@@ -3359,7 +3359,7 @@
     "key": "XV09",
     "name": "XV-09 Chemical Restraint Harness",
     "description": "Please see page 44 of the Stay on Target Sourcebook for details.",
-    "gear_type": "Medical",
+    "type": "Medical",
     "categories": [],
     "price": "1200",
     "encumbrance": "2",
@@ -3381,7 +3381,7 @@
     "key": "BLOODSCAN",
     "name": "Blood Scanner",
     "description": "Please see page 51 of the Keeping the Peace sourcebook for details.",
-    "gear_type": "Medical",
+    "type": "Medical",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -3403,7 +3403,7 @@
     "key": "MEDAIDPATCH",
     "name": "Med-Aid Patch",
     "description": "Please see page 51 of the Keeping the Peace sourcebook for details.",
-    "gear_type": "Medical",
+    "type": "Medical",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -3425,7 +3425,7 @@
     "key": "HEALERKIT",
     "name": "Healer's Kit",
     "description": "Please see page 48 of the Savage Spirits sourcebook for details.",
-    "gear_type": "Medical",
+    "type": "Medical",
     "categories": [],
     "encumbrance": "2",
     "hard_points": "0",
@@ -3452,7 +3452,7 @@
     "key": "XV20VETKIT",
     "name": "XV-20 Portable Veterinary Kit",
     "description": "Please see page 48 of the Savage Spirits sourcebook for details.",
-    "gear_type": "Medical",
+    "type": "Medical",
     "categories": [],
     "encumbrance": "2",
     "hard_points": "0",
@@ -3479,7 +3479,7 @@
     "price": "1",
     "encumbrance": "0",
     "rarity": "0",
-    "gear_type": "Entertainment",
+    "type": "Entertainment",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -3493,7 +3493,7 @@
     "price": "350",
     "encumbrance": "10",
     "rarity": "1",
-    "gear_type": "Entertainment",
+    "type": "Entertainment",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -3507,7 +3507,7 @@
     "price": "40",
     "encumbrance": "0",
     "rarity": "0",
-    "gear_type": "Entertainment",
+    "type": "Entertainment",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -3522,7 +3522,7 @@
     "encumbrance": "1",
     "rarity": "6",
     "is_restricted": "true",
-    "gear_type": "Entertainment",
+    "type": "Entertainment",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -3542,7 +3542,7 @@
     "encumbrance": "1",
     "rarity": "5",
     "is_restricted": "true",
-    "gear_type": "Entertainment",
+    "type": "Entertainment",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -3566,7 +3566,7 @@
     "price": "25",
     "encumbrance": "0",
     "rarity": "1",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "image_filename": "BIND.png",
     "base_mods": []
   },
@@ -3581,7 +3581,7 @@
     "price": "400",
     "encumbrance": "4",
     "rarity": "3",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "image_filename": "COMMJAM.png",
     "base_mods": []
   },
@@ -3596,7 +3596,7 @@
     "price": "1000",
     "encumbrance": "0",
     "rarity": "5",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -3612,7 +3612,7 @@
     "price": "100",
     "encumbrance": "2",
     "rarity": "4",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -3629,7 +3629,7 @@
     "is_restricted": "true",
     "encumbrance": "1",
     "rarity": "5",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "image_filename": "ELB.png",
     "base_mods": []
   },
@@ -3645,7 +3645,7 @@
     "price": "35",
     "encumbrance": "0",
     "rarity": "0",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "image_filename": "RESBOLT.png",
     "base_mods": []
   },
@@ -3660,7 +3660,7 @@
     "price": "500",
     "encumbrance": "2",
     "rarity": "4",
-    "gear_type": "Slicing Tools",
+    "type": "Slicing Tools",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -3668,7 +3668,7 @@
     "key": "MAGNACUFF",
     "name": "MC-100 Magnacuffs",
     "description": "Please see page 46 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -3685,7 +3685,7 @@
     "key": "FORENKIT",
     "name": "Forensics Investigation Kit",
     "description": "Please see page 46 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "4",
     "hard_points": "0",
@@ -3708,7 +3708,7 @@
     "key": "SECCOLLAR",
     "name": "Thalassian Security Collar",
     "description": "Please see page 108 of the Lords of Nal Hutta Sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -3731,7 +3731,7 @@
     "key": "EXPLSHAC",
     "name": "Explosive Shackles",
     "description": "Please see page 109 of the Lords of Nal Hutta Sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "2",
     "hard_points": "0",
@@ -3758,7 +3758,7 @@
     "price": "100",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "sources": [
       "Desperate Allies"
     ],
@@ -3778,7 +3778,7 @@
     "price": "175",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "sources": [
       "Desperate Allies"
     ],
@@ -3798,7 +3798,7 @@
     "encumbrance": "0",
     "rarity": "7",
     "is_restricted": "true",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "sources": [
       "Desperate Allies"
     ],
@@ -3818,7 +3818,7 @@
     "encumbrance": "0",
     "rarity": "8",
     "is_restricted": "true",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "sources": [
       "Desperate Allies"
     ],
@@ -3838,7 +3838,7 @@
     "encumbrance": "0",
     "rarity": "7",
     "is_restricted": "true",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "sources": [
       "Desperate Allies"
     ],
@@ -3858,7 +3858,7 @@
     "encumbrance": "2",
     "rarity": "8",
     "is_restricted": "true",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "sources": [
       "Desperate Allies"
     ],
@@ -3873,7 +3873,7 @@
     "encumbrance": "0",
     "rarity": "8",
     "is_restricted": "true",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "sources": [
       "Desperate Allies"
     ],
@@ -3888,7 +3888,7 @@
     "encumbrance": "0",
     "rarity": "7",
     "is_restricted": "true",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "base_mods": [
       {
         "misc_desc": "May contain a single dose of poison or other substance.",
@@ -3912,7 +3912,7 @@
     "encumbrance": "1",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "base_mods": [
       {
         "misc_desc": "Make an [B]Average ([DI][DI]) Computers check[b] to discover presence and location of recording or espionage devices within medium range.",
@@ -3936,7 +3936,7 @@
     "encumbrance": "2",
     "rarity": "7",
     "is_restricted": "false",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "sources": [
       "Desperate Allies"
     ],
@@ -3952,7 +3952,7 @@
     "key": "ALDR8GRAVBIND",
     "name": "AL-DR8 Grav-Binders",
     "description": "Please see page 51 of the Keeping the Peace sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -3974,7 +3974,7 @@
     "key": "PERSTRANSPOND",
     "name": "Personal Transponder",
     "description": "Please see page 51 of the Keeping the Peace sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -3996,7 +3996,7 @@
     "key": "STUNCUFFS",
     "name": "Stun Cuffs",
     "description": "Please see page 52 of the Keeping the Peace sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -4025,7 +4025,7 @@
     "price": "300",
     "encumbrance": "5",
     "rarity": "2",
-    "gear_type": "Survival",
+    "type": "Survival",
     "image_filename": "CRASH.png",
     "base_mods": []
   },
@@ -4041,7 +4041,7 @@
     "price": "5",
     "encumbrance": "0",
     "rarity": "0",
-    "gear_type": "Survival",
+    "type": "Survival",
     "image_filename": "RATION.png",
     "base_mods": []
   },
@@ -4057,7 +4057,7 @@
     "price": "25",
     "encumbrance": "1",
     "rarity": "1",
-    "gear_type": "Survival",
+    "type": "Survival",
     "image_filename": "BREATHM.png",
     "base_mods": []
   },
@@ -4073,7 +4073,7 @@
     "price": "100",
     "encumbrance": "4",
     "rarity": "1",
-    "gear_type": "Survival",
+    "type": "Survival",
     "image_filename": "SPACESU.png",
     "base_mods": []
   },
@@ -4088,7 +4088,7 @@
     "price": "350",
     "encumbrance": "5",
     "rarity": "2",
-    "gear_type": "Survival",
+    "type": "Survival",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -4104,7 +4104,7 @@
     "price": "100",
     "encumbrance": "4",
     "rarity": "1",
-    "gear_type": "Survival",
+    "type": "Survival",
     "image_filename": "TENT.png",
     "base_mods": []
   },
@@ -4120,7 +4120,7 @@
     "price": "200",
     "encumbrance": "2",
     "rarity": "1",
-    "gear_type": "Survival",
+    "type": "Survival",
     "image_filename": "THERMCL.png",
     "base_mods": [
       {
@@ -4133,7 +4133,7 @@
     "key": "ELECSNARE",
     "name": "Electro-Snare",
     "description": "Please see page 49 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -4149,7 +4149,7 @@
     "key": "PORTSHELTER",
     "name": "Portable Survival Shelter",
     "description": "Please see page 49 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "2",
     "hard_points": "0",
@@ -4165,7 +4165,7 @@
     "key": "ELECFENCE",
     "name": "Electric Perimeter Fence",
     "description": "Please see page 49 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "6",
     "hard_points": "0",
@@ -4181,7 +4181,7 @@
     "key": "DISTRESSBCN",
     "name": "PED-21 Personal Distress Beacon",
     "description": "Please see page 50 of Enter the Unknown Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -4202,7 +4202,7 @@
     "key": "FLDKITCHEN",
     "name": "Field Kitchen",
     "description": "Please see page 50 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "5",
     "hard_points": "0",
@@ -4223,7 +4223,7 @@
     "key": "FLDDRSKIT",
     "name": "Viscera Field Dressing Kit",
     "description": "Please see page 51 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "3",
     "hard_points": "0",
@@ -4244,7 +4244,7 @@
     "key": "FIELDGOGG",
     "name": "Scout 5 Field Goggles",
     "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -4261,7 +4261,7 @@
     "key": "FIELDRAT",
     "name": "Field Rations",
     "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -4278,7 +4278,7 @@
     "key": "FIREPASTE",
     "name": "Fire Paste",
     "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -4295,7 +4295,7 @@
     "key": "FOODPREPSYS",
     "name": "Food Preparation System",
     "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "3",
     "hard_points": "0",
@@ -4312,7 +4312,7 @@
     "key": "TENTTAUN",
     "name": "Tauntaun Pup Tent",
     "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "3",
     "hard_points": "0",
@@ -4329,7 +4329,7 @@
     "key": "CAMONETROLL",
     "name": "CN-15 Camouflage Netting (Roll)",
     "description": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "4",
     "hard_points": "0",
@@ -4354,7 +4354,7 @@
     "key": "CAMOPAINT",
     "name": "CN-21 Camouflage Paint",
     "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -4379,7 +4379,7 @@
     "key": "CANTEEN",
     "name": "Canteen",
     "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -4396,7 +4396,7 @@
     "key": "HOLOGHILLIE",
     "name": "CX-2000 Holographic Ghillie Suit",
     "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -4418,7 +4418,7 @@
     "key": "BIOMEGEN",
     "name": "Biome Generator",
     "description": "Please see page 46 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "45",
     "hard_points": "0",
@@ -4435,7 +4435,7 @@
     "key": "WATERVAP",
     "name": "GX-8 Water Vaporator",
     "description": "Please see page 47 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "12",
     "hard_points": "0",
@@ -4452,7 +4452,7 @@
     "key": "ATMOSPROC",
     "name": "Elysium Atmospheric Processor",
     "description": "Please see page 46 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "10000",
     "hard_points": "0",
@@ -4469,7 +4469,7 @@
     "key": "ATMOREDAMP",
     "name": "FasClean Atmospheric Reactive Damper",
     "description": "Please see page 47 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "500",
     "hard_points": "0",
@@ -4486,7 +4486,7 @@
     "key": "A99AQUABREATH",
     "name": "A99 Aquata Breather",
     "description": "Please see page 52 of the Keeping the Peace sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -4504,7 +4504,7 @@
     "key": "INSTAMIST",
     "name": "InstaMist Generator",
     "description": "Please see page 52 of the Keeping the Peace sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "5",
     "hard_points": "0",
@@ -4526,7 +4526,7 @@
     "key": "JEDIUTILBELT",
     "name": "Jedi Utility Belt",
     "description": "Please see page 52 of the Keeping the Peace sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -4548,7 +4548,7 @@
     "key": "LUMAFLARE",
     "name": "Luma Flare",
     "description": "Please see page 52 of the Keeping the Peace sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -4578,7 +4578,7 @@
     "price": "50",
     "encumbrance": "0",
     "rarity": "1",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "image_filename": "BACKPACK.png",
     "base_mods": [
       {
@@ -4599,7 +4599,7 @@
     "price": "50",
     "encumbrance": "1",
     "rarity": "2",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "image_filename": "CLIMB.png",
     "base_mods": []
   },
@@ -4615,7 +4615,7 @@
     "price": "75",
     "encumbrance": "1",
     "rarity": "1",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "image_filename": "DATAPAD.png",
     "base_mods": []
   },
@@ -4631,7 +4631,7 @@
     "price": "25",
     "encumbrance": "0",
     "rarity": "2",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "image_filename": "ERP.png",
     "base_mods": [
       {
@@ -4652,7 +4652,7 @@
     "price": "25",
     "encumbrance": "1",
     "rarity": "1",
-    "gear_type": "Reloads/Ammo",
+    "type": "Reloads/Ammo",
     "image_filename": "RELOAD.png",
     "base_mods": []
   },
@@ -4663,7 +4663,7 @@
     "price": "450",
     "encumbrance": "1",
     "rarity": "7",
-    "gear_type": "Reloads/Ammo",
+    "type": "Reloads/Ammo",
     "sources": [
       "Enter the Unknown"
     ],
@@ -4677,7 +4677,7 @@
     "price": "500",
     "encumbrance": "1",
     "rarity": "6",
-    "gear_type": "Reloads/Ammo",
+    "type": "Reloads/Ammo",
     "sources": [
       "Enter the Unknown"
     ],
@@ -4691,7 +4691,7 @@
     "price": "50",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Reloads/Ammo",
+    "type": "Reloads/Ammo",
     "sources": [
       "Suns of Fortune"
     ],
@@ -4705,7 +4705,7 @@
     "price": "60",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Reloads/Ammo",
+    "type": "Reloads/Ammo",
     "sources": [
       "Suns of Fortune"
     ],
@@ -4719,7 +4719,7 @@
     "price": "450",
     "encumbrance": "0",
     "rarity": "7",
-    "gear_type": "Reloads/Ammo",
+    "type": "Reloads/Ammo",
     "sources": [
       "Savage Spirits"
     ],
@@ -4733,7 +4733,7 @@
     "price": "1",
     "encumbrance": "0",
     "rarity": "3",
-    "gear_type": "Reloads/Ammo",
+    "type": "Reloads/Ammo",
     "sources": [
       "Savage Spirits"
     ],
@@ -4747,7 +4747,7 @@
     "price": "50",
     "encumbrance": "0",
     "rarity": "5",
-    "gear_type": "Reloads/Ammo",
+    "type": "Reloads/Ammo",
     "sources": [
       "Savage Spirits"
     ],
@@ -4761,7 +4761,7 @@
     "price": "60",
     "encumbrance": "0",
     "rarity": "5",
-    "gear_type": "Reloads/Ammo",
+    "type": "Reloads/Ammo",
     "sources": [
       "Savage Spirits"
     ],
@@ -4775,7 +4775,7 @@
     "price": "30",
     "encumbrance": "0",
     "rarity": "5",
-    "gear_type": "Reloads/Ammo",
+    "type": "Reloads/Ammo",
     "sources": [
       "Savage Spirits"
     ],
@@ -4789,7 +4789,7 @@
     "price": "60",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Reloads/Ammo",
+    "type": "Reloads/Ammo",
     "sources": [
       "Savage Spirits"
     ],
@@ -4808,7 +4808,7 @@
     "price": "150",
     "encumbrance": "2",
     "rarity": "2",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "image_filename": "FUSLANT.png",
     "base_mods": []
   },
@@ -4824,7 +4824,7 @@
     "price": "10",
     "encumbrance": "1",
     "rarity": "0",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "image_filename": "GLOWROD.png",
     "base_mods": []
   },
@@ -4835,7 +4835,7 @@
     "price": "4500",
     "encumbrance": "2",
     "rarity": "7",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -4854,7 +4854,7 @@
     "price": "350",
     "encumbrance": "4",
     "rarity": "2",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "image_filename": "TOOLKIT.png",
     "base_mods": []
   },
@@ -4870,7 +4870,7 @@
     "price": "25",
     "encumbrance": "0",
     "rarity": "0",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "image_filename": "UTILBELT.png",
     "base_mods": [
       {
@@ -4883,7 +4883,7 @@
     "key": "MILFIELDMAN",
     "name": "Military Field Manual",
     "description": "Please see page 197 of the Age of Rebellion Core Rulebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -4905,7 +4905,7 @@
     "key": "DATAPADMERCH",
     "name": "Mercantiler Datapad",
     "description": "Please see page 48 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -4922,7 +4922,7 @@
     "key": "THUNDERPES",
     "name": "Thunderhead PES",
     "description": "Please see page 48 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "10",
     "hard_points": "0",
@@ -4939,7 +4939,7 @@
     "key": "MUSICCOMMON",
     "name": "Musical Instrument (Common)",
     "description": "Please see page 48 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -4956,7 +4956,7 @@
     "key": "MUSICHIGHQ",
     "name": "Musical Instrument (High Quality)",
     "description": "Please see page 48 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -4973,7 +4973,7 @@
     "key": "MUSICLEGEND",
     "name": "Musical Instrument (Legendary)",
     "description": "Please see page 48 of the Far Horizons Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -4994,7 +4994,7 @@
     "encumbrance": "0",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Desperate Allies"
     ],
@@ -5014,7 +5014,7 @@
     "encumbrance": "0",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Desperate Allies"
     ],
@@ -5034,7 +5034,7 @@
     "encumbrance": "1",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "base_mods": [
       {
         "misc_desc": "[B]Average ([DI][DI]) Ranged Light check[b] to fire grappling hook up to medium range. Action to reel in cord.",
@@ -5058,7 +5058,7 @@
     "encumbrance": "2",
     "rarity": "2",
     "is_restricted": "false",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Desperate Allies"
     ],
@@ -5078,7 +5078,7 @@
     "encumbrance": "2",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Strongholds of Resistance"
     ],
@@ -5093,7 +5093,7 @@
     "encumbrance": "1",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Strongholds of Resistance"
     ],
@@ -5113,7 +5113,7 @@
     "encumbrance": "1",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Strongholds of Resistance"
     ],
@@ -5133,7 +5133,7 @@
     "encumbrance": "1",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Strongholds of Resistance"
     ],
@@ -5149,7 +5149,7 @@
     "key": "JEDIMULTITOOL",
     "name": "Jedi Multi-Tool",
     "description": "Please see page 53 of the Keeping the Peace Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "2",
     "hard_points": "0",
@@ -5171,7 +5171,7 @@
     "key": "WJ880BLIND",
     "name": "WJ-880 Blinding Helmet",
     "description": "Please see page 53 of the Keeping the Peace Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "3",
     "hard_points": "0",
@@ -5193,7 +5193,7 @@
     "key": "BARDCHRON",
     "name": "Bardottan Chronoscanner",
     "description": "Please see page 105 of the Nexus of Power Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -5210,7 +5210,7 @@
     "key": "THERMCUT",
     "name": "Thermal Cutter",
     "description": "Please see page 105 of the Nexus of Power Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "2",
     "hard_points": "0",
@@ -5227,7 +5227,7 @@
     "key": "SPMACBIN",
     "name": "Sporting Macrobinoculars",
     "description": "Please see page 105 of the Nexus of Power Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -5248,7 +5248,7 @@
     "key": "VERGCHART",
     "name": "Vergence Starchart",
     "description": "Please see page 106 of the Nexus of Power Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -5269,7 +5269,7 @@
     "key": "MICROAXSTARMAP",
     "name": "Starmapper Handheld NaviComputer",
     "description": "Please see page 49 of the Savage Spirits Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -5296,7 +5296,7 @@
     "key": "SURVEYTOOLS",
     "name": "Surveyer's Tools",
     "description": "Please see page 49 of the Savage Spirits Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "6",
     "hard_points": "0",
@@ -5317,7 +5317,7 @@
     "key": "WEAPMAINT",
     "name": "Weapon Maintenance Kit",
     "description": "Please see page 49 of the Savage Spirits Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "2",
     "hard_points": "0",
@@ -5338,7 +5338,7 @@
     "key": "WIZPOUCH",
     "name": "Wizard Pouch",
     "description": "Please see page 106 of the Nexus of Power Sourcebook for details.",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -5359,7 +5359,7 @@
     "key": "LOADBEAR",
     "name": "Load-Bearing Gear",
     "description": "Please see page 198 of the Age of Rebellion Core Rulebook for details.",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -5380,7 +5380,7 @@
     "key": "SURVEYBAG",
     "name": "Surveyor's Bag",
     "description": "Please see page 53 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -5401,7 +5401,7 @@
     "key": "SPDUFFEL",
     "name": "Spacer's Duffel",
     "description": "Please see page 44 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -5426,7 +5426,7 @@
     "key": "AVTRNSLTR",
     "name": "Holo V Audio/Visual Translator",
     "description": "Please see page 54 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -5447,7 +5447,7 @@
     "key": "MODPACK",
     "name": "Mk. IV Modular Backpack",
     "description": "Please see page 51 of the Enter the Unknown Sourcebook for details.      [BR][I]Note: To purchase accessory pouches for the modular backpack, select the backpack in your inventory and click the \"Attachments\" button.  An \"attachment\" will be available for adding the pouches to the backpack.[i]",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "1",
@@ -5468,7 +5468,7 @@
     "key": "MODPACK3",
     "name": "Mk. III Modular Backpack",
     "description": "Please see page 46 of the Savage Spirits Sourcebook for details.      [P][B]Note:[b] To purchase accessory pouches for the modular backpack, select the backpack in your inventory and click the \"Attachments\" button.  An \"attachment\" will be available for adding the pouches to the backpack.",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "1",
@@ -5493,7 +5493,7 @@
       "Enter the Unknown",
       "Savage Spirits"
     ],
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -5507,7 +5507,7 @@
     "name": "Riding Tack",
     "description": "Please see page 47 of the Savage Spirits Sourcebook for details.[BR]      [I]Note: This tack can also be found as an attachment for a mount vehicle.",
     "sources": "Savage Spirits",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "encumbrance": "3",
     "hard_points": "0",
@@ -5525,7 +5525,7 @@
     "key": "BURNGEL",
     "name": "\"Quickflash\" Burning Gel",
     "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -5541,7 +5541,7 @@
     "key": "CHEMLURE",
     "name": "Chem Lure",
     "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -5557,7 +5557,7 @@
     "key": "EXCAVKIT",
     "name": "Excavator's Precision Tool Kit",
     "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "5",
     "hard_points": "0",
@@ -5573,7 +5573,7 @@
     "key": "SPECTINY",
     "name": "Specimen Container, Tiny",
     "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -5589,7 +5589,7 @@
     "key": "SPECSMALL",
     "name": "Specimen Container, Small",
     "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -5605,7 +5605,7 @@
     "key": "SPECMED",
     "name": "Specimen Container, Medium",
     "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "3",
     "hard_points": "0",
@@ -5621,7 +5621,7 @@
     "key": "SPECLRG",
     "name": "Speciman Container, Large",
     "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "5",
     "hard_points": "0",
@@ -5640,7 +5640,7 @@
     "price": "450",
     "encumbrance": "1",
     "rarity": "5",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Suns of Fortune"
     ],
@@ -5659,7 +5659,7 @@
     "price": "1500",
     "encumbrance": "12",
     "rarity": "5",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Suns of Fortune"
     ],
@@ -5678,7 +5678,7 @@
     "price": "500",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Suns of Fortune"
     ],
@@ -5693,7 +5693,7 @@
       "Dangerous Covenants",
       "Forged in Battle"
     ],
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -5707,7 +5707,7 @@
     "key": "BELTPOUCHMIL",
     "name": "Military Belt Pouch",
     "description": "Please see page 59 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -5729,7 +5729,7 @@
     "key": "HOLSTERCONC",
     "name": "Model 58 Concealment Holster",
     "description": "Please see page 59 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -5754,7 +5754,7 @@
     "key": "PACKMIL",
     "name": "Military Pack",
     "description": "Please see page 59 of the Dangerous Covenants Sourcebook for details.",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -5787,7 +5787,7 @@
     "encumbrance": "20",
     "rarity": "6",
     "is_restricted": "true",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "base_mods": [
       {
         "misc_desc": "Can conceal items up to half encumbrance of box.",
@@ -5811,7 +5811,7 @@
     "encumbrance": "16",
     "rarity": "6",
     "is_restricted": "true",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "base_mods": [
       {
         "misc_desc": "Can conceal items up to half encumbrance of box.",
@@ -5835,7 +5835,7 @@
     "encumbrance": "10",
     "rarity": "6",
     "is_restricted": "true",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "base_mods": [
       {
         "misc_desc": "Can conceal items up to half encumbrance of box.",
@@ -5859,7 +5859,7 @@
     "encumbrance": "6",
     "rarity": "6",
     "is_restricted": "true",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "base_mods": [
       {
         "misc_desc": "Can conceal items up to half encumbrance of box.",
@@ -5883,7 +5883,7 @@
     "encumbrance": "2",
     "rarity": "6",
     "is_restricted": "true",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "base_mods": [
       {
         "misc_desc": "Can conceal items up to half encumbrance of box.",
@@ -5906,7 +5906,7 @@
     "price": "700",
     "encumbrance": "5",
     "rarity": "5",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Stay on Target"
     ],
@@ -5925,7 +5925,7 @@
     "price": "1000",
     "encumbrance": "1",
     "rarity": "5",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Stay on Target"
     ],
@@ -5944,7 +5944,7 @@
     "price": "100",
     "encumbrance": "1",
     "rarity": "1",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Stay on Target"
     ],
@@ -5964,7 +5964,7 @@
     "encumbrance": "1",
     "rarity": "5",
     "is_restricted": "true",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -5984,7 +5984,7 @@
     "encumbrance": "12",
     "rarity": "7",
     "is_restricted": "true",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -6004,7 +6004,7 @@
     "encumbrance": "1",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "sources": [
       "Lords of Nal Hutta"
     ],
@@ -6024,7 +6024,7 @@
     "is_restricted": "true",
     "encumbrance": "0",
     "rarity": "6",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6039,7 +6039,7 @@
     "is_restricted": "true",
     "encumbrance": "3",
     "rarity": "7",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6054,7 +6054,7 @@
     "is_restricted": "true",
     "encumbrance": "0",
     "rarity": "5",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6069,7 +6069,7 @@
     "is_restricted": "true",
     "encumbrance": "3",
     "rarity": "6",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6084,7 +6084,7 @@
     "is_restricted": "true",
     "encumbrance": "0",
     "rarity": "7",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6099,7 +6099,7 @@
     "is_restricted": "true",
     "encumbrance": "5",
     "rarity": "8",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6114,7 +6114,7 @@
     "is_restricted": "true",
     "encumbrance": "0",
     "rarity": "9",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6129,7 +6129,7 @@
     "is_restricted": "true",
     "encumbrance": "2",
     "rarity": "10",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6144,7 +6144,7 @@
     "is_restricted": "true",
     "encumbrance": "0",
     "rarity": "8",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6159,7 +6159,7 @@
     "is_restricted": "true",
     "encumbrance": "3",
     "rarity": "9",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6174,7 +6174,7 @@
     "is_restricted": "true",
     "encumbrance": "0",
     "rarity": "1",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6189,7 +6189,7 @@
     "is_restricted": "true",
     "encumbrance": "3",
     "rarity": "2",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6204,7 +6204,7 @@
     "is_restricted": "true",
     "encumbrance": "1",
     "rarity": "6",
-    "gear_type": "Slicing Tools",
+    "type": "Slicing Tools",
     "sources": [
       "Edge of the Empire Core Rulebook"
     ],
@@ -6227,7 +6227,7 @@
     ],
     "encumbrance": "1",
     "rarity": "6",
-    "gear_type": "Slicing Tools",
+    "type": "Slicing Tools",
     "base_mods": [
       {
         "misc_desc": "Adds [BOOST][BOOST] to any Computers check made to slice computers",
@@ -6255,7 +6255,7 @@
     "is_restricted": "true",
     "encumbrance": "1",
     "rarity": "9",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "image_filename": "missing.png",
     "base_mods": []
   },
@@ -6271,7 +6271,7 @@
     "is_restricted": "true",
     "encumbrance": "1",
     "rarity": "9",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -6288,7 +6288,7 @@
     "encumbrance": "1",
     "rarity": "3",
     "is_restricted": "true",
-    "gear_type": "Slicing Tools",
+    "type": "Slicing Tools",
     "base_mods": [
       {
         "misc_desc": "Adds [BOOST][BOOST] to any Computers check made to slice computers",
@@ -6312,7 +6312,7 @@
     "encumbrance": "12",
     "rarity": "6",
     "is_restricted": "false",
-    "gear_type": "Slicing Tools",
+    "type": "Slicing Tools",
     "base_mods": [
       {
         "misc_desc": "Add [SE] on attempts to slice a system protected by a tracing console.",
@@ -6336,7 +6336,7 @@
     "encumbrance": "2",
     "rarity": "7",
     "is_restricted": "true",
-    "gear_type": "Slicing Tools",
+    "type": "Slicing Tools",
     "sources": [
       "Special Modifications"
     ],
@@ -6359,7 +6359,7 @@
     "is_restricted": "true",
     "encumbrance": "1",
     "rarity": "10",
-    "gear_type": "Ancient Talismans",
+    "type": "Ancient Talismans",
     "base_mods": [
       {
         "key": "DEMONMASK"
@@ -6382,7 +6382,7 @@
     "is_restricted": "true",
     "encumbrance": "1",
     "rarity": "10",
-    "gear_type": "Ancient Talismans",
+    "type": "Ancient Talismans",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -6401,7 +6401,7 @@
     "is_restricted": "true",
     "encumbrance": "1",
     "rarity": "10",
-    "gear_type": "Ancient Talismans",
+    "type": "Ancient Talismans",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -6418,7 +6418,7 @@
     "is_restricted": "false",
     "encumbrance": "0",
     "rarity": "10",
-    "gear_type": "Ancient Talismans",
+    "type": "Ancient Talismans",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -6436,7 +6436,7 @@
     "is_restricted": "false",
     "encumbrance": "0",
     "rarity": "9",
-    "gear_type": "Ancient Talismans",
+    "type": "Ancient Talismans",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -6453,7 +6453,7 @@
     "is_restricted": "false",
     "encumbrance": "0",
     "rarity": "8",
-    "gear_type": "Ancient Talismans",
+    "type": "Ancient Talismans",
     "base_mods": [
       {
         "misc_desc": "A Force-sensitive character heals 1 additional strain at the end of an encounter."
@@ -6476,7 +6476,7 @@
     "is_restricted": "false",
     "encumbrance": "0",
     "rarity": "10",
-    "gear_type": "Ancient Talismans",
+    "type": "Ancient Talismans",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -6493,7 +6493,7 @@
     "is_restricted": "false",
     "encumbrance": "0",
     "rarity": "10",
-    "gear_type": "Ancient Talismans",
+    "type": "Ancient Talismans",
     "base_mods": [
       {
         "misc_desc": "A Force-sensitive character removes all [SE] imposed due to darkness, concealment, camouflage, or similar effects."
@@ -6513,7 +6513,7 @@
     "is_restricted": "false",
     "encumbrance": "0",
     "rarity": "10",
-    "gear_type": "Ancient Talismans",
+    "type": "Ancient Talismans",
     "base_mods": [
       {
         "misc_desc": "A Force-sensitive character may add [FO] to all Force power or Force talent checks when dealing with creatures detailed in the Grimoire  This effect lasts for the game session."
@@ -6533,7 +6533,7 @@
     "is_restricted": "false",
     "encumbrance": "0",
     "rarity": "9",
-    "gear_type": "Ancient Talismans",
+    "type": "Ancient Talismans",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -6551,7 +6551,7 @@
     "is_restricted": "false",
     "encumbrance": "0",
     "rarity": "10",
-    "gear_type": "Ancient Talismans",
+    "type": "Ancient Talismans",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -6568,7 +6568,7 @@
     "is_restricted": "false",
     "encumbrance": "0",
     "rarity": "9",
-    "gear_type": "Ancient Talismans",
+    "type": "Ancient Talismans",
     "image_filename": "missing.png",
     "base_mods": [
       {
@@ -6585,7 +6585,7 @@
     "is_restricted": "true",
     "encumbrance": "1",
     "rarity": "10",
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "base_mods": [
       {
         "key": "RANGLT",
@@ -6615,7 +6615,7 @@
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -6638,7 +6638,7 @@
     "key": "HOLOCRONBRSW",
     "name": "Holocron of Brawl and Streetwise",
     "description": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -6667,7 +6667,7 @@
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -6693,7 +6693,7 @@
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -6719,7 +6719,7 @@
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -6745,7 +6745,7 @@
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -6771,7 +6771,7 @@
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -6797,7 +6797,7 @@
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -6823,7 +6823,7 @@
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -6849,7 +6849,7 @@
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -6875,7 +6875,7 @@
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -6904,7 +6904,7 @@
     "sources": [
       "Chronicles of the Gatekeeper"
     ],
-    "gear_type": "Holocrons",
+    "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -6927,7 +6927,7 @@
     "key": "APPRAISERSEYE",
     "name": "Appraiser's Eye",
     "description": "Please see page 48 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -6949,7 +6949,7 @@
     "key": "CYBERCAVITY",
     "name": "Cybernetic Cavity",
     "description": "Please see page 48 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -6971,7 +6971,7 @@
     "key": "DIGITALLOCKPICK",
     "name": "Digital Lockpick",
     "description": "Please see page 48 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Cybernetics",
+    "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -6993,7 +6993,7 @@
     "key": "HOLOSCANNER10",
     "name": "Holoscanner (10 Encumbrance)",
     "description": "Please see page 48 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "10",
     "hard_points": "0",
@@ -7015,7 +7015,7 @@
     "key": "HOLOSCANNER100",
     "name": "Holoscanner (100 Encumbrance)",
     "description": "Please see page 48 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "100",
     "hard_points": "0",
@@ -7039,7 +7039,7 @@
     "key": "LOCKPICKS",
     "name": "Lockpicking Tools",
     "description": "Please see page 49 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -7056,7 +7056,7 @@
     "key": "SHIFTCOFFER",
     "name": "Shift Coffer",
     "description": "Please see page 49 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "5",
     "hard_points": "0",
@@ -7084,7 +7084,7 @@
     "key": "MAGNALOCK",
     "name": "Magna-Lock Safe",
     "description": "Please see page 49 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "12",
     "hard_points": "0",
@@ -7108,7 +7108,7 @@
     "key": "SHADOWCLOAK",
     "name": "Shadowcloak",
     "description": "Please see page 49 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "2",
     "hard_points": "0",
@@ -7132,7 +7132,7 @@
     "key": "FNGRPRNTMSQ",
     "name": "Fingerprint Masque",
     "description": "Please see page 50 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -7156,7 +7156,7 @@
     "key": "FALSECRED",
     "name": "False Credentials",
     "description": "Please see page 50 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -7180,7 +7180,7 @@
     "key": "SKIFTER",
     "name": "Skifter",
     "description": "Please see page 50 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -7204,7 +7204,7 @@
     "key": "CARGOSCAN",
     "name": "Cargo Scanner",
     "description": "Please see page 50 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "hard_points": "0",
@@ -7228,7 +7228,7 @@
     "key": "IMPACTD",
     "name": "Impact (Dose)",
     "description": "Please see page 50 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -7250,7 +7250,7 @@
     "key": "IMPACT100D",
     "name": "Impact (100 dose cargo container)",
     "description": "Please see page 50 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "categories": [],
     "encumbrance": "5",
     "hard_points": "0",
@@ -7272,7 +7272,7 @@
     "key": "MUOND",
     "name": "Muon Gold (Dose)",
     "description": "Please see page 51 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "categories": [],
     "encumbrance": "0",
     "hard_points": "0",
@@ -7294,7 +7294,7 @@
     "key": "MUON100D",
     "name": "Muon Gold (100 dose cargo container)",
     "description": "Please see page 51 of the Fly Casual Sourcebook for details.",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "categories": [],
     "encumbrance": "3",
     "hard_points": "0",
@@ -7320,7 +7320,7 @@
     "encumbrance": "0",
     "rarity": "7",
     "is_restricted": "false",
-    "gear_type": "Luxury Items",
+    "type": "Luxury Items",
     "base_mods": [
       {
         "misc_desc": "Add automatic [AD] to Charm and Deception checks.",
@@ -7344,7 +7344,7 @@
     "encumbrance": "0",
     "rarity": "7",
     "is_restricted": "false",
-    "gear_type": "Luxury Items",
+    "type": "Luxury Items",
     "sources": [
       "Desperate Allies"
     ],
@@ -7364,7 +7364,7 @@
     "encumbrance": "0",
     "rarity": "8",
     "is_restricted": "false",
-    "gear_type": "Luxury Items",
+    "type": "Luxury Items",
     "sources": [
       "Nexus of Power"
     ],
@@ -7379,7 +7379,7 @@
     "encumbrance": "0",
     "rarity": "8",
     "is_restricted": "false",
-    "gear_type": "Uniforms and Accessories",
+    "type": "Uniforms and Accessories",
     "sources": [
       "Lead by Example"
     ],
@@ -7413,7 +7413,7 @@
     "encumbrance": "1",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Uniforms and Accessories",
+    "type": "Uniforms and Accessories",
     "sources": [
       "Lead by Example"
     ],
@@ -7428,7 +7428,7 @@
     "encumbrance": "0",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Uniforms and Accessories",
+    "type": "Uniforms and Accessories",
     "sources": [
       "Lead by Example"
     ],
@@ -7443,7 +7443,7 @@
     "encumbrance": "1",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Uniforms and Accessories",
+    "type": "Uniforms and Accessories",
     "sources": [
       "Lead by Example"
     ],
@@ -7463,7 +7463,7 @@
     "encumbrance": "30",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Construction/Salvage Tools",
+    "type": "Construction/Salvage Tools",
     "sources": [
       "Special Modifications"
     ],
@@ -7483,7 +7483,7 @@
     "encumbrance": "4",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Construction/Salvage Tools",
+    "type": "Construction/Salvage Tools",
     "sources": [
       "Special Modifications"
     ],
@@ -7503,7 +7503,7 @@
     "encumbrance": "3",
     "rarity": "8",
     "is_restricted": "false",
-    "gear_type": "Construction/Salvage Tools",
+    "type": "Construction/Salvage Tools",
     "base_mods": [
       {
         "misc_desc": "Counts as a tool kit.",
@@ -7527,7 +7527,7 @@
     "encumbrance": "10",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Construction/Salvage Tools",
+    "type": "Construction/Salvage Tools",
     "base_mods": [
       {
         "misc_desc": "Add [BO][BO] to Perception and Mechanics checks to scavenge parts or raw materials.  Checks can be completed in half the time (or a quarter of the time with the Utinni! talent).",
@@ -7551,7 +7551,7 @@
     "encumbrance": "3",
     "rarity": "1",
     "is_restricted": "false",
-    "gear_type": "Construction/Salvage Tools",
+    "type": "Construction/Salvage Tools",
     "base_mods": [
       {
         "misc_desc": "Can hold a single object of 10 encumbrance or less aloft.",
@@ -7575,7 +7575,7 @@
     "encumbrance": "0",
     "rarity": "2",
     "is_restricted": "false",
-    "gear_type": "Remotes",
+    "type": "Remotes",
     "sources": [
       "Special Modifications"
     ],
@@ -7590,7 +7590,7 @@
     "encumbrance": "0",
     "rarity": "4",
     "is_restricted": "false",
-    "gear_type": "Remotes",
+    "type": "Remotes",
     "sources": [
       "Special Modifications"
     ],
@@ -7605,7 +7605,7 @@
     "encumbrance": "0",
     "rarity": "3",
     "is_restricted": "false",
-    "gear_type": "Remotes",
+    "type": "Remotes",
     "sources": [
       "Special Modifications"
     ],
@@ -7620,7 +7620,7 @@
     "encumbrance": "0",
     "rarity": "5",
     "is_restricted": "false",
-    "gear_type": "Remotes",
+    "type": "Remotes",
     "sources": [
       "Special Modifications"
     ],
@@ -7631,7 +7631,7 @@
     "key": "3MALCOMLINK",
     "name": "3-MAL Secure Comlink",
     "description": "Please see page 52 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Communications",
+    "type": "Communications",
     "categories": [],
     "price": "250",
     "rarity": "4",
@@ -7658,7 +7658,7 @@
     "key": "DH77HEADCOMM",
     "name": "DH77 Headcomm",
     "description": "Please see page 52 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Communications",
+    "type": "Communications",
     "categories": [],
     "price": "400",
     "rarity": "3",
@@ -7682,7 +7682,7 @@
     "key": "ATGARARTREM",
     "name": "Atgar Artillery Remote",
     "description": "Please see page 52 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Communications",
+    "type": "Communications",
     "categories": [],
     "price": "400",
     "encumbrance": "1",
@@ -7702,7 +7702,7 @@
     "key": "LOWFEEDSCAN",
     "name": "Low-Feedback Scanner",
     "description": "Please see page 53 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "price": "700",
     "encumbrance": "4",
@@ -7722,7 +7722,7 @@
     "key": "SEVIGSENS",
     "name": "SE-Vigilant Automated Sensor",
     "description": "Please see page 53 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "price": "3000",
     "encumbrance": "2",
@@ -7737,7 +7737,7 @@
     "key": "NULLCAINE",
     "name": "Nullcaine",
     "description": "Please see page 53 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Medical",
+    "type": "Medical",
     "categories": [],
     "price": "25",
     "encumbrance": "0",
@@ -7757,7 +7757,7 @@
     "key": "STIMSTICK",
     "name": "Stimstick",
     "description": "Please see page 53 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Medical",
+    "type": "Medical",
     "categories": [],
     "price": "5",
     "encumbrance": "0",
@@ -7777,7 +7777,7 @@
     "key": "MILTRAUMAPACK",
     "name": "Military Trauma Pack",
     "description": "Please see page 53 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Medical",
+    "type": "Medical",
     "categories": [],
     "price": "50",
     "encumbrance": "1",
@@ -7797,7 +7797,7 @@
     "key": "CONDUNIT",
     "name": "Condenser Unit",
     "description": "Please see page 54 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "price": "300",
     "encumbrance": "2",
@@ -7817,7 +7817,7 @@
     "key": "PORTPOWGEN",
     "name": "Portable Power Generator",
     "description": "Please see page 54 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "price": "500",
     "encumbrance": "10",
@@ -7841,7 +7841,7 @@
     "key": "PRETPLAS",
     "name": "Pretormin Plastent",
     "description": "Please see page 54 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Survival",
+    "type": "Survival",
     "categories": [],
     "price": "500",
     "encumbrance": "10",
@@ -7861,7 +7861,7 @@
     "key": "MILMODBACK",
     "name": "Military Modular Backpack Frame",
     "description": "Please see page 55 of the Forged in Battle Sourcebook for details.      [BR][I]Note: To purchase modules for the modular backpack frame, select the frame in your inventory and click the \"Attachments\" button.  An \"attachment\" will be available for adding a variety of modules to the backpack.  Up to two modules may be added.[i]",
-    "gear_type": "Carrying/Storage",
+    "type": "Carrying/Storage",
     "hard_points": "2",
     "price": "10",
     "encumbrance": "0",
@@ -7876,7 +7876,7 @@
     "key": "TROPHYCAP",
     "name": "Imperial Officer's Cap",
     "description": "Please see page 96 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Trophies",
+    "type": "Trophies",
     "encumbrance": "0",
     "rarity": "2",
     "sources": [
@@ -7893,7 +7893,7 @@
     "key": "TROPHYSTHELM",
     "name": "Stormtrooper Helmet/ComLink",
     "description": "Please see page 96 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Trophies",
+    "type": "Trophies",
     "encumbrance": "0",
     "rarity": "2",
     "sources": [
@@ -7910,7 +7910,7 @@
     "key": "TROPHYINTBADGE",
     "name": "Imperial Intelligence Badge",
     "description": "Please see page 96 of the Forged in Battle Sourcebook for details.",
-    "gear_type": "Trophies",
+    "type": "Trophies",
     "encumbrance": "0",
     "rarity": "2",
     "sources": [
@@ -7927,7 +7927,7 @@
     "key": "DROIDDUM",
     "name": "DUM-Series Pit Droid",
     "description": "Please see page 45 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Droids",
+    "type": "Droids",
     "categories": [],
     "price": "450",
     "rarity": "1",
@@ -7942,7 +7942,7 @@
     "key": "DROIDGUARDPOL",
     "name": "Guardian Police Droid",
     "description": "Please see page 46 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Droids",
+    "type": "Droids",
     "categories": [],
     "price": "8100",
     "rarity": "6",
@@ -7957,7 +7957,7 @@
     "key": "DROIDMISEC",
     "name": "MI-Series Security Droid",
     "description": "Please see page 46 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Droids",
+    "type": "Droids",
     "categories": [],
     "price": "41225",
     "rarity": "7",
@@ -7973,7 +7973,7 @@
     "key": "DROIDTCSC",
     "name": "TC-SC Infiltration Droid",
     "description": "Please see page 47 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Droids",
+    "type": "Droids",
     "categories": [],
     "price": "15600",
     "rarity": "8",
@@ -7989,7 +7989,7 @@
     "key": "KARRAK",
     "name": "Karrak Spice (1 dose)",
     "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "categories": [],
     "price": "80",
     "rarity": "7",
@@ -8009,7 +8009,7 @@
     "key": "KARRAK100",
     "name": "Karrak Spice (100 doses)",
     "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "categories": [],
     "encumbrance": "5",
     "price": "6400",
@@ -8030,7 +8030,7 @@
     "key": "QUESTIONER9100",
     "name": "Questioner-9 (100 doses)",
     "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "categories": [],
     "price": "24000",
     "rarity": "7",
@@ -8050,7 +8050,7 @@
     "key": "QUESTIONER9",
     "name": "Questioner-9 (1 dose)",
     "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "categories": [],
     "price": "300",
     "rarity": "6",
@@ -8070,7 +8070,7 @@
     "key": "YALADAI",
     "name": "Yaladai Spice (1 dose)",
     "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "categories": [],
     "price": "1000",
     "rarity": "7",
@@ -8090,7 +8090,7 @@
     "key": "YALADAI100",
     "name": "Yaladai Spice (100 doses)",
     "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Drugs and Consumables",
+    "type": "Drugs and Consumables",
     "categories": [],
     "encumbrance": "5",
     "price": "80000",
@@ -8111,7 +8111,7 @@
     "key": "INFRABINOCULARS",
     "name": "Infrabinoculars",
     "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "1",
     "price": "350",
@@ -8131,7 +8131,7 @@
     "key": "INFRABINOCULARSLR",
     "name": "Infrabinoculars (Long Range)",
     "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "1",
     "price": "500",
@@ -8163,7 +8163,7 @@
     "key": "MICRODRLIST",
     "name": "Microdroid Listener",
     "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "price": "1500",
     "rarity": "6",
@@ -8183,7 +8183,7 @@
     "key": "PRIVACY7CUR",
     "name": "Privacy-7 Audio Curtain",
     "description": "Please see page 49 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Detection/Surveillance Devices",
+    "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "4",
     "price": "500",
@@ -8203,7 +8203,7 @@
     "key": "MODEL31STUN",
     "name": "Model 31 Palm Stunner",
     "description": "Please see page 49 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "1",
     "price": "500",
@@ -8224,7 +8224,7 @@
     "key": "SCRAMBLEKEY",
     "name": "Scramble Key",
     "description": "Please see page 49 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Security/Espionage",
+    "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "1",
     "price": "750",
@@ -8245,7 +8245,7 @@
     "key": "DISASTERKIT",
     "name": "Disaster Relief Kit",
     "description": "Please see page 50 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "2",
     "price": "250",
@@ -8265,7 +8265,7 @@
     "key": "FOOTSPEEDER",
     "name": "Foot Speeder",
     "description": "Please see page 50 of the Endless Vigil Sourcebook for details.[P][I]Note: This item is also included as a vehicle.[i]",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "4",
     "price": "2000",
@@ -8280,7 +8280,7 @@
     "key": "REPULSORASUNIT",
     "name": "Repulsor Assist Unit",
     "description": "Please see page 51 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "price": "620",
@@ -8304,7 +8304,7 @@
     "key": "URBANCOMP",
     "name": "Urban Compass",
     "description": "Please see page 51 of the Endless Vigil Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "price": "125",
@@ -8328,7 +8328,7 @@
     "key": "BIOSCAN",
     "name": "Bioscan",
     "description": "Please see page 53 of the No Disintegrations Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
     "price": "2000",
@@ -8352,7 +8352,7 @@
     "key": "HOLOBEAC",
     "name": "Holonet Homing Beacon",
     "description": "Please see page 53 of the No Disintegrations Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "hard_points": "3",
     "price": "500",
@@ -8366,7 +8366,7 @@
     "key": "ROCKETBOOTS",
     "name": "Rocket Boots",
     "description": "Please see page 53 of the No Disintegrations Sourcebook for details.[P][I]Note:  For the vehicle version of this item, see the vehicle of the same name.[i]",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "2",
     "price": "2500",
@@ -8381,7 +8381,7 @@
     "key": "TRACKGOG",
     "name": "Tracker's Goggles",
     "description": "Please see page 54 of the No Disintegrations Sourcebook for details.",
-    "gear_type": "Tools/Electronics",
+    "type": "Tools/Electronics",
     "categories": [],
     "price": "600",
     "rarity": "5",
@@ -8404,7 +8404,7 @@
     "key": "COMSCAN",
     "name": "Com-Scan",
     "description": "Please see page 54 of the No Disintegrations Sourcebook for details.",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "categories": [],
     "encumbrance": "10",
     "price": "5000",
@@ -8425,7 +8425,7 @@
     "key": "HOLODISGUISE",
     "name": "Holographic Disguise Matrix",
     "description": "Please see page 54 of the No Disintegrations Sourcebook for details.",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "categories": [],
     "encumbrance": "1",
     "price": "10000",
@@ -8450,7 +8450,7 @@
     "key": "SALINEPUMP",
     "name": "Saline Pump",
     "description": "Please see page 55 of the No Disintegrations Sourcebook for details.",
-    "gear_type": "Black Market",
+    "type": "Black Market",
     "categories": [],
     "encumbrance": "1",
     "price": "2500",
@@ -8474,7 +8474,7 @@
     "key": "SLEEPPACK",
     "name": "Sleeppack (one dose)",
     "description": "Please see page 55 of the No Disintegrations Sourcebook for details.",
-    "gear_type": "Poisons",
+    "type": "Poisons",
     "categories": [],
     "price": "250",
     "rarity": "3",
@@ -8497,7 +8497,7 @@
     "key": "REPULTRAP",
     "name": "Repulsor Trap",
     "description": "Please see page 60 of the Friends Like These Adventure Module for details.",
-    "gear_type": "Slaver Tech",
+    "type": "Slaver Tech",
     "categories": [],
     "encumbrance": "7",
     "price": "5000",
@@ -8512,7 +8512,7 @@
     "key": "EXPLIMP",
     "name": "Explosive Implant",
     "description": "Please see page 60 of the Friends Like These Adventure Module for details.",
-    "gear_type": "Slaver Tech",
+    "type": "Slaver Tech",
     "categories": [],
     "price": "2000",
     "rarity": "8",
@@ -8536,7 +8536,7 @@
     "key": "STUNCOLOR",
     "name": "Stun Collar",
     "description": "Please see page 60 of the Friends Like These Adventure Module for details.",
-    "gear_type": "Slaver Tech",
+    "type": "Slaver Tech",
     "categories": [],
     "price": "800",
     "rarity": "6",

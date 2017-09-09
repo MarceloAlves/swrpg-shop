@@ -5,7 +5,7 @@ class CreateGears < ActiveRecord::Migration[5.1]
       t.string :name, null: false
       t.text :description
       t.string :short
-      t.string :gear_type
+      t.string :type
       t.text :categories, array: true, default: []
       t.integer :encumbrance, default: 0
       t.integer :hard_points
@@ -18,7 +18,6 @@ class CreateGears < ActiveRecord::Migration[5.1]
       t.json :weapon_modifiers, default: []
       t.string :adv_import_path
       t.json :modifiers, default: []
-      t.string :item_type
 
       t.timestamps
     end

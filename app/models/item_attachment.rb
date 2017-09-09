@@ -7,7 +7,7 @@
 #  name                 :string           not null
 #  description          :text
 #  sources              :text             default([]), is an Array
-#  item_attachment_type :string
+#  type                 :string
 #  item_limit           :json
 #  type_limit           :json
 #  category_limit       :text             default([]), is an Array
@@ -43,4 +43,5 @@
 #
 
 class ItemAttachment < ApplicationRecord
+  self.inheritance_column = nil
 end

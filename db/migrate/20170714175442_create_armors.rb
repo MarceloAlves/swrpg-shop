@@ -15,7 +15,7 @@ class CreateArmors < ActiveRecord::Migration[5.1]
       t.boolean :is_restricted, default: false
       t.json :base_mods, default: []
       t.json :weapon_modifiers, default: []
-      t.string :item_type
+      t.string :type
       t.string :image_filename, default: "missing.png"
 
       t.timestamps

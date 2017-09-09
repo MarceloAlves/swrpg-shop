@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.boolean "is_restricted", default: false
     t.json "base_mods", default: []
     t.json "weapon_modifiers", default: []
-    t.string "item_type"
+    t.string "type"
     t.string "image_filename", default: "missing.png"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.string "name", null: false
     t.text "description"
     t.string "short"
-    t.string "gear_type"
+    t.string "type"
     t.text "categories", default: [], array: true
     t.integer "encumbrance", default: 0
     t.integer "hard_points"
@@ -64,7 +64,7 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.string "name", null: false
     t.text "description"
     t.text "sources", default: [], array: true
-    t.string "item_attachment_type"
+    t.string "type"
     t.json "item_limit"
     t.json "type_limit"
     t.text "category_limit", default: [], array: true
@@ -129,7 +129,7 @@ ActiveRecord::Schema.define(version: 20170721025549) do
     t.integer "attach_cost_mult"
     t.boolean "ordnance"
     t.string "hands"
-    t.string "weapon_type"
+    t.string "type"
     t.text "categories", default: [], array: true
     t.json "qualities", default: []
     t.json "base_mods", default: []

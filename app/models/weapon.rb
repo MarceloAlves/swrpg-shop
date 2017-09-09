@@ -24,7 +24,7 @@
 #  attach_cost_mult :integer
 #  ordnance         :boolean
 #  hands            :string
-#  weapon_type      :string
+#  type             :string
 #  categories       :text             default([]), is an Array
 #  qualities        :json
 #  base_mods        :json
@@ -35,4 +35,5 @@
 #
 
 class Weapon < ApplicationRecord
+  self.inheritance_column = nil
 end

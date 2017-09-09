@@ -7,7 +7,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "price": "0",
     "hard_points": "0",
@@ -41,7 +41,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "price": "0",
     "hard_points": "0",
@@ -67,7 +67,7 @@
     "key": "AUGSPIN",
     "name": "Augmented Spin Barrel",
     "description": "Please see page 188 of the Edge of the Empire Core Rulebook, or page 200 of the Age of Rebellion Core Rulebook, for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
@@ -114,9 +114,9 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "type_limit": {
-      "item_attachment_type": "Melee"
+      "type": "Melee"
     },
     "price": "1500",
     "rarity": "5",
@@ -147,7 +147,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": [
       "Blaster Pistol",
@@ -187,7 +187,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": [
       "Blaster Carbine",
       "Blaster Pistol"
@@ -218,7 +218,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": {
       "key": "BLASTLTREP"
     },
@@ -243,7 +243,7 @@
     "key": "BOWREC",
     "name": "Bowcaster Re-Cocker",
     "description": "Please see page 189 of the Edge of the Empire Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": "Bowcaster",
     "price": "500",
     "rarity": "3",
@@ -269,7 +269,7 @@
     "key": "BOWACC",
     "name": "Bowcaster Accelerator Enhancement",
     "description": "Please see page 189 of the Edge of the Empire Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": "Bowcaster",
     "price": "250",
@@ -304,7 +304,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": "Pistol",
     "price": "25",
@@ -334,7 +334,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": [
       "Rifle",
@@ -369,7 +369,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": "Blaster Rifle",
     "price": "1200",
     "rarity": "4",
@@ -405,7 +405,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": "Cutting Edge Melee",
     "price": "1000",
@@ -434,7 +434,7 @@
       "Age of Rebellion Core Rulebook",
       "Savage Spirits"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": "Ranged",
     "price": "2000",
@@ -462,7 +462,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": [
       "Blaster Rifle",
@@ -499,7 +499,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": "Cutting Edge Melee",
     "price": "50",
@@ -523,7 +523,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "price": "5000",
     "rarity": "6",
@@ -544,7 +544,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": "Pistol",
     "price": "250",
@@ -575,7 +575,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": [
       "Rifle",
@@ -620,7 +620,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": [
       "Rifle",
@@ -674,7 +674,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": "Ranged",
     "price": "250",
@@ -698,7 +698,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": {
       "key": [
         "BLASTLTREP",
@@ -732,7 +732,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": [
       "RANGHVY"
@@ -760,7 +760,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": [
       "RANGHVY",
@@ -792,7 +792,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "category_limit": [
       "Bludgeoning Melee",
@@ -823,7 +823,7 @@
     "key": "M77TRANQ",
     "name": "SmartTranq",
     "description": "Please see page 40 of the Enter the Unknown Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": {
       "key": "MODEL77"
     },
@@ -850,7 +850,7 @@
     "key": "GENELOCK",
     "name": "Gene Lock",
     "description": "Please see page 51 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -882,7 +882,7 @@
     "key": "LASERSIGHT",
     "name": "\"Bantha's Eye\" Laser Sight",
     "description": "Please see page 52 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": [
       "RANGHVY",
@@ -911,7 +911,7 @@
     "key": "PISTOLGRIP",
     "name": "H9 Pistol Grip",
     "description": "Please see page 52 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -948,7 +948,7 @@
     "key": "MISSILESYS",
     "name": "\"Final Word\" Secondary Missile System",
     "description": "Please see page 52 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -985,7 +985,7 @@
     "key": "WRISTMOUNT",
     "name": "Model 2 Wrist Mount",
     "description": "Please see page 52 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": [
       "RANGLT"
@@ -1013,7 +1013,7 @@
     "key": "BLASTDAMP",
     "name": "Blaster Energy Dampener",
     "description": "Please see page 194 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1048,7 +1048,7 @@
     "key": "NIGHTSCOPE",
     "name": "Night Vision Scope",
     "description": "Please see page 194 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1074,7 +1074,7 @@
     "key": "SHADOWSHEATH",
     "name": "Shadowsheath",
     "description": "Please see page 194 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1101,11 +1101,11 @@
     "key": "STUNPULSE",
     "name": "Stun Pulse",
     "description": "Please see page 194 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": {
-      "item_attachment_type": "Melee"
+      "type": "Melee"
     },
     "category_limit": "Bludgeoning Brawl",
     "price": "250",
@@ -1134,7 +1134,7 @@
     "key": "SIGRED",
     "name": "Weapon Signature Reduction",
     "description": "Please see page 110 of the Strongholds of Resistance Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1162,7 +1162,7 @@
     "key": "ELECSIGHTSYS",
     "name": "Electronic Sighting System",
     "description": "Please see page 110 of the Strongholds of Resistance Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1193,7 +1193,7 @@
     "key": "ENVADAPTKIT",
     "name": "Environmental Adaption Kit",
     "description": "Please see page 50 of the Savage Spirits Sourcebook for details.[P]      [I]Note: If this kit is for a specific environment, rename the kit to specify the environment.[i]",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1219,7 +1219,7 @@
     "key": "HUNTBARREL",
     "name": "Hunting Barrel",
     "description": "Please see page 50 of the Savage Spirits Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1262,7 +1262,7 @@
     "key": "MOTTRACK",
     "name": "Motion Tracker",
     "description": "Please see page 50 of the Savage Spirits Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": [
       "RANGHVY"
@@ -1295,11 +1295,11 @@
     "key": "SLUGSUPP",
     "name": "Slugthrower Suppressor",
     "description": "Please see page 51 of the Savage Spirits Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": {
-      "item_attachment_type": "Slugthrower"
+      "type": "Slugthrower"
     },
     "category_limit": null,
     "price": "100",
@@ -1323,7 +1323,7 @@
     "key": "GIMMELSTEALTH",
     "name": "Gimmellian Stealth Device",
     "description": "Please see page 118 of the Strongholds of Resistance Sourcebook for details.      [P][I]This is an optional no-cost attachment for the Tallanx-Class Stealth Fighter and the Darvro-Class Light Freighter.[i]",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": [
         "TALLANX",
@@ -1357,7 +1357,7 @@
     "key": "ECMSUITETALLANX",
     "name": "Electronic Countermeasures Suite (Custom)",
     "description": "Please see page 118 of the Strongholds of Resistance Sourcebook for details.      [P][I]This is an optional no-cost attachment for the Tallanx-Class Stealth Fighter and the Darvro-Class Light Freighter.[i]",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": [
         "TALLANX",
@@ -1389,7 +1389,7 @@
     "key": "MODBKACCPOUCH",
     "name": "Mk. IV Modular Backpack Accessory Pouch",
     "description": "Please see page 51 of the Enter the Unknown Sourcebook for details.",
-    "item_attachment_type": "Gear",
+    "type": "Gear",
     "item_limit": {
       "key": "MODPACK"
     },
@@ -1419,7 +1419,7 @@
     "key": "MODBKACCPOUCH3",
     "name": "Mk. III Modular Backpack Accessory Pouch",
     "description": "Please see page 46 of the Savage Spirits Sourcebook for details.",
-    "item_attachment_type": "Gear",
+    "type": "Gear",
     "item_limit": {
       "key": "MODPACK3"
     },
@@ -1453,7 +1453,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "10000",
     "rarity": "8",
     "hard_points": "2",
@@ -1475,7 +1475,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "category_limit": "Sealed",
     "price": "1000",
     "rarity": "3",
@@ -1498,7 +1498,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "category_limit": "Sealed",
     "price": "1000",
     "rarity": "3",
@@ -1520,7 +1520,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "1000",
     "rarity": "3",
     "hard_points": "1",
@@ -1546,7 +1546,7 @@
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
     ],
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "category_limit": "Hard Full Body",
     "price": "5500",
@@ -1579,7 +1579,7 @@
       "Age of Rebellion Core Rulebook",
       "Savage Spirits"
     ],
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "price": "5500",
     "rarity": "6",
@@ -1617,7 +1617,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "price": "5000",
     "rarity": "6",
@@ -1640,7 +1640,7 @@
       "Age of Rebellion Core Rulebook",
       "Keeping the Peace"
     ],
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "category_limit": "Sealable",
     "price": "1000",
@@ -1662,7 +1662,7 @@
     "key": "INTMEDSYS",
     "name": "SmartMed 2000 Integrated Med-Systems",
     "description": "Please see page 53 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1704,7 +1704,7 @@
     "key": "HANDSFREEWEAP",
     "name": "VX Hands-Free Weapon",
     "description": "Please see page 53 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1730,7 +1730,7 @@
     "key": "MULTICOMLINK",
     "name": "Multi-Band Comlink",
     "description": "Please see page 53 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1756,7 +1756,7 @@
     "key": "INTSCAN",
     "name": "OmniScan 3 Integrated Scanner",
     "description": "Please see page 54 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1791,7 +1791,7 @@
     "key": "RANGEFIND",
     "name": "MB-7 \"Ranger\" Range Finder",
     "description": "Please see page 54 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1822,7 +1822,7 @@
     "key": "TARGCOMP",
     "name": "\"Accu-Strike\" Integrated Targeting Computer",
     "description": "Please see page 54 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1851,7 +1851,7 @@
     "key": "PASSFOLSUIT",
     "name": "Passive Foliage Suit",
     "description": "Please see page 51 of the Savage Spirits Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1876,7 +1876,7 @@
     "key": "WATERRECLSUIT",
     "name": "Water Reclamation Suit",
     "description": "Please see page 52 of the Savage Spirits Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1901,7 +1901,7 @@
     "key": "BARABLS",
     "name": "Barab Ingot",
     "description": "Please see page 196 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -1957,7 +1957,7 @@
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2007,7 +2007,7 @@
     "key": "DRAGITE",
     "name": "Dragite Gem",
     "description": "Please see page 196 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2064,7 +2064,7 @@
     "key": "KRAYT",
     "name": "Krayt Dragon Pearl",
     "description": "Please see page 199 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": "Lightsaber",
     "price": "15000",
     "rarity": "10",
@@ -2114,7 +2114,7 @@
     "key": "LORRDIAN",
     "name": "Lorrdian Gemstone",
     "description": "Please see page 199 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2167,7 +2167,7 @@
     "key": "MEPHITE",
     "name": "Mephite Crystal",
     "description": "Please see page 200 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2224,7 +2224,7 @@
     "key": "ILUM",
     "name": "Ilum Crystal",
     "description": "Please see page 197 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2276,7 +2276,7 @@
     "key": "SAPITH",
     "name": "Sapith Gem",
     "description": "Please see page 200 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2328,7 +2328,7 @@
     "key": "KIMBER",
     "name": "Kimber Stone",
     "description": "Please see page 55 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2375,7 +2375,7 @@
     "key": "SORIAN",
     "name": "Sorian Crystal",
     "description": "Please see page 55 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2431,7 +2431,7 @@
     "key": "NISHSTONE",
     "name": "Nishalorite Stone",
     "description": "Please see page 52 of the Savage Spirits Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2487,7 +2487,7 @@
     "key": "VARPCRYST",
     "name": "Varpeline Crystal",
     "description": "Please see page 52 of the Savage Spirits Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2544,7 +2544,7 @@
     "key": "CCARRAY",
     "name": "Cyclic Crystal Array",
     "description": "Please see page 53 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2579,7 +2579,7 @@
     "key": "EOVERSET",
     "name": "Energy Overclock Setting",
     "description": "Please see page 53 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2617,7 +2617,7 @@
     "key": "FORRESON",
     "name": "Force-Attuned Resonator",
     "description": "Please see page 54 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2654,7 +2654,7 @@
     "key": "INTILL",
     "name": "Integrated Illuminator",
     "description": "Please see page 54 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2690,7 +2690,7 @@
     "key": "MAGTETH",
     "name": "Magnetic Weapon Tether",
     "description": "Please see page 54 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2722,7 +2722,7 @@
     "key": "SHDISCH",
     "name": "Shield Discharge Pack",
     "description": "Please see page 54 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2758,7 +2758,7 @@
     "key": "ARMSPIKE",
     "name": "Armor Spikes",
     "description": "Please see page 56 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2801,7 +2801,7 @@
     "key": "HARDENED",
     "name": "Hardened",
     "description": "Please see page 56 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2828,7 +2828,7 @@
     "key": "KIIRCOAT",
     "name": "Kiirium Coating",
     "description": "Please see page 56 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2863,7 +2863,7 @@
     "key": "LOWFRIC",
     "name": "Low-Friction Coating",
     "description": "Please see page 56 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2902,7 +2902,7 @@
     "key": "QUICKSHED",
     "name": "Quick Shed",
     "description": "Please see page 57 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2930,7 +2930,7 @@
     "key": "REACPLAT",
     "name": "Reactive Plating",
     "description": "Please see page 57 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -2967,7 +2967,7 @@
     "key": "REFSHAD",
     "name": "Reflec Shadowskin",
     "description": "Please see page 57 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3010,7 +3010,7 @@
     "key": "STUNMAT",
     "name": "Stun Matrix",
     "description": "Please see page 57 of the Keeping the Peace sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3050,7 +3050,7 @@
     "key": "CURVEDHILT",
     "name": "Curved Hilt",
     "description": "Please see page 196 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3083,7 +3083,7 @@
     "key": "DUALPHASE",
     "name": "Dual-Phase Modification",
     "description": "Please see page 197 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3110,7 +3110,7 @@
     "key": "EXTHILT",
     "name": "Extended Hilt",
     "description": "Please see page 197 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3141,7 +3141,7 @@
     "key": "SUPHILT",
     "name": "Superior Hilt Personalization",
     "description": "Please see page 200 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3166,7 +3166,7 @@
     "key": "TRAINEMIT",
     "name": "Training Lightsaber Emitter",
     "description": "Please see page 200 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3205,7 +3205,7 @@
     "key": "LTSABERCONST",
     "name": "Lightsaber Hilt Construction Modifications",
     "description": "Use this attachment to reflect the results of a lightsaber hilt construction check, as required.[P]      Please see page 23 of the Force and Destiny Game Master's Kit Adventure Module for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3243,7 +3243,7 @@
     "key": "BIOFEED",
     "name": "Biofeedback System",
     "description": "Please see page 200 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3274,7 +3274,7 @@
     "key": "ENERDISP",
     "name": "Energy Dispersion System",
     "description": "Please see page 201 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3299,7 +3299,7 @@
     "key": "HELMETCOM",
     "name": "Helmet Comlink",
     "description": "Please see page 140 of the Force and Destiny Beta Rulebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3325,7 +3325,7 @@
     "key": "HELMETSCAN",
     "name": "In-Helmet Scanner",
     "description": "Please see page 201 of the Force and Destiny Core Rulebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3356,7 +3356,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "price": "4000",
     "rarity": "4",
@@ -3392,7 +3392,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "price": "2000",
     "rarity": "3",
@@ -3420,7 +3420,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "price": "3000",
     "rarity": "6",
@@ -3450,7 +3450,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "category_limit": "Non-Fighter Starship",
     "item_limit": null,
     "price": "1000",
@@ -3489,7 +3489,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "price": "3800",
     "rarity": "5",
@@ -3516,7 +3516,7 @@
       "Edge of the Empire Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "price": "1200",
     "rarity": "1",
@@ -3546,7 +3546,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "price": "5000",
     "rarity": "3",
@@ -3576,7 +3576,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "price": "6400",
     "rarity": "4",
@@ -3605,7 +3605,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "price": "5300",
     "rarity": "5",
@@ -3633,7 +3633,7 @@
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "price": "4800",
     "rarity": "6",
@@ -3656,9 +3656,9 @@
     "key": "SWOOPSPEED",
     "name": "Swoop Speed Modification",
     "description": "Boosts the engines of a swoop and also removes excess weight from the chassis.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "type_limit": {
-      "item_attachment_type": "Swoop"
+      "type": "Swoop"
     },
     "price": "1200",
     "rarity": "2",
@@ -3688,7 +3688,7 @@
     "key": "PTA",
     "name": "Predictive Targeting Array",
     "description": "Please see page 143 of the Suns of Fortune Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "price": "2000",
     "rarity": "4",
@@ -3708,7 +3708,7 @@
     "key": "OEWM",
     "name": "Oversized External Weapons Mount",
     "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3756,7 +3756,7 @@
     "key": "BOARDTUBE",
     "name": "T9 Stinger Assault Boarding Tube",
     "description": "Please see page 61 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3798,7 +3798,7 @@
     "key": "FOGGEN",
     "name": "Fogger Smoke Generator",
     "description": "Please see page 61 of the Dangerous Covenants Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3833,7 +3833,7 @@
     "key": "AUGBUFF",
     "name": "Augmented Buffer",
     "description": "Please see page 47 of The Jewel of Yavin Adventure Module for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3866,7 +3866,7 @@
     "key": "REPENH",
     "name": "Repulsorlift Enhancement",
     "description": "Please see page 47 of The Jewel of Yavin Adventure Module for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3893,7 +3893,7 @@
     "key": "UPGFIRE",
     "name": "Upgraded Firepower",
     "description": "Please see page 48 of The Jewel of Yavin Adventure Module for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3920,7 +3920,7 @@
     "key": "MANTHRUST",
     "name": "Maneuvering Thrusters",
     "description": "Please see page 47 of The Jewel of Yavin Adventure Module for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3947,7 +3947,7 @@
     "key": "ASTROMECH",
     "name": "Astromech Droid Socket",
     "description": "Please see page 63 of the Stay on Target Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -3979,7 +3979,7 @@
     "key": "GRAVMINE",
     "name": "Gravity Mine Launcher",
     "description": "Please see page 64 of the Stay on Target Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4011,7 +4011,7 @@
     "key": "HARDCIRC",
     "name": "Hardened Circuits",
     "description": "Please see page 64 of the Stay on Target Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4043,7 +4043,7 @@
     "key": "HULLREINF",
     "name": "Hull/Keel Reinforcement",
     "description": "Please see page 64 of the Stay on Target Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4075,7 +4075,7 @@
     "key": "PHYSCOUNT",
     "name": "Physical Countermeasures",
     "description": "Please see page 64 of the Stay on Target Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4111,7 +4111,7 @@
     "key": "RAM",
     "name": "Ram Attachment",
     "description": "Please see page 65 of the Stay on Target Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4143,7 +4143,7 @@
     "key": "SLAVECIRC",
     "name": "Slave Circuit",
     "description": "Please see page 65 of the Stay on Target Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4182,11 +4182,11 @@
     "sources": [
       "Lords of Nal Hutta"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": {
-      "item_attachment_type": [
+      "type": [
         "Brawling",
         "Melee"
       ]
@@ -4220,7 +4220,7 @@
       "Lords of Nal Hutta",
       "Strongholds of Resistance"
     ],
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": "Blaster Pistol",
     "price": "750",
     "rarity": "5",
@@ -4239,7 +4239,7 @@
     "key": "THREATMON",
     "name": "Threat Monitor",
     "description": "Please see page 106 of the Lords of Nal Hutta Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "750",
     "rarity": "4",
     "is_restricted": "false",
@@ -4269,7 +4269,7 @@
     "key": "ASTROBRAIN",
     "name": "Astrogation Droid Brain",
     "description": "Please see page 62 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4314,7 +4314,7 @@
     "key": "PILOTBRAIN",
     "name": "Autopilot Droid Brain",
     "description": "Please see page 62 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4377,7 +4377,7 @@
     "key": "AX108BUZZER",
     "name": "AX-108 \"Ground Buzzer\" Surface-Defense Blaster Cannon",
     "description": "Please see page 62 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4465,7 +4465,7 @@
     "sources": [
       "Fly Casual"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4500,7 +4500,7 @@
     "key": "SETTRIGGER",
     "name": "Set Trigger",
     "description": "Please see page 51 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": [
       "RANGHVY",
@@ -4534,11 +4534,11 @@
     "key": "OVRCHARGEV",
     "name": "Overcharge Valve",
     "description": "Please see page 51 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": {
-      "item_attachment_type": "Energy Weapon"
+      "type": "Energy Weapon"
     },
     "category_limit": null,
     "price": "1500",
@@ -4562,7 +4562,7 @@
     "key": "PAIREDW",
     "name": "Paired Weapons",
     "description": "Please see page 51 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": [
       "BRAWL",
@@ -4593,7 +4593,7 @@
     "key": "UNDERSCATTER",
     "name": "Underslung Scattergun",
     "description": "Please see page 51 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4650,7 +4650,7 @@
     "key": "STARHWKSIDECAR",
     "name": "Starhawk Sidecar",
     "description": "Please see page 53 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "STARHAWKSPEED"
     },
@@ -4682,7 +4682,7 @@
     "key": "INTBROAD",
     "name": "Interior Broadcast Suite",
     "description": "Please see page 63 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4708,7 +4708,7 @@
     "key": "NIGHTCOAT",
     "name": "Nightshadow Coating",
     "description": "Please see page 63 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4739,7 +4739,7 @@
     "key": "ONBOARDAMENUNIT",
     "name": "Onboard Amenities Unit",
     "description": "Please see page 63 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4765,7 +4765,7 @@
     "key": "RAPIDCARGOEVAC",
     "name": "Rapid Cargo Evacuation Chute",
     "description": "Please see page 63 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4796,7 +4796,7 @@
     "key": "WHISPERTHRUST",
     "name": "Whisperthrust Engine",
     "description": "Please see page 63 of the Fly Casual Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4825,7 +4825,7 @@
     "sources": [
       "Desperate Allies"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4868,7 +4868,7 @@
     "sources": [
       "Desperate Allies"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4896,7 +4896,7 @@
     "sources": [
       "Desperate Allies"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4934,7 +4934,7 @@
     "sources": [
       "Desperate Allies"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -4967,7 +4967,7 @@
     "sources": [
       "Enter the Unknown"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "LORONARE9"
     },
@@ -4996,7 +4996,7 @@
     "sources": [
       "Enter the Unknown"
     ],
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "A36PTHFNDR"
     },
@@ -5022,7 +5022,7 @@
     "key": "ENGINERING",
     "name": "Engine Ring Stabilizer",
     "description": "Please see page 82 of the [B]Mask of the Pirate Queen[b] adventure module for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": null,
     "skill_limit": null,
     "type_limit": null,
@@ -5052,7 +5052,7 @@
     "key": "SPACESLUGRULES",
     "name": "Space Slug Abilities",
     "description": "",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "SPACESLUG"
     },
@@ -5116,7 +5116,7 @@
     "key": "BRAUD",
     "name": "Briefing Auditorium",
     "description": "Please see page 58 of the Lead by Example Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "2500",
     "rarity": "0",
     "is_restricted": "false",
@@ -5144,7 +5144,7 @@
     "key": "ELCOUNTCOUNT",
     "name": "Electronic Counter-Countermeasures Suite",
     "description": "Please see page 59 of the Lead by Example Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "3500",
     "rarity": "6",
     "is_restricted": "false",
@@ -5170,7 +5170,7 @@
     "key": "HOLOTANK",
     "name": "Holo-Tank",
     "description": "Please see page 59 of the Lead by Example Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "5000",
     "rarity": "4",
     "hard_points": "1",
@@ -5199,7 +5199,7 @@
     "key": "TACCOMM",
     "name": "Tactical Command, Control, and Communications Suite",
     "description": "Please see page 59 of the Lead by Example Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "4200",
     "rarity": "6",
     "hard_points": "1",
@@ -5228,7 +5228,7 @@
     "key": "THEATCOMM",
     "name": "Theater Command and Control System",
     "description": "Please see page 59 of the Lead by Example Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "8500",
     "rarity": "6",
     "hard_points": "2",
@@ -5257,7 +5257,7 @@
     "key": "IONTHRUSTSHAPEDNOZ",
     "name": "Shaped Nozzle",
     "description": "Please see page 45 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "price": "75",
     "rarity": "1",
     "item_limit": {
@@ -5284,7 +5284,7 @@
     "key": "MULTIGOOGASCART",
     "name": "Pressurized Gas Cartridge",
     "description": "Please see page 45 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": {
       "key": "MULTIGOO"
     },
@@ -5316,7 +5316,7 @@
     "key": "RIVETGUNTOPLOAD",
     "name": "Top-Loading Magazine",
     "description": "Please see page 46 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": {
       "key": "RIVETGUN"
     },
@@ -5339,7 +5339,7 @@
     "key": "RIVETGUNBALBAR",
     "name": "Balanced Barrel",
     "description": "Please see page 46 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "item_limit": {
       "key": "RIVETGUN"
     },
@@ -5368,7 +5368,7 @@
     "key": "CUSTGRIP",
     "name": "Custom Grip",
     "description": "Please see page 54 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": [
       "Pistol",
       "Rifle",
@@ -5410,7 +5410,7 @@
     "key": "ENXCITER",
     "name": "Enhanced XCiter",
     "description": "Please see page 54 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": "Blaster",
     "price": "1500",
     "rarity": "6",
@@ -5441,7 +5441,7 @@
     "key": "GYROSTAB",
     "name": "Gyrostabilizer",
     "description": "Please see page 54 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "skill_limit": [
       "RANGHVY",
       "GUNN"
@@ -5474,7 +5474,7 @@
     "key": "INTSCAN2",
     "name": "Integrated Scanner",
     "description": "Please see page 54 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "skill_limit": [
       "RANGHVY"
     ],
@@ -5506,9 +5506,9 @@
     "key": "OPTENERGCELL",
     "name": "Optimized Energy Cell",
     "description": "Please see page 54 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "type_limit": {
-      "item_attachment_type": "Energy Weapon"
+      "type": "Energy Weapon"
     },
     "price": "100",
     "rarity": "5",
@@ -5529,7 +5529,7 @@
     "key": "OVERACTMOD",
     "name": "Overcharged Actuating Module",
     "description": "Please see page 55 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": [
       "Blaster Pistol",
       "Blaster Carbine"
@@ -5562,7 +5562,7 @@
     "key": "RAPRECXC",
     "name": "Rapid-Recharge XCiter",
     "description": "Please see page 55 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": "Blaster",
     "price": "750",
     "rarity": "7",
@@ -5591,7 +5591,7 @@
     "key": "REMSAFFEAT",
     "name": "Removed Safety Features",
     "description": "Please see page 55 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "skill_limit": [
       "RANGHVY",
       "RANGLT"
@@ -5619,7 +5619,7 @@
     "key": "IONBLAST",
     "name": "Secondary Ion Blaster",
     "description": "Please see page 56 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "skill_limit": [
       "RANGHVY"
     ],
@@ -5670,7 +5670,7 @@
     "key": "SONICSCOPE",
     "name": "Sonic Scope",
     "description": "Please see page 56 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "skill_limit": [
       "RANGHVY"
     ],
@@ -5706,7 +5706,7 @@
     "key": "STRIPDOWN",
     "name": "Stripped Down",
     "description": "Please see page 56 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "skill_limit": [
       "RANGHVY",
       "RANGLT"
@@ -5739,7 +5739,7 @@
     "key": "GRAPNEL",
     "name": "Under-Barrel Grapnel Launcher",
     "description": "Please see page 56 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "skill_limit": [
       "RANGHVY",
       "RANGLT"
@@ -5768,7 +5768,7 @@
     "key": "VIBBAY",
     "name": "Vibro-Bayonet",
     "description": "Please see page 56 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "skill_limit": [
       "RANGHVY"
     ],
@@ -5819,7 +5819,7 @@
     "key": "AMPHMOD",
     "name": "Amphibious Modification",
     "description": "Please see page 57 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "category_limit": [
       "Sealable",
       "Sealed"
@@ -5852,7 +5852,7 @@
     "key": "CUSTOMFIT",
     "name": "Custom Fit",
     "description": "Please see page 57 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "400",
     "rarity": "3",
     "hard_points": "1",
@@ -5901,7 +5901,7 @@
     "key": "INTASCGEAR",
     "name": "Integrated Ascension Gear",
     "description": "Please see page 57 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "350",
     "rarity": "3",
     "hard_points": "2",
@@ -5925,7 +5925,7 @@
     "key": "INTSLICGEAR",
     "name": "Integrated Slicer Gear",
     "description": "Please see page 58 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "750",
     "rarity": "6",
     "hard_points": "3",
@@ -5950,7 +5950,7 @@
     "key": "IONSHIELD",
     "name": "Ion Shielding",
     "description": "Please see page 58 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "2000",
     "rarity": "7",
     "hard_points": "1",
@@ -5976,7 +5976,7 @@
     "key": "RADSHIELD",
     "name": "Radiation Shielding",
     "description": "Please see page 58 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "category_limit": [
       "Sealable",
       "Sealed"
@@ -6005,7 +6005,7 @@
     "key": "REINFGAUNT",
     "name": "Reinforced Gauntlets",
     "description": "Please see page 58 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "250",
     "rarity": "2",
     "hard_points": "2",
@@ -6044,7 +6044,7 @@
     "key": "SELFREPSYS",
     "name": "Self-Repair Systems",
     "description": "Please see page 58 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "3000",
     "rarity": "6",
     "hard_points": "2",
@@ -6069,7 +6069,7 @@
     "key": "AD1SCARGOPOD",
     "name": "(AD-1S) Cargo Pod",
     "description": "Please see page 62 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "AD1SMOD"
     },
@@ -6097,7 +6097,7 @@
     "key": "AD1SMICROTHRUST",
     "name": "(AD-1S) Fine-Tuned Microthrusters",
     "description": "Please see page 63 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "AD1SMOD"
     },
@@ -6125,7 +6125,7 @@
     "key": "AD1SHYPER8",
     "name": "(AD-1S) Hyperdrive Class 8 Module",
     "description": "Please see page 63 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "AD1SMOD"
     },
@@ -6156,7 +6156,7 @@
     "key": "AD1SHYPER4",
     "name": "(AD-1S) Hyperdrive Class 4 Module",
     "description": "Please see page 63 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "AD1SMOD"
     },
@@ -6187,7 +6187,7 @@
     "key": "AD1SSHIELD",
     "name": "(AD-1S) Shield Generator Module",
     "description": "Please see page 63 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "AD1SMOD"
     },
@@ -6215,7 +6215,7 @@
     "key": "AD1SBOOSTTHRUST",
     "name": "(AD-1S) Sublight Boost Thrusters",
     "description": "Please see page 63 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "AD1SMOD"
     },
@@ -6247,7 +6247,7 @@
     "key": "ALLTERLEGS",
     "name": "All-Terrain Legs",
     "description": "Please see page 65 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "category_limit": [
       "Air Vehicle",
       "Starship"
@@ -6282,7 +6282,7 @@
     "key": "AMPHIBMOD",
     "name": "Amphibious Modification",
     "description": "Please see page 65 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "category_limit": [
       "Air Vehicle",
       "Starship"
@@ -6308,7 +6308,7 @@
     "key": "DECOYBUOY",
     "name": "Decoy Buoy",
     "description": "Please see page 65 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "5000",
     "rarity": "5",
     "is_restricted": "true",
@@ -6349,7 +6349,7 @@
     "key": "ENCRYCOMP",
     "name": "Encrypted Computer",
     "description": "Please see page 65 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "1000",
     "rarity": "6",
     "base_mods": [
@@ -6373,7 +6373,7 @@
     "key": "ENHHYPSH",
     "name": "Enhanced Hyperspace Shields",
     "description": "Please see page 66 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "4000",
     "rarity": "5",
     "hard_points": "1",
@@ -6398,9 +6398,9 @@
     "key": "ENHREPULS",
     "name": "Enhanced Repulsorlift",
     "description": "Please see page 65 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "type_limit": {
-      "item_attachment_type": [
+      "type": [
         "Airspeeder",
         "Landspeeder"
       ]
@@ -6434,7 +6434,7 @@
     "key": "GUNNBRAIN",
     "name": "Gunnery Droid Brain",
     "description": "Please see page 66 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "7000",
     "rarity": "6",
     "base_mods": [
@@ -6470,7 +6470,7 @@
     "key": "LASFOCUS",
     "name": "Laser Focusing Array",
     "description": "Please see page 66 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "3000",
     "rarity": "6",
     "hard_points": "2",
@@ -6492,7 +6492,7 @@
     "key": "OVERCHIONENG",
     "name": "Overcharged Ion Engines",
     "description": "Please see page 66 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "9500",
     "rarity": "4",
     "hard_points": "3",
@@ -6526,7 +6526,7 @@
     "key": "PSEUDCLOAK",
     "name": "Pseudo-Cloaking Device",
     "description": "Please see page 66 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "12000",
     "rarity": "8",
     "is_restricted": "true",
@@ -6556,7 +6556,7 @@
     "key": "SECTRANSP",
     "name": "Secondary Transponder",
     "description": "Please see page 67 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "20000",
     "rarity": "7",
     "is_restricted": "true",
@@ -6591,7 +6591,7 @@
     "key": "SECMEAS",
     "name": "Security Measures",
     "description": "Please see page 67 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "500",
     "rarity": "4",
     "base_mods": [
@@ -6616,7 +6616,7 @@
     "key": "SLICCOMP",
     "name": "Slicing Computer",
     "description": "Please see page 67 of the Special Modifications Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "5000",
     "rarity": "6",
     "hard_points": "1",
@@ -6650,9 +6650,9 @@
     "key": "MODCARGOCONT",
     "name": "Pannier Modular Cargo Handling System",
     "description": "Please see page 46 of the Savage Spirits Sourcebook for details.",
-    "item_attachment_type": "Mount",
+    "type": "Mount",
     "type_limit": {
-      "item_attachment_type": "Riding Mount"
+      "type": "Riding Mount"
     },
     "price": "500",
     "use_mod_price": "true",
@@ -6681,9 +6681,9 @@
     "key": "XV09",
     "name": "XV-09 Chemical Restraint Harness",
     "description": "Please see page 44 of the Stay on Target Sourcebook for details.",
-    "item_attachment_type": "Mount",
+    "type": "Mount",
     "type_limit": {
-      "item_attachment_type": "Riding Mount"
+      "type": "Riding Mount"
     },
     "price": "1200",
     "encumbrance": "2",
@@ -6705,9 +6705,9 @@
     "key": "RIDINGTACK",
     "name": "Riding Tack",
     "description": "Please see page 47 of the Savage Spirits Sourcebook for details.",
-    "item_attachment_type": "Mount",
+    "type": "Mount",
     "type_limit": {
-      "item_attachment_type": "Riding Mount"
+      "type": "Riding Mount"
     },
     "price": "100",
     "encumbrance": "3",
@@ -6729,9 +6729,9 @@
     "key": "SADDLEBAGS",
     "name": "Saddlebags",
     "description": "Please see page 47 of the Savage Spirits Sourcebook for details.",
-    "item_attachment_type": "Mount",
+    "type": "Mount",
     "type_limit": {
-      "item_attachment_type": "Riding Mount"
+      "type": "Riding Mount"
     },
     "price": "25",
     "rarity": "4",
@@ -6752,9 +6752,9 @@
     "key": "BEAMSPLIT",
     "name": "Beam Splitter",
     "description": "Please see page 51 of the Forged in Battle Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "type_limit": {
-      "item_attachment_type": "Energy Weapon"
+      "type": "Energy Weapon"
     },
     "price": "1250",
     "rarity": "5",
@@ -6787,9 +6787,9 @@
     "key": "BLASTSIGHT",
     "name": "Built-In Blaster Sight",
     "description": "Please see page 51 of the Forged in Battle Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "type_limit": {
-      "item_attachment_type": "Energy Weapon"
+      "type": "Energy Weapon"
     },
     "price": "150",
     "rarity": "4",
@@ -6809,7 +6809,7 @@
     "key": "GALPATRES",
     "name": "Galven Pattern Resequencing",
     "description": "Please see page 51 of the Forged in Battle Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": [
       "Blaster Pistol",
       "Heavy Blaster Pistol"
@@ -6845,7 +6845,7 @@
     "key": "MILMODBACKTEMP",
     "name": "Temperature Control Unit",
     "description": "Please see page 55 of the Forged in Battle Sourcebook for details.",
-    "item_attachment_type": "Gear",
+    "type": "Gear",
     "item_limit": {
       "key": "MILMODBACK"
     },
@@ -6868,7 +6868,7 @@
     "key": "MILMODBACKPOW",
     "name": "Power Unit",
     "description": "Please see page 55 of the Forged in Battle Sourcebook for details.",
-    "item_attachment_type": "Gear",
+    "type": "Gear",
     "item_limit": {
       "key": "MILMODBACK"
     },
@@ -6894,7 +6894,7 @@
     "key": "MILMODBACKCOM",
     "name": "Comms Unit",
     "description": "Please see page 55 of the Forged in Battle Sourcebook for details.",
-    "item_attachment_type": "Gear",
+    "type": "Gear",
     "item_limit": {
       "key": "MILMODBACK"
     },
@@ -6920,7 +6920,7 @@
     "key": "MILMODBACKSEN",
     "name": "Sensor Unit",
     "description": "Please see page 55 of the Forged in Battle Sourcebook for details.",
-    "item_attachment_type": "Gear",
+    "type": "Gear",
     "item_limit": {
       "key": "MILMODBACK"
     },
@@ -6949,7 +6949,7 @@
     "key": "MILMODBACKOXY",
     "name": "Oxygen Unit",
     "description": "Please see page 55 of the Forged in Battle Sourcebook for details.",
-    "item_attachment_type": "Gear",
+    "type": "Gear",
     "item_limit": {
       "key": "MILMODBACK"
     },
@@ -6972,7 +6972,7 @@
     "key": "MILMODBACKSTO",
     "name": "Storage Unit",
     "description": "Please see page 55 of the Forged in Battle Sourcebook for details.",
-    "item_attachment_type": "Gear",
+    "type": "Gear",
     "item_limit": {
       "key": "MILMODBACK"
     },
@@ -6996,9 +6996,9 @@
     "key": "DAMPEMIT",
     "name": "Damping Emitter",
     "description": "Please see page 51 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "type_limit": {
-      "item_attachment_type": "Lightsaber"
+      "type": "Lightsaber"
     },
     "price": "2000",
     "rarity": "7",
@@ -7024,9 +7024,9 @@
     "key": "OVERPOWERCELL",
     "name": "Overcharged Power Cell",
     "description": "Please see page 51 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "type_limit": {
-      "item_attachment_type": "Lightsaber"
+      "type": "Lightsaber"
     },
     "price": "500",
     "rarity": "6",
@@ -7047,9 +7047,9 @@
     "key": "PISTOLHILT",
     "name": "Pistol Hilt",
     "description": "Please see page 52 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "type_limit": {
-      "item_attachment_type": "Lightsaber"
+      "type": "Lightsaber"
     },
     "price": "750",
     "rarity": "5",
@@ -7083,9 +7083,9 @@
     "key": "REFLEXGRIP",
     "name": "Reflex Grip",
     "description": "Please see page 52 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "type_limit": {
-      "item_attachment_type": "Lightsaber"
+      "type": "Lightsaber"
     },
     "price": "4000",
     "rarity": "8",
@@ -7115,9 +7115,9 @@
     "key": "SHIENREVGRIP",
     "name": "Shien Reverse Grip Customization",
     "description": "Please see page 52 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "type_limit": {
-      "item_attachment_type": "Lightsaber"
+      "type": "Lightsaber"
     },
     "price": "100",
     "rarity": "6",
@@ -7171,7 +7171,7 @@
     "key": "ETAAN",
     "name": "Etaan Crystal",
     "description": "Please see page 52 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "price": "12000",
     "rarity": "9",
     "is_restricted": "true",
@@ -7230,7 +7230,7 @@
     "key": "GHOSTFIRE",
     "name": "Ghostfire Crystal",
     "description": "Please see page 53 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "price": "14000",
     "rarity": "9",
     "is_restricted": "true",
@@ -7277,9 +7277,9 @@
     "key": "COLLAVOID",
     "name": "Collision Avoidance System",
     "description": "Please see page 58 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "type_limit": {
-      "item_attachment_type": "Podracer"
+      "type": "Podracer"
     },
     "price": "2200",
     "rarity": "6",
@@ -7300,9 +7300,9 @@
     "key": "PODEJECT",
     "name": "Podracer Ejection System",
     "description": "Please see page 58 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "type_limit": {
-      "item_attachment_type": "Podracer"
+      "type": "Podracer"
     },
     "price": "400",
     "rarity": "4",
@@ -7323,9 +7323,9 @@
     "key": "PODENGINEBOOST",
     "name": "Engine Boost System",
     "description": "Please see page 58 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "type_limit": {
-      "item_attachment_type": "Podracer"
+      "type": "Podracer"
     },
     "price": "1100",
     "rarity": "5",
@@ -7350,9 +7350,9 @@
     "key": "POSFORDEB",
     "name": "Foreign Debris Ejector",
     "description": "Please see page 58 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "type_limit": {
-      "item_attachment_type": "Podracer"
+      "type": "Podracer"
     },
     "price": "900",
     "rarity": "3",
@@ -7377,9 +7377,9 @@
     "key": "PODHAND",
     "name": "Handling Upgrades",
     "description": "Please see page 59 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "type_limit": {
-      "item_attachment_type": "Podracer"
+      "type": "Podracer"
     },
     "price": "4000",
     "rarity": "6",
@@ -7405,9 +7405,9 @@
     "key": "PODCOILS",
     "name": "High-Output Repulsor Coils",
     "description": "Please see page 59 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "type_limit": {
-      "item_attachment_type": "Podracer"
+      "type": "Podracer"
     },
     "price": "4500",
     "rarity": "3",
@@ -7433,7 +7433,7 @@
     "key": "PODREICOWL",
     "name": "Reinforced Engine Cowlings",
     "description": "Please see page 59 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "2500",
     "rarity": "3",
     "base_mods": [
@@ -7457,9 +7457,9 @@
     "key": "PODSHIELD",
     "name": "Podracer Shield Generator",
     "description": "Please see page 59 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "type_limit": {
-      "item_attachment_type": "Podracer"
+      "type": "Podracer"
     },
     "price": "4200",
     "rarity": "4",
@@ -7485,7 +7485,7 @@
     "key": "PODCONTCAB",
     "name": "Podracer Control Cables",
     "description": "Please see page 60 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "PODCOCK"
     },
@@ -7508,7 +7508,7 @@
     "key": "PODENGINE",
     "name": "Podracer Engine",
     "description": "Please see page 60 of the Endless Vigil Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "PODCOCK"
     },
@@ -7531,7 +7531,7 @@
     "key": "MICROROCKGUIDE",
     "name": "Rocket Guidance System",
     "description": "Please see page 47 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": "Micro-Rocket",
     "price": "50",
     "rarity": "4",
@@ -7562,7 +7562,7 @@
     "key": "MICROROCKBOOST",
     "name": "Staged Rocket Booster",
     "description": "Please see page 47 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": "Micro-Rocket",
     "price": "25",
     "rarity": "2",
@@ -7596,7 +7596,7 @@
     "key": "MKTARGLOCK",
     "name": "Marked-Target Firing Lock",
     "description": "Please see page 51 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": "Ranged",
     "price": "900",
     "rarity": "4",
@@ -7622,7 +7622,7 @@
     "key": "SHOCKPULSEMIT",
     "name": "Shock Pulse Emitter",
     "description": "Please see page 51 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "skill_limit": [
       "BRAWL",
       "MELEE"
@@ -7655,7 +7655,7 @@
     "key": "MICROROCKRACK",
     "name": "Under-Barrel Micro-Rocket Rack",
     "description": "Please see page 51 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Weapon",
+    "type": "Weapon",
     "category_limit": "Ranged",
     "price": "1200",
     "rarity": "6",
@@ -7706,7 +7706,7 @@
     "key": "INTHOLST",
     "name": "Integrated Holsters",
     "description": "Please see page 52 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "300",
     "rarity": "4",
     "hard_points": "2",
@@ -7739,7 +7739,7 @@
     "key": "MICROROCKARMMOUNT",
     "name": "Micro-Rocket Armor Mounting",
     "description": "Please see page 52 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "800",
     "rarity": "6",
     "is_restricted": "true",
@@ -7785,7 +7785,7 @@
     "key": "REPASSLIFT",
     "name": "Replusor-Assisted Lifting",
     "description": "Please see page 52 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "1000",
     "rarity": "3",
     "is_restricted": "false",
@@ -7817,7 +7817,7 @@
     "key": "TRACKSYS",
     "name": "Tracking System",
     "description": "Please see page 52 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Armor",
+    "type": "Armor",
     "price": "1000",
     "rarity": "7",
     "is_restricted": "false",
@@ -7851,7 +7851,7 @@
     "key": "VAKSAI",
     "name": "Vaksai Modification Package",
     "description": "Please see page 60 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "item_limit": {
       "key": "KIHRAXZLTSTAR"
     },
@@ -7894,7 +7894,7 @@
     "key": "CONTFIELD",
     "name": "Containment Field",
     "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "7500",
     "rarity": "9",
     "is_restricted": "true",
@@ -7920,7 +7920,7 @@
     "key": "ENPRISONLOCK",
     "name": "Enhanced Prison Lockup",
     "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "3500",
     "rarity": "7",
     "hard_points": "3",
@@ -7945,7 +7945,7 @@
     "key": "MINELAYER",
     "name": "Minelayer",
     "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
-    "item_attachment_type": "Vehicle",
+    "type": "Vehicle",
     "price": "4000",
     "rarity": "6",
     "is_restricted": "true",

@@ -17,12 +17,13 @@
 #  is_restricted    :boolean          default(FALSE)
 #  base_mods        :json
 #  weapon_modifiers :json
-#  item_type        :string
+#  type             :string
 #  image_filename   :string           default("missing.png")
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
 #
 
 class Armor < ApplicationRecord
+  self.inheritance_column = nil
   validates :key, :name, :price, presence: true
 end

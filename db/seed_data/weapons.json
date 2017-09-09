@@ -16,7 +16,7 @@
         "hard_points": "1",
         "price": "200",
         "rarity": "4",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Holdout Blaster",
@@ -43,7 +43,7 @@
         "hard_points": "1",
         "price": "350",
         "rarity": "6",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Holdout Blaster",
@@ -65,7 +65,7 @@
         "key": "MILHOLDBLAST",
         "name": "Military Holdout Blaster",
         "description": "Please see page 44 of the Desperate Allies Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Blaster Pistol",
@@ -105,7 +105,7 @@
         "key": "VARHOLDBLAST",
         "name": "Variable Holdout Blaster",
         "description": "Please see page 104 of the Strongholds of Resistance Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Blaster Pistol",
@@ -146,7 +146,7 @@
         "key": "QUICKFIRE",
         "name": "Model Q4 Quickfire",
         "description": "Please see page 40 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Blaster Pistol",
@@ -182,7 +182,7 @@
         "key": "12DEFEND",
         "name": "12 Defender",
         "description": "Please see page 40 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Blaster Pistol",
@@ -222,7 +222,7 @@
         "key": "DEFSPBLAST",
         "name": "Defender Sporting Blaster Pistol",
         "description": "Please see page 44 of the Desperate Allies Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Blaster Pistol",
@@ -257,7 +257,7 @@
         "key": "ELG3ABLAST",
         "name": "ELG-3A Blaster Pistol",
         "description": "Please see page 44 of the Desperate Allies Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Blaster Pistol",
@@ -306,7 +306,7 @@
         "hard_points": "2",
         "price": "300",
         "rarity": "4",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -332,7 +332,7 @@
         "hard_points": "2",
         "price": "450",
         "rarity": "4",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -365,7 +365,7 @@
         "hard_points": "1",
         "price": "200",
         "rarity": "2",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -399,7 +399,7 @@
         "hard_points": "3",
         "price": "400",
         "rarity": "4",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -425,7 +425,7 @@
         "hard_points": "1",
         "price": "150",
         "rarity": "4",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -457,7 +457,7 @@
         "hard_points": "1",
         "price": "600",
         "rarity": "6",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -490,7 +490,7 @@
         "hard_points": "2",
         "price": "750",
         "rarity": "5",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -528,7 +528,7 @@
         "hard_points": "3",
         "price": "450",
         "rarity": "5",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -561,7 +561,7 @@
         "hard_points": "3",
         "price": "1200",
         "rarity": "8",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -593,7 +593,7 @@
         "hard_points": "3",
         "price": "1900",
         "rarity": "6",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -628,7 +628,7 @@
         "hard_points": "3",
         "price": "1900",
         "rarity": "6",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Ranged",
@@ -661,7 +661,7 @@
         "hard_points": "1",
         "price": "1000",
         "rarity": "8",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -701,7 +701,7 @@
         "price": "750",
         "rarity": "6",
         "is_restricted": "true",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -737,7 +737,7 @@
         "hard_points": "3",
         "price": "700",
         "rarity": "6",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Pistol",
             "Blaster",
@@ -763,7 +763,7 @@
         "hard_points": "3",
         "price": "1100",
         "rarity": "6",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "is_restricted": "true",
         "categories": [
             "Heavy Blaster Pistol",
@@ -785,7 +785,7 @@
         "key": "SECURITYS5",
         "name": "Security S-5 Heavy Blaster Pistol",
         "description": "Please see page 43 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Heavy Blaster Pistol",
@@ -823,7 +823,7 @@
         "key": "KO-2HSP",
         "name": "KO-2 Heavy Stun Pistol",
         "description": "Please see page 42 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Heavy Blaster Pistol",
@@ -855,7 +855,7 @@
         "key": "MODEL44BLASTPIST",
         "name": "Model 44 Blaster Pistol",
         "description": "Please see page 41 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -890,7 +890,7 @@
         "key": "MODEL80BLASTPIST",
         "name": "Model 80 Blaster Pistol",
         "description": "Please see page 41 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -933,7 +933,7 @@
         "key": "IR5BLASTPIST",
         "name": "IR-5 \"Intimidator\" Blaster Pistol",
         "description": "Please see page 41 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -979,7 +979,7 @@
         "hard_points": "2",
         "price": "600",
         "rarity": "5",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Pistol",
             "Blaster",
@@ -1000,7 +1000,7 @@
         "key": "SITE145PISTOL",
         "name": "Site-145 Replica Blaster Pistol",
         "description": "Please see page 43 of the Keeping the Peace sourcebook for details.      [P][I]The HP for this weapon should be used to attach a Force-attuned resonator attachment only.[i]",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Blaster Pistol",
@@ -1032,7 +1032,7 @@
         "key": "X30LANCER",
         "name": "x-30 Lancer",
         "description": "Please see page 38 of the Enter the Unknown Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -1069,7 +1069,7 @@
         "key": "BLASTPISTDL19C",
         "name": "DL-19C Blaster Pistol",
         "description": "Please see page 44 of the Special Modifications Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -1105,7 +1105,7 @@
         "key": "DL7HBLASTPISTHVY",
         "name": "DL-7h Heavy Blaster Pistol",
         "description": "Please see page 41 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Pistol",
             "Blaster",
@@ -1148,7 +1148,7 @@
         "hard_points": "2",
         "price": "1300",
         "rarity": "7",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Pistol",
             "Blaster",
@@ -1177,7 +1177,7 @@
         "key": "SE14C",
         "name": "SE-14C Blaster Pistol",
         "description": "Please see page 42 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol"
         ],
@@ -1215,7 +1215,7 @@
         "hard_points": "1",
         "price": "250",
         "rarity": "6",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Ranged"
@@ -1242,7 +1242,7 @@
         "hard_points": "0",
         "price": "40",
         "rarity": "4",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Ranged"
         ],
@@ -1282,7 +1282,7 @@
         "hard_points": "4",
         "price": "850",
         "rarity": "5",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Carbine",
             "Blaster",
@@ -1308,7 +1308,7 @@
         "hard_points": "4",
         "price": "1300",
         "rarity": "5",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "is_restricted": "true",
         "categories": [
             "Carbine",
@@ -1330,7 +1330,7 @@
         "key": "OK98BLASTCARB",
         "name": "OK-98 Blaster Carbine",
         "description": "Please see page 43 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Carbine",
             "Blaster",
@@ -1376,7 +1376,7 @@
         "hard_points": "4",
         "price": "550",
         "rarity": "3",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Carbine",
             "Blaster",
@@ -1409,7 +1409,7 @@
         "hard_points": "3",
         "price": "1600",
         "rarity": "6",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Carbine",
             "Blaster",
@@ -1435,7 +1435,7 @@
         "key": "DLS12HBR",
         "name": "DLS-12 Heavy Blaster Carbine",
         "description": "Please see page 42 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Heavy Blaster Carbine",
@@ -1472,7 +1472,7 @@
         "key": "DH17",
         "name": "DH-17 Blaster Carbine",
         "description": "Please see page 43 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [],
         "encumbrance": "2",
         "hard_points": "3",
@@ -1504,7 +1504,7 @@
         "key": "GALAAR15",
         "name": "GALAAR-15 Blaster Carbine",
         "description": "Please see page 36 of the Friends Like These Adventure Module for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [],
         "encumbrance": "3",
         "hard_points": "3",
@@ -1546,7 +1546,7 @@
         "hard_points": "4",
         "price": "900",
         "rarity": "5",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster Rifle",
@@ -1572,7 +1572,7 @@
         "hard_points": "4",
         "price": "1500",
         "rarity": "5",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "is_restricted": "true",
         "categories": [
             "Rifle",
@@ -1602,7 +1602,7 @@
         "hard_points": "4",
         "price": "600",
         "rarity": "4",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -1632,7 +1632,7 @@
         "price": "850",
         "rarity": "6",
         "is_restricted": "false",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -1659,7 +1659,7 @@
         "key": "PULSECAN",
         "name": "Pulse Cannon",
         "description": "Please see page 43 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Heavy Rifle"
         ],
@@ -1711,7 +1711,7 @@
         "price": "1000",
         "rarity": "6",
         "is_restricted": "false",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -1747,7 +1747,7 @@
         "price": "1000",
         "rarity": "6",
         "is_restricted": "false",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Ranged",
@@ -1772,7 +1772,7 @@
         "key": "ACPARRAYGUN",
         "name": "ACP Array Gun",
         "description": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -1811,7 +1811,7 @@
         "key": "SWE2SONIC",
         "name": "SWE/2 Sonic Rifle",
         "description": "Please see page 40 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Ranged",
             "Rifle"
@@ -1861,7 +1861,7 @@
         "hard_points": "4",
         "price": "1500",
         "rarity": "6",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Heavy Rifle",
             "Blaster",
@@ -1883,7 +1883,7 @@
         "key": "DHXBLASTRIFHVY",
         "name": "DH-X Heavy Blaster Rifle",
         "description": "Please see page 43 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Heavy Rifle",
             "Blaster",
@@ -1922,7 +1922,7 @@
         "key": "A280",
         "name": "A280 Heavy Blaster Rifle",
         "description": "Please see page 43 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Rifle"
         ],
@@ -1963,7 +1963,7 @@
         "key": "E11SNIPER",
         "name": "E-11S Sniper Rifle",
         "description": "Please see page 38 of the Enter the Unknown Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -2009,7 +2009,7 @@
         "key": "LBR9STUNRIFLE",
         "name": "LBR-9 Stun Rifle",
         "description": "Please see page 39 of the Enter the Unknown Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -2046,7 +2046,7 @@
         "key": "M300",
         "name": "M-300 Hunting Blaster",
         "description": "Please see page 40 of the Savage Spirits Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -2093,7 +2093,7 @@
         "key": "CR8",
         "name": "CR-8 Takedown Rifle",
         "description": "Please see page 40 of the Savage Spirits Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -2142,7 +2142,7 @@
         "key": "NIGHTBOW",
         "name": "Nightsister Energy Bow",
         "description": "Please see page 40 of the Savage Spirits Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Ranged",
@@ -2195,7 +2195,7 @@
         "price": "2250",
         "rarity": "7",
         "is_restricted": "true",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Ranged"
@@ -2219,7 +2219,7 @@
         "key": "SE14RBLASTLTREP",
         "name": "SE-14r Light Repeating Blaster",
         "description": "Please see page 43 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Ranged",
@@ -2266,7 +2266,7 @@
         "key": "SHUKUR05BLASTLTREP",
         "name": "SHUKUR-05 Light Repeater",
         "description": "Please see page 49 of the Friends Like These Adventure Module for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Ranged"
@@ -2323,7 +2323,7 @@
         "price": "6000",
         "rarity": "8",
         "is_restricted": "true",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Ranged"
@@ -2351,7 +2351,7 @@
         "key": "VXBLASTREP",
         "name": "VX \"Sidewinder\" Repeating Blaster",
         "description": "Please see page 43 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Ranged"
@@ -2396,7 +2396,7 @@
         "key": "HOBBLASTREPHVY",
         "name": "HOB Heavy Repeating Blaster",
         "description": "Please see page 44 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Ranged"
@@ -2449,7 +2449,7 @@
         "key": "Z6ROTBLASTCAN",
         "name": "Z-6 Rotary Blaster Cannon",
         "description": "Please see page 44 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Ranged"
@@ -2496,7 +2496,7 @@
         "key": "J10DUALBLASTCAN",
         "name": "J-10 Dual Blaster Cannon",
         "description": "Please see page 45 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Portable Gunnery",
             "Ranged"
@@ -2540,7 +2540,7 @@
         "key": "RECIPQUADBLASTCAN",
         "name": "Reciprocating Quad Blaster Cannon",
         "description": "Please see page 45 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Portable Gunnery",
             "Ranged"
@@ -2609,7 +2609,7 @@
         "price": "1550",
         "rarity": "7",
         "is_restricted": "false",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Ranged",
             "Rifle",
@@ -2645,7 +2645,7 @@
         "hard_points": "4",
         "price": "1350",
         "rarity": "5",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Ranged",
@@ -2674,7 +2674,7 @@
         "hard_points": "4",
         "price": "1350",
         "rarity": "5",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -2701,7 +2701,7 @@
         "hard_points": "0",
         "price": "180",
         "rarity": "5",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [],
         "qualities": [
             {
@@ -2740,7 +2740,7 @@
         "hard_points": "2",
         "price": "1250",
         "rarity": "7",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Bowcaster",
             "Ranged"
@@ -2763,7 +2763,7 @@
         "key": "KYUZOBOW",
         "name": "Kyuzo Energy Bow",
         "description": "Please see page 44 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Ranged"
         ],
@@ -2810,7 +2810,7 @@
         "hard_points": "3",
         "price": "250",
         "rarity": "5",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Ranged",
             "Carbine"
@@ -2838,7 +2838,7 @@
         "hard_points": "1",
         "price": "800",
         "rarity": "7",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Ranged",
             "Pistol",
@@ -2879,7 +2879,7 @@
         "price": "3000",
         "rarity": "6",
         "is_restricted": "true",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Pistol",
             "Ranged"
@@ -2909,7 +2909,7 @@
         "price": "5000",
         "rarity": "6",
         "is_restricted": "true",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Ranged"
@@ -2930,7 +2930,7 @@
         "key": "T7DISR ",
         "name": "T-7 Ion Disruptor",
         "description": "Please see page 44 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3000,7 +3000,7 @@
         "hard_points": "0",
         "price": "100",
         "rarity": "3",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Pistol",
             "Ranged"
@@ -3019,7 +3019,7 @@
         "hard_points": "0",
         "price": "150",
         "rarity": "4",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Pistol",
             "Ranged"
@@ -3038,7 +3038,7 @@
         "key": "FIVERSLUGPIST",
         "name": "Model C \"Fiver\" Pistol",
         "description": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Pistol",
             "Ranged"
@@ -3083,7 +3083,7 @@
         "hard_points": "0",
         "price": "350",
         "rarity": "6",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Pistol",
             "Ranged"
@@ -3121,7 +3121,7 @@
         "hard_points": "0",
         "price": "300",
         "rarity": "5",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Pistol",
             "Ranged"
@@ -3147,7 +3147,7 @@
         "key": "SH9",
         "name": "SH-9 Slugthrower Pistol",
         "description": "Please see page 46 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Pistol",
             "Ranged"
@@ -3196,7 +3196,7 @@
         "hard_points": "2",
         "price": "800",
         "rarity": "7",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3230,7 +3230,7 @@
         "hard_points": "1",
         "price": "250",
         "rarity": "3",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3255,7 +3255,7 @@
         "hard_points": "2",
         "price": "1750",
         "rarity": "7",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3279,7 +3279,7 @@
         "key": "ASSAULTSLUGCARB",
         "name": "FYR Assault Carbine",
         "description": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3332,7 +3332,7 @@
         "hard_points": "2",
         "price": "1500",
         "rarity": "7",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3355,7 +3355,7 @@
         "key": "MODEL77",
         "name": "Model 77 Air Rifle",
         "description": "Please see page 39 of the Enter the Unknown Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3390,7 +3390,7 @@
         "key": "MODEL38",
         "name": "Model 38 Sharpshooter's Rifle",
         "description": "Please see page 40 of the Enter the Unknown Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3425,7 +3425,7 @@
         "key": "MODEL38DET",
         "name": "Model 38 Sharpshooter's Rifle (Detonator Round)",
         "description": "Please see page 41 of the Enter the Unknown Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3464,7 +3464,7 @@
         "key": "HAMMER",
         "name": "KS-23 Hammer",
         "description": "Please see page 41 of the Enter the Unknown Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Carbine",
             "Ranged"
@@ -3499,7 +3499,7 @@
         "key": "DFD1",
         "name": "DF-D1 Duo-Flechette Rifle",
         "description": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3541,7 +3541,7 @@
         "key": "VERPSHATPIS",
         "name": "Verpine Shatter Pistol",
         "description": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Pistol",
             "Ranged"
@@ -3574,7 +3574,7 @@
         "key": "VERPSHATRIF",
         "name": "Verpine Shatter Rifle",
         "description": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3607,7 +3607,7 @@
         "key": "VERPSHATHVYRIF",
         "name": "Verpine Heavy Shatter Rifle",
         "description": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged",
@@ -3653,7 +3653,7 @@
         "hard_points": "4",
         "price": "500",
         "rarity": "6",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3686,7 +3686,7 @@
         "hard_points": "4",
         "price": "500",
         "rarity": "6",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3726,7 +3726,7 @@
         "hard_points": "3",
         "price": "1100",
         "rarity": "6",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -3750,7 +3750,7 @@
         "key": "BERSERKERRIF",
         "name": "Berserker Rifle",
         "description": "Please see page 46 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Ranged",
             "Rifle"
@@ -3787,7 +3787,7 @@
         "key": "BERSERKERRIF",
         "name": "Berserker Rifle",
         "description": "Please see page 46 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Ranged",
             "Rifle"
@@ -3823,7 +3823,7 @@
         "key": "HEAVYREPEATER",
         "name": "Imperial Heavy Repeater",
         "description": "Please see page 46 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Ranged",
             "Heavy Rifle"
@@ -3869,7 +3869,7 @@
         "hard_points": "2",
         "price": "20",
         "rarity": "2",
-        "weapon_type": "Thrown",
+        "type": "Thrown",
         "qualities": [
             {
                 "key": "KNOCKDOWN"
@@ -3892,7 +3892,7 @@
         "key": "ELECTRONET",
         "name": "Electronet",
         "description": "Please see page 44 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Thrown",
+        "type": "Thrown",
         "categories": [],
         "encumbrance": "2",
         "hard_points": "0",
@@ -3943,7 +3943,7 @@
         "hard_points": "2",
         "price": "1000",
         "rarity": "6",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -3977,7 +3977,7 @@
         "price": "7500",
         "rarity": "8",
         "is_restricted": "true",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Portable Gunnery"
@@ -4023,7 +4023,7 @@
         "price": "1250",
         "rarity": "7",
         "is_restricted": "false",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -4064,7 +4064,7 @@
             "Enter the Unknown",
             "Savage Spirits"
         ],
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -4093,7 +4093,7 @@
         "name": "Electronet Launcher",
         "description": "Please see page 60 of the Friends Like These Adventure Module for details.",
         "sources": "Friends Like These",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -4120,7 +4120,7 @@
         "key": "STOKHLI",
         "name": "Stokhli Spray Stick",
         "description": "Please see page 41 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -4164,7 +4164,7 @@
         "key": "RIOTRIFLE",
         "name": "R-88 Supressor Riot Rifle",
         "description": "Please see page 40 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Rifle"
@@ -4202,7 +4202,7 @@
         "key": "TANGLEGUN",
         "name": "Tangle Gun",
         "description": "Please see page 41 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Carbine"
@@ -4250,7 +4250,7 @@
         "hard_points": "0",
         "price": "50",
         "rarity": "5",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "BLAST",
@@ -4284,7 +4284,7 @@
         "hard_points": "0",
         "price": "75",
         "rarity": "4",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "BLAST",
@@ -4322,7 +4322,7 @@
         "price": "2000",
         "rarity": "8",
         "is_restricted": "true",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "BREACH",
@@ -4360,7 +4360,7 @@
         "price": "1200",
         "rarity": "8",
         "is_restricted": "true",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "BLAST",
@@ -4380,7 +4380,7 @@
         "key": "APGREN",
         "name": "Armor Piercing Grenade",
         "description": "Please see page 179 of the Age of Rebellion Core Rulebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -4419,7 +4419,7 @@
         "key": "N4NOISEGREN",
         "name": "N-4 Noise Grenade",
         "description": "Please see page 44 of the Desperate Allies Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -4459,7 +4459,7 @@
         "key": "WIPE3GREN",
         "name": "Wipe-3 Data-Purge Grenade",
         "description": "Please see page 45 of the Desperate Allies Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -4499,7 +4499,7 @@
         "key": "HICMERCYGREN",
         "name": "HIC \"Mercy\" Grenade",
         "description": "Please see page 45 of the Desperate Allies Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -4541,7 +4541,7 @@
         "key": "SPOREBSTUNGREN",
         "name": "Spore/B Stun Grenade",
         "description": "Please see page 107 of the Strongholds of Resistance Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -4587,7 +4587,7 @@
         "key": "AVMINE",
         "name": "Anti-Vehicle Mine",
         "description": "Please see page 179 of the Age of Rebellion Core Rulebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Mine"
         ],
@@ -4626,7 +4626,7 @@
         "key": "APMINE",
         "name": "Anti-Personnel Mine",
         "description": "Please see page 179 of the Age of Rebellion Core Rulebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Mine"
         ],
@@ -4665,7 +4665,7 @@
         "key": "KNOCKMINE",
         "name": "Knockout Mine",
         "description": "Please see page 45 of the Desperate Allies Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Mine"
         ],
@@ -4696,7 +4696,7 @@
         "key": "GLOPGRND",
         "name": "Glop Grenade",
         "description": "Please see page 42 of the Enter the Unknown Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -4731,7 +4731,7 @@
         "key": "INFERGREND",
         "name": "D-24 Inferno Grenade",
         "description": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -4771,7 +4771,7 @@
         "key": "CONCGREND",
         "name": "G2 Concussion Grenade",
         "description": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -4824,7 +4824,7 @@
         "key": "IONGREND",
         "name": "Lightning 22 Ion Grenade",
         "description": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -4868,7 +4868,7 @@
         "key": "PLASGREND",
         "name": "NOVA40 Plasma Grenade",
         "description": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -4904,7 +4904,7 @@
         "key": "HVYFRGGREND",
         "name": "Mk.4 Heavy Frag Grenade",
         "description": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -4956,7 +4956,7 @@
         "hard_points": "0",
         "price": "50",
         "rarity": "5",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "BLAST",
@@ -4990,7 +4990,7 @@
         "key": "SHAPEDTHERMALGREN",
         "name": "Shaped Thermal Grenade",
         "description": "Please see page 47 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Grenade",
             "Ranged"
@@ -5026,7 +5026,7 @@
         "key": "CSPL12GREN",
         "name": "CSPL-12 Projectile Launcher (Frag Grenade)",
         "description": "Please see page 47 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -5064,7 +5064,7 @@
         "key": "LJ50CONCRIF",
         "name": "LJ-50 Concussion Rifle",
         "description": "Please see page 47 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Rifle",
             "Ranged"
@@ -5108,7 +5108,7 @@
         "key": "CONCMISSILEMK10",
         "name": "Mk.10 Concussion Missile",
         "description": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Portable Gunnery",
             "Ranged"
@@ -5161,7 +5161,7 @@
         "key": "FRAGMISSILEC88",
         "name": "C-88 Fragmentation Missile",
         "description": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Portable Gunnery",
             "Ranged"
@@ -5197,7 +5197,7 @@
         "key": "PLASMISSILESK44",
         "name": "SK-44 Plasma Missile",
         "description": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Portable Gunnery",
             "Ranged"
@@ -5237,7 +5237,7 @@
         "key": "INCENMISSILEC908",
         "name": "C-908 Incendiary Missile",
         "description": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Portable Gunnery",
             "Ranged"
@@ -5277,7 +5277,7 @@
         "key": "BARADIUMCHRG",
         "name": "Baradium Charge",
         "description": "Please see page 55 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [],
         "encumbrance": "2",
         "hard_points": "0",
@@ -5310,7 +5310,7 @@
         "key": "DETONITECHRG",
         "name": "Detonite Charge",
         "description": "Please see page 55 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [],
         "encumbrance": "2",
         "hard_points": "0",
@@ -5334,7 +5334,7 @@
         "key": "PLASMACHRG",
         "name": "Plasma Charge",
         "description": "Please see page 55 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [],
         "encumbrance": "2",
         "hard_points": "0",
@@ -5358,7 +5358,7 @@
         "key": "PROTONGRNAD",
         "name": "Proton Grenade",
         "description": "Please see page 55 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -5405,7 +5405,7 @@
         "hard_points": "1",
         "price": "200",
         "rarity": "5",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "CUMBERSOME",
@@ -5443,7 +5443,7 @@
         "hard_points": "1",
         "price": "200",
         "rarity": "5",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "BLAST",
@@ -5474,7 +5474,7 @@
         "hard_points": "1",
         "price": "200",
         "rarity": "5",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "LIMITEDAMMO",
@@ -5504,7 +5504,7 @@
         "hard_points": "2",
         "price": "500",
         "rarity": "7",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "CUMBERSOME",
@@ -5543,7 +5543,7 @@
         "hard_points": "2",
         "price": "500",
         "rarity": "7",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "CUMBERSOME",
@@ -5578,7 +5578,7 @@
         "hard_points": "2",
         "price": "500",
         "rarity": "7",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "CUMBERSOME",
@@ -5613,7 +5613,7 @@
         "hard_points": "2",
         "price": "500",
         "rarity": "7",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "CUMBERSOME",
@@ -5648,7 +5648,7 @@
         "hard_points": "2",
         "price": "500",
         "rarity": "7",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "CUMBERSOME",
@@ -5682,7 +5682,7 @@
         "hard_points": "2",
         "price": "200",
         "rarity": "8",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "CUMBERSOME",
@@ -5710,7 +5710,7 @@
         "key": "CZ28FLAME",
         "name": "CZ-28 Flamestrike",
         "description": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -5754,7 +5754,7 @@
         "key": "FC1FLECHETTE",
         "name": "FC1 Flechette Launcher (Anti-Infantry)",
         "description": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Portable Gunnery"
@@ -5807,7 +5807,7 @@
         "key": "FC1FLECHETTEVEH",
         "name": "FC1 Flechette Launcher (Anti-Vehicle)",
         "description": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Portable Gunnery"
@@ -5856,7 +5856,7 @@
         "key": "GRENADLAUNCHZ50",
         "name": "Z50 Grenade Launcher",
         "description": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Portable Gunnery",
             "Ranged"
@@ -5896,7 +5896,7 @@
         "key": "MINTORPLAUNCH",
         "name": "Mini-Torpedo Launcher",
         "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -5939,7 +5939,7 @@
         "key": "MINTORPAP",
         "name": "Mini-Torpedo, Anti-Personnel",
         "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -5972,7 +5972,7 @@
         "key": "MINTORPARMP",
         "name": "Mini-Torpedo, Armor Piercing",
         "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -6009,7 +6009,7 @@
         "key": "MINTORPINK",
         "name": "Mini-Torpedo, Ink",
         "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -6052,7 +6052,7 @@
         "key": "MINTORPION",
         "name": "Mini-Torpedo, Ion",
         "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -6088,7 +6088,7 @@
         "key": "MINTORPNET",
         "name": "Mini-Torpedo, Net",
         "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -6125,7 +6125,7 @@
         "key": "MINTORPSTUN",
         "name": "Mini-Torpedo, Stun",
         "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -6165,7 +6165,7 @@
         "key": "AURBOOM",
         "name": "Aurateran Boomerang",
         "description": "Please see page 102 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -6206,7 +6206,7 @@
         "key": "GUNGATL",
         "name": "Gungan Atlatl",
         "description": "Please see page 102 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -6251,7 +6251,7 @@
         "key": "GUNGPLAS",
         "name": "Gungan Plasma Ball",
         "description": "Please see page 102 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -6287,7 +6287,7 @@
         "key": "LONGBOW",
         "name": "Long Bow",
         "description": "Please see page 102 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -6338,7 +6338,7 @@
         "hard_points": "0",
         "price": "25",
         "rarity": "0",
-        "weapon_type": "Brawling",
+        "type": "Brawling",
         "categories": [
             "Bludgeoning Brawl"
         ],
@@ -6368,7 +6368,7 @@
         "hard_points": "1",
         "price": "300",
         "rarity": "2",
-        "weapon_type": "Brawling",
+        "type": "Brawling",
         "categories": [
             "Bludgeoning Brawl",
             "Powered Brawl"
@@ -6394,7 +6394,7 @@
         "hard_points": "2",
         "price": "1000",
         "rarity": "7",
-        "weapon_type": "Brawling",
+        "type": "Brawling",
         "categories": [
             "Bludgeoning Brawl"
         ],
@@ -6422,7 +6422,7 @@
         "key": "BLSTKNUK",
         "name": "Blast Knuckles",
         "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Brawling",
+        "type": "Brawling",
         "categories": [
             "Blaster",
             "Blaster Pistol",
@@ -6470,7 +6470,7 @@
         "key": "VAMBLADES1",
         "name": "S-1 Vamblade (Single)",
         "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Brawling",
+        "type": "Brawling",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -6507,7 +6507,7 @@
         "key": "VAMBLADE2S1",
         "name": "S-1 Vamblade (Paired)",
         "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Brawling",
+        "type": "Brawling",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -6551,7 +6551,7 @@
         "key": "VIBROKNUK",
         "name": "Vibroknucklers",
         "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Brawling",
+        "type": "Brawling",
         "categories": [
             "Cutting Edge Melee",
             "Bludgeoning Brawl",
@@ -6601,7 +6601,7 @@
         "key": "BACKHANDSHKGLV",
         "name": "Backhand Shock Gloves",
         "description": "Please see page 42 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Brawling",
+        "type": "Brawling",
         "categories": [
             "Bludgeoning Brawl",
             "Powered Brawl"
@@ -6639,7 +6639,7 @@
         "key": "NEEDLEGLOVES",
         "name": "Needle Gloves",
         "description": "Please see page 46 of the Desperate Allies Sourcebook for details.",
-        "weapon_type": "Brawling",
+        "type": "Brawling",
         "categories": [],
         "encumbrance": "1",
         "hard_points": "0",
@@ -6667,7 +6667,7 @@
         "key": "SHIELDGAUNT",
         "name": "Shield Gauntlet",
         "description": "Please see page 44 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Brawling",
+        "type": "Brawling",
         "categories": [
             "Shield",
             "Bludgeoning Brawl"
@@ -6716,7 +6716,7 @@
         "hard_points": "0",
         "price": "25",
         "rarity": "1",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -6736,7 +6736,7 @@
         "hard_points": "0",
         "price": "100",
         "rarity": "3",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -6774,7 +6774,7 @@
         "hard_points": "0",
         "price": "700",
         "rarity": "6",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -6811,7 +6811,7 @@
         "hard_points": "1",
         "price": "300",
         "rarity": "3",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "DEFENSIVE",
@@ -6841,7 +6841,7 @@
         "hard_points": "1",
         "price": "600",
         "rarity": "4",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "ENSNARE",
@@ -6871,7 +6871,7 @@
         "hard_points": "2",
         "price": "600",
         "rarity": "8",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "ENSNARE",
@@ -6902,7 +6902,7 @@
         "hard_points": "2",
         "price": "1000",
         "rarity": "4",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "CONCUSSIVE",
@@ -6936,7 +6936,7 @@
         "hard_points": "3",
         "price": "650",
         "rarity": "7",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "base_mods": [
             {
                 "count": "1",
@@ -6970,7 +6970,7 @@
         "hard_points": "2",
         "price": "350",
         "rarity": "6",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "base_mods": [
             {
                 "count": "1",
@@ -7008,7 +7008,7 @@
         "hard_points": "1",
         "price": "350",
         "rarity": "8",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "DEFENSIVE",
@@ -7037,7 +7037,7 @@
         "hard_points": "0",
         "price": "900",
         "rarity": "7",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "CORTOSIS"
@@ -7076,7 +7076,7 @@
         "hard_points": "2",
         "price": "1350",
         "rarity": "7",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "CORTOSIS"
@@ -7108,7 +7108,7 @@
         "hard_points": "3",
         "price": "4500",
         "rarity": "6",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "CORTOSIS"
@@ -7150,7 +7150,7 @@
         "hard_points": "2",
         "price": "2500",
         "rarity": "7",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "CORTOSIS"
@@ -7174,7 +7174,7 @@
         "hard_points": "0",
         "price": "100",
         "rarity": "2",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Bludgeoning Melee"
         ],
@@ -7206,7 +7206,7 @@
         "hard_points": "2",
         "price": "375",
         "rarity": "4",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Bludgeoning Melee"
         ],
@@ -7245,7 +7245,7 @@
         "hard_points": "3",
         "price": "500",
         "rarity": "4",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "PIERCE",
@@ -7270,7 +7270,7 @@
         "hard_points": "0",
         "price": "250",
         "rarity": "2",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "DEFENSIVE",
@@ -7295,7 +7295,7 @@
         "hard_points": "3",
         "price": "1000",
         "rarity": "6",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -7331,7 +7331,7 @@
         "hard_points": "2",
         "price": "1500",
         "rarity": "6",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Powered Melee"
         ],
@@ -7360,7 +7360,7 @@
         "hard_points": "0",
         "price": "575",
         "rarity": "6",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Powered Melee"
         ],
@@ -7382,7 +7382,7 @@
         "key": "ENERGYBUCK",
         "name": "Energy Buckler",
         "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Shield",
             "Powered Melee"
@@ -7428,7 +7428,7 @@
         "key": "PARRVIBRO",
         "name": "Parrying Vibroblade",
         "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -7468,7 +7468,7 @@
         "key": "PARRDAGG",
         "name": "Parrying Dagger",
         "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -7499,7 +7499,7 @@
         "key": "CRYOWHIP",
         "name": "Rodian Cryogen Whip",
         "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [],
         "encumbrance": "1",
         "hard_points": "1",
@@ -7536,7 +7536,7 @@
         "key": "SITHSHIELD",
         "name": "Sith Shield",
         "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Shield",
             "Bludgeoning Melee"
@@ -7583,7 +7583,7 @@
         "key": "SNAPBATON",
         "name": "Snap Baton",
         "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Bludgeoning Melee"
         ],
@@ -7614,7 +7614,7 @@
         "key": "BARDLANCE",
         "name": "Bardottan Electrolance",
         "description": "Please see page 103 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -7648,7 +7648,7 @@
         "key": "GUNGPOLE",
         "name": "Gungan Electropole",
         "description": "Please see page 103 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -7682,7 +7682,7 @@
         "key": "GUNGPOLET",
         "name": "Gungan Electropole (thrown)",
         "description": "Please see page 103 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Thrown",
+        "type": "Thrown",
         "categories": [
             "Ranged"
         ],
@@ -7720,7 +7720,7 @@
         "key": "GUNGPES",
         "name": "Gungan Personal Energy Shield",
         "description": "Please see page 103 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Shield"
         ],
@@ -7755,7 +7755,7 @@
         "key": "TRAINSTICK",
         "name": "Training Stick",
         "description": "Please see page 104 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Bludgeoning Melee"
         ],
@@ -7793,7 +7793,7 @@
         "key": "VOSSWARSP",
         "name": "Voss Warspear",
         "description": "Please see page 104 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -7824,7 +7824,7 @@
         "key": "VOSSWARSPT",
         "name": "Voss Warspear (thrown)",
         "description": "Please see page 104 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Thrown",
+        "type": "Thrown",
         "categories": [
             "Ranged"
         ],
@@ -7859,7 +7859,7 @@
         "key": "WEIKGS",
         "name": "Weik Greatsword",
         "description": "Please see page 104 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -7894,7 +7894,7 @@
         "key": "THERMCUTW",
         "name": "Thermal Cutter",
         "description": "Please see page 105 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -7939,7 +7939,7 @@
         "hard_points": "0",
         "price": "1500",
         "rarity": "4",
-        "weapon_type": "Brawling",
+        "type": "Brawling",
         "qualities": [
             {
                 "key": "LIMITEDAMMO",
@@ -7972,7 +7972,7 @@
         "price": "10000",
         "rarity": "10",
         "is_restricted": "true",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "categories": [
             "Lightsaber"
         ],
@@ -8005,7 +8005,7 @@
         "price": "9300",
         "rarity": "10",
         "is_restricted": "true",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "categories": [
             "Lightsaber"
         ],
@@ -8037,7 +8037,7 @@
         "price": "18600",
         "rarity": "10",
         "is_restricted": "true",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "attach_cost_mult": "2",
         "categories": [
             "Lightsaber"
@@ -8078,7 +8078,7 @@
         "price": "9600",
         "rarity": "10",
         "is_restricted": "true",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "categories": [
             "Lightsaber"
         ],
@@ -8118,7 +8118,7 @@
         "price": "9300",
         "rarity": "10",
         "is_restricted": "true",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "categories": [
             "Lightsaber"
         ],
@@ -8160,7 +8160,7 @@
         "price": "400",
         "rarity": "6",
         "is_restricted": "false",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "categories": [
             "Lightsaber"
         ],
@@ -8179,7 +8179,7 @@
         "key": "LTSABERGUASH",
         "name": "Guard Shoto",
         "description": "Please see page 46 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "categories": [
             "Lightsaber"
         ],
@@ -8225,7 +8225,7 @@
         "key": "LTSABERTEMGUAPIKE",
         "name": "Temple Guard Lightsaber Pike",
         "description": "Please see page 46 of the Keeping the Peace sourcebook for details.",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "categories": [
             "Lightsaber"
         ],
@@ -8285,7 +8285,7 @@
         "price": "300",
         "rarity": "5",
         "is_restricted": "false",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "no_melee": "true",
         "categories": [
             "Lightsaber",
@@ -8311,7 +8311,7 @@
         "price": "600",
         "rarity": "6",
         "is_restricted": "false",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "no_melee": "true",
         "attach_cost_mult": "2",
         "categories": [
@@ -8347,7 +8347,7 @@
         "price": "600",
         "rarity": "7",
         "is_restricted": "false",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "no_melee": "true",
         "categories": [
             "Lightsaber",
@@ -8382,7 +8382,7 @@
         "price": "300",
         "rarity": "6",
         "is_restricted": "false",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "no_melee": "true",
         "categories": [
             "Lightsaber",
@@ -8409,7 +8409,7 @@
         "key": "LTSABERTEMGUAPIKEHILT",
         "name": "Temple Guard Lightsaber Pike Hilt",
         "description": "Please see page 46 of the Keeping the Peace Sourcebook for details.",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "categories": [
             "Lightsaber Hilt",
             "Lightsaber"
@@ -8457,7 +8457,7 @@
         "key": "LTSABERGUASHHILT",
         "name": "Guard Shoto Hilt",
         "description": "Please see page 46 of the Keeping the Peace Sourcebook for details.",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "categories": [
             "Lightsaber Hilt",
             "Lightsaber"
@@ -8505,7 +8505,7 @@
         "key": "LTSABERLODAKA",
         "name": "Master Lodaka's Lightsaber",
         "description": "Please see page 112 of the Nexus of Power Sourcebook for details.",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "categories": [
             "Lightsaber Hilt",
             "Lightsaber",
@@ -8566,7 +8566,7 @@
         "hard_points": "0",
         "price": "15",
         "rarity": "1",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Bludgeoning Melee"
         ],
@@ -8591,7 +8591,7 @@
         "hard_points": "0",
         "price": "200",
         "rarity": "4",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Bludgeoning Melee",
             "Powered Melee"
@@ -8611,7 +8611,7 @@
         "key": "PULSEDRILL",
         "name": "G9-GP Pulse Drill",
         "description": "Please see page 43 of the Enter the Unknown Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -8650,7 +8650,7 @@
         "key": "PULSEDRILLGX",
         "name": "G9-GX Pulse Drill",
         "description": "Please see page 139 of the Strongholds of Resistance Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -8689,7 +8689,7 @@
         "key": "BEAMDRILLJ7B",
         "name": "J-7b Beamdrill",
         "description": "Please see page 98 of the Suns of Fortune Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -8729,7 +8729,7 @@
         "key": "ENTRENCHTOOL",
         "name": "Entrenching Tool (Improvised)",
         "description": "Please see page 59 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [],
         "encumbrance": "1",
         "hard_points": "0",
@@ -8776,7 +8776,7 @@
         "hard_points": "3",
         "price": "1200",
         "rarity": "7",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -8809,7 +8809,7 @@
         "hard_points": "1",
         "price": "610",
         "rarity": "4",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -8847,7 +8847,7 @@
         "hard_points": "3",
         "price": "750",
         "rarity": "5",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -8885,7 +8885,7 @@
         "hard_points": "2",
         "price": "250",
         "rarity": "3",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -8919,7 +8919,7 @@
         "hard_points": "1",
         "price": "350",
         "rarity": "6",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "base_mods": [
             {
                 "count": "1",
@@ -8959,7 +8959,7 @@
         "hard_points": "3",
         "price": "750",
         "rarity": "5",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -8996,7 +8996,7 @@
         "hard_points": "1",
         "price": "475",
         "rarity": "6",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "base_mods": [
             {
                 "count": "1",
@@ -9018,7 +9018,7 @@
         "key": "VIBROSPR",
         "name": "Huntsman Vibrospear",
         "description": "Please see page 43 of the Enter the Unknown Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -9053,7 +9053,7 @@
         "key": "VIBROSAW",
         "name": "Mk. VIII Vibrosaw",
         "description": "Please see page 43 of the Enter the Unknown Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -9106,7 +9106,7 @@
         "hard_points": "2",
         "price": "490",
         "rarity": "6",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "hands": "whTwoHanded",
         "categories": [
             "Cutting Edge Melee",
@@ -9147,7 +9147,7 @@
         "hard_points": "1",
         "price": "550",
         "rarity": "4",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -9171,7 +9171,7 @@
         "key": "FUSCUT",
         "name": "Fusion Cutter",
         "description": "Please see page 197 of the Age of Rebellion Core Rulebook.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -9214,7 +9214,7 @@
         "key": "RYYKBLADE",
         "name": "Ryyk Blade",
         "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -9253,7 +9253,7 @@
         "key": "VIBROGRTSWRDVX",
         "name": "VX \"Czerhander\" Vibro-Greatsword",
         "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -9294,7 +9294,7 @@
         "key": "THERMAXMOD7",
         "name": "Model 7 Therm-Ax",
         "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -9334,7 +9334,7 @@
         "key": "RIOTSHIELD",
         "name": "Riot Shield",
         "description": "Please see page 42 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Shield",
             "Bludgeoning Melee"
@@ -9377,7 +9377,7 @@
         "key": "KYUZOSHIELD",
         "name": "Kyuzo War Shield (Melee)",
         "description": "Please see page 48 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Shield",
             "Bludgeoning Melee"
@@ -9422,7 +9422,7 @@
         "key": "KYUZOSHIELDTHROW",
         "name": "Kyuzo War Shield (Thrown)",
         "description": "Please see page 48 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Thrown",
+        "type": "Thrown",
         "categories": [
             "Shield",
             "Bludgeoning Melee",
@@ -9472,7 +9472,7 @@
         "key": "MOLSTILETTO",
         "name": "Molecular Stiletto",
         "description": "Please see page 43 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -9511,7 +9511,7 @@
         "key": "THNDRBOLT",
         "name": "Thunderbolt Shock Prod",
         "description": "Please see page 43 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Powered Melee"
         ],
@@ -9555,7 +9555,7 @@
         "hard_points": "3",
         "price": "1000",
         "rarity": "7",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "CUMBERSOME",
@@ -9595,7 +9595,7 @@
         "hard_points": "3",
         "price": "975",
         "rarity": "6",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "DEFENSIVE",
@@ -9615,7 +9615,7 @@
         "key": "SHISBLADE",
         "name": "Shistavanen Combat Utility Vibroblade",
         "description": "Please see page 48 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -9663,7 +9663,7 @@
         "key": "AKRABDAG",
         "name": "aKraB Clip-Point Vibrodagger",
         "description": "Please see page 48 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -9708,7 +9708,7 @@
         "price": "9000",
         "rarity": "10",
         "is_restricted": "true",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "BREACH",
@@ -9742,7 +9742,7 @@
         "price": "750",
         "rarity": "6",
         "is_restricted": "false",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "DISORIENT",
@@ -9776,7 +9776,7 @@
         "price": "1050",
         "rarity": "8",
         "is_restricted": "false",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "qualities": [
             {
                 "key": "DEFENSIVE",
@@ -9811,7 +9811,7 @@
         "hard_points": "0",
         "price": "3000",
         "rarity": "3",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "2",
         "size_high": "10",
         "qualities": [
@@ -9842,7 +9842,7 @@
         "hard_points": "0",
         "price": "4000",
         "rarity": "2",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "2",
         "size_high": "10",
         "qualities": [],
@@ -9868,7 +9868,7 @@
         "hard_points": "0",
         "price": "5000",
         "rarity": "3",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "3",
         "size_high": "10",
         "qualities": [],
@@ -9894,7 +9894,7 @@
         "hard_points": "0",
         "price": "7500",
         "rarity": "5",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "3",
         "size_high": "10",
         "qualities": [
@@ -9937,7 +9937,7 @@
         "hard_points": "0",
         "price": "7500",
         "rarity": "5",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "3",
         "size_high": "10",
         "qualities": [
@@ -9979,7 +9979,7 @@
         "hard_points": "0",
         "price": "8500",
         "rarity": "6",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "3",
         "size_high": "10",
         "qualities": [
@@ -10029,7 +10029,7 @@
         "hard_points": "0",
         "price": "8500",
         "rarity": "7",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "3",
         "size_high": "10",
         "qualities": [
@@ -10079,7 +10079,7 @@
         "hard_points": "0",
         "price": "5000",
         "rarity": "5",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "3",
         "size_high": "10",
         "qualities": [
@@ -10109,7 +10109,7 @@
         "hard_points": "0",
         "price": "6000",
         "rarity": "6",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "5",
         "size_high": "10",
         "qualities": [
@@ -10139,7 +10139,7 @@
         "hard_points": "0",
         "price": "7500",
         "rarity": "7",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "6",
         "size_high": "10",
         "qualities": [
@@ -10169,7 +10169,7 @@
         "hard_points": "0",
         "price": "10000",
         "rarity": "8",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "6",
         "size_high": "10",
         "qualities": [
@@ -10206,7 +10206,7 @@
         "hard_points": "0",
         "price": "10000",
         "rarity": "8",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "6",
         "size_high": "10",
         "qualities": [
@@ -10247,7 +10247,7 @@
         "hard_points": "0",
         "price": "5500",
         "rarity": "4",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "3",
         "size_high": "10",
         "qualities": [],
@@ -10273,7 +10273,7 @@
         "hard_points": "0",
         "price": "7000",
         "rarity": "4",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "3",
         "size_high": "10",
         "qualities": [],
@@ -10299,7 +10299,7 @@
         "hard_points": "0",
         "price": "7500",
         "rarity": "5",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "4",
         "size_high": "10",
         "qualities": [],
@@ -10321,7 +10321,7 @@
         "hard_points": "0",
         "price": "6500",
         "rarity": "5",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "4",
         "size_high": "10",
         "qualities": [
@@ -10351,7 +10351,7 @@
         "hard_points": "0",
         "price": "5500",
         "rarity": "7",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "3",
         "size_high": "10",
         "qualities": [
@@ -10386,7 +10386,7 @@
         "price": "9000",
         "rarity": "7",
         "is_restricted": "true",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "3",
         "size_high": "10",
         "qualities": [
@@ -10433,7 +10433,7 @@
         "hard_points": "0",
         "price": "8000",
         "rarity": "6",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "4",
         "size_high": "10",
         "qualities": [
@@ -10468,7 +10468,7 @@
         "hard_points": "0",
         "price": "6000",
         "rarity": "4",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "4",
         "size_high": "10",
         "qualities": [
@@ -10499,7 +10499,7 @@
         "hard_points": "0",
         "price": "8000",
         "rarity": "5",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "5",
         "size_high": "10",
         "qualities": [
@@ -10530,7 +10530,7 @@
         "hard_points": "0",
         "price": "10000",
         "rarity": "6",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "5",
         "size_high": "10",
         "qualities": [
@@ -10562,7 +10562,7 @@
         "price": "12000",
         "rarity": "7",
         "is_restricted": "true",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "5",
         "size_high": "10",
         "qualities": [
@@ -10598,7 +10598,7 @@
         "price": "15000",
         "rarity": "7",
         "is_restricted": "true",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "6",
         "size_high": "10",
         "qualities": [
@@ -10634,7 +10634,7 @@
         "price": "20000",
         "rarity": "8",
         "is_restricted": "true",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "6",
         "size_high": "10",
         "qualities": [
@@ -10653,7 +10653,7 @@
         "key": "MOLSTILETTO",
         "name": "Molecular Stiletto",
         "description": "Please see page 43 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -10691,7 +10691,7 @@
         "key": "STUNBATON",
         "name": "Stun Baton",
         "description": "Please see page 43 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [],
         "encumbrance": "2",
         "hard_points": "2",
@@ -10722,7 +10722,7 @@
         "key": "SUPPRESSCANNON",
         "name": "Light Suppression Cannon",
         "description": "Please see page 54 of the Far Horizons Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Ranged",
             "Suppression"
@@ -10775,7 +10775,7 @@
         "hard_points": "0",
         "price": "3000",
         "rarity": "3",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "2",
         "size_high": "10",
         "qualities": [
@@ -10810,7 +10810,7 @@
         "hard_points": "0",
         "price": "7500",
         "rarity": "5",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "2",
         "size_high": "10",
         "qualities": [
@@ -10845,7 +10845,7 @@
         "hard_points": "0",
         "price": "7500",
         "rarity": "5",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "2",
         "size_high": "10",
         "qualities": [
@@ -10883,7 +10883,7 @@
         "hard_points": "0",
         "price": "7500",
         "rarity": "5",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "2",
         "size_high": "10",
         "qualities": [
@@ -10921,7 +10921,7 @@
         "hard_points": "0",
         "price": "7500",
         "rarity": "7",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "3",
         "size_high": "10",
         "qualities": [
@@ -10955,7 +10955,7 @@
         "hard_points": "0",
         "price": "7500",
         "rarity": "7",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "size_low": "3",
         "size_high": "10",
         "qualities": [
@@ -10976,7 +10976,7 @@
         "categories": [
             "Rocket"
         ],
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "encumbrance": "0",
         "hard_points": "0",
         "price": "0",
@@ -11022,7 +11022,7 @@
         "key": "MASSDRIVMSL",
         "name": "Mass Driver Missile Launchers",
         "description": "Please see page 70 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Missile"
         ],
@@ -11069,7 +11069,7 @@
         "key": "MISSILEPACK",
         "name": "Missile Pack",
         "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Missile"
         ],
@@ -11113,7 +11113,7 @@
         "key": "MISSILEPACKMINI",
         "name": "Mini-Missile Pack",
         "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Missile"
         ],
@@ -11157,7 +11157,7 @@
         "key": "MINIMISSILETUBE",
         "name": "MM-XT Mini-Missile Tube",
         "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Missile"
         ],
@@ -11188,7 +11188,7 @@
         "key": "TRACTOR213",
         "name": "Grappler 213 Tactical Tractor Beam",
         "description": "Please see page 62 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Tractor"
         ],
@@ -11222,7 +11222,7 @@
         "key": "MISSCONCMINI",
         "name": "Concussion Missile (Mini)",
         "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Missile"
         ],
@@ -11267,7 +11267,7 @@
         "key": "MISSJAM",
         "name": "Jammer Missile",
         "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Missile"
         ],
@@ -11304,7 +11304,7 @@
         "key": "MISSDECOY",
         "name": "Decoy Missile",
         "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Missile"
         ],
@@ -11337,7 +11337,7 @@
         "key": "MISSJAMMINI",
         "name": "Jammer Missile (Mini)",
         "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Missile"
         ],
@@ -11374,7 +11374,7 @@
         "key": "MISSUNGROCK",
         "name": "Unguided Rocket",
         "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Rocket"
         ],
@@ -11415,7 +11415,7 @@
         "key": "MISSUNGROCKMINI",
         "name": "Unguided Rocket (Mini)",
         "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Rocket"
         ],
@@ -11457,7 +11457,7 @@
         "name": "Rotary Repeating Blaster Cannon",
         "description": "Please see page 54 of the Onslaught at Arda I Adventure Module for details.",
         "sources": ["Onslaught at Arda I"],
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Blaster"
         ],
@@ -11489,7 +11489,7 @@
         "key": "LASCAN",
         "name": "Laser Cannon",
         "description": "Please see page 54 of the Onslaught at Arda I Adventure Module for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Laser"
         ],
@@ -11524,7 +11524,7 @@
             "Stay on Target",
             "Lead by Example"
         ],
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Flak"
         ],
@@ -11564,7 +11564,7 @@
             "Stay on Target",
             "Lead by Example"
         ],
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Flak"
         ],
@@ -11604,7 +11604,7 @@
             "Stay on Target",
             "Lead by Example"
         ],
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Flak"
         ],
@@ -11640,7 +11640,7 @@
         "key": "VL6",
         "name": "VL-6 Warhead Launcher System",
         "description": "Please see page 61 of the Stay on Target Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [],
         "encumbrance": "0",
         "hard_points": "0",
@@ -11681,7 +11681,7 @@
         "key": "A95STING",
         "name": "A95 Stingbeam",
         "description": "Please see page 42 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -11722,7 +11722,7 @@
         "key": "L7LIGHTPISTOL",
         "name": "L7 Light Blaster Pistol",
         "description": "Please see page 43 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -11760,7 +11760,7 @@
         "key": "411HOLDOUT",
         "name": "411 Holdout Blaster",
         "description": "Please see page 43 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -11793,7 +11793,7 @@
         "key": "M53QUICKTRIGGER",
         "name": "Model 53 \"Quicktrigger\" Blaster Pistol",
         "description": "Please see page 43 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -11830,7 +11830,7 @@
         "key": "M1NOVAVIPER",
         "name": "Model-1 \"Nova Viper\" Blaster Pistol",
         "description": "Please see page 43 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -11874,7 +11874,7 @@
         "key": "C10DRAGONEYE",
         "name": "C-10 \"Dragoneye Reaper\" Heavy Blaster Pistol",
         "description": "Please see page 43 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Pistol",
             "Blaster",
@@ -11905,7 +11905,7 @@
         "key": "RENHEAVYBLAST",
         "name": "\"Renegade\" Heavy Blaster Pistol",
         "description": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Pistol",
             "Blaster",
@@ -11940,7 +11940,7 @@
         "key": "GHOVOR22",
         "name": "GHOVOR-22 Blaster Pistol",
         "description": "Please see page 47 of the Friends Like These Adventure Module for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
             "Blaster",
@@ -11971,7 +11971,7 @@
         "key": "HBT4HUNTING",
         "name": "HBt-4 Hunting Blaster",
         "description": "Please see page 44 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -12007,7 +12007,7 @@
         "key": "VES700PULSE",
         "name": "VES-700 Pulse Rifle",
         "description": "Please see page 44 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -12043,7 +12043,7 @@
         "key": "FDROIDDISABLER",
         "name": "Droid Disabler",
         "description": "Please see page 44 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Ranged"
         ],
@@ -12080,7 +12080,7 @@
         "key": "FWG5FLECHETTE",
         "name": "FWG-5 Flechette Pistol",
         "description": "Please see page 44 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Pistol",
             "Ranged"
@@ -12115,7 +12115,7 @@
         "key": "8GAUGESCATTER",
         "name": "8-Gauge Scatter Gun",
         "description": "Please see page 44 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Rifle",
             "Ranged"
@@ -12149,7 +12149,7 @@
         "key": "ASCIANTHROWDAG",
         "name": "Ascian Throwing Dagger",
         "description": "Please see page 45 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -12188,7 +12188,7 @@
         "key": "KNOCKOUTGRENADE",
         "name": "Knockout Grenade",
         "description": "Please see page 45 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged",
             "Grenade"
@@ -12232,7 +12232,7 @@
         "key": "TAGCRYOPROJ",
         "name": "Cryoban Projector",
         "description": "Please see page 45 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Rifle",
             "Ranged"
@@ -12276,7 +12276,7 @@
         "key": "SSB1STATIC",
         "name": "SSB-1 Static Pistol",
         "description": "Please see page 45 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Pistol",
             "Ranged"
@@ -12311,7 +12311,7 @@
         "key": "SHOCKBOOTS",
         "name": "Shock Boots",
         "description": "Please see page 45 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Brawling",
+        "type": "Brawling",
         "categories": [],
         "encumbrance": "2",
         "hard_points": "0",
@@ -12350,7 +12350,7 @@
         "key": "PUNCHDAGGER",
         "name": "Punch Dagger",
         "description": "Please see page 46 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -12385,7 +12385,7 @@
         "key": "BLADEBREAKER",
         "name": "Blade-Breaker",
         "description": "Please see page 46 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -12422,7 +12422,7 @@
         "key": "VIBRORAPIER",
         "name": "Vibrorapier",
         "description": "Please see page 46 of the Fly Casual Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -12457,7 +12457,7 @@
         "key": "LTTRACTCOUPLE",
         "name": "Light Tractor Beam Coupler",
         "description": "",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Tractor"
         ],
@@ -12490,7 +12490,7 @@
         "categories": [
             "Proton Torpedo"
         ],
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "price": "0",
         "rarity": "6",
         "is_restricted": "false",
@@ -12531,7 +12531,7 @@
         "key": "PROTTORPHVY",
         "name": "Heavy Proton Torpedo Launcher",
         "description": "Please see page 119 of the Strongholds of Resistance Sourcebook for details.",
-        "weapon_type": [
+        "type": [
             "Vehicle",
             "Vehicle"
         ],
@@ -12575,7 +12575,7 @@
         "key": "CLUSTERBOMB",
         "name": "Cluster Bomb Launcher",
         "description": "Please see page 119 of the Strongholds of Resistance Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [],
         "encumbrance": "0",
         "hard_points": "0",
@@ -12606,7 +12606,7 @@
         "key": "IONTHRUST",
         "name": "Ion Thruster Gun",
         "description": "Please see page 45 of the Special Modifications Sourcebook for details.",
-        "weapon_type": "Tool",
+        "type": "Tool",
         "categories": [
             "Ranged"
         ],
@@ -12647,7 +12647,7 @@
         "key": "MULTIGOO",
         "name": "Multi-Goo Gun",
         "description": "Please see page 45 of the Special Modifications Sourcebook for details.",
-        "weapon_type": "Tool",
+        "type": "Tool",
         "categories": [
             "Ranged"
         ],
@@ -12688,7 +12688,7 @@
         "key": "REPULSORGUN",
         "name": "Repulsor Gun",
         "description": "Please see page 46 of the Special Modifications Sourcebook for details.",
-        "weapon_type": "Tool",
+        "type": "Tool",
         "categories": [
             "Ranged"
         ],
@@ -12724,7 +12724,7 @@
         "key": "RIVETGUN",
         "name": "Rivet Gun",
         "description": "Please see page 46 of the Special Modifications Sourcebook for details.",
-        "weapon_type": "Tool",
+        "type": "Tool",
         "categories": [
             "Ranged"
         ],
@@ -12766,7 +12766,7 @@
         "key": "HANDGRID",
         "name": "Hand Grinder",
         "description": "Please see page 47 of the Special Modifications Sourcebook for details.",
-        "weapon_type": "Tool",
+        "type": "Tool",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -12808,7 +12808,7 @@
         "key": "WELDINGROD",
         "name": "Welding Rod",
         "description": "Please see page 47 of the Special Modifications Sourcebook for details.",
-        "weapon_type": "Tool",
+        "type": "Tool",
         "categories": [
             "Powered Melee"
         ],
@@ -12849,7 +12849,7 @@
         "key": "MASSDRIVERCANNON",
         "name": "Mass-Driver Cannon",
         "description": "Please see page 57 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [],
         "skill_key": "GUNN",
         "damage": "7",
@@ -12874,7 +12874,7 @@
         "key": "ATGAR18FD",
         "name": "1.8 FD Anti-Infantry Autoturret",
         "description": "Please see page 45 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Portable Gunnery"
         ],
@@ -12915,7 +12915,7 @@
         "key": "ANTIAIR",
         "name": "Anti-Air Rockets",
         "description": "Please see page 62 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [],
         "skill_key": "GUNN",
         "damage": "4",
@@ -12948,7 +12948,7 @@
         "key": "ANTIPERSLASER",
         "name": "Anti-Personnel Laser",
         "description": "Please see page 62 of the Forged in Battle Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [],
         "skill_key": "GUNN",
         "damage": "1",
@@ -12973,7 +12973,7 @@
         "key": "BR219",
         "name": "BR-219 Heavy Blaster Pistol",
         "description": "Please see page 40 of the Endless Vigil Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Pistol",
             "Blaster",
@@ -13015,7 +13015,7 @@
         "key": "GLXFIRE",
         "name": "GLX Firelance",
         "description": "Please see page 40 of the Endless Vigil Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -13054,7 +13054,7 @@
         "key": "LD1TARG",
         "name": "LD-1 Target Rifle",
         "description": "Please see page 40 of the Endless Vigil Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -13099,7 +13099,7 @@
         "key": "SSGMKII",
         "name": "SSG Mk II Paladin",
         "description": "Please see page 41 of the Endless Vigil Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Rifle",
             "Blaster",
@@ -13157,7 +13157,7 @@
         "key": "KWSMKI",
         "name": "KWS Mk I Saberdart",
         "description": "Please see page 41 of the Endless Vigil Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Ranged"
         ],
@@ -13191,7 +13191,7 @@
         "key": "NX14",
         "name": "NX-14 Needler",
         "description": "Please see page 42 of the Endless Vigil Sourcebook for details.",
-        "weapon_type": "Slugthrower",
+        "type": "Slugthrower",
         "categories": [
             "Pistol",
             "Ranged"
@@ -13231,7 +13231,7 @@
         "key": "LTSABERCROSSG",
         "name": "Crossguard Lightsaber",
         "description": "Please see page 42 of the Endless Vigil Sourcebook for details.",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "categories": [
             "Lightsaber"
         ],
@@ -13274,7 +13274,7 @@
         "key": "LTSABERWHIP",
         "name": "Lightwhip",
         "description": "Please see page 42 of the Endless Vigil Sourcebook for details.",
-        "weapon_type": "Lightwhip",
+        "type": "Lightwhip",
         "categories": [
             "Lightsaber",
             "Whip"
@@ -13319,7 +13319,7 @@
         "key": "PHIPHKNIFE",
         "name": "Philaxian Phase-Knife",
         "description": "Please see page 43 of the Endless Vigil Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -13357,7 +13357,7 @@
         "key": "LTSABERCROSSHILT",
         "name": "Crossguard Lightsaber Hilt",
         "description": "Please see page 43 of the Endless Vigil Sourcebook for details.",
-        "weapon_type": "Lightsaber",
+        "type": "Lightsaber",
         "categories": [
             "Lightsaber",
             "Lightsaber Hilt"
@@ -13393,7 +13393,7 @@
         "key": "MINECONC",
         "name": "Concussion Mine",
         "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Space Mine"
         ],
@@ -13428,7 +13428,7 @@
         "key": "MINENET",
         "name": "Connor Net Mine",
         "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Space Mine"
         ],
@@ -13458,7 +13458,7 @@
         "key": "MINEFIREC",
         "name": "Firecracker Mine",
         "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Space Mine"
         ],
@@ -13494,7 +13494,7 @@
         "key": "MINEGRAV",
         "name": "Gravity Mine",
         "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Space Mine"
         ],
@@ -13526,7 +13526,7 @@
         "key": "MINEION",
         "name": "Ion Mine",
         "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Space Mine"
         ],
@@ -13560,7 +13560,7 @@
         "key": "MINESEEK",
         "name": "Seeker Mine",
         "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Vehicle",
+        "type": "Vehicle",
         "categories": [
             "Space Mine"
         ],
@@ -13604,7 +13604,7 @@
         "key": "PRECXMARK",
         "name": "\"Precision-X\" Marksman Rifle",
         "description": "Please see page 44 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Blaster Rifle",
@@ -13644,7 +13644,7 @@
         "key": "SUBDRIOTBLAST",
         "name": "\"Subduer-9\" Riot Blaster",
         "description": "Please see page 44 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Energy Weapon",
+        "type": "Energy Weapon",
         "categories": [
             "Blaster",
             "Ranged"
@@ -13681,7 +13681,7 @@
         "key": "FIRECALLFLAMEPROJ",
         "name": "\"Firecaller\" Light Flame Projector",
         "description": "Please see page 44 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -13723,7 +13723,7 @@
         "key": "GRAPHARPLAU",
         "name": "Grapnel-Harpoon Launcher",
         "description": "Please see page 45 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -13765,7 +13765,7 @@
         "key": "IMPREPCAN",
         "name": "\"Impact\" Repulsor Cannon",
         "description": "Please see page 45 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -13809,7 +13809,7 @@
         "key": "MICROROCKAA",
         "name": "Anti-Armor Micro-Rocket",
         "description": "Please see page 46 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Micro-Rocket"
         ],
@@ -13841,7 +13841,7 @@
         "key": "MICROROCKEXP",
         "name": "Explosive Micro-Rocket",
         "description": "Please see page 46 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Micro-Rocket"
         ],
@@ -13873,7 +13873,7 @@
         "key": "MICROROCKFLE",
         "name": "Flechette Micro-Rocket",
         "description": "Please see page 46 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Micro-Rocket"
         ],
@@ -13909,7 +13909,7 @@
         "key": "MICROROCKINC",
         "name": "Incendiary Micro-Rocket",
         "description": "Please see page 46 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Micro-Rocket"
         ],
@@ -13945,7 +13945,7 @@
         "key": "MICROROCKION",
         "name": "Ion Micro-Rocket",
         "description": "Please see page 47 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Micro-Rocket"
         ],
@@ -13979,7 +13979,7 @@
         "key": "PEACESTUNBAT",
         "name": "\"Peacekeeper\" Stun Baton",
         "description": "Please see page 48 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Bludgeoning Melee"
         ],
@@ -14016,7 +14016,7 @@
         "key": "IONPIKE",
         "name": "Ion Pike",
         "description": "Please see page 48 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Melee",
+        "type": "Melee",
         "categories": [
             "Powered Melee"
         ],
@@ -14052,7 +14052,7 @@
         "key": "MICROROCKPISTOL",
         "name": "Micro-Rocket Launcher Pistol",
         "description": "Please see page 47 of the No Disintegrations Sourcebook for details.",
-        "weapon_type": "Explosives/Other",
+        "type": "Explosives/Other",
         "categories": [
             "Pistol",
             "Ranged"

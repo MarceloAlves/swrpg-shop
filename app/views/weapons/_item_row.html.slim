@@ -21,7 +21,7 @@ tr
   td.p-3.align-middle.text-center
     = item.fetch('hard_points')
   td.p-3.align-middle
-    = item.fetch('weapon_type')
+    = item.fetch('weapon_type', item.fetch('type', nil))
   td.p-3.align-middle
     = format_skill(item.fetch('skill_key'))
   td.p-3.align-middle

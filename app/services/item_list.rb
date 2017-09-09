@@ -18,7 +18,7 @@ class ItemList
         next unless item.fetch('sources', []).any? { |i| @sources.include? i }
         shop_type_modifier = if item.fetch('is_restricted', nil)
                                @shop_modifiers.fetch('restricted')
-                             elsif item.fetch('item_type', item.fetch('weapon_type', nil)) == 'Lightsaber'
+                             elsif item.fetch('type', item.fetch('type', nil)) == 'Lightsaber'
                                @shop_modifiers.fetch('lightsaber')
                              elsif item.fetch('skill_key', nil) == 'LTSABER'
                                @shop_modifiers.fetch('lightsaber')

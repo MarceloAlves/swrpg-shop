@@ -5,7 +5,7 @@ class CreateItemAttachments < ActiveRecord::Migration[5.1]
       t.string :name, null: false
       t.text :description
       t.text :sources, array: true, default: []
-      t.string :item_attachment_type
+      t.string :type
       t.json :item_limit
       t.json :type_limit
       t.text :category_limit, array: true, default: []

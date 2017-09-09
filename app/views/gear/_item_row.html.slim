@@ -16,4 +16,4 @@ tr
   td.p-3.align-middle.text-center
     = item.fetch('rarity')
   td.p-3.align-middle
-    = item.fetch('gear_type')
+    = item.fetch('gear_type', item.fetch('type', nil))

@@ -22,7 +22,7 @@ class CreateWeapons < ActiveRecord::Migration[5.1]
       t.integer :attach_cost_mult
       t.boolean :ordnance
       t.string :hands
-      t.string :weapon_type
+      t.string :type
       t.text :categories, array: true, default: []
       t.json :qualities, default: []
       t.json :base_mods, default: []
