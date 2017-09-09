@@ -4,9 +4,12 @@
 
 updateSelectedText =  ->
   count = $('[data-sourcebook-checkbox]:checked').size()
-  $('[data-sourcebooks-selected]').html('(' + count + ' of 29 selected)')
+  allCount = $('[data-sourcebook-checkbox]').size()
+  $('[data-sourcebooks-selected]').html('(' + count + ' of ' + allCount + ' selected)')
 
 $(document).on 'turbolinks:load', ->  
+  updateSelectedText()
+
   $('.table').stupidtable().bind 'aftertablesort', (event, data) ->
     icon = if data.direction == 'asc' then "fa-caret-down" else "fa-caret-up"
     $(this).find("i.fa").remove()

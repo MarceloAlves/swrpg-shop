@@ -144,6 +144,26 @@
       "collection": "Force and Destiny",
       "title": "Savage Spirits",
       "key": "SS"
+    },
+    {
+      "collection": "Edge of the Empire",
+      "title": "No Disintegrations",
+      "key": "ND"
+    },
+    {
+      "collection": "Age of Rebellion",
+      "title": "Friends Like These",
+      "key": "FLT"
+    },
+    {
+      "collection": "Age of Rebellion",
+      "title": "Forged In Battle",
+      "key": "FiB"
+    },
+    {
+      "collection": "Force and Destiny",
+      "title": "Endless Vigil",
+      "key": "EV"
     }
   ]
 }
