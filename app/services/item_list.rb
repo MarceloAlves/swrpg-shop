@@ -1,7 +1,7 @@
 class ItemList
   attr_reader :shop_list
 
-  def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world:, min_size: 0, max_size: 1_000, sources:)
+  def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world:, min_size: 0, max_size: 1_000, sources: [])
     @world = World.find(world)
     @item_list = build_item_list
     @shop_modifiers = shop_types[shop_type]
