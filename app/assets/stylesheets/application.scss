@@ -12,3 +12,27 @@ $enable-shadows: true;
 .card {
   box-shadow: 0px 1px 2px 0px rgba(202, 202, 202, 0.59)
 }
+
+.customize-card-header {
+  background: radial-gradient(#649CD2, #006ed8);
+
+  h1 {
+    text-shadow: 1px 0 rgba(105, 105, 105, 0.35);
+  }
+}
+
+.generate-card-header {
+  background: radial-gradient(#FFAA63, #ff6503);
+  
+  h1 {
+    text-shadow: 1px 0 rgba(105, 105, 105, 0.35);
+  }
+}
+
+.share-card-header {
+  background: radial-gradient(#a7dc5a, #6cb700);
+
+  h1 {
+    text-shadow: 1px 0 rgba(105, 105, 105, 0.35);
+  }
+}
