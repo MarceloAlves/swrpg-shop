@@ -1,69 +1,5 @@
 [
   {
-    "key": "JURYRIGGEDW",
-    "name": "Jury Rigged (Weapon)",
-    "description": "Please see page 138 of the Edge of the Empire Core Rulebook, or page 150 of the Age of Rebellion Core Rulebook, for details.",
-    "sources": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook"
-    ],
-    "type": "Weapon",
-    "item_limit": null,
-    "price": "0",
-    "hard_points": "0",
-    "jury_rigged": "true",
-    "base_mods": [],
-    "added_mods": [
-      {
-        "key": "DAMADD",
-        "count": "1"
-      },
-      {
-        "key": "CRITSUB",
-        "count": "1"
-      },
-      {
-        "key": "ENCSUB2",
-        "count": "1"
-      },
-      {
-        "key": "QUALADVSUB",
-        "count": "1"
-      }
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "JURYRIGGEDA",
-    "name": "Jury Rigged (Armor)",
-    "description": "Please see page 138 of the Edge of the Empire Core Rulebook, or page 150 of the Age of Rebellion Core Rulebook, for details.",
-    "sources": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook"
-    ],
-    "type": "Armor",
-    "item_limit": null,
-    "price": "0",
-    "hard_points": "0",
-    "jury_rigged": "true",
-    "base_mods": [],
-    "added_mods": [
-      {
-        "key": "MELEEDEFADD",
-        "count": "1"
-      },
-      {
-        "key": "RANGEDEFADD",
-        "count": "1"
-      },
-      {
-        "key": "ENCSUB2",
-        "count": "1"
-      }
-    ],
-    "image_filename": "missing.png"
-  },
-  {
     "key": "AUGSPIN",
     "name": "Augmented Spin Barrel",
     "description": "Please see page 188 of the Edge of the Empire Core Rulebook, or page 200 of the Age of Rebellion Core Rulebook, for details.",
@@ -177,37 +113,6 @@
       }
     ],
     "image_filename": "missing.png"
-  },
-  {
-    "key": "STUNONLYBLASTER",
-    "name": "Stun-Only Blaster Modification",
-    "description": "Add this attachment to any blaster pistol or carbine to make it stun-only.  A blaster with this modification costs half the normal price.",
-    "sources": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook",
-      "Force and Destiny Core Rulebook"
-    ],
-    "type": "Weapon",
-    "category_limit": [
-      "Blaster Carbine",
-      "Blaster Pistol"
-    ],
-    "price": "0",
-    "rarity": "1",
-    "hard_points": "0",
-    "base_mods": [
-      {
-        "key": "REMQUALSTUNSETTING"
-      },
-      {
-        "key": "STUNDAMAGE"
-      },
-      {
-        "key": "PRICEHALF"
-      }
-    ],
-    "image_filename": "missing.png",
-    "added_mods": []
   },
   {
     "key": "BIPOD",
@@ -1316,72 +1221,6 @@
     "added_mods": [],
     "sources": [
       "Savage Spirits"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "GIMMELSTEALTH",
-    "name": "Gimmellian Stealth Device",
-    "description": "Please see page 118 of the Strongholds of Resistance Sourcebook for details.      [P][I]This is an optional no-cost attachment for the Tallanx-Class Stealth Fighter and the Darvro-Class Light Freighter.[i]",
-    "type": "Vehicle",
-    "item_limit": {
-      "key": [
-        "TALLANX",
-        "DARVROLTFR"
-      ]
-    },
-    "price": "0",
-    "rarity": "9",
-    "is_restricted": "true",
-    "hard_points": "0",
-    "jury_rigged": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Reduces range band of enemy ships' passive sensors by 1 (to a minimum of close range) for detecting the Tallanx.",
-        "def_zone": null
-      },
-      {
-        "count": "1",
-        "misc_desc": "All power for shields and weapons must be rerouted to device for it to work.  Rerouting takes one action.",
-        "def_zone": null
-      }
-    ],
-    "added_mods": [],
-    "sources": [
-      "Strongholds of Resistance"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "ECMSUITETALLANX",
-    "name": "Electronic Countermeasures Suite (Custom)",
-    "description": "Please see page 118 of the Strongholds of Resistance Sourcebook for details.      [P][I]This is an optional no-cost attachment for the Tallanx-Class Stealth Fighter and the Darvro-Class Light Freighter.[i]",
-    "type": "Vehicle",
-    "item_limit": {
-      "key": [
-        "TALLANX",
-        "DARVROLTFR"
-      ]
-    },
-    "price": "0",
-    "rarity": "6",
-    "is_restricted": "false",
-    "hard_points": "0",
-    "jury_rigged": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Blocks sensors within range, counting the ship's silhouette as one smaller when being fired upon."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Immediately notifies all ships in a star system or within 100 kilometers if planetside to the ship or vehicle's existence."
-      }
-    ],
-    "added_mods": [],
-    "sources": [
-      "Strongholds of Resistance"
     ],
     "image_filename": "missing.png"
   },
@@ -3202,44 +3041,6 @@
     "image_filename": "missing.png"
   },
   {
-    "key": "LTSABERCONST",
-    "name": "Lightsaber Hilt Construction Modifications",
-    "description": "Use this attachment to reflect the results of a lightsaber hilt construction check, as required.[P]      Please see page 23 of the Force and Destiny Game Master's Kit Adventure Module for details.",
-    "type": "Weapon",
-    "item_limit": null,
-    "skill_limit": null,
-    "type_limit": null,
-    "category_limit": "Lightsaber Hilt",
-    "price": "0",
-    "rarity": "0",
-    "is_restricted": "false",
-    "hard_points": "0",
-    "jury_rigged": "false",
-    "base_mods": [],
-    "added_mods": [
-      {
-        "key": "HPADD",
-        "count": "4"
-      },
-      {
-        "key": "HPSUB",
-        "count": "4"
-      },
-      {
-        "key": "ENCSUB",
-        "count": "4"
-      },
-      {
-        "key": "ENCADD",
-        "count": "4"
-      }
-    ],
-    "sources": [
-      "Force and Destiny Game Master's Kit"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
     "key": "BIOFEED",
     "name": "Biofeedback System",
     "description": "Please see page 200 of the Force and Destiny Core Rulebook for details.",
@@ -5045,70 +4846,6 @@
     "price_size_mult": "true",
     "sources": [
       "Mask of the Pirate Queen"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "SPACESLUGRULES",
-    "name": "Space Slug Abilities",
-    "description": "",
-    "type": "Vehicle",
-    "item_limit": {
-      "key": "SPACESLUG"
-    },
-    "skill_limit": null,
-    "type_limit": null,
-    "category_limit": null,
-    "price": "0",
-    "rarity": "0",
-    "is_restricted": "false",
-    "hard_points": "0",
-    "jury_rigged": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "When rolling for initiative, or attacking with its Insatiable Maw, a space slug rolls a [B]Coordination skill check[b], counting as having Coordination 3 and Agility 1 ([PR][AB][AB])."
-      },
-      {
-        "count": "1",
-        "misc_desc": "A starship of silhouette 5 or lower attacked by a space slug, regardless of whether or not the attack hit, must make a [B]Hard ([DI][DI][DI]) Piloting (Space) check[b] to avoid  being swallowed.  If swallowed, ship suffers 10 hull trauma daily from being digested."
-      },
-      {
-        "count": "1",
-        "misc_desc": "The stomach of an space slug is also generally home to mynocks, which will waste no time attacking a swallowed starship."
-      }
-    ],
-    "added_mods": [],
-    "weapon_modifiers": {
-      "unarmed_name": "Insatiable Maw",
-      "skill_key": "COORD",
-      "damage": "12",
-      "crit": "3",
-      "qualities": [
-        {
-          "key": "BREACH",
-          "count": "3"
-        },
-        {
-          "key": "SLOWFIRING",
-          "count": "2"
-        }
-      ],
-      "base_mods": [],
-      "vehicle_weapon_properties": {
-        "location": "Unspecified",
-        "turret": "false",
-        "retractable": "false",
-        "firing_arcs": {
-          "fore": "true"
-        },
-        "qualities": []
-      },
-      "vehicle_weapon_count": "1",
-      "range_value": "wrClose"
-    },
-    "sources": [
-      "Strongholds of Resistance"
     ],
     "image_filename": "missing.png"
   },

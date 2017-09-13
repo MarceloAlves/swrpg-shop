@@ -10719,46 +10719,6 @@
         "image_filename": "missing.png"
     },
     {
-        "key": "SUPPRESSCANNON",
-        "name": "Light Suppression Cannon",
-        "description": "Please see page 54 of the Far Horizons Sourcebook for details.",
-        "type": "Vehicle",
-        "categories": [
-            "Ranged",
-            "Suppression"
-        ],
-        "encumbrance": "0",
-        "hard_points": "0",
-        "price": "0",
-        "rarity": "0",
-        "is_restricted": "true",
-        "base_mods": [],
-        "skill_key": "GUNN",
-        "damage": "10",
-        "damage_add": "0",
-        "crit": "0",
-        "size_low": "3",
-        "size_high": "10",
-        "range_value": "wrClose",
-        "qualities": [
-            {
-                "key": "BLAST",
-                "count": "5"
-            },
-            {
-                "key": "DISORIENT",
-                "count": "4"
-            },
-            {
-                "key": "STUNDAMAGE"
-            }
-        ],
-        "sources": [
-            "Far Horizons"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
         "key": "ELECHARPOON",
         "name": "Electromagnetic Harpoon",
         "description": "Please see page 249 of the Edge of the Empire Core Rulebook, or page 263 of the Age of Rebellion Core Rulebook, for details.",
@@ -10966,102 +10926,6 @@
         ],
         "sources": [
             "Suns of Fortune"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "MINIROCKET",
-        "name": "Mini-Rocket Launcher",
-        "description": "Please see page 63 of the Dangerous Covenants Sourcebook for details.",
-        "categories": [
-            "Rocket"
-        ],
-        "type": "Vehicle",
-        "encumbrance": "0",
-        "hard_points": "0",
-        "price": "0",
-        "rarity": "0",
-        "is_restricted": "false",
-        "skill_key": "GUNN",
-        "damage": "3",
-        "damage_add": "0",
-        "crit": "4",
-        "size_low": "3",
-        "size_high": "4",
-        "range_value": "wrClose",
-        "qualities": [
-            {
-                "key": "BLAST",
-                "count": "1"
-            },
-            {
-                "key": "BREACH",
-                "count": "2"
-            },
-            {
-                "key": "INACCURATE",
-                "count": "1"
-            },
-            {
-                "key": "LIMITEDAMMO",
-                "count": "5"
-            }
-        ],
-        "base_mods": [
-            {
-                "key": "SETBACKADD",
-                "count": "1"
-            }
-        ],
-        "sources": [
-            "Dangerous Covenants"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "MASSDRIVMSL",
-        "name": "Mass Driver Missile Launchers",
-        "description": "Please see page 70 of the Dangerous Covenants Sourcebook for details.",
-        "type": "Vehicle",
-        "categories": [
-            "Missile"
-        ],
-        "encumbrance": "0",
-        "hard_points": "0",
-        "price": "0",
-        "rarity": "0",
-        "is_restricted": "true",
-        "skill_key": "GUNN",
-        "damage": "14",
-        "damage_add": "0",
-        "crit": "3",
-        "size_low": "7",
-        "size_high": "10",
-        "range_value": "wrExtreme",
-        "qualities": [
-            {
-                "key": "BLAST",
-                "count": "4"
-            },
-            {
-                "key": "BREACH",
-                "count": "4"
-            },
-            {
-                "key": "INACCURATE",
-                "count": "1"
-            },
-            {
-                "key": "LIMITEDAMMO",
-                "count": "10"
-            },
-            {
-                "key": "SLOWFIRING",
-                "count": "2"
-            }
-        ],
-        "sources": [
-            "Dangerous Covenants"
         ],
         "image_filename": "missing.png"
     },
@@ -11449,70 +11313,6 @@
         ],
         "sources": [
             "Dangerous Covenants"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "ROTREPBLASTCAN",
-        "name": "Rotary Repeating Blaster Cannon",
-        "description": "Please see page 54 of the Onslaught at Arda I Adventure Module for details.",
-        "sources": ["Onslaught at Arda I"],
-        "type": "Vehicle",
-        "categories": [
-            "Blaster"
-        ],
-        "encumbrance": "0",
-        "hard_points": "0",
-        "price": "0",
-        "rarity": "0",
-        "is_restricted": "false",
-        "base_mods": [],
-        "skill_key": "GUNN",
-        "damage": "15",
-        "damage_add": "0",
-        "crit": "2",
-        "size_low": "0",
-        "size_high": "10",
-        "range_value": "wrExtreme",
-        "qualities": [
-            {
-                "key": "AUTOFIRE"
-            },
-            {
-                "key": "INACCURATE",
-                "count": "1"
-            }
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "LASCAN",
-        "name": "Laser Cannon",
-        "description": "Please see page 54 of the Onslaught at Arda I Adventure Module for details.",
-        "type": "Vehicle",
-        "categories": [
-            "Laser"
-        ],
-        "encumbrance": "0",
-        "hard_points": "0",
-        "price": "0",
-        "rarity": "0",
-        "is_restricted": "false",
-        "skill_key": "GUNN",
-        "damage": "9",
-        "damage_add": "0",
-        "crit": "3",
-        "size_low": "0",
-        "size_high": "10",
-        "range_value": "wrExtreme",
-        "qualities": [
-            {
-                "key": "INACCURATE",
-                "count": "1"
-            }
-        ],
-        "sources": [
-            "Onslaught at Arda I"
         ],
         "image_filename": "missing.png"
     },
@@ -12454,80 +12254,6 @@
         "image_filename": "missing.png"
     },
     {
-        "key": "LTTRACTCOUPLE",
-        "name": "Light Tractor Beam Coupler",
-        "description": "",
-        "type": "Vehicle",
-        "categories": [
-            "Tractor"
-        ],
-        "encumbrance": "0",
-        "hard_points": "0",
-        "price": "0",
-        "rarity": "0",
-        "is_restricted": "false",
-        "base_mods": [],
-        "skill_key": "GUNN",
-        "damage": "0",
-        "damage_add": "0",
-        "crit": "1",
-        "range_value": "wrClose",
-        "qualities": [
-            {
-                "key": "TRACTOR",
-                "count": "1"
-            }
-        ],
-        "sources": [
-            "Fly Casual"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "TORPLAUNCH",
-        "name": "Torpedo Launcher",
-        "description": "Please see page 117 of the Strongholds of Resistance Sourcebook for details.",
-        "categories": [
-            "Proton Torpedo"
-        ],
-        "type": "Vehicle",
-        "price": "0",
-        "rarity": "6",
-        "is_restricted": "false",
-        "base_mods": [],
-        "weapon_modifiers": [],
-        "skill_key": "GUNN",
-        "damage": "6",
-        "crit": "3",
-        "range_value": "wrMedium",
-        "qualities": [
-            {
-                "key": "BLAST",
-                "count": "4"
-            },
-            {
-                "key": "BREACH",
-                "count": "4"
-            },
-            {
-                "key": "GUIDED",
-                "count": "2"
-            },
-            {
-                "key": "LIMITEDAMMO",
-                "count": "2"
-            },
-            {
-                "key": "SLOWFIRING",
-                "count": "1"
-            }
-        ],
-        "sources": [
-            "Strongholds of Resistance"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
         "key": "PROTTORPHVY",
         "name": "Heavy Proton Torpedo Launcher",
         "description": "Please see page 119 of the Strongholds of Resistance Sourcebook for details.",
@@ -12564,37 +12290,6 @@
             {
                 "key": "SLOWFIRING",
                 "count": "1"
-            }
-        ],
-        "sources": [
-            "Strongholds of Resistance"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "CLUSTERBOMB",
-        "name": "Cluster Bomb Launcher",
-        "description": "Please see page 119 of the Strongholds of Resistance Sourcebook for details.",
-        "type": "Vehicle",
-        "categories": [],
-        "encumbrance": "0",
-        "hard_points": "0",
-        "price": "0",
-        "rarity": "6",
-        "is_restricted": "true",
-        "base_mods": [],
-        "skill_key": "GUNN",
-        "damage": "6",
-        "crit": "3",
-        "range_value": "wrClose",
-        "qualities": [
-            {
-                "key": "BLAST",
-                "count": "6"
-            },
-            {
-                "key": "LIMITEDAMMO",
-                "count": "6"
             }
         ],
         "sources": [
