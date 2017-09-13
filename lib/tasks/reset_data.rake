@@ -4,9 +4,10 @@ task reset_data: :environment do
   Gear.delete_all
   ItemAttachment.delete_all
   Weapon.delete_all
+  SpecializedShop.delete_all
 
   puts 'Reset Primary Key'
-  %w[armors gears item_attachments weapons].each do |table_name|
+  %w[armors gears item_attachments weapons specialized_shops].each do |table_name|
     ActiveRecord::Base.connection.reset_pk_sequence!(table_name)
   end
 
@@ -25,6 +26,10 @@ task reset_data: :environment do
   puts 'Importing Weapons'
   weapons = JSON.parse(File.read(Rails.root.join('db', 'seed_data', 'weapons.json')))
   Weapon.create(weapons)
+
+  puts 'Importing Specialized Shops'
+  shops = JSON.parse(File.read(Rails.root.join('db', 'seed_data', 'shops.json')))
+  SpecializedShop.create(shops)
 
   puts 'Done'
 end

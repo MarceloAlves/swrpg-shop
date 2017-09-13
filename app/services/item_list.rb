@@ -1,12 +1,13 @@
 class ItemList
   attr_reader :shop_list
 
-  def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world:, min_size: 0, max_size: 1_000, sources: [])
+  def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world:, min_size: 0, max_size: 1_000, specialized_shop:, sources: [])
     @world = World.find(world)
+    @specialized_shop = SpecializedShop.find(specialized_shop)
     @item_list = build_item_list
     @shop_modifiers = shop_types[shop_type]
     @dice_pool = DicePool.new(skill_level: skill_level.to_i, characteristic_level: characteristic_level.to_i, number_boost_dice: boost_dice.to_i, number_setback_dice: setback_dice.to_i)
-    @shop_info = { shop_type: shop_type, dice_pool: @dice_pool.dice_counts, characteristic_level: characteristic_level.to_i, skill_level: skill_level.to_i, world: @world.as_json }
+    @shop_info = { shop_type: shop_type, dice_pool: @dice_pool.dice_counts, characteristic_level: characteristic_level.to_i, skill_level: skill_level.to_i, world: @world.as_json, specialized_shop: @specialized_shop.as_json }
     @shop_list = { items: { armor: [], gear: [], item_attachments: [], weapons: [] }, info: @shop_info }
     @shop_size = rand(max_size.to_i - min_size.to_i + 1) + min_size.to_i
     @sources = sources
@@ -32,10 +33,12 @@ class ItemList
         # This is set in settings
         advantage_value = 0
         triumph_value = 1
-        specialization_modifier = 0
+        # specialization_modifier = 0
         should_markup = false
         advantage_discount = 5
         triumph_discount = 10
+
+        specialization_modifier = @specialized_shop.item_types.include?(item.fetch('type')) ? 0 : -10
 
         if roll_total[0] + (roll_total[1] * advantage_value) + (roll_total[2] * triumph_value) + specialization_modifier > 0
           if should_markup

@@ -1,29 +1,31 @@
 / h1 Shops#show
 / p Find me in app/views/shops/show.html.slim
-
+= console
 .card.p-2
   .card-block
     dl.row
       dt.col-sm-2 Shop Type
-      dd.col-sm-10= shop_info.fetch('shop_type', nil)
+      dd.col-sm-10= shop_info.dig('shop_type')
+      dt.col-sm-2 Shop Specialization
+      dd.col-sm-10= shop_info.dig('specialized_shop', 'name')
       dt.col-sm-2 Dice Pool
-      dd.col-sm-10= dice_display(shop_info.fetch('dice_pool'))
+      dd.col-sm-10= dice_display(shop_info.dig('dice_pool'))
       dt.col-sm-2 Characteristic Level
-      dd.col-sm-10= shop_info.fetch('characteristic_level', nil)
+      dd.col-sm-10= shop_info.dig('characteristic_level')
       dt.col-sm-2 Skill Level
-      dd.col-sm-10= shop_info.fetch('skill_level', nil)
+      dd.col-sm-10= shop_info.dig('skill_level')
       dt.col-sm-2 World
       dd.col-sm-10
-          = shop_info.fetch('world', {}).fetch('name', nil)
+          = shop_info.dig('world', 'name')
       dt.col-sm-2 Modifiers
       dd.col-sm-10
         ul.list-unstyled
           li 
           | Rarity: &nbsp;
-          = shop_info.fetch('world', {}).fetch('rarity_modifier', nil)
+          = shop_info.dig('world', 'rarity_modifier')
           li
           | Price:&nbsp;
-          = shop_info.fetch('world', {}).fetch('price_modifier', nil)
+          = shop_info.dig('world', 'price_modifier')
       - unless ttl == -1
         dt.col-sm-2 Time Left
         dd.col-sm-10= time_ago_in_words(Time.now + ttl.seconds).titleize

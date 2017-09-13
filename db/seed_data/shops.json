@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Armor Shop",
+    "item_types": ["Armor Attachment","Armor","Clothing"]
+  },
+  {
+    "name": "Gear Shop",
+    "item_types": ["Ancient Talismans","Communications","Drugs and Consumables","Cybernetics","Detection Devices","Droids","Field Equipment","Medical","Poison","Recreational","Security","Storage","Survival","Tools","Uniforms"]
+  },
+  {
+    "name": "General Store",
+    "item_types": ["Ancient Talismans","Communications","Drugs and Consumables","Cybernetics","Detection Devices","Droids","Field Equipment","Medical","Poison","Recreational","Security","Storage","Survival","Tools","Uniforms","Brawl","Gunnery","Lightsaber","Mechanics","Melee","Ranged (Heavy)","Ranged (Light)","Armor Attachment","Lightsaber Attachment","Weapon Attachment","Armor","Clothing"]
+  },
+  {
+    "name": "The Scruffy Nerfherder",
+    "item_types": ["Drugs and Consumables"]
+  },
+  {
+    "name": "Weapons Shop",
+    "item_types": ["Brawl","Gunnery","Lightsaber","Mechanics","Melee","Ranged (Heavy)","Ranged (Light)","Lightsaber Attachment","Weapon Attachment"]
+  }
+]
