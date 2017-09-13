@@ -2,13 +2,22 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-updateSelectedText =  ->
+updateSelectedText = ->
   count = $('[data-sourcebook-checkbox]:checked').size()
   allCount = $('[data-sourcebook-checkbox]').size()
   $('[data-sourcebooks-selected]').html('(' + count + ' of ' + allCount + ' selected)')
 
 $(document).on 'turbolinks:load', ->  
   updateSelectedText()
+
+  $('[data-toggle="popover"]').popover()
+
+  $('[data-toggle="popover"]').on 'shown.bs.popover', (e) ->
+    setTimeout (->
+      $(e.target).popover('hide')
+    ), 1500
+
+  new Clipboard('.btn-clipboard')
   
   $('.nav-link').each (index) ->
     target = $(this)

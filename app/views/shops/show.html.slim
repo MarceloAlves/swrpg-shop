@@ -29,6 +29,13 @@
       - unless ttl == -1
         dt.col-sm-2 Time Left
         dd.col-sm-10= time_ago_in_words(Time.now + ttl.seconds).titleize
+      dt.col-sm-2 Link
+      dd.col-sm-10
+        .input-group
+          = text_field_tag 'url', request.url, class: 'form-control col-sm-4'
+          span.input-group-btn
+            button.btn.btn-secondary.btn-clipboard[type="button" data-clipboard-target="#url" data-toggle="popover" data-placement="bottom" data-content="Copied!"]
+              i.fa.fa-clipboard
 
 ul.nav.nav-tabs role="tablist" 
   li.nav-item
@@ -49,3 +56,13 @@ ul.nav.nav-tabs role="tablist"
     = render partial: 'item_attachments/table', locals: { item_attachments: shop['item_attachments'] }
   #armor.tab-pane.fade role="tabpanel"
     = render partial: 'armor/table', locals: { armor: shop['armor'] }
+
+
+
+/ <div class="input-group">
+/       <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+/       <span class="input-group-btn">
+/         <button class="btn btn-secondary" type="button">Go!</button>
+/       </span>
+/     </div>
+/   </div>

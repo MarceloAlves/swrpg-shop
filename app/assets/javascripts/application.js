@@ -5,4 +5,5 @@
 //= require tether
 //= require bootstrap/bootstrap
 //= require stupidtable
+//= require clipboard
 //= require_tree .
