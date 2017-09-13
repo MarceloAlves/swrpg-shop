@@ -30,16 +30,16 @@
 
 ul.nav.nav-tabs role="tablist" 
   li.nav-item
-    a.nav-link.active data-toggle="tab" href="#weapons" role="tab"  Weapons
+    a class=(shop['weapons'].count.positive? ? 'nav-link' : 'nav-link disabled') data-toggle="tab" href="#weapons" role="tab"  Weapons
   li.nav-item
-    a.nav-link data-toggle="tab" href="#gear" role="tab"  Gear
+    a class=(shop['gear'].count.positive? ? 'nav-link' : 'nav-link disabled') data-toggle="tab" href="#gear" role="tab"  Gear
   li.nav-item
-    a.nav-link data-toggle="tab" href="#item-attachments" role="tab"  Item Attachments
+    a class=(shop['item_attachments'].count.positive? ? 'nav-link' : 'nav-link disabled') data-toggle="tab" href="#item-attachments" role="tab"  Item Attachments
   li.nav-item
-    a.nav-link data-toggle="tab" href="#armor" role="tab"  Armor
+    a class=(shop['armor'].count.positive? ? 'nav-link' : 'nav-link disabled') data-toggle="tab" href="#armor" role="tab"  Armor
 
 .tab-content
-  #weapons.tab-pane.fade.show.active role="tabpanel"
+  #weapons.tab-pane.fade.show role="tabpanel"
     = render partial: 'weapons/table', locals: { weapons: shop['weapons'] }
   #gear.tab-pane.fade role="tabpanel"
     = render partial: 'gear/table', locals: { gear: shop['gear'] }

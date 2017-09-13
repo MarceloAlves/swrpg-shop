@@ -9,6 +9,11 @@ updateSelectedText =  ->
 
 $(document).on 'turbolinks:load', ->  
   updateSelectedText()
+  
+  $('.nav-link').each (index) ->
+    target = $(this)
+    target.tab('show') if $(target.attr('href')).find('tr').length > 0
+    false if $('.active').length > 0
 
   $('.table').stupidtable().bind 'aftertablesort', (event, data) ->
     icon = if data.direction == 'asc' then "fa-caret-down" else "fa-caret-up"
@@ -33,7 +38,6 @@ $(document).on 'turbolinks:load', ->
     e.preventDefault()
     $('[data-sourcebook-checkbox]').prop('checked', 'checked')
     updateSelectedText()
-
   
   $('[data-select-none]').on 'click', (e) ->
     e.preventDefault()
