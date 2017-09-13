@@ -1,2202 +1,2280 @@
 [
-  {
-    "key": "AEG",
-    "name": "Adverse Environmental Gear",
-    "description": "Please see page 169 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 178 of the Force and Destiny Core Rulebook, for details.",
-    "sources": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook",
-      "Force and Destiny Core Rulebook"
-    ],
-    "defense": "0",
-    "soak": "1",
-    "price": "500",
-    "encumbrance": "2",
-    "hard_points": "1",
-    "rarity": "1",
-    "categories": [
-      "Full Body",
-      "Heavy"
-    ],
-    "image_filename": "AEG.png"
-  },
-  {
-    "key": "AC",
-    "name": "Armored Clothing",
-    "description": "Please see page 169 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 178 of the Force and Destiny Core Rulebook, for details.",
-    "sources": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook",
-      "Force and Destiny Core Rulebook"
-    ],
-    "defense": "1",
-    "soak": "1",
-    "price": "1000",
-    "encumbrance": "3",
-    "hard_points": "1",
-    "rarity": "6",
-    "categories": [
-      "Half Body",
-      "Heavy"
-    ],
-    "image_filename": "AC.png"
-  },
-  {
-    "key": "ARMROBE",
-    "name": "Armored Robes",
-    "description": "Please see page 179 of the Force and Destiny Core Rulebook for details.",
-    "defense": "1",
-    "soak": "2",
-    "price": "4500",
-    "is_restricted": "true",
-    "encumbrance": "3",
-    "hard_points": "2",
-    "rarity": "8",
-    "categories": [
-      "Half Body",
-      "Heavy",
-      "Resistant"
-    ],
-    "sources": [
-      "Force and Destiny Core Rulebook"
-    ],
-    "image_filename": "ARMROBE.png"
-  },
-  {
-    "key": "CONROBE",
-    "name": "Concealing Robes",
-    "description": "Please see page 179 of the Force and Destiny Core Rulebook for details.",
-    "defense": "0",
-    "soak": "1",
-    "price": "150",
-    "encumbrance": "1",
-    "hard_points": "0",
-    "rarity": "2",
-    "categories": "Half Body",
-    "base_mods": [
-      {
-        "misc_desc": "Add [SETBACK] to checks to notice or recognize an individual wearing concealing robes.",
-        "count": "1"
-      }
-    ],
-    "sources": [
-      "Force and Destiny Core Rulebook"
-    ],
-    "image_filename": "CONROBE.png"
-  },
-  {
-    "key": "HBA",
-    "name": "Heavy Battle Armor",
-    "description": "Please see page 170 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 47 of the Keeping the Peace sourcebook for details.",
-    "sources": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook",
-      "Keeping the Peace"
-    ],
-    "categories": [
-      "Sealable",
-      "Full Body",
-      "Hard Full Body",
-      "Hard",
-      "Heavy",
-      "Resistant"
-    ],
-    "defense": "1",
-    "soak": "2",
-    "price": "5000",
-    "is_restricted": "true",
-    "encumbrance": "6",
-    "hard_points": "4",
-    "rarity": "7",
-    "image_filename": "HBA.png"
-  },
-  {
-    "key": "HC",
-    "name": "Heavy Clothing",
-    "description": "Please see page 169 of the Edge of the Empire Core Rulebook, page 185 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook for details.",
-    "sources": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook",
-      "Force and Destiny Core Rulebook"
-    ],
-    "defense": "0",
-    "soak": "1",
-    "price": "50",
-    "encumbrance": "1",
-    "hard_points": "0",
-    "rarity": "0",
-    "categories": "Half Body",
-    "image_filename": "HC.png"
-  },
-  {
-    "key": "LAM",
-    "name": "Laminate",
-    "description": "Please see page 169 of the Edge of the Empire Core Rulebook, or page 185 of the Age of Rebellion Core Rulebook, for details.",
-    "sources": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook"
-    ],
-    "categories": [
-      "Sealable",
-      "Full Body",
-      "Hard Full Body",
-      "Hard",
-      "Heavy",
-      "Resistant"
-    ],
-    "defense": "0",
-    "soak": "2",
-    "price": "2500",
-    "encumbrance": "4",
-    "hard_points": "3",
-    "rarity": "5",
-    "image_filename": "LAM.png"
-  },
-  {
-    "key": "PDS",
-    "name": "Personal Deflector Shield",
-    "description": "Please see page 170 of the Edge of the Empire Core Rulebook, or page 185 of the Age of Rebellion Core Rulebook, for details.",
-    "sources": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook"
-    ],
-    "defense": "2",
-    "soak": "0",
-    "price": "10000",
-    "encumbrance": "3",
-    "hard_points": "0",
-    "rarity": "8",
-    "categories": "Heavy",
-    "image_filename": "PDS.png"
-  },
-  {
-    "key": "PAD",
-    "name": "Padded Armor",
-    "description": "Please see page 169 of the Edge of the Empire Core Rulebook, page 185 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook for details.",
-    "sources": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook",
-      "Force and Destiny Core Rulebook"
-    ],
-    "defense": "0",
-    "soak": "2",
-    "price": "500",
-    "encumbrance": "2",
-    "hard_points": "0",
-    "rarity": "1",
-    "categories": "Resistant",
-    "image_filename": "PAD.png"
-  },
-  {
-    "key": "ENVIROSUIT",
-    "name": "Enviro-suit",
-    "description": "Please see page 44 of the Enter the Unknown Sourcebook for details.",
-    "categories": [
-      "Sealed",
-      "Full Body",
-      "Resistant"
-    ],
-    "defense": "0",
-    "soak": "2",
-    "price": "750",
-    "encumbrance": "2",
-    "hard_points": "1",
-    "rarity": "2",
-    "base_mods": [
-      {
-        "misc_desc": "Suffer [SETBACK] to any Agility- or Perception-based checks",
-        "count": "1"
-      }
-    ],
-    "sources": [
-      "Enter the Unknown"
-    ],
-    "image_filename": "ENVIROSUIT.png"
-  },
-  {
-    "key": "CRASHSUIT",
-    "name": "A/KT Shockrider Crash Suit",
-    "description": "Please see page 45 of the Enter the Unknown Sourcebook, or page 42 of the Stay on Target Sourcebook, for details.",
-    "sources": [
-      "Enter the Unknown",
-      "Stay on Target"
-    ],
-    "defense": "0",
-    "soak": "2",
-    "price": "3000",
-    "encumbrance": "2",
-    "hard_points": "1",
-    "rarity": "3",
-    "categories": [
-      "Half Body",
-      "Resistant"
-    ],
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Reduces strain received from Critical Hits to the wearer's vehicle by 1 (min 1)."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Reduce damage from fires and weapons with the Burn quality by 1."
-      }
-    ],
-    "image_filename": "CRASHSUIT.png"
-  },
-  {
-    "key": "UTILITYVEST",
-    "name": "A/KT Tracker Utility Vest",
-    "description": "Please see page 45 of the Enter the Unknown Sourcebook for details.",
-    "defense": "0",
-    "soak": "0",
-    "price": "100",
-    "encumbrance": "0",
-    "hard_points": "1",
-    "rarity": "2",
-    "base_mods": [
-      {
-        "key": "ENCTADD",
-        "count": "2"
-      }
-    ],
-    "sources": [
-      "Enter the Unknown"
-    ],
-    "image_filename": "UTILITYVEST.png"
-  },
-  {
-    "key": "MOUNTARMOR",
-    "name": "A/KT Mountaineer Armor",
-    "description": "Please see page 45 of the Enter the Unknown Sourcebook for details.",
-    "defense": "1",
-    "soak": "1",
-    "price": "1800",
-    "encumbrance": "3",
-    "hard_points": "2",
-    "rarity": "6",
-    "categories": [
-      "Half Body",
-      "Heavy"
-    ],
-    "base_mods": [
-      {
-        "misc_desc": "Grants [BOOST][BOOST] to all Athletics skill checks made to climb or rappel",
-        "count": "1"
-      }
-    ],
-    "sources": [
-      "Enter the Unknown"
-    ],
-    "image_filename": "MOUNTARMOR.png"
-  },
-  {
-    "key": "CATCHVEST",
-    "name": "Catch Vest",
-    "description": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
-    "defense": "0",
-    "soak": "1",
-    "price": "300",
-    "encumbrance": "1",
-    "hard_points": "0",
-    "rarity": "3",
-    "base_mods": [
-      {
-        "misc_desc": "Has soak value of 2 against all energy-based weapons",
-        "count": "1"
-      }
-    ],
-    "sources": [
-      "Suns of Fortune"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "NOMADCOAT",
-    "name": "Nomad Greatcoat",
-    "description": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
-    "defense": "0",
-    "soak": "1",
-    "price": "100",
-    "encumbrance": "1",
-    "hard_points": "0",
-    "rarity": "4",
-    "categories": "Half Body",
-    "base_mods": [
-      {
-        "misc_desc": "Reduces difficulty of Resilience checks made to resist the effects of extreme cold by 1",
-        "count": "1"
-      },
-      {
-        "misc_desc": "Removes [SETBACK] added to checks due to extreme cold",
-        "count": "1"
-      }
-    ],
-    "sources": [
-      "Suns of Fortune"
-    ],
-    "image_filename": "NOMADCOAT.png"
-  },
-  {
-    "key": "MODARMORIII",
-    "name": "Type III \"Berethron\" Personal Modular Armor",
-    "description": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
-    "defense": "1",
-    "soak": "1",
-    "price": "1250",
-    "is_restricted": "true",
-    "encumbrance": "3",
-    "hard_points": "3",
-    "rarity": "6",
-    "categories": "Half Body",
-    "sources": [
-      "Suns of Fortune"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "FLIGHTTX3",
-    "name": "TX-3 Combat Flight Suit",
-    "description": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
-    "categories": [
-      "Sealed",
-      "Full Body",
-      "Heavy"
-    ],
-    "defense": "1",
-    "soak": "0",
-    "price": "3000",
-    "is_restricted": "true",
-    "encumbrance": "4",
-    "hard_points": "2",
-    "rarity": "6",
-    "sources": [
-      "Suns of Fortune"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "BEASTHIDE",
-    "name": "Beast-Hide Armor",
-    "description": "Please see page 49 of the Dangerous Covenants Sourcebook, or page 44 of the Savage Spirits Sourcebook, for details.",
-    "sources": [
-      "Dangerous Covenants",
-      "Savage Spirits"
-    ],
-    "categories": "Heavy",
-    "encumbrance": "3",
-    "hard_points": "0",
-    "price": "300",
-    "rarity": "2",
-    "is_restricted": "false",
-    "defense": "0",
-    "soak": "1",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Add [ADVANTAGE] to Coercion checks and [THREAT] to Charm checks. ",
-        "die_modifiers": [
-          {
-            "skill_key": "COERC",
-            "advantage_count": "1"
-          },
-          {
-            "skill_key": "CHARM",
-            "threat_count": "1"
-          }
-        ]
-      }
-    ],
-    "image_filename": "BEASTHIDE.png"
-  },
-  {
-    "key": "CHARGESUIT",
-    "name": "\"Storm\" Charge Suit",
-    "description": "Please see page 50 of the Dangerous Covenants Sourcebook for details.",
-    "categories": [
-      "Heavy",
-      "Resistant"
-    ],
-    "encumbrance": "3",
-    "hard_points": "0",
-    "price": "2000",
-    "rarity": "6",
-    "is_restricted": "false",
-    "defense": "0",
-    "soak": "2",
-    "base_mods": [
-      {
-        "misc_desc": "If attack against armor generates [TH][TH], attacker is disoriented for 1 round."
-      },
-      {
-        "misc_desc": "If attack against armor generates [DE], attacker is automatically hit for 8 damage."
-      },
-      {
-        "misc_desc": "Counts as being equipped with shock gloves"
-      }
-    ],
-    "weapon_modifiers": {
-      "unarmed": "false",
-      "unarmed_name": "Shock Gloves (Built-in)",
-      "skill_key": "BRAWL",
-      "all_skill_key": null,
-      "damage": "0",
-      "damage_add": "0",
-      "crit": "5",
-      "crit_sub": "0",
-      "range_value": "wrEngaged",
-      "qualities": [
-        {
-          "key": "STUN",
-          "count": "3"
-        }
-      ]
+    {
+        "key": "AEG",
+        "name": "Adverse Environmental Gear",
+        "description": "Please see page 169 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 178 of the Force and Destiny Core Rulebook, for details.",
+        "sources": [
+            "Edge of the Empire Core Rulebook",
+            "Age of Rebellion Core Rulebook",
+            "Force and Destiny Core Rulebook"
+        ],
+        "defense": "0",
+        "soak": "1",
+        "price": "500",
+        "encumbrance": "2",
+        "hard_points": "1",
+        "rarity": "1",
+        "categories": [
+            "Full Body",
+            "Heavy"
+        ],
+        "image_filename": "AEG.png",
+        "type": "Armor"
     },
-    "sources": [
-      "Dangerous Covenants"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "FLAKVEST",
-    "name": "Mk. III Flak Vest",
-    "description": "Please see page 49 of the Dangerous Covenants Sourcebook for details.",
-    "categories": "Heavy",
-    "encumbrance": "3",
-    "hard_points": "1",
-    "price": "300",
-    "rarity": "2",
-    "is_restricted": "false",
-    "defense": "0",
-    "soak": "1",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Add +1 Soak against damage from the Blast quality."
-      }
-    ],
-    "sources": [
-      "Dangerous Covenants"
-    ],
-    "image_filename": "FLAKVEST.png"
-  },
-  {
-    "key": "PROTECTOR",
-    "name": "Protector 1 Combat Armor",
-    "description": "Please see page 49 of the Dangerous Covenants Sourcebook for details.",
-    "categories": [
-      "Sealed",
-      "Full Body",
-      "Hard",
-      "Hard Full Body",
-      "Heavy",
-      "Resistant"
-    ],
-    "encumbrance": "4",
-    "hard_points": "3",
-    "price": "5500",
-    "rarity": "7",
-    "is_restricted": "true",
-    "defense": "1",
-    "soak": "2",
-    "base_mods": [],
-    "sources": [
-      "Dangerous Covenants"
-    ],
-    "image_filename": "PROTECTOR.png"
-  },
-  {
-    "key": "STEELSKIN",
-    "name": "Mk.II \"Steelskin\" Anti-Concussive Armor",
-    "description": "Please see page 49 of the Dangerous Covenants Sourcebook for details.",
-    "categories": [
-      "Full Body",
-      "Hard",
-      "Hard Full Body",
-      "Heavy",
-      "Resistant"
-    ],
-    "encumbrance": "8",
-    "hard_points": "1",
-    "price": "6500",
-    "rarity": "7",
-    "is_restricted": "true",
-    "defense": "0",
-    "soak": "3",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Add [SETBACK] to all Brawn- and Agility-based checks."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Reduce the duration of disoriented or staggered condition by 1 round."
-      }
-    ],
-    "sources": [
-      "Dangerous Covenants"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "POWARMOR",
-    "name": "PX-11 \"Battlement\" Powered Armor",
-    "description": "Please see page 51 of the Dangerous Covenants Sourcebook for details.",
-    "categories": [
-      "Sealed",
-      "Full Body",
-      "Hard",
-      "Hard Full Body",
-      "Powered",
-      "Heavy",
-      "Resistant"
-    ],
-    "encumbrance": "3",
-    "hard_points": "3",
-    "price": "9000",
-    "rarity": "9",
-    "is_restricted": "true",
-    "defense": "1",
-    "soak": "3",
-    "base_mods": [
-      {
-        "key": "ATHL",
-        "count": "1"
-      },
-      {
-        "key": "BR",
-        "count": "1"
-      },
-      {
-        "count": "1",
-        "misc_desc": "Remove [SETBACK][SETBACK] from Perception, Vigilance, and combat checks imposed by darkness, smoke, or similar environmental factors that obscure vision."
-      }
-    ],
-    "sources": [
-      "Dangerous Covenants"
-    ],
-    "image_filename": "POWARMOR.png"
-  },
-  {
-    "key": "TAILOREDJACKET",
-    "name": "Tailored Armored Jacket",
-    "description": "Please see page 44 of the Far Horizons Sourcebook for details.",
-    "categories": "Resistant",
-    "encumbrance": "1",
-    "hard_points": "0",
-    "price": "6200",
-    "rarity": "7",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Add [ADVANTAGE] to any successful Charm, Deception, or Negotation checks."
-      }
-    ],
-    "defense": "0",
-    "soak": "2",
-    "sources": [
-      "Far Horizons"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "REINFENVIRO",
-    "name": "Reinforced Environment Gear",
-    "description": "Please see page 44 of the Far Horizons Sourcebook for details.",
-    "categories": "Full Body",
-    "encumbrance": "2",
-    "hard_points": "2",
-    "price": "850",
-    "rarity": "4",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Removes [SETBACK] imposed by environmental conditions."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Add [BOOST] to Resilience checks to resist toxic atmospheres or airborne toxins."
-      }
-    ],
-    "defense": "0",
-    "soak": "1",
-    "sources": [
-      "Far Horizons"
-    ],
-    "image_filename": "REINFENVIRO.png"
-  },
-  {
-    "key": "RIOTARMOR",
-    "name": "Mk.IV Riot Armor",
-    "description": "Please see page 44 of the Far Horizons Sourcebook for details.",
-    "categories": [
-      "Full Body",
-      "Hard",
-      "Hard Full Body",
-      "Heavy"
-    ],
-    "encumbrance": "3",
-    "hard_points": "1",
-    "price": "1850",
-    "rarity": "6",
-    "is_restricted": "true",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Built-in breath mask"
-      },
-      {
-        "count": "1",
-        "misc_desc": "Reduce duration of disoriented or staggered results by one round (minimum of one round)."
-      }
-    ],
-    "defense": "1",
-    "soak": "1",
-    "sources": [
-      "Far Horizons"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "WINGCOMMANDER",
-    "name": "A/KT Wing Commander Armored Flight Suit",
-    "description": "Please see page 42 of the Stay on Target Sourcebook for details.",
-    "categories": [
-      "Sealed",
-      "Full Body",
-      "Heavy"
-    ],
-    "defense": "1",
-    "soak": "1",
-    "price": "1500",
-    "encumbrance": "3",
-    "hard_points": "1",
-    "rarity": "6",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Reduces strain received from Critical Hits to the wearer's vehicle by 1 (min 1)."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Reduce damage from fires and weapons with the Burn quality by 1."
-      }
-    ],
-    "sources": [
-      "Stay on Target"
-    ],
-    "image_filename": "WINGCOMMANDER.png"
-  },
-  {
-    "key": "RIDINGTACK",
-    "name": "Caballerin-Series Riding Tack",
-    "description": "Please see page 42 of the Stay on Target Sourcebook for details.",
-    "categories": [],
-    "defense": "0",
-    "soak": "0",
-    "price": "250",
-    "encumbrance": "2",
-    "hard_points": "0",
-    "rarity": "4",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "May only be worn by a beast."
-      },
-      {
-        "count": "1",
-        "misc_desc": "May ride a beast without suffering bareback penalty."
-      }
-    ],
-    "sources": [
-      "Stay on Target"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "CAPARIBEAST",
-    "name": "Capari-Series Padded Beast Armor",
-    "description": "Please see page 43 of the Stay on Target Sourcebook for details.",
-    "categories": [
-      "Half Body",
-      "Heavy",
-      "Resistant"
-    ],
-    "defense": "0",
-    "soak": "2",
-    "price": "2500",
-    "encumbrance": "4",
-    "hard_points": "0",
-    "rarity": "5",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "May only be worn by a beast."
-      },
-      {
-        "count": "1",
-        "misc_desc": "May ride a beast without suffering bareback penalty."
-      }
-    ],
-    "sources": [
-      "Stay on Target"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "DESTRIBEAST",
-    "name": "Destri-Series Laminated Beast Armor",
-    "description": "Please see page 43 of the Stay on Target Sourcebook for details.",
-    "categories": [
-      "Heavy",
-      "Full Body",
-      "Hard",
-      "Hard Full Body"
-    ],
-    "defense": "0",
-    "soak": "4",
-    "price": "8500",
-    "encumbrance": "7",
-    "hard_points": "1",
-    "rarity": "7",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "May only be worn by a beast."
-      },
-      {
-        "count": "1",
-        "misc_desc": "May ride a beast without suffering bareback penalty."
-      }
-    ],
-    "sources": [
-      "Stay on Target"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "MEGAFAUNA",
-    "name": "H-Series Megafauna Carriage",
-    "description": "Please see page 43 of the Stay on Target Sourcebook for details.",
-    "categories": "Heavy",
-    "defense": "1",
-    "soak": "0",
-    "price": "5500",
-    "encumbrance": "5",
-    "hard_points": "2",
-    "rarity": "7",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "May only be worn by a beast."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Requires silhouette 3+ and Brawn 5+."
-      },
-      {
-        "count": "1",
-        "misc_desc": "May ride a beast without suffering bareback penalty."
-      }
-    ],
-    "sources": [
-      "Stay on Target"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "HUTTSHELLARMOR",
-    "name": "Hutt Shell Armor",
-    "description": "Please see page 104 of the Lords of Nal Hutta Sourcebook for details.",
-    "categories": [
-      "Sealable",
-      "Full Body",
-      "Hard",
-      "Hard Full Body",
-      "Powered",
-      "Heavy",
-      "Resistant"
-    ],
-    "defense": "2",
-    "soak": "2",
-    "price": "25000",
-    "encumbrance": "6",
-    "hard_points": "4",
-    "rarity": "9",
-    "is_restricted": "true",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "May only be worn by a Hutt."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Allows wearer to hover up to five meters above the ground."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Allows wearer to ignore the affects of Awkward and Ponderous abilities."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Does not have to spend additional maneuvers when navigating difficult terrain."
-      }
-    ],
-    "sources": [
-      "Lords of Nal Hutta"
-    ],
-    "image_filename": "HUTTSHELLARMOR.png"
-  },
-  {
-    "key": "SAKSHADOW",
-    "name": "Sakiyan Shadowsuit",
-    "description": "Please see page 105 of the Lords of Nal Hutta Sourcebook for details.",
-    "defense": "0",
-    "soak": "1",
-    "price": "2500",
-    "encumbrance": "1",
-    "hard_points": "1",
-    "rarity": "8",
-    "is_restricted": "false",
-    "categories": "Full Body",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Grants [BOOST][BOOST] to Stealth checks.",
-        "die_modifiers": {
-          "skill_key": "STEAL",
-          "boost_count": "2"
-        }
-      }
-    ],
-    "sources": [
-      "Lords of Nal Hutta"
-    ],
-    "image_filename": "SAKSHADOW.png"
-  },
-  {
-    "key": "BLASTVEST",
-    "name": "Blast Vest",
-    "description": "Please see page 47 of the Fly Casual Sourcebook for details.",
-    "categories": "Heavy",
-    "encumbrance": "3",
-    "hard_points": "1",
-    "price": "200",
-    "rarity": "3",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Armor gains +2 soak when wearer suffers damage from a slugthrower or other physical projectile."
-      }
-    ],
-    "defense": "0",
-    "soak": "1",
-    "sources": [
-      "Fly Casual"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "MIMETICSUIT",
-    "name": "Mimetic Suit",
-    "description": "Please see page 47 of the Fly Casual Sourcebook for details.",
-    "encumbrance": "2",
-    "hard_points": "2",
-    "price": "8000",
-    "rarity": "8",
-    "is_restricted": "true",
-    "categories": "Full Body",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Upgrade the ability of Stealth checks twice while suit is active.",
-        "die_modifiers": {
-          "skill_key": "STEAL",
-          "upgrade_ability_count": "2"
-        }
-      }
-    ],
-    "defense": "1",
-    "soak": "1",
-    "sources": [
-      "Fly Casual"
-    ],
-    "image_filename": "MIMETICSUIT.png"
-  },
-  {
-    "key": "SMUGGLERSTRENCHCOAT",
-    "name": "Smuggler's Trenchcoat",
-    "description": "Please see page 47 of the Fly Casual Sourcebook for details.",
-    "encumbrance": "3",
-    "hard_points": "0",
-    "price": "1650",
-    "rarity": "7",
-    "is_restricted": "false",
-    "categories": [
-      "Half Body",
-      "Heavy"
-    ],
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Checks to find anything hidden within a smuggler's trenchcoat are opposed by the Skulduggery of the wearer."
-      },
-      {
-        "count": "1",
-        "misc_desc": "The coat can conceal up to 2 encumbrance worth of items."
-      }
-    ],
-    "defense": "1",
-    "soak": "1",
-    "sources": [
-      "Fly Casual"
-    ],
-    "image_filename": "SMUGGLERSTRENCHCOAT.png"
-  },
-  {
-    "key": "BANAL",
-    "name": "Banal Apparel",
-    "description": "Please see page 47 of the Desperate Allies Sourcebook for details.",
-    "defense": "0",
-    "soak": "0",
-    "price": "25",
-    "encumbrance": "0",
-    "hard_points": "0",
-    "rarity": "0",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Opposing characters upgrade the difficulty of checks to identify wearer once."
-      }
-    ],
-    "sources": [
-      "Desperate Allies"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "CARGOCL",
-    "name": "Cargo Clothing",
-    "description": "Please see page 47 of the Desperate Allies Sourcebook for details.[P][I]",
-    "categories": [],
-    "defense": "0",
-    "soak": "0",
-    "price": "30",
-    "encumbrance": "1",
-    "hard_points": "0",
-    "rarity": "0",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "3",
-        "key": "CARRY1"
-      }
-    ],
-    "sources": [
-      "Desperate Allies"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "DIPROBE",
-    "name": "Diplomat's Robes",
-    "description": "Please see page 47 of the Desperate Allies Sourcebook for details.",
-    "defense": "0",
-    "soak": "0",
-    "price": "400",
-    "encumbrance": "2",
-    "hard_points": "0",
-    "rarity": "6",
-    "is_restricted": "false",
-    "categories": "Half Body",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Add [BOOST] to social checks claiming diplomatic authority, accessing classified data, and bypassing normal protocol."
-      }
-    ],
-    "sources": [
-      "Desperate Allies"
-    ],
-    "image_filename": "DIPROBE.png"
-  },
-  {
-    "key": "FLAREJACK",
-    "name": "Flare Jacket",
-    "description": "Please see page 48 of the Desperate Allies Sourcebook for details.",
-    "categories": "Heavy",
-    "defense": "0",
-    "soak": "1",
-    "price": "1500",
-    "encumbrance": "3",
-    "hard_points": "0",
-    "rarity": "8",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Once per encounter, can trigger flare charge. Everyone in short range makes [B]Hard ([DI][DI][DI]) Vigilance check[b]. Fail means staggered for 1 round, plus 1 round per [TH][TH][TH]."
-      }
-    ],
-    "sources": [
-      "Desperate Allies"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "HAULHARN",
-    "name": "Hauling Harness",
-    "description": "Please see page 48 of the Desperate Allies Sourcebook for details.",
-    "categories": "Heavy",
-    "defense": "1",
-    "soak": "1",
-    "price": "1000",
-    "encumbrance": "3",
-    "hard_points": "2",
-    "rarity": "6",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "key": "ENCTADD",
-        "count": "6"
-      },
-      {
-        "count": "1",
-        "misc_desc": "Upgrade difficulty of combat checks twice.",
-        "die_modifiers": [
-          {
-            "skill_type": "Combat",
-            "upgrade_difficulty_count": "2"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      "Desperate Allies"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "HOLOCOST",
-    "name": "Holographic Costume",
-    "description": "Please see page 48 of the Desperate Allies Sourcebook for details.",
-    "defense": "1",
-    "soak": "0",
-    "price": "750",
-    "encumbrance": "2",
-    "hard_points": "0",
-    "rarity": "8",
-    "is_restricted": "false",
-    "categories": "Full Body",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "[B]Easy ([DI]) Computers check to record new garment, [B]Daunting ([DI][DI][DI][DI]) Computers check[b] to record facsimile of garment."
-      }
-    ],
-    "sources": [
-      "Desperate Allies"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "LECOUT",
-    "name": "Lector's Outfit",
-    "description": "Please see page 48 of the Desperate Allies Sourcebook for details.",
-    "categories": [],
-    "defense": "0",
-    "soak": "1",
-    "price": "525",
-    "encumbrance": "2",
-    "hard_points": "1",
-    "rarity": "6",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Add [BO] to social checks involving large groups of listeners."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Can be heard clearly at considerable range."
-      }
-    ],
-    "sources": [
-      "Desperate Allies"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "NOBREG",
-    "name": "Noble Regalia",
-    "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
-    "categories": "Half Body",
-    "defense": "0",
-    "soak": "0",
-    "price": "750",
-    "encumbrance": "1",
-    "hard_points": "3",
-    "rarity": "7",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Downgrade difficulty of social checks to interact with nobility or subordinates once."
-      }
-    ],
-    "sources": [
-      "Desperate Allies"
-    ],
-    "image_filename": "NOBREG.png"
-  },
-  {
-    "key": "PERFATT",
-    "name": "Performer's Attire",
-    "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
-    "categories": [],
-    "defense": "0",
-    "soak": "0",
-    "price": "50",
-    "encumbrance": "0",
-    "hard_points": "0",
-    "rarity": "4",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Add [BO] to checks to perform or attract attention."
-      }
-    ],
-    "sources": [
-      "Desperate Allies"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "POWCAPARM",
-    "name": "Powered Capacitive Armor",
-    "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
-    "defense": "1",
-    "soak": "1",
-    "price": "3000",
-    "encumbrance": "4",
-    "hard_points": "2",
-    "rarity": "8",
-    "is_restricted": "true",
-    "categories": [
-      "Full Body",
-      "Powered",
-      "Heavy"
-    ],
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "As maneuver, power up and add +1 defense and +1 soak, but lose free maneuver."
-      }
-    ],
-    "sources": [
-      "Desperate Allies"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "RESPROBES",
-    "name": "Resplendent Robes",
-    "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
-    "defense": "0",
-    "soak": "1",
-    "price": "500",
-    "encumbrance": "2",
-    "hard_points": "0",
-    "rarity": "5",
-    "is_restricted": "false",
-    "categories": "Half Body",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "If wearer draws attention to himself, allies in medium range add [BO] to Perception, Skulduggery, and Stealth checks."
-      }
-    ],
-    "sources": [
-      "Desperate Allies"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "SECSKIN",
-    "name": "Second Skin Armor",
-    "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
-    "defense": "1",
-    "soak": "1",
-    "price": "2000",
-    "encumbrance": "2",
-    "hard_points": "0",
-    "rarity": "7",
-    "is_restricted": "false",
-    "categories": "Full Body",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Add [SE][SE] to Perception checks to notice second skin armor on the wearer."
-      }
-    ],
-    "sources": [
-      "Desperate Allies"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "BODYSUIT",
-    "name": "Polis Masson Bodysuit",
-    "description": "Please see page 109 of the Strongholds of Resistance Sourcebook for details.",
-    "defense": "0",
-    "soak": "1",
-    "price": "300",
-    "encumbrance": "1",
-    "hard_points": "1",
-    "rarity": "6",
-    "is_restricted": "false",
-    "categories": "Full Body",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Includes a head-mounted multidirectional glow rod."
-      },
-      {
-        "key": "ENCTADD",
-        "count": "1"
-      }
-    ],
-    "sources": [
-      "Strongholds of Resistance"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "LEVPOWARM",
-    "name": "Leviathan Power Armor",
-    "description": "Please see page 109 of the Strongholds of Resistance Sourcebook for details.",
-    "categories": [
-      "Sealed",
-      "Hard Full Body",
-      "Hard",
-      "Full Body",
-      "Powered",
-      "Heavy",
-      "Resistant"
-    ],
-    "defense": "2",
-    "soak": "2",
-    "price": "15000",
-    "encumbrance": "8",
-    "hard_points": "1",
-    "rarity": "8",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "misc_desc": "Includes a built-in respirator",
-        "count": "1"
-      },
-      {
-        "misc_desc": "Includes a built-in Mini-Torpedo Launcher",
-        "count": "1"
-      },
-      {
-        "misc_desc": "Includes a built-in DF-D1 Duo-Flechette Rifle",
-        "count": "1"
-      },
-      {
-        "misc_desc": "Reduces the difficulty of Resilience checks made to resist the effects extreme cold by one. Removes up to [SETBACK][SETBACK] added to checks due to extreme cold.",
-        "count": "1"
-      },
-      {
-        "misc_desc": "Removes up to [SETBACK][SETBACK] added to all Perception, Vigilance, and combat skill checks due to darkness, smoke, or other environmental effects that obscure vision.",
-        "count": "1"
-      },
-      {
-        "key": "BR",
-        "count": "1"
-      }
-    ],
-    "weapon_modifiers": [
-      {
-        "unarmed": "false",
-        "unarmed_name": "Mini-Torpedo Launcher (Built-in)",
-        "skill_key": "RANGHVY",
-        "all_skill_key": null,
-        "damage": "8",
-        "damage_add": "0",
-        "crit": "2",
-        "crit_sub": "0",
-        "range_value": "wrLong",
-        "qualities": [
-          {
-            "key": "BLAST",
-            "count": "6"
-          },
-          {
-            "key": "CUMBERSOME",
-            "count": "2"
-          },
-          {
-            "key": "LIMITEDAMMO",
-            "count": "2"
-          }
+    {
+        "key": "AC",
+        "name": "Armored Clothing",
+        "description": "Please see page 169 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 178 of the Force and Destiny Core Rulebook, for details.",
+        "sources": [
+            "Edge of the Empire Core Rulebook",
+            "Age of Rebellion Core Rulebook",
+            "Force and Destiny Core Rulebook"
+        ],
+        "defense": "1",
+        "soak": "1",
+        "price": "1000",
+        "encumbrance": "3",
+        "hard_points": "1",
+        "rarity": "6",
+        "categories": [
+            "Half Body",
+            "Heavy"
+        ],
+        "image_filename": "AC.png",
+        "type": "Armor"
+    },
+    {
+        "key": "ARMROBE",
+        "name": "Armored Robes",
+        "description": "Please see page 179 of the Force and Destiny Core Rulebook for details.",
+        "defense": "1",
+        "soak": "2",
+        "price": "4500",
+        "is_restricted": "true",
+        "encumbrance": "3",
+        "hard_points": "2",
+        "rarity": "8",
+        "categories": [
+            "Half Body",
+            "Heavy",
+            "Resistant"
+        ],
+        "sources": [
+            "Force and Destiny Core Rulebook"
+        ],
+        "image_filename": "ARMROBE.png",
+        "type": "Armor"
+    },
+    {
+        "key": "CONROBE",
+        "name": "Concealing Robes",
+        "description": "Please see page 179 of the Force and Destiny Core Rulebook for details.",
+        "defense": "0",
+        "soak": "1",
+        "price": "150",
+        "encumbrance": "1",
+        "hard_points": "0",
+        "rarity": "2",
+        "categories": "Half Body",
+        "base_mods": [
+            {
+                "misc_desc": "Add [SETBACK] to checks to notice or recognize an individual wearing concealing robes.",
+                "count": "1"
+            }
+        ],
+        "sources": [
+            "Force and Destiny Core Rulebook"
+        ],
+        "image_filename": "CONROBE.png",
+        "type": "Armor"
+    },
+    {
+        "key": "HBA",
+        "name": "Heavy Battle Armor",
+        "description": "Please see page 170 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 47 of the Keeping the Peace sourcebook for details.",
+        "sources": [
+            "Edge of the Empire Core Rulebook",
+            "Age of Rebellion Core Rulebook",
+            "Keeping the Peace"
+        ],
+        "categories": [
+            "Sealable",
+            "Full Body",
+            "Hard Full Body",
+            "Hard",
+            "Heavy",
+            "Resistant"
+        ],
+        "defense": "1",
+        "soak": "2",
+        "price": "5000",
+        "is_restricted": "true",
+        "encumbrance": "6",
+        "hard_points": "4",
+        "rarity": "7",
+        "image_filename": "HBA.png",
+        "type": "Armor"
+    },
+    {
+        "key": "HC",
+        "name": "Heavy Clothing",
+        "description": "Please see page 169 of the Edge of the Empire Core Rulebook, page 185 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook for details.",
+        "sources": [
+            "Edge of the Empire Core Rulebook",
+            "Age of Rebellion Core Rulebook",
+            "Force and Destiny Core Rulebook"
+        ],
+        "defense": "0",
+        "soak": "1",
+        "price": "50",
+        "encumbrance": "1",
+        "hard_points": "0",
+        "rarity": "0",
+        "categories": "Half Body",
+        "image_filename": "HC.png",
+        "type": "Armor"
+    },
+    {
+        "key": "LAM",
+        "name": "Laminate",
+        "description": "Please see page 169 of the Edge of the Empire Core Rulebook, or page 185 of the Age of Rebellion Core Rulebook, for details.",
+        "sources": [
+            "Edge of the Empire Core Rulebook",
+            "Age of Rebellion Core Rulebook"
+        ],
+        "categories": [
+            "Sealable",
+            "Full Body",
+            "Hard Full Body",
+            "Hard",
+            "Heavy",
+            "Resistant"
+        ],
+        "defense": "0",
+        "soak": "2",
+        "price": "2500",
+        "encumbrance": "4",
+        "hard_points": "3",
+        "rarity": "5",
+        "image_filename": "LAM.png",
+        "type": "Armor"
+    },
+    {
+        "key": "PDS",
+        "name": "Personal Deflector Shield",
+        "description": "Please see page 170 of the Edge of the Empire Core Rulebook, or page 185 of the Age of Rebellion Core Rulebook, for details.",
+        "sources": [
+            "Edge of the Empire Core Rulebook",
+            "Age of Rebellion Core Rulebook"
+        ],
+        "defense": "2",
+        "soak": "0",
+        "price": "10000",
+        "encumbrance": "3",
+        "hard_points": "0",
+        "rarity": "8",
+        "categories": "Heavy",
+        "image_filename": "PDS.png",
+        "type": "Armor"
+    },
+    {
+        "key": "PAD",
+        "name": "Padded Armor",
+        "description": "Please see page 169 of the Edge of the Empire Core Rulebook, page 185 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook for details.",
+        "sources": [
+            "Edge of the Empire Core Rulebook",
+            "Age of Rebellion Core Rulebook",
+            "Force and Destiny Core Rulebook"
+        ],
+        "defense": "0",
+        "soak": "2",
+        "price": "500",
+        "encumbrance": "2",
+        "hard_points": "0",
+        "rarity": "1",
+        "categories": "Resistant",
+        "image_filename": "PAD.png",
+        "type": "Armor"
+    },
+    {
+        "key": "ENVIROSUIT",
+        "name": "Enviro-suit",
+        "description": "Please see page 44 of the Enter the Unknown Sourcebook for details.",
+        "categories": [
+            "Sealed",
+            "Full Body",
+            "Resistant"
+        ],
+        "defense": "0",
+        "soak": "2",
+        "price": "750",
+        "encumbrance": "2",
+        "hard_points": "1",
+        "rarity": "2",
+        "base_mods": [
+            {
+                "misc_desc": "Suffer [SETBACK] to any Agility- or Perception-based checks",
+                "count": "1"
+            }
+        ],
+        "sources": [
+            "Enter the Unknown"
+        ],
+        "image_filename": "ENVIROSUIT.png",
+        "type": "Armor"
+    },
+    {
+        "key": "CRASHSUIT",
+        "name": "A/KT Shockrider Crash Suit",
+        "description": "Please see page 45 of the Enter the Unknown Sourcebook, or page 42 of the Stay on Target Sourcebook, for details.",
+        "sources": [
+            "Enter the Unknown",
+            "Stay on Target"
+        ],
+        "defense": "0",
+        "soak": "2",
+        "price": "3000",
+        "encumbrance": "2",
+        "hard_points": "1",
+        "rarity": "3",
+        "categories": [
+            "Half Body",
+            "Resistant"
         ],
         "base_mods": [
-          {
-            "count": "1",
-            "misc_desc": "All combat checks to operate outside of water have their difficulty upgraded twice."
-          }
-        ]
-      },
-      {
-        "unarmed": "false",
-        "unarmed_name": "DF-D1 Duo-Flechette Rifle (Built-in)",
-        "skill_key": "RANGHVY",
-        "all_skill_key": null,
-        "damage": "9",
-        "damage_add": "0",
-        "crit": "3",
-        "crit_sub": "0",
-        "range_value": "wrShort",
-        "qualities": [
-          {
-            "key": "BLAST",
-            "count": "4"
-          },
-          {
-            "key": "LIMITEDAMMO",
-            "count": "5"
-          },
-          {
-            "key": "LINKED",
-            "count": "1"
-          },
-          {
-            "key": "VICIOUS",
-            "count": "2"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      "Strongholds of Resistance"
-    ],
-    "image_filename": "LEVPOWARM.png"
-  },
-  {
-    "key": "VERPFIBUARM",
-    "name": "Verpine Fiber Ultramesh Armor",
-    "description": "Please see page 109 of the Strongholds of Resistance Sourcebook for details.",
-    "defense": "0",
-    "soak": "1",
-    "price": "3000",
-    "encumbrance": "3",
-    "hard_points": "2",
-    "rarity": "5",
-    "is_restricted": "false",
-    "categories": [
-      "Full Body",
-      "Heavy"
-    ],
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Armor may be powered up/down as a maneuver.  While powered up, gain +2 defenses. [AD][AD] or [TR] from hostile Combat check can cause armor to run out of power.  Cannot be powered up again until end of encounter."
-      }
-    ],
-    "sources": [
-      "Strongholds of Resistance"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "CRESHARMOR",
-    "name": "Cresh \"Luck\" Armor",
-    "description": "Please see page 47 of the Keeping the Peace Sourcebook for details.",
-    "encumbrance": "4",
-    "hard_points": "1",
-    "price": "1000",
-    "rarity": "5",
-    "is_restricted": "false",
-    "categories": [
-      "Half Body",
-      "Hard",
-      "Heavy",
-      "Resistant"
-    ],
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Add automatic [AD] to Vigilance checks.",
-        "die_modifiers": [
-          {
-            "skill_key": "VIGIL",
-            "advantage_count": "1"
-          }
-        ]
-      }
-    ],
-    "weapon_modifiers": [],
-    "defense": "0",
-    "soak": "2",
-    "sources": [
-      "Keeping the Peace"
-    ],
-    "image_filename": "CRESHARMOR.png"
-  },
-  {
-    "key": "JEDIBA",
-    "name": "Jedi Battle Armor",
-    "description": "Please see page 47 of the Keeping the Peace Sourcebook for details.",
-    "categories": [
-      "Sealable",
-      "Hard Full Body",
-      "Hard",
-      "Full Body",
-      "Heavy",
-      "Resistant"
-    ],
-    "encumbrance": "5",
-    "hard_points": "5",
-    "price": "7500",
-    "rarity": "9",
-    "is_restricted": "true",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Wearing Jedi Battle Armor fitted for someone else adds [SE][SE] to all combat checks."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Fitting to new wearer requires a [B]Hard ([DI][DI][DI]) Mechanics check[b] and an hour to complete."
-      }
-    ],
-    "defense": "1",
-    "soak": "2",
-    "sources": [
-      "Keeping the Peace"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "JEDITEMGUAARM",
-    "name": "Jedi Temple Guard Armor",
-    "description": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
-    "encumbrance": "4",
-    "hard_points": "3",
-    "price": "12000",
-    "rarity": "10",
-    "is_restricted": "true",
-    "categories": [
-      "Half Body",
-      "Heavy"
-    ],
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Contains helmet comlink."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Contains integrated scanner."
-      }
-    ],
-    "weapon_modifiers": [],
-    "defense": "2",
-    "soak": "1",
-    "sources": [
-      "Keeping the Peace"
-    ],
-    "image_filename": "JEDITEMGUAARM.png"
-  },
-  {
-    "key": "JEDITRAINSUITW",
-    "name": "Jedi Training Suit (Weighted)",
-    "description": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
-    "encumbrance": "6",
-    "hard_points": "0",
-    "price": "400",
-    "rarity": "9",
-    "is_restricted": "true",
-    "categories": [
-      "Half Body",
-      "Heavy",
-      "Resistant"
-    ],
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Removing weights requires an [B]Easy ([DI]) Mechanics check[b]."
-      }
-    ],
-    "weapon_modifiers": [],
-    "defense": "0",
-    "soak": "2",
-    "sources": [
-      "Keeping the Peace"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "JEDITRAINSUIT",
-    "name": "Jedi Training Suit (Unweighted)",
-    "description": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
-    "categories": [
-      "Half Body",
-      "Heavy",
-      "Resistant"
-    ],
-    "encumbrance": "4",
-    "hard_points": "0",
-    "price": "400",
-    "rarity": "9",
-    "is_restricted": "true",
-    "base_mods": [],
-    "weapon_modifiers": [],
-    "defense": "0",
-    "soak": "2",
-    "sources": [
-      "Keeping the Peace"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "KAVDANNPA",
-    "name": "Kav-Dann Power Armor",
-    "description": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
-    "categories": [
-      "Sealed",
-      "Hard Full Body",
-      "Hard",
-      "Full Body",
-      "Powered",
-      "Heavy",
-      "Resistant"
-    ],
-    "encumbrance": "4",
-    "hard_points": "6",
-    "price": "13500",
-    "rarity": "7",
-    "is_restricted": "true",
-    "base_mods": [
-      {
-        "key": "BR",
-        "count": "1"
-      },
-      {
-        "count": "1",
-        "misc_desc": "Remove [SE] caused by darkness, smoke, or other environmental factors that might affect vision from Perception, Vigilance, and Combat checks."
-      },
-      {
-        "key": null,
-        "count": "1",
-        "misc_desc": "Gain [BO] to resist the effects of radiation."
-      }
-    ],
-    "weapon_modifiers": [],
-    "defense": "2",
-    "soak": "2",
-    "sources": [
-      "Keeping the Peace"
-    ],
-    "image_filename": "KAVDANNPA.png"
-  },
-  {
-    "key": "KOROHALFVEST",
-    "name": "Koromondian Half-Vest",
-    "description": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
-    "categories": "Heavy",
-    "encumbrance": "3",
-    "hard_points": "0",
-    "price": "500",
-    "rarity": "5",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "When wearer suffers Critical Injury, armor suffers minor damage, or increases current damage by one step."
-      }
-    ],
-    "defense": "1",
-    "soak": "1",
-    "sources": [
-      "Keeping the Peace"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "RIOTARM",
-    "name": "Riot Armor",
-    "description": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
-    "categories": [
-      "Half Body",
-      "Heavy",
-      "Resistant"
-    ],
-    "encumbrance": "3",
-    "hard_points": "2",
-    "price": "950",
-    "rarity": "4",
-    "is_restricted": "false",
-    "base_mods": [],
-    "weapon_modifiers": [],
-    "defense": "0",
-    "soak": "2",
-    "sources": [
-      "Keeping the Peace"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "CLOAKCOAT",
-    "name": "Cloaking Coat",
-    "description": "Please see page 47 of the Special Modifications Sourcebook for details.",
-    "categories": "Full Body",
-    "defense": "0",
-    "soak": "1",
-    "price": "550",
-    "encumbrance": "4",
-    "hard_points": "1",
-    "rarity": "8",
-    "is_restricted": "true",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Upgrade difficulty of checks to detect an individual wearing a cloaking coat using sensors or electronics twice. Droids with Intellect less than wearer's ranks in Computers are similarly affected."
-      }
-    ],
-    "sources": [
-      "Special Modifications"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "MECHUTILSUIT",
-    "name": "Mechanic's Utility Suit",
-    "description": "Please see page 48 of the Special Modifications Sourcebook for details.",
-    "categories": "Full Body",
-    "defense": "0",
-    "soak": "2",
-    "price": "1175",
-    "encumbrance": "5",
-    "hard_points": "1",
-    "rarity": "3",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Counts as having a tool kit."
-      }
-    ],
-    "sources": [
-      "Special Modifications"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "N57",
-    "name": "N-57 Armor",
-    "description": "Please see page 48 of the Special Modifications Sourcebook for details.",
-    "categories": [
-      "Sealable",
-      "Full Body",
-      "Hard Full Body",
-      "Hard",
-      "Heavy",
-      "Resistant",
-      "Powered"
-    ],
-    "defense": "0",
-    "soak": "2",
-    "price": "3000",
-    "encumbrance": "5",
-    "hard_points": "5",
-    "rarity": "6",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "As a maneuver, may recharge energy weapon that has run out of ammo."
-      }
-    ],
-    "sources": [
-      "Special Modifications"
-    ],
-    "image_filename": "N57.png"
-  },
-  {
-    "key": "P14",
-    "name": "P-14 Hazardous Industry Suit",
-    "description": "Please see page 48 of the Special Modifications Sourcebook for details.",
-    "categories": [
-      "Full Body",
-      "Heavy",
-      "Resistant",
-      "Sealed"
-    ],
-    "defense": "0",
-    "soak": "2",
-    "price": "1000",
-    "encumbrance": "7",
-    "hard_points": "2",
-    "rarity": "4",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Counts as wearing a breath mask."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Add [BO][BO] to [B]Resilience checks[b] to resist heat, cold, radiation, or other hostile environmental conditions."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Wearer does not suffer effects of Burn or Disorient qualities."
-      },
-      {
-        "count": "1",
-        "misc_desc": "When suffering strain to take an extra maneuver, suffer 1 additional strain."
-      }
-    ],
-    "sources": [
-      "Special Modifications"
-    ],
-    "image_filename": "P14.png"
-  },
-  {
-    "key": "ANIPRO",
-    "name": "AniPro Layered Beast Armor",
-    "description": "Please see page 44 of the Savage Spirits Sourcebook for details.",
-    "categories": "Half Body",
-    "defense": "1",
-    "soak": "1",
-    "price": "2500",
-    "encumbrance": "4",
-    "hard_points": "0",
-    "rarity": "5",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "May only be worn by a beast."
-      },
-      {
-        "count": "1",
-        "misc_desc": "May ride a beast without suffering bareback penalty."
-      }
-    ],
-    "sources": [
-      "Savage Spirits"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "CHITIN",
-    "name": "Chitin Armor",
-    "description": "Please see page 45 of the Savage Spirits Sourcebook for details.",
-    "categories": "Hard",
-    "defense": "0",
-    "soak": "2",
-    "price": "600",
-    "encumbrance": "4",
-    "hard_points": "1",
-    "rarity": "6",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Add [ADVANTAGE] to Coercion checks and [THREAT] to Charm checks. ",
-        "die_modifiers": [
-          {
-            "skill_key": "COERC",
-            "advantage_count": "1"
-          },
-          {
-            "skill_key": "CHARM",
-            "threat_count": "1"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      "Savage Spirits"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "SURVIVALARMOR",
-    "name": "Survivalist Armor",
-    "description": "Please see page 45 of the Savage Spirits Sourcebook for details.",
-    "categories": "Full Body",
-    "defense": "0",
-    "soak": "1",
-    "price": "350",
-    "encumbrance": "3",
-    "hard_points": "2",
-    "rarity": "6",
-    "is_restricted": "false",
-    "base_mods": [
-      {
-        "key": "ENCTADD",
-        "count": "1"
-      }
-    ],
-    "sources": [
-      "Savage Spirits"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "ALLIANCELTSTEALTH",
-    "name": "Alliance Light Stealth Armor",
-    "description": "Please see page 49 of the Forged in Battle Sourcebook for details.",
-    "categories": [
-      "Sealable",
-      "Full Body",
-      "Hard Full Body",
-      "Hard",
-      "Resistant"
-    ],
-    "encumbrance": "3",
-    "hard_points": "2",
-    "price": "2200",
-    "rarity": "7",
-    "is_restricted": "true",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Adds [BO] to the wearer's Stealth checks.",
-        "die_modifiers": {
-          "skill_key": "STEAL",
-          "boost_count": "1"
-        }
-      }
-    ],
-    "soak": "2",
-    "sources": [
-      "Forged in Battle"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "IMPHAZARD",
-    "name": "Imperial Hazard Trooper Armor",
-    "description": "Please see page 49 of the Forged in Battle Sourcebook for details.",
-    "categories": [
-      "Full Body",
-      "Hard Full Body",
-      "Hard",
-      "Heavy",
-      "Powered",
-      "Sealed",
-      "Resistant"
-    ],
-    "encumbrance": "4",
-    "hard_points": "3",
-    "price": "18000",
-    "rarity": "8",
-    "is_restricted": "true",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Remove [SE][SE] due to darkness, smoke or similar environmental factors that obscure vision from the wearer's Perception, Vigilance, and combat checks."
-      }
-    ],
-    "soak": "3",
-    "sources": [
-      "Forged in Battle"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "IMPSTORMCOMM",
-    "name": "Imperial Storm Commando Armor",
-    "description": "Please see page 49 of the Forged in Battle Sourcebook for details.",
-    "categories": [
-      "Sealable",
-      "Full Body",
-      "Hard Full Body",
-      "Hard",
-      "Heavy",
-      "Resistant"
-    ],
-    "encumbrance": "4",
-    "hard_points": "4",
-    "price": "5000",
-    "rarity": "9",
-    "is_restricted": "true",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Helmet is equipped with macrobinoculars, scanner goggles, and a comlink."
-      },
-      {
-        "count": "1",
-        "misc_desc": "While wearing storm commando armor, a character removes [SE] due to darkness, smoke, or similar environmental factors that obscure vision from all Perception, Vigilance, and combat checks."
-      },
-      {
-        "count": "1",
-        "misc_desc": "Adds [SE] to other characters' Perception checks to detect the wearer."
-      }
-    ],
-    "soak": "2",
-    "sources": [
-      "Forged in Battle"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "REBELHEAVY",
-    "name": "Rebel Heavy Battle Armor",
-    "description": "Please see page 50 of the Forged in Battle Sourcebook for details.",
-    "categories": [
-      "Full Body",
-      "Hard Full Body",
-      "Hard",
-      "Resistant"
-    ],
-    "encumbrance": "5",
-    "hard_points": "5",
-    "price": "6000",
-    "rarity": "8",
-    "is_restricted": "true",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Equipped with a helmet-fitted breath mask and respirator."
-      }
-    ],
-    "defense": "1",
-    "soak": "2",
-    "sources": [
-      "Forged in Battle"
-    ],
-    "image_filename": "REBELHEAVY.png"
-  },
-  {
-    "key": "THINSUIT",
-    "name": "Karflo Thinsuit",
-    "description": "Please see page 50 of the Forged in Battle Sourcebook for details.",
-    "categories": [
-      "Full Body",
-      "Resistant"
-    ],
-    "price": "1200",
-    "rarity": "6",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Remove [SE][SE] from checks imposed by environment in which the user is currently operating."
-      }
-    ],
-    "soak": "1",
-    "sources": [
-      "Forged in Battle"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "CRASHGEAR",
-    "name": "Crash Gear",
-    "description": "Please see page 43 of the Endless Vigil Sourcebook for details.",
-    "categories": [
-      "Full Body",
-      "Resistant"
-    ],
-    "encumbrance": "1",
-    "hard_points": "1",
-    "price": "550",
-    "rarity": "3",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Wearer ignores the effects of ongoing Critical Injuries on any Intellect- or Cunning-related checks, but still suffers from the injuries."
-      }
-    ],
-    "soak": "1",
-    "sources": [
-      "Endless Vigil"
-    ],
-    "image_filename": "CRASHGEAR.png"
-  },
-  {
-    "key": "GSUIT",
-    "name": "G-Suit",
-    "description": "Please see page 44 of the Endless Vigil Sourcebook for details.",
-    "categories": [
-      "Full Body",
-      "Resistant"
-    ],
-    "encumbrance": "2",
-    "hard_points": "1",
-    "price": "2000",
-    "rarity": "3",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Wearer reduces strain cost to perfrom a second Pilot Only maneuver by 1."
-      }
-    ],
-    "soak": "1",
-    "sources": [
-      "Endless Vigil"
-    ],
-    "image_filename": "GSUIT.png"
-  },
-  {
-    "key": "PITCREWCOV",
-    "name": "Pit Crew Coveralls",
-    "description": "Please see page 44 of the Endless Vigil Sourcebook for details.",
-    "categories": "Full Body",
-    "encumbrance": "1",
-    "hard_points": "1",
-    "price": "150",
-    "rarity": "2",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Reduce damage from fires and weapons with the Burn quality by 1."
-      },
-      {
-        "key": "ENCTADD",
-        "count": "1"
-      }
-    ],
-    "soak": "1",
-    "sources": [
-      "Endless Vigil"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "ZEPHYRSTEALTH",
-    "name": "Zephyr Stealth Suit",
-    "description": "Please see page 44 of the Endless Vigil Sourcebook for details.",
-    "categories": "Full Body",
-    "encumbrance": "2",
-    "hard_points": "1",
-    "price": "5500",
-    "rarity": "8",
-    "is_restricted": "true",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Wearer upgrades the ability of any Stealth check once.",
-        "die_modifiers": [
-          {
-            "skill_key": "STEAL",
-            "upgrade_ability_count": "1"
-          }
-        ]
-      }
-    ],
-    "defense": "1",
-    "soak": "1",
-    "sources": [
-      "Endless Vigil"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "HUNTTROPHARM",
-    "name": "Hunter's Trophy Armor",
-    "description": "Please see page 49 of the No Disintegrations Sourcebook for details. [P][I]Note:  If making your own suit from owned hides, price/rarity drops to 1000/6.[i]",
-    "categories": "Half Body",
-    "encumbrance": "4",
-    "hard_points": "1",
-    "price": "2000",
-    "rarity": "9",
-    "is_restricted": "true",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "Wearer suffers [SE] to Charm checks.",
-        "die_modifiers": [
-          {
-            "skill_key": "CHARM",
-            "add_setback_count": "1"
-          }
-        ]
-      },
-      {
-        "count": "1",
-        "misc_desc": "Wearer gains [BO][BO] to Coercion checks due to armor's intimidating appearance.",
-        "die_modifiers": [
-          {
-            "skill_key": "COERC",
-            "boost_count": "2"
-          }
-        ]
-      }
-    ],
-    "soak": "2",
-    "sources": [
-      "No Disintegrations"
-    ],
-    "image_filename": "missing.png"
-  },
-  {
-    "key": "ARMDROPSUIT",
-    "name": "Armored Drop Suit",
-    "description": "Please see page 49 of the No Disintegrations Sourcebook for details. [P][I]Note:  A vehicle version of this armor exists with the same name.[i]",
-    "categories": [
-      "Full Body",
-      "Hard",
-      "Hard Full Body",
-      "Powered",
-      "Resistant",
-      "Sealable",
-      "Heavy"
-    ],
-    "encumbrance": "6",
-    "hard_points": "2",
-    "price": "7500",
-    "rarity": "7",
-    "base_mods": [
-      {
-        "count": "1",
-        "misc_desc": "While conscious and flight systems are engaged, wearer cannot suffer falling damage."
-      }
-    ],
-    "defense": "1",
-    "soak": "1",
-    "sources": [
-      "No Disintegrations"
-    ],
-    "image_filename": "ARMDROPSUIT.png"
-  },
-  {
-    "key": "MANDOARM",
-    "name": "Mandalorian Armor",
-    "description": "Please see page 50 of the No Disintegrations Sourcebook for details.",
-    "categories": [
-      "Full Body",
-      "Hard Full Body",
-      "Heavy",
-      "Sealable",
-      "Hard"
-    ],
-    "encumbrance": "6",
-    "hard_points": "5",
-    "price": "6000",
-    "rarity": "8",
-    "is_restricted": "true",
-    "defense": "1",
-    "soak": "2",
-    "sources": [
-      "No Disintegrations"
-    ],
-    "image_filename": "MANDOARM.png"
-  }
+            {
+                "count": "1",
+                "misc_desc": "Reduces strain received from Critical Hits to the wearer's vehicle by 1 (min 1)."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Reduce damage from fires and weapons with the Burn quality by 1."
+            }
+        ],
+        "image_filename": "CRASHSUIT.png",
+        "type": "Armor"
+    },
+    {
+        "key": "UTILITYVEST",
+        "name": "A/KT Tracker Utility Vest",
+        "description": "Please see page 45 of the Enter the Unknown Sourcebook for details.",
+        "defense": "0",
+        "soak": "0",
+        "price": "100",
+        "encumbrance": "0",
+        "hard_points": "1",
+        "rarity": "2",
+        "base_mods": [
+            {
+                "key": "ENCTADD",
+                "count": "2"
+            }
+        ],
+        "sources": [
+            "Enter the Unknown"
+        ],
+        "image_filename": "UTILITYVEST.png",
+        "type": "Armor"
+    },
+    {
+        "key": "MOUNTARMOR",
+        "name": "A/KT Mountaineer Armor",
+        "description": "Please see page 45 of the Enter the Unknown Sourcebook for details.",
+        "defense": "1",
+        "soak": "1",
+        "price": "1800",
+        "encumbrance": "3",
+        "hard_points": "2",
+        "rarity": "6",
+        "categories": [
+            "Half Body",
+            "Heavy"
+        ],
+        "base_mods": [
+            {
+                "misc_desc": "Grants [BOOST][BOOST] to all Athletics skill checks made to climb or rappel",
+                "count": "1"
+            }
+        ],
+        "sources": [
+            "Enter the Unknown"
+        ],
+        "image_filename": "MOUNTARMOR.png",
+        "type": "Armor"
+    },
+    {
+        "key": "CATCHVEST",
+        "name": "Catch Vest",
+        "description": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
+        "defense": "0",
+        "soak": "1",
+        "price": "300",
+        "encumbrance": "1",
+        "hard_points": "0",
+        "rarity": "3",
+        "base_mods": [
+            {
+                "misc_desc": "Has soak value of 2 against all energy-based weapons",
+                "count": "1"
+            }
+        ],
+        "sources": [
+            "Suns of Fortune"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "NOMADCOAT",
+        "name": "Nomad Greatcoat",
+        "description": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
+        "defense": "0",
+        "soak": "1",
+        "price": "100",
+        "encumbrance": "1",
+        "hard_points": "0",
+        "rarity": "4",
+        "categories": "Half Body",
+        "base_mods": [
+            {
+                "misc_desc": "Reduces difficulty of Resilience checks made to resist the effects of extreme cold by 1",
+                "count": "1"
+            },
+            {
+                "misc_desc": "Removes [SETBACK] added to checks due to extreme cold",
+                "count": "1"
+            }
+        ],
+        "sources": [
+            "Suns of Fortune"
+        ],
+        "image_filename": "NOMADCOAT.png",
+        "type": "Armor"
+    },
+    {
+        "key": "MODARMORIII",
+        "name": "Type III \"Berethron\" Personal Modular Armor",
+        "description": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
+        "defense": "1",
+        "soak": "1",
+        "price": "1250",
+        "is_restricted": "true",
+        "encumbrance": "3",
+        "hard_points": "3",
+        "rarity": "6",
+        "categories": "Half Body",
+        "sources": [
+            "Suns of Fortune"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "FLIGHTTX3",
+        "name": "TX-3 Combat Flight Suit",
+        "description": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
+        "categories": [
+            "Sealed",
+            "Full Body",
+            "Heavy"
+        ],
+        "defense": "1",
+        "soak": "0",
+        "price": "3000",
+        "is_restricted": "true",
+        "encumbrance": "4",
+        "hard_points": "2",
+        "rarity": "6",
+        "sources": [
+            "Suns of Fortune"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "BEASTHIDE",
+        "name": "Beast-Hide Armor",
+        "description": "Please see page 49 of the Dangerous Covenants Sourcebook, or page 44 of the Savage Spirits Sourcebook, for details.",
+        "sources": [
+            "Dangerous Covenants",
+            "Savage Spirits"
+        ],
+        "categories": "Heavy",
+        "encumbrance": "3",
+        "hard_points": "0",
+        "price": "300",
+        "rarity": "2",
+        "is_restricted": "false",
+        "defense": "0",
+        "soak": "1",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Add [ADVANTAGE] to Coercion checks and [THREAT] to Charm checks. ",
+                "die_modifiers": [
+                    {
+                        "skill_key": "COERC",
+                        "advantage_count": "1"
+                    },
+                    {
+                        "skill_key": "CHARM",
+                        "threat_count": "1"
+                    }
+                ]
+            }
+        ],
+        "image_filename": "BEASTHIDE.png",
+        "type": "Armor"
+    },
+    {
+        "key": "CHARGESUIT",
+        "name": "\"Storm\" Charge Suit",
+        "description": "Please see page 50 of the Dangerous Covenants Sourcebook for details.",
+        "categories": [
+            "Heavy",
+            "Resistant"
+        ],
+        "encumbrance": "3",
+        "hard_points": "0",
+        "price": "2000",
+        "rarity": "6",
+        "is_restricted": "false",
+        "defense": "0",
+        "soak": "2",
+        "base_mods": [
+            {
+                "misc_desc": "If attack against armor generates [TH][TH], attacker is disoriented for 1 round."
+            },
+            {
+                "misc_desc": "If attack against armor generates [DE], attacker is automatically hit for 8 damage."
+            },
+            {
+                "misc_desc": "Counts as being equipped with shock gloves"
+            }
+        ],
+        "weapon_modifiers": {
+            "unarmed": "false",
+            "unarmed_name": "Shock Gloves (Built-in)",
+            "skill_key": "BRAWL",
+            "all_skill_key": null,
+            "damage": "0",
+            "damage_add": "0",
+            "crit": "5",
+            "crit_sub": "0",
+            "range_value": "wrEngaged",
+            "qualities": [
+                {
+                    "key": "STUN",
+                    "count": "3"
+                }
+            ]
+        },
+        "sources": [
+            "Dangerous Covenants"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "FLAKVEST",
+        "name": "Mk. III Flak Vest",
+        "description": "Please see page 49 of the Dangerous Covenants Sourcebook for details.",
+        "categories": "Heavy",
+        "encumbrance": "3",
+        "hard_points": "1",
+        "price": "300",
+        "rarity": "2",
+        "is_restricted": "false",
+        "defense": "0",
+        "soak": "1",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Add +1 Soak against damage from the Blast quality."
+            }
+        ],
+        "sources": [
+            "Dangerous Covenants"
+        ],
+        "image_filename": "FLAKVEST.png",
+        "type": "Armor"
+    },
+    {
+        "key": "PROTECTOR",
+        "name": "Protector 1 Combat Armor",
+        "description": "Please see page 49 of the Dangerous Covenants Sourcebook for details.",
+        "categories": [
+            "Sealed",
+            "Full Body",
+            "Hard",
+            "Hard Full Body",
+            "Heavy",
+            "Resistant"
+        ],
+        "encumbrance": "4",
+        "hard_points": "3",
+        "price": "5500",
+        "rarity": "7",
+        "is_restricted": "true",
+        "defense": "1",
+        "soak": "2",
+        "base_mods": [],
+        "sources": [
+            "Dangerous Covenants"
+        ],
+        "image_filename": "PROTECTOR.png",
+        "type": "Armor"
+    },
+    {
+        "key": "STEELSKIN",
+        "name": "Mk.II \"Steelskin\" Anti-Concussive Armor",
+        "description": "Please see page 49 of the Dangerous Covenants Sourcebook for details.",
+        "categories": [
+            "Full Body",
+            "Hard",
+            "Hard Full Body",
+            "Heavy",
+            "Resistant"
+        ],
+        "encumbrance": "8",
+        "hard_points": "1",
+        "price": "6500",
+        "rarity": "7",
+        "is_restricted": "true",
+        "defense": "0",
+        "soak": "3",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Add [SETBACK] to all Brawn- and Agility-based checks."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Reduce the duration of disoriented or staggered condition by 1 round."
+            }
+        ],
+        "sources": [
+            "Dangerous Covenants"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "POWARMOR",
+        "name": "PX-11 \"Battlement\" Powered Armor",
+        "description": "Please see page 51 of the Dangerous Covenants Sourcebook for details.",
+        "categories": [
+            "Sealed",
+            "Full Body",
+            "Hard",
+            "Hard Full Body",
+            "Powered",
+            "Heavy",
+            "Resistant"
+        ],
+        "encumbrance": "3",
+        "hard_points": "3",
+        "price": "9000",
+        "rarity": "9",
+        "is_restricted": "true",
+        "defense": "1",
+        "soak": "3",
+        "base_mods": [
+            {
+                "key": "ATHL",
+                "count": "1"
+            },
+            {
+                "key": "BR",
+                "count": "1"
+            },
+            {
+                "count": "1",
+                "misc_desc": "Remove [SETBACK][SETBACK] from Perception, Vigilance, and combat checks imposed by darkness, smoke, or similar environmental factors that obscure vision."
+            }
+        ],
+        "sources": [
+            "Dangerous Covenants"
+        ],
+        "image_filename": "POWARMOR.png",
+        "type": "Armor"
+    },
+    {
+        "key": "TAILOREDJACKET",
+        "name": "Tailored Armored Jacket",
+        "description": "Please see page 44 of the Far Horizons Sourcebook for details.",
+        "categories": "Resistant",
+        "encumbrance": "1",
+        "hard_points": "0",
+        "price": "6200",
+        "rarity": "7",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Add [ADVANTAGE] to any successful Charm, Deception, or Negotation checks."
+            }
+        ],
+        "defense": "0",
+        "soak": "2",
+        "sources": [
+            "Far Horizons"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "REINFENVIRO",
+        "name": "Reinforced Environment Gear",
+        "description": "Please see page 44 of the Far Horizons Sourcebook for details.",
+        "categories": "Full Body",
+        "encumbrance": "2",
+        "hard_points": "2",
+        "price": "850",
+        "rarity": "4",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Removes [SETBACK] imposed by environmental conditions."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Add [BOOST] to Resilience checks to resist toxic atmospheres or airborne toxins."
+            }
+        ],
+        "defense": "0",
+        "soak": "1",
+        "sources": [
+            "Far Horizons"
+        ],
+        "image_filename": "REINFENVIRO.png",
+        "type": "Armor"
+    },
+    {
+        "key": "RIOTARMOR",
+        "name": "Mk.IV Riot Armor",
+        "description": "Please see page 44 of the Far Horizons Sourcebook for details.",
+        "categories": [
+            "Full Body",
+            "Hard",
+            "Hard Full Body",
+            "Heavy"
+        ],
+        "encumbrance": "3",
+        "hard_points": "1",
+        "price": "1850",
+        "rarity": "6",
+        "is_restricted": "true",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Built-in breath mask"
+            },
+            {
+                "count": "1",
+                "misc_desc": "Reduce duration of disoriented or staggered results by one round (minimum of one round)."
+            }
+        ],
+        "defense": "1",
+        "soak": "1",
+        "sources": [
+            "Far Horizons"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "WINGCOMMANDER",
+        "name": "A/KT Wing Commander Armored Flight Suit",
+        "description": "Please see page 42 of the Stay on Target Sourcebook for details.",
+        "categories": [
+            "Sealed",
+            "Full Body",
+            "Heavy"
+        ],
+        "defense": "1",
+        "soak": "1",
+        "price": "1500",
+        "encumbrance": "3",
+        "hard_points": "1",
+        "rarity": "6",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Reduces strain received from Critical Hits to the wearer's vehicle by 1 (min 1)."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Reduce damage from fires and weapons with the Burn quality by 1."
+            }
+        ],
+        "sources": [
+            "Stay on Target"
+        ],
+        "image_filename": "WINGCOMMANDER.png",
+        "type": "Armor"
+    },
+    {
+        "key": "RIDINGTACK",
+        "name": "Caballerin-Series Riding Tack",
+        "description": "Please see page 42 of the Stay on Target Sourcebook for details.",
+        "categories": [],
+        "defense": "0",
+        "soak": "0",
+        "price": "250",
+        "encumbrance": "2",
+        "hard_points": "0",
+        "rarity": "4",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "May only be worn by a beast."
+            },
+            {
+                "count": "1",
+                "misc_desc": "May ride a beast without suffering bareback penalty."
+            }
+        ],
+        "sources": [
+            "Stay on Target"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "CAPARIBEAST",
+        "name": "Capari-Series Padded Beast Armor",
+        "description": "Please see page 43 of the Stay on Target Sourcebook for details.",
+        "categories": [
+            "Half Body",
+            "Heavy",
+            "Resistant"
+        ],
+        "defense": "0",
+        "soak": "2",
+        "price": "2500",
+        "encumbrance": "4",
+        "hard_points": "0",
+        "rarity": "5",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "May only be worn by a beast."
+            },
+            {
+                "count": "1",
+                "misc_desc": "May ride a beast without suffering bareback penalty."
+            }
+        ],
+        "sources": [
+            "Stay on Target"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "DESTRIBEAST",
+        "name": "Destri-Series Laminated Beast Armor",
+        "description": "Please see page 43 of the Stay on Target Sourcebook for details.",
+        "categories": [
+            "Heavy",
+            "Full Body",
+            "Hard",
+            "Hard Full Body"
+        ],
+        "defense": "0",
+        "soak": "4",
+        "price": "8500",
+        "encumbrance": "7",
+        "hard_points": "1",
+        "rarity": "7",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "May only be worn by a beast."
+            },
+            {
+                "count": "1",
+                "misc_desc": "May ride a beast without suffering bareback penalty."
+            }
+        ],
+        "sources": [
+            "Stay on Target"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "MEGAFAUNA",
+        "name": "H-Series Megafauna Carriage",
+        "description": "Please see page 43 of the Stay on Target Sourcebook for details.",
+        "categories": "Heavy",
+        "defense": "1",
+        "soak": "0",
+        "price": "5500",
+        "encumbrance": "5",
+        "hard_points": "2",
+        "rarity": "7",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "May only be worn by a beast."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Requires silhouette 3+ and Brawn 5+."
+            },
+            {
+                "count": "1",
+                "misc_desc": "May ride a beast without suffering bareback penalty."
+            }
+        ],
+        "sources": [
+            "Stay on Target"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "HUTTSHELLARMOR",
+        "name": "Hutt Shell Armor",
+        "description": "Please see page 104 of the Lords of Nal Hutta Sourcebook for details.",
+        "categories": [
+            "Sealable",
+            "Full Body",
+            "Hard",
+            "Hard Full Body",
+            "Powered",
+            "Heavy",
+            "Resistant"
+        ],
+        "defense": "2",
+        "soak": "2",
+        "price": "25000",
+        "encumbrance": "6",
+        "hard_points": "4",
+        "rarity": "9",
+        "is_restricted": "true",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "May only be worn by a Hutt."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Allows wearer to hover up to five meters above the ground."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Allows wearer to ignore the affects of Awkward and Ponderous abilities."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Does not have to spend additional maneuvers when navigating difficult terrain."
+            }
+        ],
+        "sources": [
+            "Lords of Nal Hutta"
+        ],
+        "image_filename": "HUTTSHELLARMOR.png",
+        "type": "Armor"
+    },
+    {
+        "key": "SAKSHADOW",
+        "name": "Sakiyan Shadowsuit",
+        "description": "Please see page 105 of the Lords of Nal Hutta Sourcebook for details.",
+        "defense": "0",
+        "soak": "1",
+        "price": "2500",
+        "encumbrance": "1",
+        "hard_points": "1",
+        "rarity": "8",
+        "is_restricted": "false",
+        "categories": "Full Body",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Grants [BOOST][BOOST] to Stealth checks.",
+                "die_modifiers": {
+                    "skill_key": "STEAL",
+                    "boost_count": "2"
+                }
+            }
+        ],
+        "sources": [
+            "Lords of Nal Hutta"
+        ],
+        "image_filename": "SAKSHADOW.png",
+        "type": "Armor"
+    },
+    {
+        "key": "BLASTVEST",
+        "name": "Blast Vest",
+        "description": "Please see page 47 of the Fly Casual Sourcebook for details.",
+        "categories": "Heavy",
+        "encumbrance": "3",
+        "hard_points": "1",
+        "price": "200",
+        "rarity": "3",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Armor gains +2 soak when wearer suffers damage from a slugthrower or other physical projectile."
+            }
+        ],
+        "defense": "0",
+        "soak": "1",
+        "sources": [
+            "Fly Casual"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "MIMETICSUIT",
+        "name": "Mimetic Suit",
+        "description": "Please see page 47 of the Fly Casual Sourcebook for details.",
+        "encumbrance": "2",
+        "hard_points": "2",
+        "price": "8000",
+        "rarity": "8",
+        "is_restricted": "true",
+        "categories": "Full Body",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Upgrade the ability of Stealth checks twice while suit is active.",
+                "die_modifiers": {
+                    "skill_key": "STEAL",
+                    "upgrade_ability_count": "2"
+                }
+            }
+        ],
+        "defense": "1",
+        "soak": "1",
+        "sources": [
+            "Fly Casual"
+        ],
+        "image_filename": "MIMETICSUIT.png",
+        "type": "Armor"
+    },
+    {
+        "key": "SMUGGLERSTRENCHCOAT",
+        "name": "Smuggler's Trenchcoat",
+        "description": "Please see page 47 of the Fly Casual Sourcebook for details.",
+        "encumbrance": "3",
+        "hard_points": "0",
+        "price": "1650",
+        "rarity": "7",
+        "is_restricted": "false",
+        "categories": [
+            "Half Body",
+            "Heavy"
+        ],
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Checks to find anything hidden within a smuggler's trenchcoat are opposed by the Skulduggery of the wearer."
+            },
+            {
+                "count": "1",
+                "misc_desc": "The coat can conceal up to 2 encumbrance worth of items."
+            }
+        ],
+        "defense": "1",
+        "soak": "1",
+        "sources": [
+            "Fly Casual"
+        ],
+        "image_filename": "SMUGGLERSTRENCHCOAT.png",
+        "type": "Armor"
+    },
+    {
+        "key": "BANAL",
+        "name": "Banal Apparel",
+        "description": "Please see page 47 of the Desperate Allies Sourcebook for details.",
+        "defense": "0",
+        "soak": "0",
+        "price": "25",
+        "encumbrance": "0",
+        "hard_points": "0",
+        "rarity": "0",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Opposing characters upgrade the difficulty of checks to identify wearer once."
+            }
+        ],
+        "sources": [
+            "Desperate Allies"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "CARGOCL",
+        "name": "Cargo Clothing",
+        "description": "Please see page 47 of the Desperate Allies Sourcebook for details.[P][I]",
+        "categories": [],
+        "defense": "0",
+        "soak": "0",
+        "price": "30",
+        "encumbrance": "1",
+        "hard_points": "0",
+        "rarity": "0",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "3",
+                "key": "CARRY1"
+            }
+        ],
+        "sources": [
+            "Desperate Allies"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "DIPROBE",
+        "name": "Diplomat's Robes",
+        "description": "Please see page 47 of the Desperate Allies Sourcebook for details.",
+        "defense": "0",
+        "soak": "0",
+        "price": "400",
+        "encumbrance": "2",
+        "hard_points": "0",
+        "rarity": "6",
+        "is_restricted": "false",
+        "categories": "Half Body",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Add [BOOST] to social checks claiming diplomatic authority, accessing classified data, and bypassing normal protocol."
+            }
+        ],
+        "sources": [
+            "Desperate Allies"
+        ],
+        "image_filename": "DIPROBE.png",
+        "type": "Armor"
+    },
+    {
+        "key": "FLAREJACK",
+        "name": "Flare Jacket",
+        "description": "Please see page 48 of the Desperate Allies Sourcebook for details.",
+        "categories": "Heavy",
+        "defense": "0",
+        "soak": "1",
+        "price": "1500",
+        "encumbrance": "3",
+        "hard_points": "0",
+        "rarity": "8",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Once per encounter, can trigger flare charge. Everyone in short range makes [B]Hard ([DI][DI][DI]) Vigilance check[b]. Fail means staggered for 1 round, plus 1 round per [TH][TH][TH]."
+            }
+        ],
+        "sources": [
+            "Desperate Allies"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "HAULHARN",
+        "name": "Hauling Harness",
+        "description": "Please see page 48 of the Desperate Allies Sourcebook for details.",
+        "categories": "Heavy",
+        "defense": "1",
+        "soak": "1",
+        "price": "1000",
+        "encumbrance": "3",
+        "hard_points": "2",
+        "rarity": "6",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "key": "ENCTADD",
+                "count": "6"
+            },
+            {
+                "count": "1",
+                "misc_desc": "Upgrade difficulty of combat checks twice.",
+                "die_modifiers": [
+                    {
+                        "skill_type": "Combat",
+                        "upgrade_difficulty_count": "2"
+                    }
+                ]
+            }
+        ],
+        "sources": [
+            "Desperate Allies"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "HOLOCOST",
+        "name": "Holographic Costume",
+        "description": "Please see page 48 of the Desperate Allies Sourcebook for details.",
+        "defense": "1",
+        "soak": "0",
+        "price": "750",
+        "encumbrance": "2",
+        "hard_points": "0",
+        "rarity": "8",
+        "is_restricted": "false",
+        "categories": "Full Body",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "[B]Easy ([DI]) Computers check to record new garment, [B]Daunting ([DI][DI][DI][DI]) Computers check[b] to record facsimile of garment."
+            }
+        ],
+        "sources": [
+            "Desperate Allies"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "LECOUT",
+        "name": "Lector's Outfit",
+        "description": "Please see page 48 of the Desperate Allies Sourcebook for details.",
+        "categories": [],
+        "defense": "0",
+        "soak": "1",
+        "price": "525",
+        "encumbrance": "2",
+        "hard_points": "1",
+        "rarity": "6",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Add [BO] to social checks involving large groups of listeners."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Can be heard clearly at considerable range."
+            }
+        ],
+        "sources": [
+            "Desperate Allies"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "NOBREG",
+        "name": "Noble Regalia",
+        "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
+        "categories": "Half Body",
+        "defense": "0",
+        "soak": "0",
+        "price": "750",
+        "encumbrance": "1",
+        "hard_points": "3",
+        "rarity": "7",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Downgrade difficulty of social checks to interact with nobility or subordinates once."
+            }
+        ],
+        "sources": [
+            "Desperate Allies"
+        ],
+        "image_filename": "NOBREG.png",
+        "type": "Armor"
+    },
+    {
+        "key": "PERFATT",
+        "name": "Performer's Attire",
+        "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
+        "categories": [],
+        "defense": "0",
+        "soak": "0",
+        "price": "50",
+        "encumbrance": "0",
+        "hard_points": "0",
+        "rarity": "4",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Add [BO] to checks to perform or attract attention."
+            }
+        ],
+        "sources": [
+            "Desperate Allies"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "POWCAPARM",
+        "name": "Powered Capacitive Armor",
+        "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
+        "defense": "1",
+        "soak": "1",
+        "price": "3000",
+        "encumbrance": "4",
+        "hard_points": "2",
+        "rarity": "8",
+        "is_restricted": "true",
+        "categories": [
+            "Full Body",
+            "Powered",
+            "Heavy"
+        ],
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "As maneuver, power up and add +1 defense and +1 soak, but lose free maneuver."
+            }
+        ],
+        "sources": [
+            "Desperate Allies"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "RESPROBES",
+        "name": "Resplendent Robes",
+        "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
+        "defense": "0",
+        "soak": "1",
+        "price": "500",
+        "encumbrance": "2",
+        "hard_points": "0",
+        "rarity": "5",
+        "is_restricted": "false",
+        "categories": "Half Body",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "If wearer draws attention to himself, allies in medium range add [BO] to Perception, Skulduggery, and Stealth checks."
+            }
+        ],
+        "sources": [
+            "Desperate Allies"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "SECSKIN",
+        "name": "Second Skin Armor",
+        "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
+        "defense": "1",
+        "soak": "1",
+        "price": "2000",
+        "encumbrance": "2",
+        "hard_points": "0",
+        "rarity": "7",
+        "is_restricted": "false",
+        "categories": "Full Body",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Add [SE][SE] to Perception checks to notice second skin armor on the wearer."
+            }
+        ],
+        "sources": [
+            "Desperate Allies"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "BODYSUIT",
+        "name": "Polis Masson Bodysuit",
+        "description": "Please see page 109 of the Strongholds of Resistance Sourcebook for details.",
+        "defense": "0",
+        "soak": "1",
+        "price": "300",
+        "encumbrance": "1",
+        "hard_points": "1",
+        "rarity": "6",
+        "is_restricted": "false",
+        "categories": "Full Body",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Includes a head-mounted multidirectional glow rod."
+            },
+            {
+                "key": "ENCTADD",
+                "count": "1"
+            }
+        ],
+        "sources": [
+            "Strongholds of Resistance"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "LEVPOWARM",
+        "name": "Leviathan Power Armor",
+        "description": "Please see page 109 of the Strongholds of Resistance Sourcebook for details.",
+        "categories": [
+            "Sealed",
+            "Hard Full Body",
+            "Hard",
+            "Full Body",
+            "Powered",
+            "Heavy",
+            "Resistant"
+        ],
+        "defense": "2",
+        "soak": "2",
+        "price": "15000",
+        "encumbrance": "8",
+        "hard_points": "1",
+        "rarity": "8",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "misc_desc": "Includes a built-in respirator",
+                "count": "1"
+            },
+            {
+                "misc_desc": "Includes a built-in Mini-Torpedo Launcher",
+                "count": "1"
+            },
+            {
+                "misc_desc": "Includes a built-in DF-D1 Duo-Flechette Rifle",
+                "count": "1"
+            },
+            {
+                "misc_desc": "Reduces the difficulty of Resilience checks made to resist the effects extreme cold by one. Removes up to [SETBACK][SETBACK] added to checks due to extreme cold.",
+                "count": "1"
+            },
+            {
+                "misc_desc": "Removes up to [SETBACK][SETBACK] added to all Perception, Vigilance, and combat skill checks due to darkness, smoke, or other environmental effects that obscure vision.",
+                "count": "1"
+            },
+            {
+                "key": "BR",
+                "count": "1"
+            }
+        ],
+        "weapon_modifiers": [
+            {
+                "unarmed": "false",
+                "unarmed_name": "Mini-Torpedo Launcher (Built-in)",
+                "skill_key": "RANGHVY",
+                "all_skill_key": null,
+                "damage": "8",
+                "damage_add": "0",
+                "crit": "2",
+                "crit_sub": "0",
+                "range_value": "wrLong",
+                "qualities": [
+                    {
+                        "key": "BLAST",
+                        "count": "6"
+                    },
+                    {
+                        "key": "CUMBERSOME",
+                        "count": "2"
+                    },
+                    {
+                        "key": "LIMITEDAMMO",
+                        "count": "2"
+                    }
+                ],
+                "base_mods": [
+                    {
+                        "count": "1",
+                        "misc_desc": "All combat checks to operate outside of water have their difficulty upgraded twice."
+                    }
+                ]
+            },
+            {
+                "unarmed": "false",
+                "unarmed_name": "DF-D1 Duo-Flechette Rifle (Built-in)",
+                "skill_key": "RANGHVY",
+                "all_skill_key": null,
+                "damage": "9",
+                "damage_add": "0",
+                "crit": "3",
+                "crit_sub": "0",
+                "range_value": "wrShort",
+                "qualities": [
+                    {
+                        "key": "BLAST",
+                        "count": "4"
+                    },
+                    {
+                        "key": "LIMITEDAMMO",
+                        "count": "5"
+                    },
+                    {
+                        "key": "LINKED",
+                        "count": "1"
+                    },
+                    {
+                        "key": "VICIOUS",
+                        "count": "2"
+                    }
+                ]
+            }
+        ],
+        "sources": [
+            "Strongholds of Resistance"
+        ],
+        "image_filename": "LEVPOWARM.png",
+        "type": "Armor"
+    },
+    {
+        "key": "VERPFIBUARM",
+        "name": "Verpine Fiber Ultramesh Armor",
+        "description": "Please see page 109 of the Strongholds of Resistance Sourcebook for details.",
+        "defense": "0",
+        "soak": "1",
+        "price": "3000",
+        "encumbrance": "3",
+        "hard_points": "2",
+        "rarity": "5",
+        "is_restricted": "false",
+        "categories": [
+            "Full Body",
+            "Heavy"
+        ],
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Armor may be powered up/down as a maneuver.  While powered up, gain +2 defenses. [AD][AD] or [TR] from hostile Combat check can cause armor to run out of power.  Cannot be powered up again until end of encounter."
+            }
+        ],
+        "sources": [
+            "Strongholds of Resistance"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "CRESHARMOR",
+        "name": "Cresh \"Luck\" Armor",
+        "description": "Please see page 47 of the Keeping the Peace Sourcebook for details.",
+        "encumbrance": "4",
+        "hard_points": "1",
+        "price": "1000",
+        "rarity": "5",
+        "is_restricted": "false",
+        "categories": [
+            "Half Body",
+            "Hard",
+            "Heavy",
+            "Resistant"
+        ],
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Add automatic [AD] to Vigilance checks.",
+                "die_modifiers": [
+                    {
+                        "skill_key": "VIGIL",
+                        "advantage_count": "1"
+                    }
+                ]
+            }
+        ],
+        "weapon_modifiers": [],
+        "defense": "0",
+        "soak": "2",
+        "sources": [
+            "Keeping the Peace"
+        ],
+        "image_filename": "CRESHARMOR.png",
+        "type": "Armor"
+    },
+    {
+        "key": "JEDIBA",
+        "name": "Jedi Battle Armor",
+        "description": "Please see page 47 of the Keeping the Peace Sourcebook for details.",
+        "categories": [
+            "Sealable",
+            "Hard Full Body",
+            "Hard",
+            "Full Body",
+            "Heavy",
+            "Resistant"
+        ],
+        "encumbrance": "5",
+        "hard_points": "5",
+        "price": "7500",
+        "rarity": "9",
+        "is_restricted": "true",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Wearing Jedi Battle Armor fitted for someone else adds [SE][SE] to all combat checks."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Fitting to new wearer requires a [B]Hard ([DI][DI][DI]) Mechanics check[b] and an hour to complete."
+            }
+        ],
+        "defense": "1",
+        "soak": "2",
+        "sources": [
+            "Keeping the Peace"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "JEDITEMGUAARM",
+        "name": "Jedi Temple Guard Armor",
+        "description": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
+        "encumbrance": "4",
+        "hard_points": "3",
+        "price": "12000",
+        "rarity": "10",
+        "is_restricted": "true",
+        "categories": [
+            "Half Body",
+            "Heavy"
+        ],
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Contains helmet comlink."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Contains integrated scanner."
+            }
+        ],
+        "weapon_modifiers": [],
+        "defense": "2",
+        "soak": "1",
+        "sources": [
+            "Keeping the Peace"
+        ],
+        "image_filename": "JEDITEMGUAARM.png",
+        "type": "Armor"
+    },
+    {
+        "key": "JEDITRAINSUITW",
+        "name": "Jedi Training Suit (Weighted)",
+        "description": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
+        "encumbrance": "6",
+        "hard_points": "0",
+        "price": "400",
+        "rarity": "9",
+        "is_restricted": "true",
+        "categories": [
+            "Half Body",
+            "Heavy",
+            "Resistant"
+        ],
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Removing weights requires an [B]Easy ([DI]) Mechanics check[b]."
+            }
+        ],
+        "weapon_modifiers": [],
+        "defense": "0",
+        "soak": "2",
+        "sources": [
+            "Keeping the Peace"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "JEDITRAINSUIT",
+        "name": "Jedi Training Suit (Unweighted)",
+        "description": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
+        "categories": [
+            "Half Body",
+            "Heavy",
+            "Resistant"
+        ],
+        "encumbrance": "4",
+        "hard_points": "0",
+        "price": "400",
+        "rarity": "9",
+        "is_restricted": "true",
+        "base_mods": [],
+        "weapon_modifiers": [],
+        "defense": "0",
+        "soak": "2",
+        "sources": [
+            "Keeping the Peace"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "KAVDANNPA",
+        "name": "Kav-Dann Power Armor",
+        "description": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
+        "categories": [
+            "Sealed",
+            "Hard Full Body",
+            "Hard",
+            "Full Body",
+            "Powered",
+            "Heavy",
+            "Resistant"
+        ],
+        "encumbrance": "4",
+        "hard_points": "6",
+        "price": "13500",
+        "rarity": "7",
+        "is_restricted": "true",
+        "base_mods": [
+            {
+                "key": "BR",
+                "count": "1"
+            },
+            {
+                "count": "1",
+                "misc_desc": "Remove [SE] caused by darkness, smoke, or other environmental factors that might affect vision from Perception, Vigilance, and Combat checks."
+            },
+            {
+                "key": null,
+                "count": "1",
+                "misc_desc": "Gain [BO] to resist the effects of radiation."
+            }
+        ],
+        "weapon_modifiers": [],
+        "defense": "2",
+        "soak": "2",
+        "sources": [
+            "Keeping the Peace"
+        ],
+        "image_filename": "KAVDANNPA.png",
+        "type": "Armor"
+    },
+    {
+        "key": "KOROHALFVEST",
+        "name": "Koromondian Half-Vest",
+        "description": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
+        "categories": "Heavy",
+        "encumbrance": "3",
+        "hard_points": "0",
+        "price": "500",
+        "rarity": "5",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "When wearer suffers Critical Injury, armor suffers minor damage, or increases current damage by one step."
+            }
+        ],
+        "defense": "1",
+        "soak": "1",
+        "sources": [
+            "Keeping the Peace"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "RIOTARM",
+        "name": "Riot Armor",
+        "description": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
+        "categories": [
+            "Half Body",
+            "Heavy",
+            "Resistant"
+        ],
+        "encumbrance": "3",
+        "hard_points": "2",
+        "price": "950",
+        "rarity": "4",
+        "is_restricted": "false",
+        "base_mods": [],
+        "weapon_modifiers": [],
+        "defense": "0",
+        "soak": "2",
+        "sources": [
+            "Keeping the Peace"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "CLOAKCOAT",
+        "name": "Cloaking Coat",
+        "description": "Please see page 47 of the Special Modifications Sourcebook for details.",
+        "categories": "Full Body",
+        "defense": "0",
+        "soak": "1",
+        "price": "550",
+        "encumbrance": "4",
+        "hard_points": "1",
+        "rarity": "8",
+        "is_restricted": "true",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Upgrade difficulty of checks to detect an individual wearing a cloaking coat using sensors or electronics twice. Droids with Intellect less than wearer's ranks in Computers are similarly affected."
+            }
+        ],
+        "sources": [
+            "Special Modifications"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "MECHUTILSUIT",
+        "name": "Mechanic's Utility Suit",
+        "description": "Please see page 48 of the Special Modifications Sourcebook for details.",
+        "categories": "Full Body",
+        "defense": "0",
+        "soak": "2",
+        "price": "1175",
+        "encumbrance": "5",
+        "hard_points": "1",
+        "rarity": "3",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Counts as having a tool kit."
+            }
+        ],
+        "sources": [
+            "Special Modifications"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "N57",
+        "name": "N-57 Armor",
+        "description": "Please see page 48 of the Special Modifications Sourcebook for details.",
+        "categories": [
+            "Sealable",
+            "Full Body",
+            "Hard Full Body",
+            "Hard",
+            "Heavy",
+            "Resistant",
+            "Powered"
+        ],
+        "defense": "0",
+        "soak": "2",
+        "price": "3000",
+        "encumbrance": "5",
+        "hard_points": "5",
+        "rarity": "6",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "As a maneuver, may recharge energy weapon that has run out of ammo."
+            }
+        ],
+        "sources": [
+            "Special Modifications"
+        ],
+        "image_filename": "N57.png",
+        "type": "Armor"
+    },
+    {
+        "key": "P14",
+        "name": "P-14 Hazardous Industry Suit",
+        "description": "Please see page 48 of the Special Modifications Sourcebook for details.",
+        "categories": [
+            "Full Body",
+            "Heavy",
+            "Resistant",
+            "Sealed"
+        ],
+        "defense": "0",
+        "soak": "2",
+        "price": "1000",
+        "encumbrance": "7",
+        "hard_points": "2",
+        "rarity": "4",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Counts as wearing a breath mask."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Add [BO][BO] to [B]Resilience checks[b] to resist heat, cold, radiation, or other hostile environmental conditions."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Wearer does not suffer effects of Burn or Disorient qualities."
+            },
+            {
+                "count": "1",
+                "misc_desc": "When suffering strain to take an extra maneuver, suffer 1 additional strain."
+            }
+        ],
+        "sources": [
+            "Special Modifications"
+        ],
+        "image_filename": "P14.png",
+        "type": "Armor"
+    },
+    {
+        "key": "ANIPRO",
+        "name": "AniPro Layered Beast Armor",
+        "description": "Please see page 44 of the Savage Spirits Sourcebook for details.",
+        "categories": "Half Body",
+        "defense": "1",
+        "soak": "1",
+        "price": "2500",
+        "encumbrance": "4",
+        "hard_points": "0",
+        "rarity": "5",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "May only be worn by a beast."
+            },
+            {
+                "count": "1",
+                "misc_desc": "May ride a beast without suffering bareback penalty."
+            }
+        ],
+        "sources": [
+            "Savage Spirits"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "CHITIN",
+        "name": "Chitin Armor",
+        "description": "Please see page 45 of the Savage Spirits Sourcebook for details.",
+        "categories": "Hard",
+        "defense": "0",
+        "soak": "2",
+        "price": "600",
+        "encumbrance": "4",
+        "hard_points": "1",
+        "rarity": "6",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Add [ADVANTAGE] to Coercion checks and [THREAT] to Charm checks. ",
+                "die_modifiers": [
+                    {
+                        "skill_key": "COERC",
+                        "advantage_count": "1"
+                    },
+                    {
+                        "skill_key": "CHARM",
+                        "threat_count": "1"
+                    }
+                ]
+            }
+        ],
+        "sources": [
+            "Savage Spirits"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "SURVIVALARMOR",
+        "name": "Survivalist Armor",
+        "description": "Please see page 45 of the Savage Spirits Sourcebook for details.",
+        "categories": "Full Body",
+        "defense": "0",
+        "soak": "1",
+        "price": "350",
+        "encumbrance": "3",
+        "hard_points": "2",
+        "rarity": "6",
+        "is_restricted": "false",
+        "base_mods": [
+            {
+                "key": "ENCTADD",
+                "count": "1"
+            }
+        ],
+        "sources": [
+            "Savage Spirits"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "ALLIANCELTSTEALTH",
+        "name": "Alliance Light Stealth Armor",
+        "description": "Please see page 49 of the Forged in Battle Sourcebook for details.",
+        "categories": [
+            "Sealable",
+            "Full Body",
+            "Hard Full Body",
+            "Hard",
+            "Resistant"
+        ],
+        "encumbrance": "3",
+        "hard_points": "2",
+        "price": "2200",
+        "rarity": "7",
+        "is_restricted": "true",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Adds [BO] to the wearer's Stealth checks.",
+                "die_modifiers": {
+                    "skill_key": "STEAL",
+                    "boost_count": "1"
+                }
+            }
+        ],
+        "soak": "2",
+        "sources": [
+            "Forged in Battle"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "IMPHAZARD",
+        "name": "Imperial Hazard Trooper Armor",
+        "description": "Please see page 49 of the Forged in Battle Sourcebook for details.",
+        "categories": [
+            "Full Body",
+            "Hard Full Body",
+            "Hard",
+            "Heavy",
+            "Powered",
+            "Sealed",
+            "Resistant"
+        ],
+        "encumbrance": "4",
+        "hard_points": "3",
+        "price": "18000",
+        "rarity": "8",
+        "is_restricted": "true",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Remove [SE][SE] due to darkness, smoke or similar environmental factors that obscure vision from the wearer's Perception, Vigilance, and combat checks."
+            }
+        ],
+        "soak": "3",
+        "sources": [
+            "Forged in Battle"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "IMPSTORMCOMM",
+        "name": "Imperial Storm Commando Armor",
+        "description": "Please see page 49 of the Forged in Battle Sourcebook for details.",
+        "categories": [
+            "Sealable",
+            "Full Body",
+            "Hard Full Body",
+            "Hard",
+            "Heavy",
+            "Resistant"
+        ],
+        "encumbrance": "4",
+        "hard_points": "4",
+        "price": "5000",
+        "rarity": "9",
+        "is_restricted": "true",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Helmet is equipped with macrobinoculars, scanner goggles, and a comlink."
+            },
+            {
+                "count": "1",
+                "misc_desc": "While wearing storm commando armor, a character removes [SE] due to darkness, smoke, or similar environmental factors that obscure vision from all Perception, Vigilance, and combat checks."
+            },
+            {
+                "count": "1",
+                "misc_desc": "Adds [SE] to other characters' Perception checks to detect the wearer."
+            }
+        ],
+        "soak": "2",
+        "sources": [
+            "Forged in Battle"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "REBELHEAVY",
+        "name": "Rebel Heavy Battle Armor",
+        "description": "Please see page 50 of the Forged in Battle Sourcebook for details.",
+        "categories": [
+            "Full Body",
+            "Hard Full Body",
+            "Hard",
+            "Resistant"
+        ],
+        "encumbrance": "5",
+        "hard_points": "5",
+        "price": "6000",
+        "rarity": "8",
+        "is_restricted": "true",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Equipped with a helmet-fitted breath mask and respirator."
+            }
+        ],
+        "defense": "1",
+        "soak": "2",
+        "sources": [
+            "Forged in Battle"
+        ],
+        "image_filename": "REBELHEAVY.png",
+        "type": "Armor"
+    },
+    {
+        "key": "THINSUIT",
+        "name": "Karflo Thinsuit",
+        "description": "Please see page 50 of the Forged in Battle Sourcebook for details.",
+        "categories": [
+            "Full Body",
+            "Resistant"
+        ],
+        "price": "1200",
+        "rarity": "6",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Remove [SE][SE] from checks imposed by environment in which the user is currently operating."
+            }
+        ],
+        "soak": "1",
+        "sources": [
+            "Forged in Battle"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "CRASHGEAR",
+        "name": "Crash Gear",
+        "description": "Please see page 43 of the Endless Vigil Sourcebook for details.",
+        "categories": [
+            "Full Body",
+            "Resistant"
+        ],
+        "encumbrance": "1",
+        "hard_points": "1",
+        "price": "550",
+        "rarity": "3",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Wearer ignores the effects of ongoing Critical Injuries on any Intellect- or Cunning-related checks, but still suffers from the injuries."
+            }
+        ],
+        "soak": "1",
+        "sources": [
+            "Endless Vigil"
+        ],
+        "image_filename": "CRASHGEAR.png",
+        "type": "Armor"
+    },
+    {
+        "key": "GSUIT",
+        "name": "G-Suit",
+        "description": "Please see page 44 of the Endless Vigil Sourcebook for details.",
+        "categories": [
+            "Full Body",
+            "Resistant"
+        ],
+        "encumbrance": "2",
+        "hard_points": "1",
+        "price": "2000",
+        "rarity": "3",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Wearer reduces strain cost to perfrom a second Pilot Only maneuver by 1."
+            }
+        ],
+        "soak": "1",
+        "sources": [
+            "Endless Vigil"
+        ],
+        "image_filename": "GSUIT.png",
+        "type": "Armor"
+    },
+    {
+        "key": "PITCREWCOV",
+        "name": "Pit Crew Coveralls",
+        "description": "Please see page 44 of the Endless Vigil Sourcebook for details.",
+        "categories": "Full Body",
+        "encumbrance": "1",
+        "hard_points": "1",
+        "price": "150",
+        "rarity": "2",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Reduce damage from fires and weapons with the Burn quality by 1."
+            },
+            {
+                "key": "ENCTADD",
+                "count": "1"
+            }
+        ],
+        "soak": "1",
+        "sources": [
+            "Endless Vigil"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "ZEPHYRSTEALTH",
+        "name": "Zephyr Stealth Suit",
+        "description": "Please see page 44 of the Endless Vigil Sourcebook for details.",
+        "categories": "Full Body",
+        "encumbrance": "2",
+        "hard_points": "1",
+        "price": "5500",
+        "rarity": "8",
+        "is_restricted": "true",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Wearer upgrades the ability of any Stealth check once.",
+                "die_modifiers": [
+                    {
+                        "skill_key": "STEAL",
+                        "upgrade_ability_count": "1"
+                    }
+                ]
+            }
+        ],
+        "defense": "1",
+        "soak": "1",
+        "sources": [
+            "Endless Vigil"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "HUNTTROPHARM",
+        "name": "Hunter's Trophy Armor",
+        "description": "Please see page 49 of the No Disintegrations Sourcebook for details. [P][I]Note:  If making your own suit from owned hides, price/rarity drops to 1000/6.[i]",
+        "categories": "Half Body",
+        "encumbrance": "4",
+        "hard_points": "1",
+        "price": "2000",
+        "rarity": "9",
+        "is_restricted": "true",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "Wearer suffers [SE] to Charm checks.",
+                "die_modifiers": [
+                    {
+                        "skill_key": "CHARM",
+                        "add_setback_count": "1"
+                    }
+                ]
+            },
+            {
+                "count": "1",
+                "misc_desc": "Wearer gains [BO][BO] to Coercion checks due to armor's intimidating appearance.",
+                "die_modifiers": [
+                    {
+                        "skill_key": "COERC",
+                        "boost_count": "2"
+                    }
+                ]
+            }
+        ],
+        "soak": "2",
+        "sources": [
+            "No Disintegrations"
+        ],
+        "image_filename": "missing.png",
+        "type": "Armor"
+    },
+    {
+        "key": "ARMDROPSUIT",
+        "name": "Armored Drop Suit",
+        "description": "Please see page 49 of the No Disintegrations Sourcebook for details. [P][I]Note:  A vehicle version of this armor exists with the same name.[i]",
+        "categories": [
+            "Full Body",
+            "Hard",
+            "Hard Full Body",
+            "Powered",
+            "Resistant",
+            "Sealable",
+            "Heavy"
+        ],
+        "encumbrance": "6",
+        "hard_points": "2",
+        "price": "7500",
+        "rarity": "7",
+        "base_mods": [
+            {
+                "count": "1",
+                "misc_desc": "While conscious and flight systems are engaged, wearer cannot suffer falling damage."
+            }
+        ],
+        "defense": "1",
+        "soak": "1",
+        "sources": [
+            "No Disintegrations"
+        ],
+        "image_filename": "ARMDROPSUIT.png",
+        "type": "Armor"
+    },
+    {
+        "key": "MANDOARM",
+        "name": "Mandalorian Armor",
+        "description": "Please see page 50 of the No Disintegrations Sourcebook for details.",
+        "categories": [
+            "Full Body",
+            "Hard Full Body",
+            "Heavy",
+            "Sealable",
+            "Hard"
+        ],
+        "encumbrance": "6",
+        "hard_points": "5",
+        "price": "6000",
+        "rarity": "8",
+        "is_restricted": "true",
+        "defense": "1",
+        "soak": "2",
+        "sources": [
+            "No Disintegrations"
+        ],
+        "image_filename": "MANDOARM.png",
+        "type": "Armor"
+    }
 ]
