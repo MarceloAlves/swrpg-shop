@@ -2,13 +2,41 @@
 .container.my-5.pb-5
   = simple_form_for :shop, url: shops_path do |f|
     .form-group.row
-      label.col-sm-2.col-form-label Shop Type
+      label.col-sm-2.col-form-label
+        | Shop Type
+        a.ml-1[href="#shop_type_help" data-toggle="collapse"]
+         i.fa.fa-question-circle-o
       .col-sm-10
         = f.input :shop_type, collection: ['On The Level', 'Shady', 'Black Market'], label: false, selected: 'On The Level', input_html: { class: 'form-control' }
+    div#shop_type_help.collapse.mb-4.p-3.bg-light
+      p Selects the shop type which modifies the chance of finding restricted items.
+      dl.row
+        dt.col-sm-3 On The Level
+        dd.col-sm-9 The chance of finding restricted items or lightsabers is extremely rare.
+        dt.col-sm-3 Shady
+        dd.col-sm-9 Plenty of restricted items and the occasional lightsaber. Prices tend to be a bit more expensive.
+        dt.col-sm-3 Black Market
+        dd.col-sm-9 Most everything can be found...for a price.
     .form-group.row
-      label.col-sm-2.col-form-label Shop Specialization
+      label.col-sm-2.col-form-label
+        | Specialization
+        a.ml-1[href="#shop_specialization_help" data-toggle="collapse"]
+         i.fa.fa-question-circle-o
       .col-sm-10
         = f.input :specialized_shop, collection: SpecializedShop.all, label: false, include_blank: false, input_html: { class: 'form-control' }
+    div#shop_specialization_help.collapse.mb-4.p-3.bg-light
+      p Selects the shop specialization which limits the types of items that will be shown
+      dl.row
+        dt.col-sm-3 Armor Shop
+        dd.col-sm-9 Armor attachments and clothing
+        dt.col-sm-3 Gear Shop
+        dd.col-sm-9 All types of gear include Cybernetics, Droids, and Tools
+        dt.col-sm-3 General Store
+        dd.col-sm-9 A little bit of everything
+        dt.col-sm-3 The Scruffy Nerfherder
+        dd.col-sm-9 Drugs and Consumables
+        dt.col-sm-3 Weapons Shop
+        dd.col-sm-9 For all your weapon needs
     .form-group.row
       label.col-sm-2.col-form-label Boost Dice
       .col-sm-10
