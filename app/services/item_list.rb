@@ -69,7 +69,10 @@ class ItemList
       end
       @shop_list = @sized_shop
     end
-    @shop_list[:items].keys.each { |item_type| @shop_list[:items][item_type].sort_by! { |i| i['name'].downcase } }
+    @shop_list[:items].keys.each do |item_type|
+      @shop_list[:items][item_type].compact!
+      @shop_list[:items][item_type].sort_by! { |i| i['name'].downcase }
+    end
   end
 
   private
