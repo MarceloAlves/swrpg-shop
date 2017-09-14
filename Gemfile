@@ -31,6 +31,10 @@ gem 'simple_form'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'capybara'
+  gem 'chromedriver-helper'
+  gem 'rspec-rails', '~> 3.6'
+  gem 'selenium-webdriver'
 end
 
 group :production do
