@@ -9,7 +9,7 @@
   },
   {
     "name": "General Store",
-    "item_types": ["Ancient Talismans","Communications","Drugs and Consumables","Cybernetics","Detection Devices","Droids","Field Equipment","Medical","Poison","Recreational","Security","Storage","Survival","Tools","Uniforms","Brawl","Gunnery","Lightsaber","Mechanics","Melee","Ranged (Heavy)","Ranged (Light)","Armor Attachment","Lightsaber Attachment","Weapon Attachment","Armor","Clothing"]
+    "item_types": ["Ancient Talismans","Armor","Armor Attachment","Brawl","Clothing","Communications","Cybernetics","Detection Devices","Droids","Drugs and Consumables","Energy Weapon","Explosives/Other","Field Equipment","Gunnery","Lightsaber","Lightsaber Attachment","Mechanics","Medical","Melee","Poison","Recreational","Security","Slugthrower","Storage","Survival","Thrown","Tool","Tools","Uniforms","Weapon Attachment"]
   },
   {
     "name": "The Scruffy Nerfherder",
@@ -17,6 +17,6 @@
   },
   {
     "name": "Weapons Shop",
-    "item_types": ["Brawl","Gunnery","Lightsaber","Mechanics","Melee","Ranged (Heavy)","Ranged (Light)","Lightsaber Attachment","Weapon Attachment"]
+    "item_types": ["Brawl","Energy Weapon","Explosives/Other","Gunnery","Lightsaber","Lightsaber Attachment","Mechanics","Melee","Slugthrower","Thrown","Tool","Weapon Attachment"]
   }
 ]

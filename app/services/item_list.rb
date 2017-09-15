@@ -4,7 +4,7 @@ class ItemList
   def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world:, min_size: 0, max_size: 1_000, specialized_shop:, sources: [])
     @world = World.find(world)
     @specialized_shop = SpecializedShop.find(specialized_shop)
-    @item_list = build_item_list
+    @item_list = build_item_list(@specialized_shop.item_types, sources)
     @shop_modifiers = shop_types[shop_type]
     @dice_pool = DicePool.new(skill_level: skill_level.to_i, characteristic_level: characteristic_level.to_i, number_boost_dice: boost_dice.to_i, number_setback_dice: setback_dice.to_i)
     @shop_info = { shop_type: shop_type, dice_pool: @dice_pool.dice_counts, characteristic_level: characteristic_level.to_i, skill_level: skill_level.to_i, world: @world.as_json, specialized_shop: @specialized_shop.as_json }
@@ -16,13 +16,10 @@ class ItemList
   def randomize
     @item_list.keys.each do |item_type|
       @item_list[item_type].each do |item|
-        next unless item.fetch('sources', []).any? { |i| @sources.include? i }
-        shop_type_modifier = if item.fetch('is_restricted', nil)
+        shop_type_modifier = if item.dig('type') == 'Lightsaber' || item.dig('skill_key') == 'LTSABER'
+                               @shop_modifiers.fetch('lightsaber')
+                             elsif item.dig('is_restricted')
                                @shop_modifiers.fetch('restricted')
-                             elsif item.fetch('type', item.fetch('type', nil)) == 'Lightsaber'
-                               @shop_modifiers.fetch('lightsaber')
-                             elsif item.fetch('skill_key', nil) == 'LTSABER'
-                               @shop_modifiers.fetch('lightsaber')
                              else
                                @shop_modifiers.fetch('nonrestricted')
                              end
@@ -31,30 +28,28 @@ class ItemList
         roll_total[0] += shop_type_modifier
 
         # This is set in settings
-        advantage_value = 0
-        triumph_value = 1
-        # specialization_modifier = 0
-        should_markup = false
+        # advantage_value = 0
+        # triumph_value = 1
+        should_markup = true
         advantage_discount = 5
         triumph_discount = 10
 
-        specialization_modifier = @specialized_shop.item_types.include?(item.fetch('type')) ? 0 : -10
+        next unless roll_total[0] > 1
 
-        if roll_total[0] + (roll_total[1] * advantage_value) + (roll_total[2] * triumph_value) + specialization_modifier > 0
-          if should_markup
-            triumph_markup   = -1 * roll_total[1] * triumph_discount
-            advantage_markup = -1 * roll_total[2] * advantage_discount
-          else
-            triumph_markup   = 0
-            advantage_markup = 0
-          end
-
-          markup = (@shop_modifiers['max'] - @shop_modifiers['min'] + 1) + @shop_modifiers['min']
-          new_price = (@world.price_modifier * item.fetch('price')) * (1 + ((markup + advantage_markup + triumph_markup) / 100.0 ))
-          item['price'] = new_price.round
-
-          @shop_list[:items][item_type] << item
+        # if roll_total[0] + (roll_total[1] * advantage_value) + (roll_total[2] * triumph_value) > 0
+        if should_markup
+          triumph_markup   = -1 * roll_total[1] * triumph_discount
+          advantage_markup = -1 * roll_total[2] * advantage_discount
+        else
+          triumph_markup   = 0
+          advantage_markup = 0
         end
+
+        markup = (@shop_modifiers['max'] - @shop_modifiers['min'] + 1) + @shop_modifiers['min']
+        new_price = (@world.price_modifier * item.fetch('price')) * (1 + ((markup + advantage_markup + triumph_markup) / 100.0 ))
+        item['price'] = new_price.round
+
+        @shop_list[:items][item_type] << item
       end
     end
 
@@ -69,6 +64,7 @@ class ItemList
       end
       @shop_list = @sized_shop
     end
+
     @shop_list[:items].keys.each do |item_type|
       @shop_list[:items][item_type].compact!
       @shop_list[:items][item_type].sort_by! { |i| i['name'].downcase }
@@ -77,13 +73,13 @@ class ItemList
 
   private
 
-  def build_item_list
+  def build_item_list(item_types, sources)
     {
-      armor: Armor.all.shuffle.as_json,
-      gear: Gear.all.shuffle.as_json,
-      item_attachments: ItemAttachment.all.shuffle.as_json,
-      weapons: Weapon.all.shuffle.as_json
-  }.freeze
+      armor: Armor.where(type: item_types).where('sources && ARRAY[?]::text[]', sources).shuffle.as_json,
+      gear: Gear.where(type: item_types).where('sources && ARRAY[?]::text[]', sources).shuffle.as_json,
+      item_attachments: ItemAttachment.where(type: item_types).where('sources && ARRAY[?]::text[]', sources).shuffle.as_json,
+      weapons: Weapon.where(type: item_types).where('sources && ARRAY[?]::text[]', sources).shuffle.as_json
+    }.freeze
   end
 
   def shop_types

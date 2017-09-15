@@ -2,12 +2,12 @@
   "source_books": [
     {
       "collection": "Age of Rebellion",
-      "title": "Age of Rebellion: Beginner's Guide",
+      "title": "Age of Rebellion Beginner's Guide",
       "key": "AoR-BGR"
     },
     {
       "collection": "Age of Rebellion",
-      "title": "Age of Rebellion: Core Rulebook",
+      "title": "Age of Rebellion Core Rulebook",
       "key": "AoR-CRB"
     },
     {
@@ -62,12 +62,12 @@
     },
     {
       "collection": "Edge of the Empire",
-      "title": "Edge of the Empire: Beginner's Guide",
+      "title": "Edge of the Empire Beginner's Guide",
       "key": "EotE-BGR"
     },
     {
       "collection": "Edge of the Empire",
-      "title": "Edge of the Empire: Core Rulebook",
+      "title": "Edge of the Empire Core Rulebook",
       "key": "EotE-CRB"
     },
     {
@@ -117,12 +117,12 @@
     },
     {
       "collection": "Force and Destiny",
-      "title": "Force and Destiny: Beginner's Guide",
+      "title": "Force and Destiny Beginner's Guide",
       "key": "FaD-BGR"
     },
     {
       "collection": "Force and Destiny",
-      "title": "Force and Destiny: Core RuleBook",
+      "title": "Force and Destiny Core RuleBook",
       "key": "FaD-CRB"
     },
     {
