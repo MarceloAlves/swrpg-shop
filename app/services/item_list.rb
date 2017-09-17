@@ -60,7 +60,6 @@ class ItemList
 
         next unless roll_total[0] > 1
 
-        # if roll_total[0] + (roll_total[1] * advantage_value) + (roll_total[2] * triumph_value) > 0
         if should_markup
           triumph_markup   = -1 * roll_total[1] * triumph_discount
           advantage_markup = -1 * roll_total[2] * advantage_discount
