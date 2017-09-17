@@ -46,7 +46,7 @@
       .col-sm-10
         = f.input :setback_dice, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
     .form-group.row
-      label.col-sm-2.col-form-label Presence Level
+      label.col-sm-2.col-form-label#shop_characteristic_level_label Presence Level
       .col-sm-10
         = f.input :characteristic_level, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
     .form-group.row

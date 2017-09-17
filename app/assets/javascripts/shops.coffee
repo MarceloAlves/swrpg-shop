@@ -52,3 +52,9 @@ $(document).on 'turbolinks:load', ->
     e.preventDefault()
     $('[data-sourcebook-checkbox]').removeAttr('checked')
     updateSelectedText()
+
+  $('#shop_shop_type').on 'change', (e) ->
+    if e.target.value == 'Black Market'
+      $('#shop_characteristic_level_label').html('Streetwise Level')
+    else
+      $('#shop_characteristic_level_label').html('Presence Level')
