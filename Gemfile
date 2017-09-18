@@ -27,6 +27,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'webpacker'
 
 # Other
+gem 'devise'
 gem 'redis', '~> 4.0'
 gem 'simple_form'
 
@@ -53,6 +54,6 @@ end
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-# gem 'therubyracer', platforms: :ruby
+gem 'bootsnap', '= 1.1.3', require: false
 
-# gem 'bcrypt', '~> 3.1.7'
+# gem 'therubyracer', platforms: :ruby
