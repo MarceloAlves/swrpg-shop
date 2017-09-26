@@ -26,7 +26,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'webpacker'
 
 # Other
-gem 'redis', '~> 3.0'
+gem 'redis', '~> 4.0'
 gem 'simple_form'
 
 group :development, :test do
