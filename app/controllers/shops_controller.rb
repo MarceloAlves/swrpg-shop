@@ -1,13 +1,16 @@
 class ShopsController < ApplicationController
   protect_from_forgery with: :null_session
 
-  def index;end
+  def index; end
 
   def show
     shop = JSON.parse(Redis.current.get("shops:#{params[:id]}") || '[]')
     time_left = Redis.current.pttl("shops:#{params[:id]}")
-    raise ActionController::RoutingError, 'Not Found' if shop.empty?
-    render :show, locals: { shop: shop['items'], shop_info: shop['info'], ttl: time_left / 1000 }
+    if shop.empty?
+      render :missing_shop
+    else
+      render :show, locals: { shop: shop['items'], shop_info: shop['info'], ttl: time_left / 1000 }
+    end
   end
 
   def new; end
