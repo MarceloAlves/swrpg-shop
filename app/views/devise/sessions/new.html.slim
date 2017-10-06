@@ -1,0 +1,17 @@
+.d-flex.justify-content-center.h-100.align-content-center.mt-5
+  .card.w-25
+    h4.card-header Log in
+    .card-body.p-0
+      .row.no-gutters
+        .col-12.px-3.py-2
+          = simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+            .form-group
+              = f.input :email, required: false, autofocus: true, input_html: { class: 'form-control' }
+            .form-group
+              = f.input :password, required: false, input_html: { class: 'form-control' }
+            .d-flex.justify-content-end
+              .mr-auto.p-0
+                = f.input :remember_me, as: :boolean, input_html: { class: 'float-left mr-2 mt-1' } if devise_mapping.rememberable?
+              div
+                = f.button :submit, 'Log in', class: 'btn btn-success btn-block'
+          = render 'devise/shared/links'

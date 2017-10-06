@@ -1,0 +1,17 @@
+.d-flex.justify-content-center.h-100.align-content-center.mt-5
+  .card.w-25
+    h4.card-header Change your password
+    .card-body.p-0
+      .row.no-gutters
+        .col-12.px-3.py-2
+          = simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f|
+            = f.error_notification
+            = f.input :reset_password_token, as: :hidden
+            = f.full_error :reset_password_token
+            .form-group
+              = f.input :password, label: 'New password', required: true, autofocus: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length), input_html: { class: 'form-control' }
+            .form-group
+              = f.input :password_confirmation, label: 'Confirm your new password', required: true, input_html: { class: 'form-control' }
+            .d-flex.justify-content-center
+              div
+                = f.button :submit, 'Change my password', class: 'btn btn-success btn-block'

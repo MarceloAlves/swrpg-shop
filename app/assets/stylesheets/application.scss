@@ -36,3 +36,16 @@ $enable-shadows: true;
     text-shadow: 1px 0 rgba(105, 105, 105, 0.35);
   }
 }
+
+ul.feature-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    background: url(image-path('success.svg')) no-repeat left top;
+    background-size: 23px;
+    height: 25px;
+    padding-left: 30px;
+  }
+}
