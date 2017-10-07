@@ -20,7 +20,7 @@ class DicePool
     number_of_difficulty_dice = item_rarity / 2
 
     @dice_count.times do |i|
-      i--
+      i -= 1
       random_end           = @dice_face_count[i] - 1
       leftover_success    += @dice_pool[i][rand(0..random_end)][0]
       leftover_advantages += @dice_pool[i][rand(0..random_end)][1]
