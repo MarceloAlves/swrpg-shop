@@ -1,40 +1,29 @@
 module ShopsHelper
+  SKILLS = {
+    'MELEE'   => 'Melee',
+    'BRAWL'   => 'Brawl',
+    'GUNN'    => 'Gunnery',
+    'RANGLT'  => 'Ranged Light',
+    'RANGHVY' => 'Ranged Heavy',
+    'LTSABER' => 'Lightsaber',
+    'MECH'    => 'Mechanics'
+  }.freeze
+
+  QUALITIES = {
+    'STUNSETTING'     => 'Stun Setting',
+    'VICIOUSDROID'    => 'Vicious Droid',
+    'SLOWFIRING'      => 'Slow Firing',
+    'STUNDAMAGEDROID' => 'Stun Damage Droid',
+    'STUNDAMAGE'      => 'Stun Damage',
+    'LIMITEDAMMO'     => 'Limited Ammo'
+  }.freeze
+
   def format_skill(skill)
-    case skill
-    when 'MELEE'
-      'Melee'
-    when 'BRAWL'
-      'Brawl'
-    when 'GUNN'
-      'Gunnery'
-    when 'RANGLT'
-      'Ranged Light'
-    when 'RANGHVY'
-      'Ranged Heavy'
-    when 'LTSABER'
-      'Lightsaber'
-    when 'MECH'
-      'Mechanics'
-    end
+    SKILLS.dig(skill)
   end
 
   def format_qualities(qualities)
-    qualities[0] = case qualities[0]
-                   when 'STUNSETTING'
-                     'Stun Setting'
-                   when 'VICIOUSDROID'
-                     'Vicious Droid'
-                   when 'SLOWFIRING'
-                     'Slow Firing'
-                   when 'STUNDAMAGEDROID'
-                     'Stun Damage Droid'
-                   when 'STUNDAMAGE'
-                     'Stun Damage'
-                   when 'LIMITEDAMMO'
-                     'Limited Ammo'
-                   else
-                     qualities[0].titleize
-                   end
+    qualities[0] = QUALITIES.fetch(qualities[0], qualities[0].titleize)
     qualities.join(' - ')
   end
 
@@ -44,6 +33,19 @@ module ShopsHelper
       amount.times { dice << image_tag("#{dice_type.gsub('_dice', '')}.svg", width: 15) }
     end
     dice.join.html_safe
+  end
+
+  def roll_results(dice)
+    dice_images = [
+      ['success.svg', 'failure.svg'],
+      ['advantage.svg', 'threat.svg'],
+      ['triumph.svg', 'dispair.svg']
+    ].freeze
+
+    dice.each_with_index.map do |d, i|
+      image_type = d.positive? ? 0 : 1
+      Array.new(d.abs).map { image_tag(dice_images[i][image_type], width: 25) }
+    end.join.html_safe
   end
 
   def format_description(description)

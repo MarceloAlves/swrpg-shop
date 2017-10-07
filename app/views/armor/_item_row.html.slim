@@ -21,3 +21,5 @@ tr
     = item.fetch('hard_points')
   td.p-3.align-middle.text-center
     = item.fetch('rarity')
+  td.p-3.align-middle
+    = roll_results(item.fetch('roll_total', [0,0,0]))

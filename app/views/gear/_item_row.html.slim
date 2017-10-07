@@ -17,3 +17,5 @@ tr
     = item.fetch('rarity')
   td.p-3.align-middle
     = item.fetch('gear_type', item.fetch('type', nil))
+  td.p-3.align-middle
+    = roll_results(item.fetch('roll_total', [0,0,0]))

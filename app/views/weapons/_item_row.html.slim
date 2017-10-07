@@ -29,3 +29,5 @@ tr
   td.p-3.align-middle
     - item.fetch('qualities', []).each do |quality|
       p= format_qualities(quality.values)
+  td.p-3.align-middle
+    = roll_results(item.fetch('roll_total', [0,0,0]))

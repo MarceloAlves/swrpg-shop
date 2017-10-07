@@ -1,11 +1,35 @@
 class ItemList
   attr_reader :shop_list
 
+  SHOP_TYPES = {
+    'On The Level' => {
+      'nonrestricted' => 0,
+      'restricted' => -100,
+      'lightsaber' => -100,
+      'min' => 10,
+      'max' => 30
+    },
+    'Shady' => {
+      'nonrestricted' => 0,
+      'restricted' => 0,
+      'lightsaber' => -1,
+      'min' => 50,
+      'max' => 80
+    },
+    'Black Market' => {
+      'nonrestricted' => 1,
+      'restricted' => 1,
+      'lightsaber' => -1,
+      'min' => 80,
+      'max' => 100
+    }
+  }.freeze
+
   def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world:, min_size: 0, max_size: 1_000, specialized_shop:, sources: [])
     @world = World.find(world)
     @specialized_shop = SpecializedShop.find(specialized_shop)
     @item_list = build_item_list(@specialized_shop.item_types, sources)
-    @shop_modifiers = shop_types[shop_type]
+    @shop_modifiers = SHOP_TYPES[shop_type]
     @dice_pool = DicePool.new(skill_level: skill_level.to_i, characteristic_level: characteristic_level.to_i, number_boost_dice: boost_dice.to_i, number_setback_dice: setback_dice.to_i)
     @shop_info = { shop_type: shop_type, dice_pool: @dice_pool.dice_counts, characteristic_level: characteristic_level.to_i, skill_level: skill_level.to_i, world: @world.as_json, specialized_shop: @specialized_shop.as_json }
     @shop_list = { items: { armor: [], gear: [], item_attachments: [], weapons: [] }, info: @shop_info }
@@ -46,8 +70,9 @@ class ItemList
         end
 
         markup = (@shop_modifiers['max'] - @shop_modifiers['min'] + 1) + @shop_modifiers['min']
-        new_price = (@world.price_modifier * item.fetch('price')) * (1 + ((markup + advantage_markup + triumph_markup) / 100.0 ))
+        new_price = (@world.price_modifier * item.fetch('price')) * (1 + ((markup + advantage_markup + triumph_markup) / 100.0))
         item['price'] = new_price.round
+        item['roll_total'] = roll_total
 
         @shop_list[:items][item_type] << item
       end
@@ -80,31 +105,5 @@ class ItemList
       item_attachments: ItemAttachment.where(type: item_types).where('sources && ARRAY[?]::text[]', sources).shuffle.as_json,
       weapons: Weapon.where(type: item_types).where('sources && ARRAY[?]::text[]', sources).shuffle.as_json
     }.freeze
-  end
-
-  def shop_types
-    {
-      'On The Level' => {
-        'nonrestricted' => 0,
-        'restricted' => -100,
-        'lightsaber' => -100,
-        'min' => 10,
-        'max' => 30
-      },
-      'Shady' => {
-        'nonrestricted' => 0,
-        'restricted' => 0,
-        'lightsaber' => -1,
-        'min' => 50,
-        'max' => 80
-      },
-      'Black Market' => {
-        'nonrestricted' => 1,
-        'restricted' => 1,
-        'lightsaber' => -1,
-        'min' => 80,
-        'max' => 100
-      }
-    }
   end
 end
