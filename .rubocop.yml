@@ -5,6 +5,11 @@ AllCops:
     - db/schema.rb
     - db/migrate/*
     - bin/*
+    - spec/rails_helper.rb
+    - lib/tasks/*
+    - node_modules/**/*
+    - config/*
+
 
 Rails:
   Enabled: true
@@ -14,3 +19,6 @@ Documentation:
 
 Metrics/LineLength:
   Max: 120
+
+Style/FrozenStringLiteralComment:
+  Enabled: false

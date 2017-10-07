@@ -1,7 +1,7 @@
 class DicePool
   attr_reader :dice_counts
   def initialize(skill_level: 0, characteristic_level: 0, number_boost_dice: 0, number_setback_dice: 0)
-    number_ability_dice   = calculate_ability_dice(characteristic_level: characteristic_level, skill_level: skill_level)
+    number_ability_dice = calculate_ability_dice(characteristic_level: characteristic_level, skill_level: skill_level)
     number_proficiency_dice = calculate_proficiency_dice(characteristic_level: characteristic_level, skill_level: skill_level)
     @dice_counts = {
       ability_dice:   number_ability_dice,

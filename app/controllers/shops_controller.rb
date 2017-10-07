@@ -34,7 +34,7 @@ class ShopsController < ApplicationController
   def generate_key
     loop do
       shop_id = SecureRandom.base58(10)
-      break shop_id if Redis.current.get("shops:#{shop_id}") == nil
+      break shop_id if Redis.current.get("shops:#{shop_id}").nil?
     end
   end
 end
