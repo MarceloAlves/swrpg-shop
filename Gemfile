@@ -13,6 +13,7 @@ gem 'rails', '~> 5.1.4'
 gem 'slim-rails'
 
 # Assets
+gem 'bootstrap', '~> 4.0.0.beta2'
 gem 'coffee-rails', '~> 4.2'
 gem 'font-awesome-rails'
 gem 'jbuilder', '~> 2.5'
