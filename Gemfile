@@ -7,7 +7,7 @@ git_source(:github) do |repo_name|
 end
 
 # Main
-gem 'pg', '~> 0.18'
+gem 'pg', '~> 1.0'
 gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.1.4'
 gem 'slim-rails'
