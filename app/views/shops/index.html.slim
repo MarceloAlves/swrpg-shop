@@ -1,2 +1,26 @@
-h1 Shops#index
-p Find me in app/views/shops/index.html.slim
+
+.d-flex.flex-wrap
+  - shops.each_slice(4) do |shop_group|
+      - shop_group.each do |shop|
+        .card.w-50.m-0
+          .card-body
+            = link_to shop_path(shop.slug)
+              h4.card-title= shop.shop_type
+            dl.row
+              dt.col-sm-4 Shop Specialization
+              dd.col-sm-8= shop.specialized_shop.name
+              dt.col-sm-4 Characteristic Level
+              dd.col-sm-8= shop.characteristic_level
+              dt.col-sm-4 Skill Level
+              dd.col-sm-8= shop.skill_level
+              dt.col-sm-4 World
+              dd.col-sm-8 = shop.world.name
+              dt.col-sm-4 Modifiers
+              dd.col-sm-8
+                ul.list-unstyled
+                  li 
+                  | Rarity: &nbsp;
+                  = shop.world.rarity_modifier
+                  li
+                  | Price:&nbsp;
+                  = shop.world.price_modifier

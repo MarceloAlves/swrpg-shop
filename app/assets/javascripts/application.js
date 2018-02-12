@@ -1,5 +1,5 @@
 //= require rails-ujs
-//= require jquery
+//= require jquery3
 //= require turbolinks
 //= require popper
 //= require tether

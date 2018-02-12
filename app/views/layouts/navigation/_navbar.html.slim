@@ -1,3 +1,19 @@
-.navbar.navbar-expand-lg.navbar-light.bg-light
+.navbar.navbar-expand-lg.navbar-light.bg-light.justify-content-between
   = link_to root_path, class: 'navbar-brand' do
     |  Star Wars RPG Shop 
+  button.navbar-toggler[type="button" data-toggle="collapse" data-target="#navbar-links"]
+    i.fa.fa-bars  
+  .collapse.navbar-collapse#navbar-links
+    .navbar-nav
+      = link_to 'Home', root_path, class: 'nav-item nav-link'
+      = link_to 'Login', new_user_session_path, class: 'nav-item nav-link' unless current_user
+      - if current_user
+        = link_to 'Shops', shops_path, class: 'nav-item nav-link'
+        li.nav-item.dropdown
+          .nav-link.dropdown-toggle[href="#" data-toggle="dropdown"]
+            = current_user.email
+          .dropdown-menu
+            = link_to 'Subscription', '#', class: 'dropdown-item'
+            = link_to 'Edit Profile', edit_user_registration_path, class: 'dropdown-item'
+            .dropdown-divider
+            = link_to 'Logout', destroy_user_session_path, class: 'dropdown-item', method: :delete

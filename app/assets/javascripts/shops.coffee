@@ -3,8 +3,8 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 updateSelectedText = ->
-  count = $('[data-sourcebook-checkbox]:checked').size()
-  allCount = $('[data-sourcebook-checkbox]').size()
+  count = $('[data-sourcebook-checkbox]:checked').length
+  allCount = $('[data-sourcebook-checkbox]').length
   $('[data-sourcebooks-selected]').html('(' + count + ' of ' + allCount + ' selected)')
 
 $(document).on 'turbolinks:load', ->  
@@ -18,10 +18,11 @@ $(document).on 'turbolinks:load', ->
     ), 1500
 
   new Clipboard('.btn-clipboard')
-  
-  $('.nav-link').each (index) ->
+
+  $('#category-tabs').find('.nav-link').each (index) ->
     target = $(this)
-    target.tab('show') if $(target.attr('href')).find('tr').length > 0
+    if $(target.attr('href')).find('tr').length > 0
+      target.tab('show') 
     false if $('.active').length > 0
 
   $('.table').stupidtable().bind 'aftertablesort', (event, data) ->

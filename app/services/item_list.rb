@@ -25,16 +25,16 @@ class ItemList
     }
   }.freeze
 
-  def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world:, min_size: 0, max_size: 1_000, specialized_shop:, sources: [])
-    @world = World.find(world)
-    @specialized_shop = SpecializedShop.find(specialized_shop)
-    @item_list = build_item_list(@specialized_shop.item_types, sources)
+  def initialize(shop_type:, boost_dice:, setback_dice:, characteristic_level:, skill_level:, world_id:, min_size: 0, max_size: 1_000, specialized_shop_id:, sourcebooks: [])
+    @world = World.find(world_id)
+    @specialized_shop = SpecializedShop.find(specialized_shop_id)
+    @item_list = build_item_list(@specialized_shop.item_types, sourcebooks)
     @shop_modifiers = SHOP_TYPES[shop_type]
     @dice_pool = DicePool.new(skill_level: skill_level.to_i, characteristic_level: characteristic_level.to_i, number_boost_dice: boost_dice.to_i, number_setback_dice: setback_dice.to_i)
     @shop_info = { shop_type: shop_type, dice_pool: @dice_pool.dice_counts, characteristic_level: characteristic_level.to_i, skill_level: skill_level.to_i, world: @world.as_json, specialized_shop: @specialized_shop.as_json }
     @shop_list = { items: { armor: [], gear: [], item_attachments: [], weapons: [] }, info: @shop_info }
     @shop_size = rand(max_size.to_i - min_size.to_i + 1) + min_size.to_i
-    @sources = sources
+    @sources = sourcebooks
   end
 
   def randomize

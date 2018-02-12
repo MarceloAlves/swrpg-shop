@@ -37,7 +37,7 @@
             button.btn.btn-secondary.btn-clipboard[type="button" data-clipboard-target="#url" data-toggle="popover" data-placement="bottom" data-content="Copied!"]
               i.fa.fa-clipboard
 
-ul.nav.nav-tabs role="tablist" 
+ul.nav.nav-tabs#category-tabs role="tablist" 
   li.nav-item
     a class=(shop['weapons'].count.positive? ? 'nav-link' : 'nav-link disabled') data-toggle="tab" href="#weapons" role="tab"  Weapons
   li.nav-item
@@ -56,13 +56,3 @@ ul.nav.nav-tabs role="tablist"
     = render partial: 'item_attachments/table', locals: { item_attachments: shop['item_attachments'] }
   #armor.tab-pane.fade role="tabpanel"
     = render partial: 'armor/table', locals: { armor: shop['armor'] }
-
-
-
-/ <div class="input-group">
-/       <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
-/       <span class="input-group-btn">
-/         <button class="btn btn-secondary" type="button">Go!</button>
-/       </span>
-/     </div>
-/   </div>

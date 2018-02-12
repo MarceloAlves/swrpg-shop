@@ -99,6 +99,28 @@ ActiveRecord::Schema.define(version: 20170918020746) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "shops", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "specialized_shop_id", null: false
+    t.bigint "world_id", null: false
+    t.string "shop_type"
+    t.integer "boost_dice", default: 0
+    t.integer "setback_dice", default: 0
+    t.integer "characteristic_level", default: 0
+    t.integer "skill_level", default: 0
+    t.integer "min_size", default: 0
+    t.integer "max_size", default: 1000
+    t.text "sourcebooks", default: [], array: true
+    t.jsonb "items", default: {}
+    t.string "slug"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["slug"], name: "index_shops_on_slug", unique: true
+    t.index ["specialized_shop_id"], name: "index_shops_on_specialized_shop_id"
+    t.index ["user_id"], name: "index_shops_on_user_id"
+    t.index ["world_id"], name: "index_shops_on_world_id"
+  end
+
   create_table "source_books", force: :cascade do |t|
     t.string "key", null: false
     t.string "title", null: false
@@ -173,4 +195,7 @@ ActiveRecord::Schema.define(version: 20170918020746) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "shops", "specialized_shops"
+  add_foreign_key "shops", "users"
+  add_foreign_key "shops", "worlds"
 end

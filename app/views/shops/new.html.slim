@@ -1,6 +1,6 @@
 = content_for(:title) { 'Create Shop | SWRPG Shop Generator' }
 .container.my-5.pb-5
-  = simple_form_for :shop, url: shops_path do |f|
+  = simple_form_for shop, url: shops_path do |f|
     .form-group.row
       label.col-sm-2.col-form-label
         | Shop Type
@@ -23,7 +23,7 @@
         a.ml-1[href="#shop_specialization_help" data-toggle="collapse"]
          i.fa.fa-question-circle-o
       .col-sm-10
-        = f.input :specialized_shop, collection: SpecializedShop.all, label: false, include_blank: false, input_html: { class: 'form-control' }
+        = f.association :specialized_shop, collection: SpecializedShop.all, label: false, include_blank: false, input_html: { class: 'form-control' }
     div#shop_specialization_help.collapse.mb-4.p-3.bg-light
       p Selects the shop specialization which limits the types of items that will be shown
       dl.row
@@ -56,7 +56,7 @@
     .form-group.row
       label.col-sm-2.col-form-label World
       .col-sm-10
-        = f.input :world, collection: World.all.map { |w| ["#{w.name} / Rarity Modifier: #{w.rarity_modifier} / Price Modifier: #{w.price_modifier}", w.id] }, selected: 1, label: false, input_html: { class: 'form-control' }
+        = f.association :world, collection: World.all.map { |w| ["#{w.name} / Rarity Modifier: #{w.rarity_modifier} / Price Modifier: #{w.price_modifier}", w.id] }, selected: 1, label: false, input_html: { class: 'form-control' }
     .form-group.row
       label.col-sm-2.col-form-label Min Items
       .col-sm-10
@@ -85,7 +85,7 @@
                     h5= collection
                     - books.each do |book|
                       .form-check
-                        = f.input :sources, as: :boolean, inline_label: book.title, required: false, checked_value: book.title, unchecked_value: nil, include_hidden: false, input_html: { checked: true, name: 'shop[sources][]', data: { sourcebook_checkbox: '' } }
+                        = f.input :sourcebooks, as: :boolean, inline_label: book.title, required: false, checked_value: book.title, unchecked_value: nil, include_hidden: false, input_html: { checked: true, name: 'shop[sourcebooks][]', data: { sourcebook_checkbox: '' } }
               .row
                 button.btn.btn-light.mx-1[data-select-all]
                   | Select All
