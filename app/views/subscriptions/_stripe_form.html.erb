@@ -1,0 +1,13 @@
+<script
+  src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+  data-key="<%= Rails.application.secrets.stripe_publishable_key %>"
+  data-amount="500"
+  data-name="SWRPG Shop"
+  data-description="$5 Monthly Subscription"
+  data-locale="auto"
+  data-email="<%= current_user.email %>"
+  data-billing-address="true"
+  data-label="Subscribe"
+  data-allow-remember-me="false"
+>
+</script>

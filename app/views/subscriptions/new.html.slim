@@ -1,0 +1,9 @@
+.d-flex.justify-content-center.h-100.align-content-center.mt-5
+  .card.col-md-4.p-0
+    h4.card-header New Subscription
+    .card-body.p-0
+      .row.no-gutters
+        .col-12.px-3.py-2
+          = form_tag subscriptions_path
+            = render 'stripe_form'
+

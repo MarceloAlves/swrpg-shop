@@ -15,6 +15,7 @@
 #  last_sign_in_ip        :inet
 #  created_at             :datetime         not null
 #  updated_at             :datetime         not null
+#  stripe_customer_id     :string
 #
 # Indexes
 #
@@ -28,5 +29,6 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  has_many :shops
+  has_many :shops, dependent: :destroy
+  has_one :subscription
 end

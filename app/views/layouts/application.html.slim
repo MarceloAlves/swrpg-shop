@@ -17,4 +17,5 @@ html
   body[class="#{controller_name} #{action_name}"]
     = render 'layouts/analytics' if Rails.env.production?
     = render 'layouts/navigation/navbar'
+    = render 'layouts/messages'
     = yield

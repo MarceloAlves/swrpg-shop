@@ -1,0 +1,35 @@
+.d-flex.justify-content-center.h-100.align-content-center.mt-5
+  .card.col-md-3.p-0
+    h4.card-header Subscription
+    .card-body.p-0
+      .row.no-gutters
+        .col-12.px-3.py-2
+          - if subscription.blank?
+            p 
+              | No subscription found.
+            p
+              | Subscribe today to create unlimited shops that don't expire and support future development!
+
+              - link_to 'Add new subscription', new_subscription_path, class: 'btn btn-success btn-block mt-3'
+              = form_tag subscriptions_path
+                = render 'stripe_form'
+                button.btn.btn-success.btn-block.mt-3[type="submit"]
+                  | Add new subscription
+
+          - else
+            ul.list-group.list-group-flush
+              li.list-group-item
+                | Current Subscription Status: 
+                - if subscription.status == 'active'
+                  .badge.badge-success
+                    = subscription.status.titleize
+                - else
+                  .badge.badge-danger
+                    = subscription.status.titleize
+              li.list-group-item
+                | Next charge date: 
+                = subscription.current_period_end.strftime('%D')
+            = link_to 'Cancel Subscription', subscription_path(subscription), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-block btn-danger mt-5'
+    .card-footer.text-muted
+      | Questions? 
+      a[href="mailto:support@swrpg-shop.com"] support@swrpg-shop.com

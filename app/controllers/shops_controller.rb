@@ -1,6 +1,8 @@
 class ShopsController < ApplicationController
   protect_from_forgery with: :null_session
   before_action :authenticate_user!, only: [:index]
+  before_action :validate_subscription
+
 
   def index
     shops = Shop.where(user: current_user)
@@ -16,7 +18,7 @@ class ShopsController < ApplicationController
       render :show, locals: { shop: shop.items.fetch('item_list'), shop_info: shop.items.fetch('shop_info'), ttl: -1 }
     else
       time_left = Redis.current.pttl("shops:#{params[:id]}")
-      render :show, locals: { shop: shop.fetch(:items), shop_info: shop.fetch(:info), ttl: time_left / 1000 }
+      render :show, locals: { shop: shop.fetch('items'), shop_info: shop.fetch('info'), ttl: time_left / 1000 }
     end
   end
 
@@ -39,6 +41,12 @@ class ShopsController < ApplicationController
     end
 
     redirect_to shop_path(shop_id)
+  end
+
+  def destroy
+    shop = Shop.find(params[:id])
+    shop.delete
+    redirect_to shops_path, notice: 'Shop deleted'
   end
 
   private

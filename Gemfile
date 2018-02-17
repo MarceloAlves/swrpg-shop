@@ -30,11 +30,13 @@ gem 'webpacker'
 gem 'devise'
 gem 'redis', '~> 4.0'
 gem 'simple_form'
+gem 'stripe'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'capybara'
   gem 'chromedriver-helper'
+  gem 'dotenv-rails'
   gem 'rspec-rails', '~> 3.7'
   gem 'selenium-webdriver'
 end
