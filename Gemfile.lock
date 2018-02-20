@@ -211,7 +211,7 @@ GEM
       rubyzip (~> 1.2)
     sentry-raven (2.7.2)
       faraday (>= 0.7.6, < 1.0)
-    simple_form (3.5.0)
+    simple_form (3.5.1)
       actionpack (> 4, < 5.2)
       activemodel (> 4, < 5.2)
     slim (3.0.8)
