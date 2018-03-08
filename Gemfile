@@ -56,6 +56,6 @@ end
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-gem 'bootsnap', '1.1.8', require: false
+gem 'bootsnap', '1.2.0', require: false
 
 # gem 'therubyracer', platforms: :ruby
