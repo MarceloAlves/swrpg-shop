@@ -9,6 +9,7 @@
 #  price_modifier  :integer          not null
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
+#  is_default      :boolean          default(FALSE), not null
 #
 
 class World < ApplicationRecord

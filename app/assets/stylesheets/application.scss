@@ -3,9 +3,12 @@
  *= require_tree .
  *= require_self
  */
+$primary:   #2980b9;
+$success:   #27ae60;
+$secondary: #7f8c8d;
+$danger:    #e74c3c;
 
 $enable-shadows: true;
-
 @import "bootstrap";
 @import "font-awesome";
 
