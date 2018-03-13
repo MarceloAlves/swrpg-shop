@@ -3,10 +3,13 @@
  *= require_tree .
  *= require_self
  */
-$primary:   #2980b9;
-$success:   #27ae60;
-$secondary: #7f8c8d;
-$danger:    #e74c3c;
+$primary:   #2F69D4;
+$success:   #4ECD70;
+$secondary: #979FBD;
+$danger:    #F7324D;
+$warning:   #FFCA4B;
+$info:      #00C1E4;
+$dark:      #1F222D;
 
 $enable-shadows: true;
 @import "bootstrap";
@@ -17,7 +20,7 @@ $enable-shadows: true;
 }
 
 .customize-card-header {
-  background: radial-gradient(#649CD2, #006ed8);
+  background: radial-gradient($info, $primary);
 
   h1 {
     text-shadow: 1px 0 rgba(105, 105, 105, 0.35);
@@ -25,7 +28,7 @@ $enable-shadows: true;
 }
 
 .generate-card-header {
-  background: radial-gradient(#FFAA63, #ff6503);
+  background: radial-gradient($warning, #ff6503);
   
   h1 {
     text-shadow: 1px 0 rgba(105, 105, 105, 0.35);
@@ -33,7 +36,7 @@ $enable-shadows: true;
 }
 
 .share-card-header {
-  background: radial-gradient(#a7dc5a, #6cb700);
+  background: radial-gradient(#a7dc5a, $success);
 
   h1 {
     text-shadow: 1px 0 rgba(105, 105, 105, 0.35);
