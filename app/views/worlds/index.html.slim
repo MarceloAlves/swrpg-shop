@@ -1,0 +1,30 @@
+= content_for(:title) { 'Worlds | SWRPG Shop Generator' }
+- if worlds.empty?
+  .d-flex.justify-content-center.h-100.align-content-center.mt-5
+    .card.col-md-6.p-0
+      h4.card-header Create A World
+      .card-body.p-0
+        .row.no-gutters
+          .col-12.px-3.py-2
+            p No worlds found. 
+            = link_to 'Create one', new_world_path
+
+.d-flex.flex-wrap.pt-5
+  - worlds.each_slice(4) do |world_group|
+      - world_group.each do |world|
+        .card.col-sm-12.col-md-4.col-12.m-0.p-0
+          .card-header.d-flex.justify-content-between
+            .col-11
+              h4.card-title= world.name
+            .col-1
+              = link_to 'X', world_path(world), method: :delete, class: 'text-danger pull-right', data: { confirm: 'Are you sure? This will delete all shops in this world.' }
+            
+          .card-body
+            .col-12
+              p
+                = world.description
+              dl.row
+                dt.col-sm-4 Rarity Modifier
+                dd.col-sm-8= world.rarity_modifier
+                dt.col-sm-4 Price Modifier
+                dd.col-sm-8= world.price_modifier

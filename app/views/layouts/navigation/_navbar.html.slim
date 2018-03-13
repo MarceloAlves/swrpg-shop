@@ -10,6 +10,7 @@
       = link_to 'Sign up', new_user_registration_path, class: 'nav-item nav-link' unless current_user
       - if current_user
         = link_to 'Shops', shops_path, class: 'nav-item nav-link'
+        = link_to 'Worlds', worlds_path, class: 'nav-item nav-link'
         li.nav-item.dropdown
           .nav-link.dropdown-toggle[href="#" data-toggle="dropdown"]
             = current_user.email

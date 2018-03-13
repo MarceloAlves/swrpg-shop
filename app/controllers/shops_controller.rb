@@ -3,7 +3,6 @@ class ShopsController < ApplicationController
   before_action :authenticate_user!, only: [:index]
   before_action :validate_subscription
 
-
   def index
     shops = Shop.where(user: current_user)
     render :index, locals: { shops: shops }
@@ -23,7 +22,7 @@ class ShopsController < ApplicationController
   end
 
   def new
-    render :new, locals: { shop: Shop.new }
+    render :new, locals: { shop: Shop.new, worlds: worlds }
   end
 
   def create
@@ -45,7 +44,7 @@ class ShopsController < ApplicationController
 
   def destroy
     shop = Shop.find(params[:id])
-    shop.delete
+    shop.destroy
     redirect_to shops_path, notice: 'Shop deleted'
   end
 
@@ -66,5 +65,14 @@ class ShopsController < ApplicationController
       shop_id = SecureRandom.base58(10)
       break shop_id unless Shop.exists?(slug: shop_id)
     end
+  end
+
+  def worlds
+    result = if current_user
+               World.where(is_default: true).or(World.where(user: current_user))
+             else
+               World.where(is_default: true)
+             end
+    result.map { |w| ["#{w.name} / Rarity Modifier: #{w.rarity_modifier} / Price Modifier: #{w.price_modifier}", w.id] }
   end
 end

@@ -1,0 +1,30 @@
+= content_for(:title) { 'Create World | SWRPG Shop Generator' }
+
+.d-flex.justify-content-center.h-100.align-content-center.mt-5
+  .card
+    h4.card-header New World
+    .card-body.p-0
+      .row.no-gutters
+        .col-md-12.px-3.py-2
+          = simple_form_for world, url: worlds_path do |f|
+            .form-group
+              = f.error_notification
+            .form-group
+              = f.input :name, autofocus: true, input_html: { class: 'form-control' }
+            .form-group
+              = f.input :description, required: false, input_html: { class: 'form-control' }
+            .form-group
+              = f.input :rarity_modifier, as: :integer, input_html: { class: 'form-control', value: 0 }
+            .form-group
+              = f.input :price_modifier, as: :integer, input_html: { class: 'form-control', value: 0 }
+              = f.input :user_id, as: :hidden
+            .d-flex.justify-content-center
+              .col-sm-8
+                = f.button :submit, 'Create', class: 'btn btn-primary btn-lg btn-block'
+        / .col-6.p-4
+        /   h3 Cancel my account
+        /   p Unhappy? #{link_to 'Cancel my account', registration_path(resource_name), data: { confirm: 'Are you sure?' }, method: :delete}
+        /   = link_to 'Back', :back
+    .card-footer.text-muted
+      | Questions? 
+      a[href="mailto:support@swrpg-shop.com"] support@swrpg-shop.com

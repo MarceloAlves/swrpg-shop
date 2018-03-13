@@ -56,7 +56,7 @@
     .form-group.row
       label.col-sm-2.col-form-label World
       .col-sm-10
-        = f.association :world, collection: World.all.map { |w| ["#{w.name} / Rarity Modifier: #{w.rarity_modifier} / Price Modifier: #{w.price_modifier}", w.id] }, selected: 1, label: false, input_html: { class: 'form-control' }
+        = f.association :world, collection: worlds, selected: 1, label: false, input_html: { class: 'form-control' }
     .form-group.row
       label.col-sm-2.col-form-label Min Items
       .col-sm-10

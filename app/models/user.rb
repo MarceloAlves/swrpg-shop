@@ -30,5 +30,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :shops, dependent: :destroy
+  has_many :worlds, dependent: :destroy
   has_one :subscription
 end
