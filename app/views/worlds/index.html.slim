@@ -13,22 +13,4 @@
 
 .container-fluid
   .d-flex.flex-wrap
-    - worlds.each do |world|
-      .col-12.col-md-6.col-xl-4.py-1
-        .card
-          .card-header.d-flex.justify-content-between
-            .col-12
-              h4.card-title= world.name
-            
-          .card-body
-            .col-12
-              p
-                = world.description
-              dl.row
-                dt.col-sm-4 Rarity Modifier
-                dd.col-sm-8= world.rarity_modifier
-                dt.col-sm-4 Price Modifier
-                dd.col-sm-8= world.price_modifier
-          .card-footer.d-flex.justify-content-between
-            .col-12.text-center
-              = link_to fa_icon("times", text: 'Delete'), world_path(world), method: :delete, class: 'btn btn-danger px-4', data: { confirm: 'Are you sure? This will delete all shops in this world.' }
+    =render worlds

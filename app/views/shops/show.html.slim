@@ -1,39 +1,44 @@
 = content_for(:title) { 'Shop | SWRPG Shop Generator' }
 .card.p-2
-  .card-block
-    dl.row
-      dt.col-sm-2 Shop Type
-      dd.col-sm-10= shop_info.dig('shop_type')
-      dt.col-sm-2 Shop Specialization
-      dd.col-sm-10= shop_info.dig('specialized_shop', 'name')
-      dt.col-sm-2 Dice Pool
-      dd.col-sm-10= dice_display(shop_info.dig('dice_pool'))
-      dt.col-sm-2 Characteristic Level
-      dd.col-sm-10= shop_info.dig('characteristic_level')
-      dt.col-sm-2 Skill Level
-      dd.col-sm-10= shop_info.dig('skill_level')
-      dt.col-sm-2 World
-      dd.col-sm-10
-          = shop_info.dig('world', 'name')
-      dt.col-sm-2 Modifiers
-      dd.col-sm-10
-        ul.list-unstyled
-          li 
-          | Rarity: &nbsp;
-          = shop_info.dig('world', 'rarity_modifier')
-          li
-          | Price:&nbsp;
-          = shop_info.dig('world', 'price_modifier')
-      - unless ttl == -1
-        dt.col-sm-2 Time Left
-        dd.col-sm-10= time_ago_in_words(Time.now + ttl.seconds).titleize
-      dt.col-sm-2 Link
-      dd.col-sm-10
-        .input-group
-          = text_field_tag 'url', request.url, class: 'form-control col-sm-4'
-          span.input-group-btn
-            button.btn.btn-secondary.btn-clipboard[type="button" data-clipboard-target="#url" data-toggle="popover" data-placement="bottom" data-content="Copied!"]
-              i.fa.fa-clipboard
+  .card-body.p-0
+    .row
+      .col-12.col-md-6
+        dl.row
+          dt.col-sm-3.col-5 Shop Type
+          dd.col-sm-9.col-7= shop_info.dig('shop_type')
+          dt.col-sm-3.col-5 Shop Specialization
+          dd.col-sm-9.col-7= shop_info.dig('specialized_shop', 'name')
+          dt.col-sm-3.col-5 Dice Pool
+          dd.col-sm-9.col-7= dice_display(shop_info.dig('dice_pool'))
+          dt.col-sm-3.col-5 Characteristic Level
+          dd.col-sm-9.col-7= shop_info.dig('characteristic_level')
+      .col-12.col-md-6
+        dl.row
+          dt.col-sm-3.col-5 Skill Level
+          dd.col-sm-9.col-7= shop_info.dig('skill_level')
+          dt.col-sm-3.col-5 World
+          dd.col-sm-9.col-7
+              = shop_info.dig('world', 'name')
+          dt.col-sm-3.col-5 Modifiers
+          dd.col-sm-9.col-7
+            ul.list-inline
+              li.list-inline-item.m-0
+              | Rarity: &nbsp;
+              span.badge.badge-secondary.p-2= shop_info.dig('world', 'rarity_modifier')
+              li.list-inline-item.mx-3 &mdash;
+              li.list-inline-item
+              | Price:&nbsp;
+              span.badge.badge-secondary.p-2= shop_info.dig('world', 'price_modifier')
+          - unless ttl == -1
+            dt.col-sm-3.col-5 Time Left
+            dd.col-sm-9.col-7= time_ago_in_words(Time.now + ttl.seconds).titleize
+          dt.col-sm-3.col-5 Link
+          dd.col-sm-9.col-7
+            .input-group
+              = text_field_tag 'url', request.url, class: 'form-control form-control-sm col-sm-7'
+              span.input-group-btn
+                button.btn.btn-secondary.btn-clipboard[type="button" data-clipboard-target="#url" data-toggle="popover" data-placement="bottom" data-content="Copied!"]
+                  i.fa.fa-clipboard
 
 ul.nav.nav-tabs#category-tabs role="tablist" 
   li.nav-item
