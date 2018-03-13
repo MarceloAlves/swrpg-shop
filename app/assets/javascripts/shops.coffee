@@ -51,7 +51,7 @@ $(document).on 'turbolinks:load', ->
   
   $('[data-select-none]').on 'click', (e) ->
     e.preventDefault()
-    $('[data-sourcebook-checkbox]').removeAttr('checked')
+    $('[data-sourcebook-checkbox]').prop('checked', null)
     updateSelectedText()
 
   $('#shop_shop_type').on 'change', (e) ->

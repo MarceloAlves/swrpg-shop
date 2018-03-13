@@ -8,16 +8,17 @@
           .col-12.px-3.py-2
             p No shops found. 
 
-.col-12.d-flex.justify-content-center.pt-5
+.col-12.d-flex.justify-content-center.py-5
   = link_to 'Create New Shop', new_shop_path, class: 'btn btn-primary'
-.d-flex.flex-wrap.pt-5
-  - shops.each_slice(4) do |shop_group|
-      - shop_group.each do |shop|
-        .card.col-sm-12.col-md-4.col-12.m-0.p-0
+
+.container-fluid
+  .d-flex.flex-wrap
+    - shops.each do |shop|
+      .col-12.col-md-6.col-xl-4.py-1
+        .card
           .card-header.d-flex.justify-content-between
             = link_to shop_path(shop.slug)
               h4.card-title= shop.shop_type
-            
           .card-body
             dl.row
               dt.col-sm-4 Shop Specialization

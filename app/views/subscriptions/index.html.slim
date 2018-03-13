@@ -13,7 +13,7 @@
               - link_to 'Add new subscription', new_subscription_path, class: 'btn btn-success btn-block mt-3'
               = form_tag subscriptions_path
                 = render 'stripe_form'
-                button.btn.btn-success.btn-block.mt-3[type="submit"]
+                button.btn.btn-success.px-4.mt-3[type="submit"]
                   | Add new subscription
 
           - else
@@ -29,7 +29,8 @@
               li.list-group-item
                 | Next charge date: 
                 = subscription.current_period_end.strftime('%D')
-            = link_to 'Cancel Subscription', subscription_path(subscription), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-block btn-danger mt-5'
+            .text-center
+              = link_to 'Cancel Subscription', subscription_path(subscription), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger mt-5 px-4'
     .card-footer.text-muted
       | Questions? 
       a[href="mailto:support@swrpg-shop.com"] support@swrpg-shop.com

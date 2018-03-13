@@ -1,103 +1,106 @@
 = content_for(:title) { 'Create Shop | SWRPG Shop Generator' }
-.container.my-5.pb-5
-  = simple_form_for shop, url: shops_path do |f|
-    .form-group.row
-      label.col-sm-2.col-form-label
-        | Shop Type
-        a.ml-1[href="#shop_type_help" data-toggle="collapse"]
-         i.fa.fa-question-circle-o
-      .col-sm-10
-        = f.input :shop_type, collection: ['On The Level', 'Shady', 'Black Market'], label: false, selected: 'On The Level', input_html: { class: 'form-control' }
-    div#shop_type_help.collapse.mb-4.p-3.bg-light
-      p Selects the shop type which modifies the chance of finding restricted items.
-      dl.row
-        dt.col-sm-3 On The Level
-        dd.col-sm-9 The chance of finding restricted items or lightsabers is extremely rare.
-        dt.col-sm-3 Shady
-        dd.col-sm-9 Plenty of restricted items and the occasional lightsaber. Prices tend to be a bit more expensive.
-        dt.col-sm-3 Black Market
-        dd.col-sm-9 Most everything can be found...for a price.
-    .form-group.row
-      label.col-sm-2.col-form-label
-        | Specialization
-        a.ml-1[href="#shop_specialization_help" data-toggle="collapse"]
-         i.fa.fa-question-circle-o
-      .col-sm-10
-        = f.association :specialized_shop, collection: SpecializedShop.all, label: false, include_blank: false, input_html: { class: 'form-control' }
-    div#shop_specialization_help.collapse.mb-4.p-3.bg-light
-      p Selects the shop specialization which limits the types of items that will be shown
-      dl.row
-        dt.col-sm-3 Armor Shop
-        dd.col-sm-9 Armor attachments and clothing
-        dt.col-sm-3 Gear Shop
-        dd.col-sm-9 All types of gear include Cybernetics, Droids, and Tools
-        dt.col-sm-3 General Store
-        dd.col-sm-9 A little bit of everything
-        dt.col-sm-3 The Scruffy Nerfherder
-        dd.col-sm-9 Drugs and Consumables
-        dt.col-sm-3 Weapons Shop
-        dd.col-sm-9 For all your weapon needs
-    .form-group.row
-      label.col-sm-2.col-form-label Boost Dice
-      .col-sm-10
-        = f.input :boost_dice, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
-    .form-group.row
-      label.col-sm-2.col-form-label Setback Dice
-      .col-sm-10
-        = f.input :setback_dice, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
-    .form-group.row
-      label.col-sm-2.col-form-label#shop_characteristic_level_label Presence Level
-      .col-sm-10
-        = f.input :characteristic_level, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
-    .form-group.row
-      label.col-sm-2.col-form-label Negotiation Level
-      .col-sm-10
-        = f.input :skill_level, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
-    .form-group.row
-      label.col-sm-2.col-form-label World
-      .col-sm-10
-        = f.association :world, collection: worlds, selected: 1, label: false, input_html: { class: 'form-control' }
-    .form-group.row
-      label.col-sm-2.col-form-label Min Items
-      .col-sm-10
-        = f.input :min_size, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10_000, value: 10 }
-    .form-group.row
-      label.col-sm-2.col-form-label Max Items
-      .col-sm-10
-        = f.input :max_size, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10_000, value: 1_000 }
-    .form-group.row
-      .col-12
-        .card
-          .card-header
-            h5.mb-0
-              a[data-toggle="collapse" href="#sourcebooks"]
-                | Sourcebooks
-                | &nbsp;
-                span.small.font-italic[data-sourcebooks-selected]
-                  | 
-                .pull-right
-                  i.fa.fa-angle-left.fa-lg[data-collapse-icon]
-          #sourcebooks.collapse
-            .card-body
-              .row
-                - SourceBook.all.order('collection asc, title asc').group_by { |sb| sb.collection }.each do |collection, books|
-                  .col-sm-4.col-12
-                    h5= collection
-                    - books.each do |book|
-                      .form-check
-                        = f.input :sourcebooks, as: :boolean, inline_label: book.title, required: false, checked_value: book.title, unchecked_value: nil, include_hidden: false, input_html: { checked: true, name: 'shop[sourcebooks][]', data: { sourcebook_checkbox: '' } }
-              .row
-                button.btn.btn-light.mx-1[data-select-all]
-                  | Select All
-                button.btn.btn-dark.mx-1[data-select-none]
-                  | Select None
-    .row
-      .col-sm-10
-        p.small 
-          span.text-muted 
-            | Note: Free shops expire after 24 hours. Want to save a shop forever? 
-            = link_to 'Sign up', new_user_registration_path
-            | &nbsp;for a subscription.
-    .row.justify-content-center
-      .col-sm-3
-        = f.button :submit, 'Generate Shop', class: 'btn btn-success btn-lg btn-block'
+.d-flex.justify-content-center.h-100.align-content-center.mt-5
+  .card.col-md-6.p-0
+    h4.card-header Create New Shop
+    .card-body.p-4
+      = simple_form_for shop, url: shops_path do |f|
+        .form-group.row
+          label.col-sm-2.col-form-label
+            | Shop Type
+            a.ml-1[href="#shop_type_help" data-toggle="collapse"]
+             i.fa.fa-question-circle-o
+          .col-sm-10
+            = f.input :shop_type, collection: ['On The Level', 'Shady', 'Black Market'], label: false, selected: 'On The Level', input_html: { class: 'form-control' }
+        div#shop_type_help.collapse.mb-4.p-3.bg-light
+          p Selects the shop type which modifies the chance of finding restricted items.
+          dl.row
+            dt.col-sm-3 On The Level
+            dd.col-sm-9 The chance of finding restricted items or lightsabers is extremely rare.
+            dt.col-sm-3 Shady
+            dd.col-sm-9 Plenty of restricted items and the occasional lightsaber. Prices tend to be a bit more expensive.
+            dt.col-sm-3 Black Market
+            dd.col-sm-9 Most everything can be found...for a price.
+        .form-group.row
+          label.col-sm-2.col-form-label
+            | Specialization
+            a.ml-1[href="#shop_specialization_help" data-toggle="collapse"]
+              i.fa.fa-question-circle-o
+          .col-sm-10
+            = f.association :specialized_shop, collection: SpecializedShop.all, label: false, include_blank: false, input_html: { class: 'form-control' }
+        div#shop_specialization_help.collapse.mb-4.p-3.bg-light
+          p Selects the shop specialization which limits the types of items that will be shown
+          dl.row
+            dt.col-sm-3 Armor Shop
+            dd.col-sm-9 Armor attachments and clothing
+            dt.col-sm-3 Gear Shop
+            dd.col-sm-9 All types of gear include Cybernetics, Droids, and Tools
+            dt.col-sm-3 General Store
+            dd.col-sm-9 A little bit of everything
+            dt.col-sm-3 The Scruffy Nerfherder
+            dd.col-sm-9 Drugs and Consumables
+            dt.col-sm-3 Weapons Shop
+            dd.col-sm-9 For all your weapon needs
+        .form-group.row
+          label.col-sm-2.col-form-label Boost Dice
+          .col-sm-10
+            = f.input :boost_dice, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+        .form-group.row
+          label.col-sm-2.col-form-label Setback Dice
+          .col-sm-10
+            = f.input :setback_dice, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+        .form-group.row
+          label.col-sm-2.col-form-label#shop_characteristic_level_label Presence Level
+          .col-sm-10
+            = f.input :characteristic_level, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+        .form-group.row
+          label.col-sm-2.col-form-label Negotiation Level
+          .col-sm-10
+            = f.input :skill_level, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+        .form-group.row
+          label.col-sm-2.col-form-label World
+          .col-sm-10
+            = f.association :world, collection: worlds, selected: 1, label: false, input_html: { class: 'form-control' }
+        .form-group.row
+          label.col-sm-2.col-form-label Min Items
+          .col-sm-10
+            = f.input :min_size, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10_000, value: 10 }
+        .form-group.row
+          label.col-sm-2.col-form-label Max Items
+          .col-sm-10
+            = f.input :max_size, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10_000, value: 1_000 }
+        .form-group.row
+          .col-12
+            .card
+              .card-header
+                h5.mb-0
+                  a[data-toggle="collapse" href="#sourcebooks"]
+                    | Sourcebooks
+                    | &nbsp;
+                    span.small.font-italic[data-sourcebooks-selected]
+                      | 
+                    .pull-right
+                      i.fa.fa-angle-left.fa-lg[data-collapse-icon]
+              #sourcebooks.collapse
+                .card-body
+                  .row
+                    - SourceBook.all.order('collection asc, title asc').group_by { |sb| sb.collection }.each do |collection, books|
+                      .col-sm-4.col-12
+                        h5= collection
+                        - books.each do |book|
+                          .form-check
+                            = f.input :sourcebooks, as: :boolean, inline_label: book.title, required: false, checked_value: book.title, unchecked_value: nil, include_hidden: false, input_html: { checked: true, name: 'shop[sourcebooks][]', data: { sourcebook_checkbox: '' } }
+                  .row
+                    button.btn.btn-primary.mx-1[data-select-all]
+                      | Select All
+                    button.btn.btn-outline-dark.mx-1[data-select-none]
+                      | Select None
+        .row
+          .col-sm-10
+            p.small 
+              span.text-muted 
+                | Note: Free shops expire after 24 hours. Want to save a shop forever? 
+                = link_to 'Sign up', new_user_registration_path
+                | &nbsp;for a subscription.
+        .row.justify-content-center
+          .col-sm-3
+            = f.button :submit, 'Generate Shop', class: 'btn btn-success btn-lg btn-block'
