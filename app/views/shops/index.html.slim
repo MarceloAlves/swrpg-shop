@@ -7,18 +7,16 @@
         .row.no-gutters
           .col-12.px-3.py-2
             p No shops found. 
-            = link_to 'Create one', new_shop_path
 
+.col-12.d-flex.justify-content-center.pt-5
+  = link_to 'Create New Shop', new_shop_path, class: 'btn btn-primary'
 .d-flex.flex-wrap.pt-5
   - shops.each_slice(4) do |shop_group|
       - shop_group.each do |shop|
         .card.col-sm-12.col-md-4.col-12.m-0.p-0
           .card-header.d-flex.justify-content-between
-            .col-11
-              = link_to shop_path(shop.slug)
-                h4.card-title= shop.shop_type
-            .col-1
-              = link_to 'X', shop_path(shop), method: :delete, class: 'text-danger pull-right', data: { confirm: 'Are you sure?' }
+            = link_to shop_path(shop.slug)
+              h4.card-title= shop.shop_type
             
           .card-body
             dl.row
@@ -39,3 +37,8 @@
                   li
                   | Price:&nbsp;
                   = shop.world.price_modifier
+          .card-footer.d-flex.justify-content-between
+            .col-6.text-center
+              = link_to fa_icon("refresh", text: 'Refresh'), shop_path(shop.id), method: :put, class: 'mx-2 btn btn-success btn-block'
+            .col-6.text-center
+              = link_to fa_icon("times", text: 'Delete'), shop_path(shop), method: :delete, class: 'mx-2 btn btn-danger btn-block', data: { confirm: 'Are you sure?' }

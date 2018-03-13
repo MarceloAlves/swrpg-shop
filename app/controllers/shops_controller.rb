@@ -14,7 +14,7 @@ class ShopsController < ApplicationController
     if shop.blank?
       render :missing_shop
     elsif shop.is_a?(Shop)
-      render :show, locals: { shop: shop.items.fetch('item_list'), shop_info: shop.items.fetch('shop_info'), ttl: -1 }
+      render :show, locals: { shop: shop.items.dig('items'), shop_info: shop.items.dig('info'), ttl: -1 }
     else
       time_left = Redis.current.pttl("shops:#{params[:id]}")
       render :show, locals: { shop: shop.fetch('items'), shop_info: shop.fetch('info'), ttl: time_left / 1000 }
@@ -25,6 +25,13 @@ class ShopsController < ApplicationController
     render :new, locals: { shop: Shop.new, worlds: worlds }
   end
 
+  # Update regenerates a shop with the same settings
+  def update
+    shop = Shop.find(params[:id])
+    shop.regenerate!
+    redirect_to shops_path, notice: 'Shop regenerated'
+  end
+
   def create
     item_list = ItemList.new(shop_params.to_h.symbolize_keys)
     item_list.randomize
@@ -33,7 +40,7 @@ class ShopsController < ApplicationController
     if current_user
       shop = current_user.shops.build(shop_params)
       shop.slug = shop_id
-      shop.items = item_list
+      shop.items = item_list.shop_list
       shop.save!
     else
       save_temporary_shop(item_list, shop_id)

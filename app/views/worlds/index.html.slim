@@ -7,8 +7,9 @@
         .row.no-gutters
           .col-12.px-3.py-2
             p No worlds found. 
-            = link_to 'Create one', new_world_path
 
+.col-12.d-flex.justify-content-center.pt-5
+  = link_to 'Create New World', new_world_path, class: 'btn btn-primary'
 .d-flex.flex-wrap.pt-5
   - worlds.each_slice(4) do |world_group|
       - world_group.each do |world|
