@@ -2,56 +2,67 @@
   {
     "name": "Primary Core world such as Coruscant, Duro, or Corellia",
     "rarity_modifier": -2,
-    "price_modifier": 1
+    "price_modifier": 1,
+    "is_default": true
   },
   {
     "name": "Other Core world",
     "rarity_modifier": -1,
-    "price_modifier": 1
+    "price_modifier": 1,
+    "is_default": true
   },
   {
     "name": "World on primary trade line",
     "rarity_modifier": -1,
-    "price_modifier": 1
+    "price_modifier": 1,
+    "is_default": true
   },
   {
     "name": "Colony or inner Rim world",
     "rarity_modifier": 0,
-    "price_modifier": 1
+    "price_modifier": 1,
+    "is_default": true
   },
   {
     "name": "Civilized world",
     "rarity_modifier": 0,
-    "price_modifier": 1
+    "price_modifier": 1,
+    "is_default": true
   },
   {
     "name": "Mid Rim world",
     "rarity_modifier": 1,
-    "price_modifier": 1
+    "price_modifier": 1,
+    "is_default": true
   },
   {
     "name": "Recently settled world / Out of the way world ",
     "rarity_modifier": 1,
-    "price_modifier": 1
+    "price_modifier": 1,
+    "is_default": true
   },
   {
     "name": "Outer Rim world",
     "rarity_modifier": 2,
-    "price_modifier": 2
+    "price_modifier": 2,
+    "is_default": true
   },
   {
     "name": "Frontier world",
     "rarity_modifier": 2,
-    "price_modifier": 2
+    "price_modifier": 2,
+    "is_default": true
   },
   {
     "name": "Wild Space world",
     "rarity_modifier": 3,
-    "price_modifier": 3
+    "price_modifier": 3,
+    "is_default": true
   },
   {
     "name": "Uncivilized world",
     "rarity_modifier": 4,
-    "price_modifier": 4
+    "price_modifier": 4,
+    "is_default": true
   }
 ]
