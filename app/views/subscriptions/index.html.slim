@@ -29,8 +29,14 @@
               li.list-group-item
                 | Next charge date: 
                 = subscription.current_period_end.strftime('%D')
-            .text-center
-              = link_to 'Cancel Subscription', subscription_path(subscription), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger mt-5 px-4'
+            .row
+              .col-6
+                = form_tag subscription_path(subscription), method: :put
+                  = render 'stripe_card_update'
+                  button.btn.btn-info.px-4.mt-5[type="submit"]
+                    | Update card info
+              .col-6
+                = link_to 'Cancel Subscription', subscription_path(subscription), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger mt-5 px-4'
     .card-footer.text-muted
       | Questions? 
       a[href="mailto:support@swrpg-shop.com"] support@swrpg-shop.com

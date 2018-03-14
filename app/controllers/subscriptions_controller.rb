@@ -8,6 +8,16 @@ class SubscriptionsController < ApplicationController
 
   def new; end
 
+  def update
+    customer = Stripe::Customer.retrieve(current_user.stripe_customer_id)
+    customer.source = params[:stripeToken]
+    customer.save
+
+    redirect_to subscriptions_path, notice: 'Successfully updated card'
+  rescue Stripe::CardError => e
+    redirect_to subscription_path, alert: 'An error occurred'
+  end
+
   def create
     customer = create_stripe_customer
     subscription = create_stripe_subscription(customer)
