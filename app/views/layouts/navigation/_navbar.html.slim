@@ -10,8 +10,8 @@
         = link_to 'Shops', shops_path, class: 'nav-item nav-link'
         = link_to 'Worlds', worlds_path, class: 'nav-item nav-link'
     .navbar-nav
-      /= link_to 'Log in', new_user_session_path, class: 'btn btn-success mx-sm-1 my-sm-0 my-1' unless current_user
-      /= link_to 'Sign up', new_user_registration_path, class: 'btn btn-primary mx-sm-1 my-sm-0 my-1' unless current_user
+      = link_to 'Log in', new_user_session_path, class: 'btn btn-success mx-sm-1 my-sm-0 my-1' unless current_user
+      = link_to 'Sign up', new_user_registration_path, class: 'btn btn-primary mx-sm-1 my-sm-0 my-1' unless current_user
       - if current_user
         li.nav-item.dropdown
           .nav-link.dropdown-toggle[href="#" data-toggle="dropdown"]
