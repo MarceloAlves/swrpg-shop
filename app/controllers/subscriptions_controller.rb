@@ -26,6 +26,7 @@ class SubscriptionsController < ApplicationController
       Subscription.create(
         user: current_user,
         stripe_subscription_id: subscription.id,
+        stripe_id: customer.id,
         billing_cycle_anchor: Time.at(subscription.billing_cycle_anchor).utc,
         canceled_at: subscription.canceled_at.nil? ? nil : Time.at(subscription.canceled_at).utc,
         current_period_end: Time.at(subscription.current_period_end).utc,
@@ -66,6 +67,7 @@ class SubscriptionsController < ApplicationController
   def create_stripe_subscription(customer)
     Stripe::Subscription.create(
       customer: customer.id,
+      trial_end: (Time.now + 7.days).to_i,
       items: [
         {
           plan: 'swrpg-monthly-5'

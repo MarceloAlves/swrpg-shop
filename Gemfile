@@ -32,6 +32,7 @@ gem 'devise'
 gem 'redis', '~> 4.0'
 gem 'simple_form'
 gem 'stripe'
+gem 'stripe_event'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]

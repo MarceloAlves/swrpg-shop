@@ -6,5 +6,7 @@ Rails.application.routes.draw do
   resources :subscriptions
   resources :webhooks, only: %i[create]
 
+  mount StripeEvent::Engine, at: '/stripe/webhooks'
+
   root 'static#index'
 end

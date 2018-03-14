@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
 
   def validate_subscription
     return unless current_user
-    if current_user.subscription.nil? || current_user.subscription.status != 'active'
+    if current_user.subscription.nil? || !current_user.subscription.status.in?(%w[active trialing])
       redirect_to subscriptions_path, alert: 'Your subscription has expired'
     end
   end
