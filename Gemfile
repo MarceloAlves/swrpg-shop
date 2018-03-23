@@ -39,7 +39,6 @@ group :development, :test do
   gem 'capybara'
   gem 'chromedriver-helper'
   gem 'dotenv-rails'
-  gem 'fakeredis'
   gem 'rspec-rails', '~> 3.7'
   gem 'selenium-webdriver'
 end
@@ -56,6 +55,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'web-console', '>= 3.3.0'
 end
+
+gem 'fakeredis', group: :test
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 

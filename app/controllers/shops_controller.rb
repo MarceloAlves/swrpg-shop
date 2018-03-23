@@ -58,7 +58,7 @@ class ShopsController < ApplicationController
   private
 
   def shop_params
-    params.require(:shop).permit(:shop_type, :boost_dice, :setback_dice, :characteristic_level,
+    params.require(:shop).permit(:shop_type, :boost_dice, :setback_dice, :challenge_dice, :characteristic_level,
                                  :skill_level, :world_id, :min_size, :max_size, :specialized_shop_id, sourcebooks: [])
   end
 

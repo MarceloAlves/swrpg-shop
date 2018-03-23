@@ -63,3 +63,9 @@ ul.feature-list {
 .stripe-button-el {
   display: none !important;
 }
+
+.hint {
+  @extend small;
+  @extend .text-muted;
+}
+
