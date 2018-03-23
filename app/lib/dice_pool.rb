@@ -1,30 +1,28 @@
 class DicePool
-  attr_reader :dice_counts
-  def initialize(skill_level: 0, characteristic_level: 0, number_boost_dice: 0, number_setback_dice: 0)
-    number_ability_dice = calculate_ability_dice(characteristic_level: characteristic_level, skill_level: skill_level)
-    number_proficiency_dice = calculate_proficiency_dice(characteristic_level: characteristic_level, skill_level: skill_level)
-    @dice_counts = {
-      ability_dice:   number_ability_dice,
-      proficiency_dice: number_proficiency_dice,
-      boost_dice:     number_boost_dice,
-      setback_dice:   number_setback_dice
+  attr_reader :dice_pool
+  def initialize(skill_level: 0, characteristic_level: 0, number_boost_dice: 0, number_setback_dice: 0, number_challenge_dice: 0)
+    number_ability_dice = ability_dice(characteristic_level: characteristic_level, skill_level: skill_level)
+    number_proficiency_dice = proficiency_dice(characteristic_level: characteristic_level, skill_level: skill_level)
+
+    @dice_pool = {
+      ability:     number_ability_dice,
+      proficiency: number_proficiency_dice,
+      boost:       number_boost_dice,
+      setback:     number_setback_dice,
+      challenge:   number_challenge_dice
     }
-    @dice_pool = []
-    @dice_face_count = []
-    @dice_count = @dice_counts.values.sum
-    create_dice_pool(@dice_counts)
   end
 
   def roll(item_rarity: 1)
     leftover_success = leftover_advantages = leftover_triumphs = 0
     number_of_difficulty_dice = item_rarity / 2
 
-    @dice_count.times do |i|
-      i -= 1
-      random_end           = @dice_face_count[i] - 1
-      leftover_success    += @dice_pool[i][rand(0..random_end)][0]
-      leftover_advantages += @dice_pool[i][rand(0..random_end)][1]
-      leftover_triumphs   += @dice_pool[i][rand(0..random_end)][2]
+    @dice_pool.each do |dice_type, number|
+      number.times do
+        leftover_success    += roll_single_dice(dice_type: dice_type)[0]
+        leftover_advantages += roll_single_dice(dice_type: dice_type)[1]
+        leftover_triumphs   += roll_single_dice(dice_type: dice_type)[2]
+      end
     end
 
     number_of_difficulty_dice.times do
@@ -37,33 +35,16 @@ class DicePool
 
   private
 
-  def calculate_ability_dice(characteristic_level:, skill_level:)
+  def roll_single_dice(dice_type:)
+    dice = Dice.public_send(dice_type)
+    dice.sample
+  end
+
+  def ability_dice(characteristic_level:, skill_level:)
     characteristic_level >= skill_level ? characteristic_level - skill_level : skill_level - characteristic_level
   end
 
-  def calculate_proficiency_dice(characteristic_level:, skill_level:)
+  def proficiency_dice(characteristic_level:, skill_level:)
     characteristic_level >= skill_level ? skill_level : characteristic_level
-  end
-
-  def create_dice_pool(ability_dice:, proficiency_dice:, boost_dice:, setback_dice:)
-    ability_dice.times do
-      @dice_pool       << Dice.ability
-      @dice_face_count << Dice.ability.count
-    end
-
-    proficiency_dice.times do
-      @dice_pool       << Dice.proficiency
-      @dice_face_count << Dice.proficiency.count
-    end
-
-    boost_dice.times do
-      @dice_pool       << Dice.boost
-      @dice_face_count << Dice.boost.count
-    end
-
-    setback_dice.times do
-      @dice_pool       << Dice.setback
-      @dice_face_count << Dice.setback.count
-    end
   end
 end

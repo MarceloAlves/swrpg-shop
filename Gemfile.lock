@@ -95,6 +95,8 @@ GEM
       railties (>= 3.2, < 5.2)
     erubi (1.7.1)
     execjs (2.7.0)
+    fakeredis (0.7.0)
+      redis (>= 3.2, < 5.0)
     faraday (0.14.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.23)
@@ -291,6 +293,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   dotenv-rails
+  fakeredis
   font-awesome-rails
   jbuilder (~> 2.5)
   jquery-rails

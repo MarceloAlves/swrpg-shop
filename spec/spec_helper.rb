@@ -16,6 +16,7 @@
 
 require 'capybara/rspec'
 require 'selenium/webdriver'
+require 'fakeredis'
 
 # Registers driver for Capybara
 Capybara.register_driver :selenium_chrome do |app|
