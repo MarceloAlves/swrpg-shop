@@ -38,7 +38,7 @@ class ItemList
   end
 
   def randomize
-    @item_list.keys.each do |item_type|
+    @item_list.each_key do |item_type|
       @item_list[item_type].each do |item|
         shop_type_modifier = if item.dig('type') == 'Lightsaber' || item.dig('skill_key') == 'LTSABER'
                                @shop_modifiers.fetch('lightsaber')
@@ -61,15 +61,16 @@ class ItemList
         next unless roll_total[0] > 1
 
         if should_markup
-          advantage_markup = -1 * roll_total[1] * advantage_discount
-          triumph_markup   = -1 * roll_total[2] * triumph_discount
+          advantage_discount = -1 * roll_total[1] * advantage_discount
+          triumph_discount   = -1 * roll_total[2] * triumph_discount
+          markup = (@shop_modifiers['max'] - @shop_modifiers['min'] + 1) + @shop_modifiers['min']
         else
-          triumph_markup   = 0
-          advantage_markup = 0
+          markup             = 0
+          triumph_discount   = 0
+          advantage_discount = 0
         end
 
-        markup = (@shop_modifiers['max'] - @shop_modifiers['min'] + 1) + @shop_modifiers['min']
-        new_price = (@world.price_modifier * item.fetch('price')) * (1 + ((markup + advantage_markup + triumph_markup) / 100.0))
+        new_price = (@world.price_modifier * item.fetch('price')) * (1 + ((markup + advantage_discount + triumph_discount) / 100.0))
         item['price'] = new_price.round
         item['roll_total'] = roll_total
 
