@@ -50,7 +50,7 @@ GEM
       execjs
     bcrypt (3.1.11)
     bindex (0.5.0)
-    bootsnap (1.2.0)
+    bootsnap (1.2.1)
       msgpack (~> 1.0)
     bootstrap (4.0.0)
       autoprefixer-rails (>= 6.0.3)
@@ -285,7 +285,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
-  bootsnap (= 1.2.0)
+  bootsnap (= 1.2.1)
   bootstrap (~> 4.0.0)
   byebug
   capybara
