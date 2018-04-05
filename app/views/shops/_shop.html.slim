@@ -2,7 +2,7 @@
   .card
     .card-header.d-flex.justify-content-between
       = link_to shop_path(shop.slug)
-        h4.card-title= shop.shop_type
+        h4.card-title= shop.name || shop.shop_type
     .card-body
       dl.row
         dt.col-sm-4 Shop Specialization

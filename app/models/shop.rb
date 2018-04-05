@@ -19,6 +19,7 @@
 #  created_at           :datetime         not null
 #  updated_at           :datetime         not null
 #  challenge_dice       :integer          default(0)
+#  name                 :string
 #
 # Indexes
 #

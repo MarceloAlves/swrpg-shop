@@ -33,7 +33,7 @@ class ShopsController < ApplicationController
   end
 
   def create
-    item_list = ItemList.new(shop_params.to_h.symbolize_keys)
+    item_list = ItemList.new(shop_params.except(:name).to_h.symbolize_keys)
     item_list.randomize
     shop_id = generate_key
 
@@ -41,6 +41,7 @@ class ShopsController < ApplicationController
       shop = current_user.shops.build(shop_params)
       shop.slug = shop_id
       shop.items = item_list.shop_list
+      shop.name = nil if shop.name.blank?
       shop.save!
     else
       save_temporary_shop(item_list, shop_id)
@@ -58,7 +59,7 @@ class ShopsController < ApplicationController
   private
 
   def shop_params
-    params.require(:shop).permit(:shop_type, :boost_dice, :setback_dice, :challenge_dice, :characteristic_level,
+    params.require(:shop).permit(:name, :shop_type, :boost_dice, :setback_dice, :challenge_dice, :characteristic_level,
                                  :skill_level, :world_id, :min_size, :max_size, :specialized_shop_id, sourcebooks: [])
   end
 

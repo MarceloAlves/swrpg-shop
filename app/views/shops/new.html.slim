@@ -4,6 +4,11 @@
     h4.card-header Create New Shop
     .card-body.p-4
       = simple_form_for shop, url: shops_path do |f|
+        - if current_user
+          .form-group.row
+            label.col-sm-2.col-form-label Shop Name
+            .col-sm-10
+              = f.input :name, label: false, input_html: { class: 'form-control'}
         .form-group.row
           label.col-sm-2.col-form-label
             | Shop Type
