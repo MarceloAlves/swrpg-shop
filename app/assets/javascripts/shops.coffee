@@ -56,6 +56,8 @@ $(document).on 'turbolinks:load', ->
 
   $('#shop_shop_type').on 'change', (e) ->
     if e.target.value == 'Black Market'
-      $('#shop_characteristic_level_label').html('Streetwise Level')
+      $('#shop-characteristic-level-label').html('Streetwise Level')
+      $('#shop-skill-level-label').html('Cunning Level')
     else
-      $('#shop_characteristic_level_label').html('Presence Level')
+      $('#shop-characteristic-level-label').html('Presence Level')
+      $('#shop-skill-level-label').html('Negotiation Level')

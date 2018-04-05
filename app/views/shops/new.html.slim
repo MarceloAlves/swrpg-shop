@@ -58,11 +58,11 @@
           .col-sm-10
             = f.input :challenge_dice, as: :integer, label: false, hint: 'Optional: Add Challenge dice to bump up the difficulty', input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
         .form-group.row
-          label.col-sm-2.col-form-label#shop_characteristic_level_label Presence Level
+          label.col-sm-2.col-form-label#shop-characteristic-level-label Presence Level
           .col-sm-10
             = f.input :characteristic_level, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
         .form-group.row
-          label.col-sm-2.col-form-label Negotiation Level
+          label.col-sm-2.col-form-label#shop-skill-level-label Negotiation Level
           .col-sm-10
             = f.input :skill_level, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
         .form-group.row
