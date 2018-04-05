@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180314060611) do
+ActiveRecord::Schema.define(version: 20180405160120) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -115,6 +115,7 @@ ActiveRecord::Schema.define(version: 20180314060611) do
     t.string "slug"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "challenge_dice", default: 0
     t.index ["slug"], name: "index_shops_on_slug", unique: true
     t.index ["specialized_shop_id"], name: "index_shops_on_specialized_shop_id"
     t.index ["user_id"], name: "index_shops_on_user_id"
@@ -135,6 +136,8 @@ ActiveRecord::Schema.define(version: 20180314060611) do
     t.text "item_types", default: [], array: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "user_id"
+    t.index ["user_id"], name: "index_specialized_shops_on_user_id"
   end
 
   create_table "subscriptions", force: :cascade do |t|
@@ -221,6 +224,7 @@ ActiveRecord::Schema.define(version: 20180314060611) do
   add_foreign_key "shops", "specialized_shops"
   add_foreign_key "shops", "users"
   add_foreign_key "shops", "worlds"
+  add_foreign_key "specialized_shops", "users"
   add_foreign_key "subscriptions", "users"
   add_foreign_key "worlds", "users"
 end
