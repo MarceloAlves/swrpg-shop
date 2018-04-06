@@ -1,33 +1,31 @@
 tr
-  td.p-3.align-middle
-    = image_tag("items/#{item.fetch('image_filename')}", width: '125')
-  td.p-3.align-middle
+  td.p-1.align-middle
     = item.fetch('name')
     = item.fetch('is_restricted', false) ? '&nbsp;<span class="restricted-item">(R)</span>'.html_safe : nil
-  td.p-3.align-middle
-    p= item.fetch('description')
+  td.p-1.align-middle
     - item.fetch('base_mods', []).each do |mod|
-      p= format_description(mod.fetch('misc_desc', ''))
-  td.p-3.align-middle.text-center[data-sort-value="#{item.fetch('price')}"]
+      - next unless mod.dig('misc_desc')
+      p= format_description(mod.dig('misc_desc'))
+  td.p-1.align-middle.text-center[data-sort-value="#{item.fetch('price')}"]
     = number_with_delimiter item.fetch('price')
-  td.p-3.align-middle.text-center
+  td.p-1.align-middle.text-center
     = item.fetch('damage')
-  td.p-3.align-middle.text-center
+  td.p-1.align-middle.text-center
     = item.fetch('crit')
-  td.p-3.align-middle.text-center
+  td.p-1.align-middle.text-center
     = item.fetch('rarity')
-  td.p-3.align-middle.text-center
+  td.p-1.align-middle.text-center
     = item.fetch('encumbrance')
-  td.p-3.align-middle.text-center
+  td.p-1.align-middle.text-center
     = item.fetch('hard_points')
-  td.p-3.align-middle
+  td.p-1.align-middle
     = item.fetch('weapon_type', item.fetch('type', nil))
-  td.p-3.align-middle
+  td.p-1.align-middle
     = format_skill(item.fetch('skill_key'))
-  td.p-3.align-middle
+  td.p-1.align-middle
     = item.fetch('range_value').gsub(/wr/, '')
-  td.p-3.align-middle
+  td.p-1.align-middle
     - item.fetch('qualities', []).each do |quality|
       p= format_qualities(quality.values)
-  td.p-3.align-middle
+  td.p-1.align-middle
     = roll_results(item.fetch('roll_total', [0,0,0]))
