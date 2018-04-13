@@ -1,5 +1,5 @@
 .d-flex.justify-content-center.h-100.align-content-center.mt-5
-  .card.col-md-3.p-0
+  .card.col-12.col-sm-10.col-md-8.col-lg-6.col-xl-4.p-0
     h4.card-header Subscription
     .card-body.p-0
       .row.no-gutters
@@ -30,13 +30,13 @@
                 | Next charge date: 
                 = subscription.current_period_end.strftime('%D')
             .row
-              .col-6
+              .col-12.col-md-6
                 = form_tag subscription_path(subscription), method: :put
                   = render 'stripe_card_update'
-                  button.btn.btn-info.px-4.mt-5[type="submit"]
+                  button.btn.btn-info.btn-block.px-4.mt-5[type="submit"]
                     | Update card info
-              .col-6
-                = link_to 'Cancel Subscription', subscription_path(subscription), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger mt-5 px-4'
+              .col-12.col-md-6
+                = link_to 'Cancel Subscription', subscription_path(subscription), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger btn-block mt-5 px-4'
     .card-footer.text-muted
       | Questions? 
       a[href="mailto:support@swrpg-shop.com"] support@swrpg-shop.com
