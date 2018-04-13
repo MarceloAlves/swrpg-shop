@@ -1,6 +1,6 @@
 = content_for(:title) { 'Create Shop | SWRPG Shop Generator' }
 .d-flex.justify-content-center.h-100.align-content-center.mt-5
-  .card.col-md-6.p-0
+  .card.col-sm-12.col-md-12.col-lg-8.col-xl-6.p-0
     h4.card-header Create New Shop
     .card-body.p-4
       = simple_form_for shop, url: shops_path do |f|
@@ -15,7 +15,7 @@
             a.ml-1[href="#shop_type_help" data-toggle="collapse"]
              i.fa.fa-question-circle-o
           .col-sm-10
-            = f.input :shop_type, collection: ['On The Level', 'Shady', 'Black Market'], label: false, selected: 'On The Level', input_html: { class: 'form-control' }
+            = f.input :shop_type, collection: ['On The Level', 'Shady', 'Black Market'], label: false, selected: 'On The Level'
         div#shop_type_help.collapse.mb-4.p-3.bg-light
           p Selects the shop type which modifies the chance of finding restricted items.
           dl.row
@@ -31,7 +31,7 @@
             a.ml-1[href="#shop_specialization_help" data-toggle="collapse"]
               i.fa.fa-question-circle-o
           .col-sm-10
-            = f.association :specialized_shop, collection: SpecializedShop.all, label: false, include_blank: false, input_html: { class: 'form-control' }
+            = f.association :specialized_shop, collection: SpecializedShop.all, label: false, include_blank: false
         div#shop_specialization_help.collapse.mb-4.p-3.bg-light
           p Selects the shop specialization which limits the types of items that will be shown
           dl.row
@@ -48,27 +48,27 @@
         .form-group.row
           label.col-sm-2.col-form-label Boost Dice
           .col-sm-10
-            = f.input :boost_dice, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+            = f.input :boost_dice, as: :integer, label: false, input_html: { min: 0, max: 10, value: 0 }
         .form-group.row
           label.col-sm-2.col-form-label Setback Dice
           .col-sm-10
-            = f.input :setback_dice, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+            = f.input :setback_dice, as: :integer, label: false, input_html: { min: 0, max: 10, value: 0 }
         .form-group.row
           label.col-sm-2.col-form-label Challenge Dice
           .col-sm-10
-            = f.input :challenge_dice, as: :integer, label: false, hint: 'Optional: Add Challenge dice to bump up the difficulty', input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+            = f.input :challenge_dice, as: :integer, label: false, hint: 'Optional: Add Challenge dice to bump up the difficulty', input_html: { min: 0, max: 10, value: 0 }
         .form-group.row
           label.col-sm-2.col-form-label#shop-characteristic-level-label Presence Level
           .col-sm-10
-            = f.input :characteristic_level, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+            = f.input :characteristic_level, as: :integer, label: false, input_html: { min: 0, max: 10, value: 0 }
         .form-group.row
           label.col-sm-2.col-form-label#shop-skill-level-label Negotiation Level
           .col-sm-10
-            = f.input :skill_level, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10, value: 0 }
+            = f.input :skill_level, as: :integer, label: false, input_html: { min: 0, max: 10, value: 0 }
         .form-group.row
           label.col-sm-2.col-form-label World
           .col-sm-10
-            = f.association :world, collection: worlds, selected: 1, label: false, input_html: { class: 'form-control' }
+            = f.association :world, collection: worlds, selected: 1, label: false
         .form-group.row
           label.col-sm-2.col-form-label Min Items
           .col-sm-10
@@ -97,7 +97,7 @@
                         h5= collection
                         - books.each do |book|
                           .form-check
-                            = f.input :sourcebooks, as: :boolean, inline_label: book.title, required: false, checked_value: book.title, unchecked_value: nil, include_hidden: false, input_html: { checked: true, name: 'shop[sourcebooks][]', data: { sourcebook_checkbox: '' } }
+                            = f.input :sourcebooks, as: :boolean, inline_label: true, label: book.title, required: false, checked_value: book.title, unchecked_value: nil, include_hidden: false, input_html: { id: book.title.parameterize, checked: true, name: 'shop[sourcebooks][]', data: { sourcebook_checkbox: '' } }
                   .row
                     button.btn.btn-primary.mx-1[data-select-all]
                       | Select All
@@ -111,5 +111,5 @@
                 = link_to 'Sign up', new_user_registration_path
                 | &nbsp;for a subscription.
         .row.justify-content-center
-          .col-sm-3
+          .col-sm-6
             = f.button :submit, 'Generate Shop', class: 'btn btn-success btn-lg btn-block'
