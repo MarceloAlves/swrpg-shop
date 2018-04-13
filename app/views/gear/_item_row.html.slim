@@ -1,13 +1,7 @@
 tr
   td.p-1.align-middle
     = item.fetch('name')
-    = item.fetch('is_restricted', false) ? '&nbsp;<span class="restricted-item">(R)</span>'.html_safe : nil
-  td.p-1.align-middle
-    = item.fetch('description')
-      br
-    - item.fetch('base_mods', []).each do |mod|
-      - next unless mod.dig('misc_desc')
-      p= format_description(mod.dig('misc_desc'))
+    = content_tag(:span, '(R)', class: 'restricted-item ml-1') if item.dig('is_restricted')
   td.p-1.align-middle.text-center[data-sort-value="#{item.fetch('price')}"]
     = number_with_delimiter item.fetch('price')
   td.p-1.align-middle.text-center
@@ -15,6 +9,11 @@ tr
   td.p-1.align-middle.text-center
     = item.fetch('rarity')
   td.p-1.align-middle
-    = item.fetch('gear_type', item.fetch('type', nil))
+    = item.fetch('gear_type', item.dig('type'))
   td.p-1.align-middle
-    = roll_results(item.fetch('roll_total', [0,0,0]))
+    = roll_results(item.fetch('roll_total') { [0,0,0] })
+  td.p-1.align-middle
+    - list_sources(item.fetch('description'), item.fetch('sources')).each do |source|
+      - abbr = content_tag(:abbr, source[:sourcebook].split(' ').map(&:first).join, title: source[:sourcebook])
+      - page = ":#{source[:page]}"
+      = content_tag(:p, safe_join([abbr, page]))

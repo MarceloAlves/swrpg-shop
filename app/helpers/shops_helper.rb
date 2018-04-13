@@ -89,4 +89,15 @@ module ShopsHelper
     end
     description.html_safe
   end
+
+  def list_sources(description, sources)
+    meta = []
+    sources.each do |source|
+      regex = /page (\d*) of the #{source}/
+      matches = description.match(regex)
+      next if matches.nil?
+      meta << { page: matches[1], sourcebook: source }
+    end
+    meta
+  end
 end

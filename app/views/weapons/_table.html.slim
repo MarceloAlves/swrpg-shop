@@ -1,8 +1,7 @@
-table.table.table-hover.table-sm.item-table.table-responsive.table-bordered
+table.table.table-hover.table-sm.item-table.table-responsive-md.table-bordered
   thead.thead-inverse
     tr
       th.p-1.text-center.align-middle[data-sort="string-ins" data-sort-onload="yes"] Item Name
-      th.p-1.text-center.align-middle[width="15%"] Description
       th.p-1.text-center.align-middle[data-sort="int"] Price
       th.p-1.text-center.align-middle[data-sort="int"] Damage
       th.p-1.text-center.align-middle[data-sort="int"] Crit
@@ -14,6 +13,7 @@ table.table.table-hover.table-sm.item-table.table-responsive.table-bordered
       th.p-1.text-center.align-middle[data-sort="string-ins"] Range
       th.p-1.text-center.align-middle Qualities
       th.p-1.text-center.align-middle Roll
+      th.p-1.text-center.align-middle Sources
 
   tbody
     = render partial: 'weapons/item_row', collection: weapons, as: :item

@@ -1,8 +1,7 @@
-table.table.table-hover.table-sm.item-table.table-responsive.table-bordered
+table.table.table-hover.table-sm.item-table.table-responsive-md.table-bordered
   thead.thead-inverse
     tr
       th.p-1.text-center.align-middle[width="15%" data-sort="string-ins" data-sort-onload="yes"] Item Name
-      th.p-1.text-center.align-middle[width="20%"] Description
       th.p-1.text-center.align-middle[data-sort="int"] Price
       th.p-1.text-center.align-middle[data-sort="int"] Defense
       th.p-1.text-center.align-middle[data-sort="int"] Soak
@@ -10,5 +9,6 @@ table.table.table-hover.table-sm.item-table.table-responsive.table-bordered
       th.p-1.text-center.align-middle[data-sort="int"] Hard Points
       th.p-1.text-center.align-middle[data-sort="int"] Rarity
       th.p-1.text-center.align-middle[width="10%"] Roll
+      th.p-1.text-center.align-middle Sources
   tbody
     = render partial: 'armor/item_row', collection: armor, as: :item
