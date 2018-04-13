@@ -3,6 +3,8 @@ tr
     = item.fetch('name')
     = item.fetch('is_restricted', false) ? '&nbsp;<span class="restricted-item">(R)</span>'.html_safe : nil
   td.p-1.align-middle
+    = item.fetch('description')
+      br
     - item.fetch('base_mods', []).each do |mod|
       - next unless mod.dig('misc_desc')
       p= format_description(mod.dig('misc_desc'))
