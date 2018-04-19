@@ -3698,7 +3698,8 @@
     "is_restricted": "true",
     "type": "Security/Espionage",
     "sources": [
-      "Desperate Allies"
+      "Desperate Allies",
+      "Fly Casual"
     ],
     "image_filename": "missing.png",
     "base_mods": [
@@ -7007,30 +7008,6 @@
         "count": "1",
         "index": "0",
         "misc_desc": "Fool fingerprint readers: [B]Easy ([DI]) to Hard([DI][DI][DI]) Cool or Deception checks[b]. [B]Daunting ([DI][DI][DI][DI]) Perception check[b] to notice a worn fingerprint masque."
-      }
-    ]
-  },
-  {
-    "key": "FALSECRED",
-    "name": "False Credentials",
-    "description": "Please see page 50 of the Fly Casual Sourcebook for details.",
-    "type": "Tools/Electronics",
-    "categories": [],
-    "encumbrance": "0",
-    "hard_points": "0",
-    "price": "800",
-    "rarity": "7",
-    "is_restricted": "true",
-    "sources": [
-      "Fly Casual"
-    ],
-    "image_filename": "missing.png",
-    "base_mods": [
-      {
-        "key": null,
-        "count": "1",
-        "index": "0",
-        "misc_desc": "Require [B]Hard ([DI][DI][DI]) Computers check[b] to recognize the credentials as fakes (or Daunting ([DI][DI][DI][DI]) Perception check without equipment)."
       }
     ]
   },

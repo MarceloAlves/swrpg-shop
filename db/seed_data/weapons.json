@@ -3715,75 +3715,6 @@
         "image_filename": "missing.png"
     },
     {
-        "key": "MODEL77",
-        "name": "Model 77 Air Rifle",
-        "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
-        "skill_key": "RANGHVY",
-        "damage": "6",
-        "crit": "0",
-        "range_value": "wrLong",
-        "encumbrance": "3",
-        "hard_points": "3",
-        "price": "1100",
-        "rarity": "6",
-        "type": "Slugthrower",
-        "categories": [
-            "Rifle",
-            "Ranged"
-        ],
-        "qualities": [
-            {
-                "key": "PIERCE",
-                "count": "4"
-            },
-            {
-                "key": "STUNDAMAGE"
-            }
-        ],
-        "base_mods": [],
-        "sources": [
-            "Savage Spirits"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "BERSERKERRIF",
-        "name": "Berserker Rifle",
-        "description": "Please see page 46 of the Forged in Battle Sourcebook for details.",
-        "type": "Slugthrower",
-        "categories": [
-            "Ranged",
-            "Rifle"
-        ],
-        "encumbrance": "4",
-        "price": "600",
-        "rarity": "5",
-        "is_restricted": "true",
-        "skill_key": "RANGHVY",
-        "damage": "7",
-        "crit": "4",
-        "size_high": "10",
-        "range_value": "wrMedium",
-        "qualities": [
-            {
-                "key": "BURN",
-                "count": "1"
-            },
-            {
-                "key": "CUMBERSOME",
-                "count": "3"
-            },
-            {
-                "key": "DISORIENT",
-                "count": "1"
-            }
-        ],
-        "sources": [
-            "Forged in Battle"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
         "key": "BERSERKERRIF",
         "name": "Berserker Rifle",
         "description": "Please see page 46 of the Forged in Battle Sourcebook for details.",
@@ -9465,45 +9396,6 @@
         ],
         "sources": [
             "Forged in Battle"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "MOLSTILETTO",
-        "name": "Molecular Stiletto",
-        "description": "Please see page 43 of the Far Horizons Sourcebook for details.",
-        "type": "Melee",
-        "categories": [
-            "Cutting Edge Melee",
-            "Powered Melee"
-        ],
-        "encumbrance": "1",
-        "hard_points": "1",
-        "price": "500",
-        "rarity": "5",
-        "is_restricted": "false",
-        "base_mods": [
-            {
-                "misc_desc": "Add [SETBACK] to Perception checks to find this weapon on a body.  [THREAT][THREAT] or [DESPAIR] damages weapon by one step."
-            }
-        ],
-        "skill_key": "MELEE",
-        "damage": "0",
-        "damage_add": "0",
-        "crit": "2",
-        "range_value": "wrEngaged",
-        "qualities": [
-            {
-                "key": "PIERCE",
-                "count": "5"
-            },
-            {
-                "key": "VICIOUS",
-                "count": "1"
-            }
-        ],
-        "sources": [
-            "Far Horizons"
         ],
         "image_filename": "missing.png"
     },
