@@ -1,7 +1,7 @@
 class ShopsController < ApplicationController
   protect_from_forgery with: :null_session
   before_action :authenticate_user!, only: [:index]
-  before_action :validate_subscription
+  # before_action :validate_subscription
 
   def index
     shops = Shop.where(user: current_user)

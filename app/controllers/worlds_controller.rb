@@ -1,6 +1,6 @@
 class WorldsController < ApplicationController
   before_action :authenticate_user!
-  before_action :validate_subscription
+  # before_action :validate_subscription
 
   def index
     render :index, locals: { worlds: current_user.worlds }
