@@ -2,7 +2,7 @@
 #
 # Table name: item_attachments
 #
-#  id                   :integer          not null, primary key
+#  id                   :bigint(8)        not null, primary key
 #  key                  :string           not null
 #  name                 :string           not null
 #  description          :text
@@ -40,6 +40,10 @@
 #  image_filename       :string           default("missing.png")
 #  created_at           :datetime         not null
 #  updated_at           :datetime         not null
+#
+# Indexes
+#
+#  index_item_attachments_on_key  (key) UNIQUE
 #
 
 class ItemAttachment < ApplicationRecord

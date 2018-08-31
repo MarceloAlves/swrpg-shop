@@ -2,7 +2,7 @@
 #
 # Table name: gears
 #
-#  id               :integer          not null, primary key
+#  id               :bigint(8)        not null, primary key
 #  key              :string           not null
 #  name             :string           not null
 #  description      :text
@@ -23,6 +23,10 @@
 #  item_type        :string
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
+#
+# Indexes
+#
+#  index_gears_on_key  (key) UNIQUE
 #
 
 class Gear < ApplicationRecord

@@ -2,10 +2,10 @@
 #
 # Table name: shops
 #
-#  id                   :integer          not null, primary key
-#  user_id              :integer          not null
-#  specialized_shop_id  :integer          not null
-#  world_id             :integer          not null
+#  id                   :bigint(8)        not null, primary key
+#  user_id              :bigint(8)        not null
+#  specialized_shop_id  :bigint(8)        not null
+#  world_id             :bigint(8)        not null
 #  shop_type            :string
 #  boost_dice           :integer          default(0)
 #  setback_dice         :integer          default(0)

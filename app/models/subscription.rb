@@ -2,8 +2,8 @@
 #
 # Table name: subscriptions
 #
-#  id                     :integer          not null, primary key
-#  user_id                :integer
+#  id                     :bigint(8)        not null, primary key
+#  user_id                :bigint(8)
 #  stripe_subscription_id :string
 #  billing_cycle_anchor   :datetime
 #  canceled_at            :datetime

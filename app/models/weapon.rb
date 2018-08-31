@@ -2,7 +2,7 @@
 #
 # Table name: weapons
 #
-#  id               :integer          not null, primary key
+#  id               :bigint(8)        not null, primary key
 #  key              :string
 #  name             :string
 #  description      :text
@@ -32,6 +32,10 @@
 #  image_filename   :string           default("missing.png")
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
+#
+# Indexes
+#
+#  index_weapons_on_key  (key) UNIQUE
 #
 
 class Weapon < ApplicationRecord

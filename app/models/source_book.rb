@@ -2,7 +2,7 @@
 #
 # Table name: source_books
 #
-#  id         :integer          not null, primary key
+#  id         :bigint(8)        not null, primary key
 #  key        :string           not null
 #  title      :string           not null
 #  collection :string

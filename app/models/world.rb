@@ -2,7 +2,7 @@
 #
 # Table name: worlds
 #
-#  id              :integer          not null, primary key
+#  id              :bigint(8)        not null, primary key
 #  name            :string           not null
 #  description     :text
 #  rarity_modifier :integer          not null
@@ -10,7 +10,7 @@
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #  is_default      :boolean          default(FALSE), not null
-#  user_id         :integer
+#  user_id         :bigint(8)
 #
 # Indexes
 #
