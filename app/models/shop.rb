@@ -54,7 +54,6 @@ class Shop < ApplicationRecord
       sourcebooks: sourcebooks
     )
     item_list.randomize
-    items = item_list
-    save!
+    update!(items: item_list.shop_list)
   end
 end
