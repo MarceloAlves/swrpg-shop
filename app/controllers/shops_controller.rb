@@ -1,10 +1,9 @@
 class ShopsController < ApplicationController
-  protect_from_forgery with: :null_session
-  before_action :authenticate_user!, only: [:index]
+  before_action :authenticate_user!, only: %i[index edit update destroy]
   # before_action :validate_subscription
 
   def index
-    shops = Shop.where(user: current_user)
+    shops = Shop.where(user: current_user).order(:name)
     render :index, locals: { shops: shops }
   end
 
@@ -21,13 +20,18 @@ class ShopsController < ApplicationController
     end
   end
 
+  def edit
+    shop = Shop.find_by(id: params[:id], user: current_user)
+    render :edit, locals: { shop: shop, worlds: worlds }
+  end
+
   def new
     render :new, locals: { shop: Shop.new, worlds: worlds }
   end
 
-  # Update regenerates a shop with the same settings
   def update
-    shop = Shop.find(params[:id])
+    shop = Shop.find_by(id: params[:id], user: current_user)
+    shop.update!(shop_params) if params[:shop].present?
     shop.regenerate!
     redirect_to shops_path, notice: 'Shop regenerated'
   end
@@ -51,7 +55,7 @@ class ShopsController < ApplicationController
   end
 
   def destroy
-    shop = Shop.find(params[:id])
+    shop = Shop.find_by(id: params[:id], user: current_user)
     shop.destroy
     redirect_to shops_path, notice: 'Shop deleted'
   end

@@ -23,7 +23,9 @@
             | Price:&nbsp;
             = shop.world.price_modifier
     .card-footer.d-flex.justify-content-between
-      .col-6.text-center
+      .col-4.text-center
         = link_to fa_icon("refresh", text: 'Refresh'), shop_path(shop.id), method: :put, class: 'mx-2 btn btn-success btn-block'
-      .col-6.text-center
+      .col-4.text-center
+        =link_to fa_icon('pencil', text: 'Edit'), edit_shop_path(shop.id), class: 'mx-2 btn btn-warning btn-block'
+      .col-4.text-center
         = link_to fa_icon("times", text: 'Delete'), shop_path(shop), method: :delete, class: 'mx-2 btn btn-danger btn-block', data: { confirm: 'Are you sure?' }
