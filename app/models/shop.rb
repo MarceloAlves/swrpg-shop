@@ -36,24 +36,9 @@
 #
 
 class Shop < ApplicationRecord
+  include Shopable
+
   belongs_to :user
   belongs_to :specialized_shop
   belongs_to :world
-
-  def regenerate!
-    item_list = ItemList.new(
-      shop_type: shop_type,
-      boost_dice: boost_dice,
-      setback_dice: setback_dice,
-      characteristic_level: characteristic_level,
-      skill_level: skill_level,
-      world_id: world_id,
-      min_size: min_size,
-      max_size: max_size,
-      specialized_shop_id: specialized_shop_id,
-      sourcebooks: sourcebooks
-    )
-    item_list.randomize
-    update!(items: item_list.shop_list)
-  end
 end

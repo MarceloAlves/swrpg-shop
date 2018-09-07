@@ -13,10 +13,12 @@ class ShopsController < ApplicationController
     if shop.blank?
       render :missing_shop
     elsif shop.is_a?(Shop)
-      render :show, locals: { shop: shop.items.dig('items'), shop_info: shop.items.dig('info'), ttl: -1 }
+      render :show, locals: { shop: shop, shop_info: shop.shop_info, ttl: -1 }
     else
       time_left = Redis.current.pttl("shops:#{params[:id]}")
-      render :show, locals: { shop: shop.fetch('items'), shop_info: shop.fetch('info'), ttl: time_left / 1000 }
+      shop = parse_free_shop(shop)
+      free_shop = FreeShop.new(shop.to_h)
+      render :show, locals: { shop: free_shop, shop_info: free_shop.shop_info, ttl: time_left / 1000 }
     end
   end
 
@@ -32,25 +34,18 @@ class ShopsController < ApplicationController
   def update
     shop = Shop.find_by(id: params[:id], user: current_user)
     shop.update!(shop_params) if params[:shop].present?
-    shop.regenerate!
+    shop.generate_items!
+    shop.save!
     redirect_to shops_path, notice: 'Shop regenerated'
   end
 
   def create
-    item_list = ItemList.new(shop_params.except(:name).to_h.symbolize_keys)
-    item_list.randomize
     shop_id = generate_key
-
-    if current_user
-      shop = current_user.shops.build(shop_params)
-      shop.slug = shop_id
-      shop.items = item_list.shop_list
-      shop.name = nil if shop.name.blank?
-      shop.save!
-    else
-      save_temporary_shop(item_list, shop_id)
-    end
-
+    shop = current_user.nil? ? FreeShop.new(shop_params.to_h) : current_user.shops.build(shop_params)
+    shop.slug = shop_id
+    shop.name = nil if shop.name.blank?
+    shop.generate_items!
+    shop.save!
     redirect_to shop_path(shop_id)
   end
 
@@ -67,11 +62,6 @@ class ShopsController < ApplicationController
                                  :skill_level, :world_id, :min_size, :max_size, :specialized_shop_id, sourcebooks: [])
   end
 
-  def save_temporary_shop(items, shop_id)
-    Redis.current.setex "shops:#{shop_id}", 24.hours, items.shop_list.to_json
-    Redis.current.incr 'shops_generated'
-  end
-
   def generate_key
     loop do
       shop_id = SecureRandom.base58(10)
@@ -86,5 +76,20 @@ class ShopsController < ApplicationController
                World.where(is_default: true)
              end
     result.map { |w| ["#{w.name} / Rarity Modifier: #{w.rarity_modifier} / Price Modifier: #{w.price_modifier}", w.id] }
+  end
+
+  def parse_free_shop(result)
+    shop_info = result.dig('info')
+    {
+      'specialized_shop_id' => shop_info.dig('specialized_shop', 'id'),
+      'world_id' => shop_info.dig('world', 'id'),
+      'shop_type' => shop_info.dig('shop_type'),
+      'boost_dice' => shop_info.dig('dice_pool', 'boost_dice'),
+      'setback_dice' => shop_info.dig('dice_pool', 'setback_dice'),
+      'challenge_dice' => shop_info.dig('dice_pool', 'challenge_dice'),
+      'characteristic_level' => shop_info.dig('characteristic_level'),
+      'skill_level' => shop_info.dig('skill_level'),
+      'items' => result.dig('items')
+    }
   end
 end

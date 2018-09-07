@@ -1,15 +1,13 @@
 class DicePool
   attr_reader :dice_pool
-  def initialize(skill_level: 0, characteristic_level: 0, number_boost_dice: 0, number_setback_dice: 0, number_challenge_dice: 0)
-    number_ability_dice = ability_dice(characteristic_level: characteristic_level, skill_level: skill_level)
-    number_proficiency_dice = proficiency_dice(characteristic_level: characteristic_level, skill_level: skill_level)
 
+  def initialize(proficiency_dice: 0, ability_dice: 0, boost_dice: 0, setback_dice: 0, challenge_dice: 0)
     @dice_pool = {
-      ability:     number_ability_dice,
-      proficiency: number_proficiency_dice,
-      boost:       number_boost_dice,
-      setback:     number_setback_dice,
-      challenge:   number_challenge_dice
+      ability:     ability_dice,
+      proficiency: proficiency_dice,
+      boost:       boost_dice,
+      setback:     setback_dice,
+      challenge:   challenge_dice
     }
   end
 
@@ -38,13 +36,5 @@ class DicePool
   def roll_single_dice(dice_type:)
     dice = Dice.public_send(dice_type)
     dice.sample
-  end
-
-  def ability_dice(characteristic_level:, skill_level:)
-    characteristic_level >= skill_level ? characteristic_level - skill_level : skill_level - characteristic_level
-  end
-
-  def proficiency_dice(characteristic_level:, skill_level:)
-    characteristic_level >= skill_level ? skill_level : characteristic_level
   end
 end
