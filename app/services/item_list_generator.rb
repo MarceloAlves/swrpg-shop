@@ -33,7 +33,7 @@ class ItemListGenerator
     @sourcebooks = shop.sourcebooks
     @shop_size = rand(shop.max_size - shop.min_size + 1) + shop.min_size
     @all_items = build_item_list(shop.specialized_shop.item_types, shop.sourcebooks)
-    @item_list = { armor: [], gear: [], item_attachments: [], weapons: [] }
+    @item_list = { armor: {}, gear: {}, item_attachments: {}, weapons: {} }
   end
 
   def generate!
@@ -49,8 +49,9 @@ class ItemListGenerator
         markup_price!(roll_total, item)
 
         item.store('roll_total', roll_total)
+        item.store('quantity', -1)
 
-        @item_list[item_type] << item
+        @item_list[item_type].store(item.fetch('key'), item)
       end
     end
   end
