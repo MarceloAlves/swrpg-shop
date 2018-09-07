@@ -8,7 +8,7 @@ end
 
 # Main
 gem 'pg', '~> 0.18'
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 gem 'rails', '~> 5.2.1'
 gem 'slim-rails'
 
