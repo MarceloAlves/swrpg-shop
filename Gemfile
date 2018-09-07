@@ -39,7 +39,7 @@ group :development, :test do
   gem 'capybara'
   gem 'chromedriver-helper'
   gem 'dotenv-rails'
-  gem 'rspec-rails', '~> 3.7'
+  gem 'rspec-rails', '~> 3.8'
   gem 'selenium-webdriver'
 end
 
