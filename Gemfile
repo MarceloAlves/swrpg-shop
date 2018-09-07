@@ -7,19 +7,19 @@ git_source(:github) do |repo_name|
 end
 
 # Main
-gem 'pg', '~> 0.18'
-gem 'puma', '~> 3.11'
+gem 'pg', '~> 1.1'
+gem 'puma', '~> 3.12'
 gem 'rails', '~> 5.2.1'
 gem 'slim-rails'
 
 # Assets
-gem 'bootstrap', '~> 4.1.1'
+gem 'bootstrap', '~> 4.1.3'
 gem 'coffee-rails', '~> 4.2'
 gem 'font-awesome-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
 gem 'newrelic_rpm'
-gem 'popper_js', '~> 1.12.9'
+gem 'popper_js', '~> 1.14.3'
 gem 'premailer-rails'
 gem 'sass-rails', '~> 5.0'
 gem 'tether-rails'
@@ -60,6 +60,6 @@ gem 'fakeredis', group: :test
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-gem 'bootsnap', '1.3.0', require: false
+gem 'bootsnap', '1.3.1', require: false
 
 # gem 'therubyracer', platforms: :ruby
