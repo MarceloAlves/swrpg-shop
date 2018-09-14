@@ -83,6 +83,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    connection_pool (2.2.2)
     crass (1.0.4)
     css_parser (1.6.0)
       addressable
@@ -188,10 +189,17 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (>= 0.19.0, < 2.0)
+    rainbow (3.0.0)
     rake (12.3.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    react_on_rails (11.1.4)
+      addressable
+      connection_pool
+      execjs (~> 2.5)
+      rails (>= 3.2)
+      rainbow (~> 3.0)
     redis (4.0.2)
     responders (2.4.0)
       actionpack (>= 4.2.0, < 5.3)
@@ -313,6 +321,7 @@ DEPENDENCIES
   pry-rails
   puma (~> 3.12)
   rails (~> 5.2.1)
+  react_on_rails (= 11.1.4)
   redis (~> 4.0)
   rspec-rails (~> 3.8)
   sass-rails (~> 5.0)
