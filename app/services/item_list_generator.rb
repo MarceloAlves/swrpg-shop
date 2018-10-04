@@ -30,7 +30,6 @@ class ItemListGenerator
     @shop_modifiers = SHOP_TYPES[shop.shop_type]
     @dice_pool = dice_pool
     @world = shop.world
-    @sourcebooks = shop.sourcebooks
     @shop_size = rand(shop.max_size - shop.min_size + 1) + shop.min_size
     @all_items = build_item_list(shop.specialized_shop.item_types, shop.sourcebooks)
     @item_list = { armor: {}, gear: {}, item_attachments: {}, weapons: {} }

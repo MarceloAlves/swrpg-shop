@@ -11,6 +11,8 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 3.12'
 gem 'rails', '~> 5.2.1'
 gem 'slim-rails'
+gem 'devise_token_auth'
+gem 'rack-cors'
 
 # Assets
 gem 'bootstrap', '~> 4.1.3'

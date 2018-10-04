@@ -41,4 +41,8 @@ class Shop < ApplicationRecord
   belongs_to :user
   belongs_to :specialized_shop
   belongs_to :world
+
+  def ttl
+    -1
+  end
 end

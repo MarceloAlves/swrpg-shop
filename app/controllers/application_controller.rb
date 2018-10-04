@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery with: :exception
+  protect_from_forgery with: :exception, only: Proc.new { |c| !c.request.format.json? }
 
   def after_sign_up_path_for(resource)
     subscriptions_path

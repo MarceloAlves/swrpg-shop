@@ -28,5 +28,18 @@ module StarWarsShop
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # API Only mode
+    # config.api_only = true
+
+    # rack-cors
+    config.middleware.insert_before 0, Rack::Cors do
+      allow do
+        origins '*'
+        resource '*',
+          headers: :any, methods: [:get, :post, :options, :delete],
+          expose: ['access-token', 'client', 'expiry', 'token-type', 'uid']
+      end
+    end
   end
 end
