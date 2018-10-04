@@ -23,7 +23,7 @@ gem 'jquery-rails'
 gem 'newrelic_rpm'
 gem 'popper_js', '~> 1.14.3'
 gem 'premailer-rails'
-gem 'react_on_rails', '11.1.4'
+gem 'react_on_rails', '11.1.5'
 gem 'sass-rails', '~> 5.0'
 gem 'tether-rails'
 gem 'turbolinks', '~> 5'
@@ -63,6 +63,6 @@ gem 'fakeredis', group: :test
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-gem 'bootsnap', '1.3.1', require: false
+gem 'bootsnap', '1.3.2', require: false
 
 # gem 'therubyracer', platforms: :ruby
