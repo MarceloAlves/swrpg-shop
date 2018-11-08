@@ -17,15 +17,17 @@ class DicePool
 
     @dice_pool.each do |dice_type, number|
       number.times do
-        leftover_success    += roll_single_dice(dice_type: dice_type)[0]
-        leftover_advantages += roll_single_dice(dice_type: dice_type)[1]
-        leftover_triumphs   += roll_single_dice(dice_type: dice_type)[2]
+        result = roll_single_dice(dice_type: dice_type)
+        leftover_success    += result[0]
+        leftover_advantages += result[1]
+        leftover_triumphs   += result[2]
       end
     end
 
     number_of_difficulty_dice.times do
-      leftover_success    += Dice.difficulty[rand(0..Dice.difficulty.count - 1)][0]
-      leftover_advantages += Dice.difficulty[rand(0..Dice.difficulty.count - 1)][1]
+      result = Dice.difficulty[rand(0..Dice.difficulty.count - 1)]
+      leftover_success    += result[0]
+      leftover_advantages += result[1]
     end
 
     [leftover_success, leftover_advantages, leftover_triumphs]
