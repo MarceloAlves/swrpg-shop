@@ -143,7 +143,7 @@ GEM
     msgpack (1.2.4)
     multi_json (1.12.2)
     multipart-post (2.0.0)
-    newrelic_rpm (5.4.0.347)
+    newrelic_rpm (5.5.0.348)
     nio4r (2.3.1)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
