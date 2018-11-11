@@ -18,4 +18,6 @@ html
     = render 'layouts/analytics' if Rails.env.production?
     = render 'layouts/navigation/navbar'
     = render 'layouts/messages'
-    = yield
+    main.flex-fill
+      = yield
+    = render 'layouts/footer'
