@@ -16,10 +16,4 @@ tr
       - page = ":#{source[:page]}"
       = content_tag(:p, safe_join([abbr, page]))
   - if !is_free && current_user&.is_admin?
-    td.p-1.align-middle.text-center[data-id="#{item.fetch('key')}"]
-      div[data-quantity-value='']
-        = item.fetch('quantity')
-      - if shop.user.id == current_user&.id
-        div
-          button.btn.btn-primary[data-item-id="#{item.fetch('key')}" data-item_type="item_attachments" data-item_key="#{item.fetch('key')}" data-decrease=''] -
-          button.btn.btn-primary[data-item-id="#{item.fetch('key')}" data-item_type="item_attachments" data-item_key="#{item.fetch('key')}" data-increase=''] +
+    = render partial: 'item_row/quantity', locals: { item: item, shop: shop, item_type: 'item_attachments' }

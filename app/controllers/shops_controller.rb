@@ -63,6 +63,7 @@ class ShopsController < ApplicationController
     quantity = item['quantity']
 
     if params[:type] == 'increase'
+      item['quantity'] = 0 if quantity == -1
       item['quantity'] += 1
     elsif quantity.positive? && params[:type] == 'decrease'
       item['quantity'] -= 1
