@@ -13,12 +13,12 @@ class ShopsController < ApplicationController
     if shop.blank?
       render :missing_shop
     elsif shop.is_a?(Shop)
-      render :show, locals: { shop: shop, shop_info: shop.shop_info, ttl: -1 }
+      render :show, locals: { shop: shop, ttl: shop.ttl }
     else
       time_left = Redis.current.pttl("shops:#{params[:id]}")
       shop = parse_free_shop(shop)
       free_shop = FreeShop.new(shop.to_h)
-      render :show, locals: { shop: free_shop, shop_info: free_shop.shop_info, ttl: time_left / 1000 }
+      render :show, locals: { shop: free_shop, ttl: time_left / 1000 }
     end
   end
 
@@ -89,11 +89,7 @@ class ShopsController < ApplicationController
   end
 
   def worlds
-    result = if current_user
-               World.where(is_default: true).or(World.where(user: current_user))
-             else
-               World.where(is_default: true)
-             end
+    result = World.where(is_default: true).or(World.where(user: current_user))
     result.map { |w| ["#{w.name} / Rarity Modifier: #{w.rarity_modifier} / Price Modifier: #{w.price_modifier}", w.id] }
   end
 
