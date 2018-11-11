@@ -12,6 +12,7 @@
           h5 Item Types
           - specialized_shop.item_types.each do |item_type|
             .badge.badge-pill.badge-primary.m-1 #{item_type}
-    .card-footer.d-flex.justify-content-between
+    .card-footer.d-flex.justify-content-around
       .col-12.text-center
+        =link_to fa_icon('pencil', text: 'Edit'), edit_specialized_shop_path(specialized_shop.id), class: 'mx-2 btn btn-warning'
         = link_to fa_icon("times", text: 'Delete'), specialized_shop_path(specialized_shop), method: :delete, class: 'btn btn-danger px-4', data: { confirm: 'Are you sure? This will delete all shops in this Specialized Shop.' }

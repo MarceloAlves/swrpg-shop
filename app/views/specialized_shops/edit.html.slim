@@ -1,0 +1,29 @@
+= content_for(:title) { 'Edit Specialized Shop | SWRPG Shop Generator' }
+
+.d-flex.justify-content-center.h-100.align-content-center.mt-5
+  .card.col-sm-12.col-md-12.col-lg-6.col-xl-6.p-0
+    h4.card-header Edit Specialized Shop
+    .card-body.p-0
+      .row.no-gutters
+        .col-md-12.px-3.py-2
+          = simple_form_for specialized_shop, url: specialized_shop_path do |f|
+            .form-group
+              = f.error_notification
+            .form-group
+              = f.input :name, autofocus: true, input_html: { class: 'form-control' }
+            .form-group
+              = f.input :description, required: false, input_html: { class: 'form-control' }
+              = f.input :user_id, as: :hidden
+
+            .form-group
+              .row
+                .col-12
+                  h5 Item Types
+                - all_types.each_slice(14) do |item_group|
+                  .col-sm-4.col-12
+                    - item_group.each do |item_type|
+                      .form-check
+                        = f.input :item_types, as: :boolean, inline_label: true, label: item_type, required: false, checked_value: item_type, unchecked_value: nil, include_hidden: false, input_html: { id: item_type, name: 'specialized_shop[item_types][]' }
+            .d-flex.justify-content-center
+              .col-sm-8
+                = f.button :submit, 'Create', class: 'btn btn-primary btn-lg btn-block'
