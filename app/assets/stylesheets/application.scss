@@ -3,16 +3,18 @@
  *= require_tree .
  *= require_self
  */
-$primary:   #2F69D4;
-$success:   #4ECD70;
-$secondary: #979FBD;
-$danger:    #F7324D;
-$warning:   #FFCA4B;
-$info:      #00C1E4;
-$dark:      #1F222D;
+// $primary:   #2F69D4;
+// $success:   #4ECD70;
+// $secondary: #979FBD;
+// $danger:    #F7324D;
+// $warning:   #FFCA4B;
+// $info:      #00C1E4;
+// $dark:      #1F222D;
 
 $enable-shadows: true;
+@import "bootswatch/cosmo/variables";
 @import "bootstrap";
+@import "bootswatch/cosmo/bootswatch";
 @import "font-awesome";
 
 .card {
@@ -20,7 +22,7 @@ $enable-shadows: true;
 }
 
 .customize-card-header {
-  background: radial-gradient($info, $primary);
+  background: radial-gradient(#4a94e8, $primary);
 
   h1 {
     text-shadow: 1px 0 rgba(105, 105, 105, 0.35);
@@ -68,4 +70,3 @@ ul.feature-list {
   @extend small;
   @extend .text-muted;
 }
-

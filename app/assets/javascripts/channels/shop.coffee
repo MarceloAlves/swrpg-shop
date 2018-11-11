@@ -9,5 +9,10 @@ $(document).on 'turbolinks:load', ->
         console.log('disconnected')
 
       received: (data) ->
-        ele = $("[data-id='#{data.id}'] > [data-quantity-value]")
+        ele = $("[data-key='#{data.key}'] > [data-quantity-value]")
+
         ele.text(data.value)
+
+        ele.addClass(data.direction).delay(1100).queue (next) ->
+          $(this).removeClass(data.direction);
+          next();

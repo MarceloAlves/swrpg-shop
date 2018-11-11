@@ -1,0 +1,37 @@
+.col-12.col-md-6
+  dl.row
+    dt.col-sm-3.col-5 Shop Type
+    dd.col-sm-9.col-7= shop.shop_type
+    dt.col-sm-3.col-5 Shop Specialization
+    dd.col-sm-9.col-7= shop.specialized_shop.name
+    dt.col-sm-3.col-5 Dice Pool
+    dd.col-sm-9.col-7= dice_display(shop.dice_pool.dice_pool)
+    dt.col-sm-3.col-5 Characteristic Level
+    dd.col-sm-9.col-7= shop.characteristic_level
+    dt.col-sm-3.col-5 Skill Level
+    dd.col-sm-9.col-7= shop.skill_level
+.col-12.col-md-6
+  dl.row
+    dt.col-sm-3.col-5 World
+    dd.col-sm-9.col-7
+        = shop.world.name
+    dt.col-sm-3.col-5 Modifiers
+    dd.col-sm-9.col-7
+      ul.list-inline
+        li.list-inline-item.m-0
+        | Rarity: &nbsp;
+        span.badge.badge-secondary.p-2= shop.world.rarity_modifier
+        li.list-inline-item.mx-3 &mdash;
+        li.list-inline-item
+        | Price:&nbsp;
+        span.badge.badge-secondary.p-2= shop.world.price_modifier
+    - unless ttl == -1
+      dt.col-sm-3.col-5 Time Left
+      dd.col-sm-9.col-7= time_ago_in_words(Time.now + ttl.seconds).titleize
+    dt.col-sm-3.col-5 Link
+    dd.col-sm-9.col-7
+      .input-group
+        = text_field_tag 'url', request.url, class: 'form-control form-control-sm col-sm-7', data: { slug: shop.slug }
+        span.input-group-btn
+          button.btn.btn-sm.btn-secondary.btn-clipboard[type="button" data-clipboard-target="#url" data-toggle="popover" data-placement="bottom" data-content="Copied!"]
+            i.fa.fa-clipboard

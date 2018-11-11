@@ -18,4 +18,4 @@ table.table.table-hover.table-sm.item-table.table-responsive-md.table-bordered
         th.p-1.text-center.align-middle Qty
 
   tbody
-    = render partial: 'weapons/item_row', collection: weapons, as: :item, locals: { shop: shop, is_free: is_free }
+    = render partial: 'weapons/item_row', collection: items, as: :item, locals: { shop: shop, is_free: is_free }

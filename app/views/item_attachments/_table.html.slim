@@ -9,4 +9,4 @@ table.table.table-hover.table-sm.item-table.table-responsive-md.table-bordered
       - if !is_free
         th.p-1.text-center.align-middle Qty
   tbody
-    = render partial: 'item_attachments/item_row', collection: item_attachments, as: :item, locals: { shop: shop, is_free: is_free }
+    = render partial: 'item_attachments/item_row', collection: items, as: :item, locals: { shop: shop, is_free: is_free }

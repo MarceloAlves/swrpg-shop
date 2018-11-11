@@ -1,10 +1,12 @@
-td.p-1.align-middle.text-center[data-id="#{item.fetch('key')}"]
-  div[data-quantity-value='']
+td.p-1.align-middle.text-center[data-key="#{item.fetch('key')}"]
+  div.quantity[data-quantity-value='']
     - if item.fetch('quantity') { -1 } == -1
       | -
     - else
       = item.fetch('quantity')
   - if shop.user.id == current_user&.id
     div
-      button.btn.btn-small.btn-danger.mr-1[data-item-id="#{item.fetch('key')}" data-item_type="#{item_type}" data-item_key="#{item.fetch('key')}" data-decrease=''] -
-      button.btn.btn.small.btn-success[data-item-id="#{item.fetch('key')}" data-item_type="#{item_type}" data-item_key="#{item.fetch('key')}" data-increase=''] +
+      button.btn.btn-sm.btn-danger.mr-1[data-item_type="#{item_type}" data-item_key="#{item.fetch('key')}" data-quantity-update='' data-direction='decrease']
+        span.fa.fa-minus
+      button.btn.btn-sm.btn-success[data-item_type="#{item_type}" data-item_key="#{item.fetch('key')}" data-quantity-update='' data-direction='increase']
+        span.fa.fa-plus

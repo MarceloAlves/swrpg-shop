@@ -62,16 +62,16 @@ class ShopsController < ApplicationController
     item = shop.items[params[:item_type]][params[:item_key]]
     quantity = item['quantity']
 
-    if params[:type] == 'increase'
+    if params[:direction] == 'increase'
       item['quantity'] = 0 if quantity == -1
       item['quantity'] += 1
-    elsif quantity.positive? && params[:type] == 'decrease'
+    elsif quantity.positive? && params[:direction] == 'decrease'
       item['quantity'] -= 1
     end
 
     shop.save!
 
-    ShopChannel.broadcast_to(shop, action: 'update_quantity', id: item.fetch('key'), value: item.fetch('quantity'))
+    ShopChannel.broadcast_to(shop, action: 'update_quantity', key: item.fetch('key'), value: item.fetch('quantity'), direction: params[:direction])
   end
 
   private
