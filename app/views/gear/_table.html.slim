@@ -8,7 +8,7 @@ table.table.table-hover.table-sm.item-table.table-responsive-md.table-bordered
       th.p-1.text-center.align-middle[data-sort="string-ins"] Type
       th.p-1.text-center.align-middle Roll
       th.p-1.text-center.align-middle Sources
-      - if !is_free && current_user&.is_admin?
+      - if !is_free
         th.p-1.text-center.align-middle Qty
   tbody
     = render partial: 'gear/item_row', collection: gear, as: :item, locals: { shop: shop, is_free: is_free }

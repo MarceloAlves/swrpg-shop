@@ -18,5 +18,5 @@ tr
       - abbr = content_tag(:abbr, source[:sourcebook].split(' ').map(&:first).join, title: source[:sourcebook])
       - page = ":#{source[:page]}"
       = content_tag(:p, safe_join([abbr, page]))
-  - if !is_free && current_user&.is_admin?
+  - if !is_free
     = render partial: 'item_row/quantity', locals: { item: item, shop: shop, item_type: 'gear' }

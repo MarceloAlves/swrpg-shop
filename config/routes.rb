@@ -17,5 +17,6 @@ Rails.application.routes.draw do
 
   mount StripeEvent::Engine, at: '/stripe/webhooks'
 
+  match 'changelog', to: 'static#changelog', via: [:get]
   root 'static#index'
 end
