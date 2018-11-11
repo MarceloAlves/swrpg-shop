@@ -1,0 +1,17 @@
+.col-12.col-md-6.col-xl-4.py-1
+  .card
+    .card-header.d-flex.justify-content-between
+      .col-12
+        h4.card-title= specialized_shop.name
+      
+    .card-body
+      .col-12
+        p
+          = specialized_shop.description
+        .col-12
+          h5 Item Types
+          - specialized_shop.item_types.each do |item_type|
+            .badge.badge-pill.badge-primary.m-1 #{item_type}
+    .card-footer.d-flex.justify-content-between
+      .col-12.text-center
+        = link_to fa_icon("times", text: 'Delete'), specialized_shop_path(specialized_shop), method: :delete, class: 'btn btn-danger px-4', data: { confirm: 'Are you sure? This will delete all shops in this Specialized Shop.' }

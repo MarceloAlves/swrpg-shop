@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   match 'shops/update_quantity', to: 'shops#update_quantity', via: [:post]
 
   resources :worlds, only: %i[index new create destroy]
+  resources :specialized_shops, only: %i[index new create destroy]
   resources :subscriptions
   resources :webhooks, only: %i[create]
 

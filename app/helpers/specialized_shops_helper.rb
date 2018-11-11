@@ -1,0 +1,2 @@
+module SpecializedShopsHelper
+end

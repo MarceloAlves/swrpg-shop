@@ -9,6 +9,7 @@
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #  user_id     :bigint(8)
+#  is_default  :boolean          default(FALSE), not null
 #
 # Indexes
 #
@@ -22,4 +23,5 @@
 class SpecializedShop < ApplicationRecord
   validates :name, presence: true
   belongs_to :user
+  has_many :shops, dependent: :destroy
 end

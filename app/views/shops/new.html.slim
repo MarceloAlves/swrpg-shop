@@ -31,7 +31,7 @@
             a.ml-1[href="#shop_specialization_help" data-toggle="collapse"]
               i.fa.fa-question-circle-o
           .col-sm-10
-            = f.association :specialized_shop, collection: SpecializedShop.all, label: false, include_blank: false
+            = f.association :specialized_shop, collection: specialized_shops, label: false, include_blank: false
         div#shop_specialization_help.collapse.mb-4.p-3.bg-light
           p Selects the shop specialization which limits the types of items that will be shown
           dl.row

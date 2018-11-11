@@ -42,5 +42,6 @@ class User < ApplicationRecord
 
   has_many :shops, dependent: :destroy
   has_many :worlds, dependent: :destroy
+  has_many :specialized_shops, dependent: :destroy
   has_one :subscription
 end

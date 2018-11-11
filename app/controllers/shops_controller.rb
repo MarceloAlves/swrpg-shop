@@ -28,7 +28,7 @@ class ShopsController < ApplicationController
   end
 
   def new
-    render :new, locals: { shop: Shop.new, worlds: worlds }
+    render :new, locals: { shop: Shop.new, worlds: worlds, specialized_shops: specialized_shops }
   end
 
   def update
@@ -86,6 +86,10 @@ class ShopsController < ApplicationController
       shop_id = SecureRandom.base58(10)
       break shop_id unless Shop.exists?(slug: shop_id)
     end
+  end
+
+  def specialized_shops
+    SpecializedShop.where(is_default: true).or(SpecializedShop.where(user: current_user))
   end
 
   def worlds
