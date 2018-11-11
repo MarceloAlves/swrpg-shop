@@ -35,7 +35,7 @@
           dt.col-sm-3.col-5 Link
           dd.col-sm-9.col-7
             .input-group
-              = text_field_tag 'url', request.url, class: 'form-control form-control-sm col-sm-7'
+              = text_field_tag 'url', request.url, class: 'form-control form-control-sm col-sm-7', data: { slug: shop.slug }
               span.input-group-btn
                 button.btn.btn-secondary.btn-clipboard[type="button" data-clipboard-target="#url" data-toggle="popover" data-placement="bottom" data-content="Copied!"]
                   i.fa.fa-clipboard
@@ -52,10 +52,10 @@ ul.nav.nav-tabs#category-tabs role="tablist"
 
 .tab-content
   #weapons.tab-pane.fade.show role="tabpanel"
-    = render partial: 'weapons/table', locals: { weapons: shop.items['weapons'] }
+    = render partial: 'weapons/table', locals: { weapons: shop.items['weapons'], shop: shop, is_free: ttl != -1 }
   #gear.tab-pane.fade role="tabpanel"
-    = render partial: 'gear/table', locals: { gear: shop.items['gear'] }
+    = render partial: 'gear/table', locals: { gear: shop.items['gear'], shop: shop, is_free: ttl != -1 }
   #item-attachments.tab-pane.fade role="tabpanel"
-    = render partial: 'item_attachments/table', locals: { item_attachments: shop.items['item_attachments'] }
+    = render partial: 'item_attachments/table', locals: { item_attachments: shop.items['item_attachments'], shop: shop, is_free: ttl != -1 }
   #armor.tab-pane.fade role="tabpanel"
-    = render partial: 'armor/table', locals: { armor: shop.items['armor'] }
+    = render partial: 'armor/table', locals: { armor: shop.items['armor'], shop: shop, is_free: ttl != -1 }

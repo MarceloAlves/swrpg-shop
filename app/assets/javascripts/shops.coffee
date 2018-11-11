@@ -61,3 +61,23 @@ $(document).on 'turbolinks:load', ->
     else
       $('#shop-characteristic-level-label').html('Presence Level')
       $('#shop-skill-level-label').html('Negotiation Level')
+  
+  $('[data-decrease]').on 'click', (e) ->
+    element = $(this)
+    shop_id = $('[data-slug]').data('slug')
+
+    $.ajax({
+      type: "POST",
+      url: '/shops/update_quantity',
+      data: {shop_id: shop_id, item_key: element.data('item_key'), item_type: element.data('item_type'), type: 'decrease'}
+    })
+
+  $('[data-increase]').on 'click', (e) ->
+    element = $(this)
+    shop_id = $('[data-slug]').data('slug')
+
+    $.ajax({
+      type: "POST",
+      url: '/shops/update_quantity',
+      data: {shop_id: shop_id, item_key: element.data('item_key'), item_type: element.data('item_type'), type: 'increase'}
+    })

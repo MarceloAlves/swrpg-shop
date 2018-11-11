@@ -55,6 +55,24 @@ class ShopsController < ApplicationController
     redirect_to shops_path, notice: 'Shop deleted'
   end
 
+  def update_quantity
+    shop = Shop.find_by(slug: params[:shop_id])
+    return if shop.nil?
+
+    item = shop.items[params[:item_type]][params[:item_key]]
+    quantity = item['quantity']
+
+    if params[:type] == 'increase'
+      item['quantity'] += 1
+    elsif quantity.positive? && params[:type] == 'decrease'
+      item['quantity'] -= 1
+    end
+
+    shop.save!
+
+    ShopChannel.broadcast_to(shop, action: 'update_quantity', id: item.fetch('key'), value: item.fetch('quantity'))
+  end
+
   private
 
   def shop_params

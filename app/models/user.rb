@@ -20,6 +20,11 @@
 #  confirmed_at           :datetime
 #  confirmation_sent_at   :datetime
 #  unconfirmed_email      :string
+#  provider               :string           default("email"), not null
+#  uid                    :string           default(""), not null
+#  allow_password_change  :boolean          default(FALSE)
+#  tokens                 :jsonb
+#  is_admin               :boolean          default(FALSE)
 #
 # Indexes
 #

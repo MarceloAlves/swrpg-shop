@@ -1,5 +1,7 @@
 development:
-  adapter: async
+  adapter: redis
+  url: "redis://localhost:6379/10"
+  channel_prefix: 'star_wars_shop_development'
 
 test:
   adapter: async

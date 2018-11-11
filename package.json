@@ -1,6 +1,9 @@
 {
   "name": "StarWarsShop",
   "private": true,
+  "engines": {
+    "node": "8.11.1"
+  },
   "dependencies": {
     "@rails/webpacker": "^3.5.5",
     "autoprefixer": "^7.1.2",
