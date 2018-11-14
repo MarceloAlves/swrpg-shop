@@ -69,5 +69,6 @@ $(document).on 'turbolinks:load', ->
     $.ajax({
       type: "POST",
       url: '/shops/update_quantity',
+      headers: { 'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content') },
       data: {shop_id: shop_id, item_key: element.data('item_key'), item_type: element.data('item_type'), direction: element.data('direction')}
     })
