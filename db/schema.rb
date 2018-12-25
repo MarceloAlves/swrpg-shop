@@ -10,9 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_11_201753) do
+ActiveRecord::Schema.define(version: 2018_12_25_200457) do
 
   # These are extensions that must be enabled in order to support this database
+  enable_extension "pgcrypto"
   enable_extension "plpgsql"
 
   create_table "armors", force: :cascade do |t|
@@ -34,6 +35,7 @@ ActiveRecord::Schema.define(version: 2018_11_11_201753) do
     t.string "image_filename", default: "missing.png"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["key"], name: "armors_key_key", unique: true
     t.index ["key"], name: "index_armors_on_key", unique: true
   end
 
@@ -120,6 +122,7 @@ ActiveRecord::Schema.define(version: 2018_11_11_201753) do
     t.datetime "updated_at", null: false
     t.integer "challenge_dice", default: 0
     t.string "name"
+    t.boolean "should_markup", default: true
     t.index ["slug"], name: "index_shops_on_slug", unique: true
     t.index ["specialized_shop_id"], name: "index_shops_on_specialized_shop_id"
     t.index ["user_id"], name: "index_shops_on_user_id"

@@ -24,6 +24,7 @@
 #
 # Indexes
 #
+#  armors_key_key       (key) UNIQUE
 #  index_armors_on_key  (key) UNIQUE
 #
 

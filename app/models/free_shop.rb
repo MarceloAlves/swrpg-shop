@@ -2,7 +2,8 @@ class FreeShop
   include Shopable
 
   attr_accessor :specialized_shop_id, :world_id, :shop_type, :boost_dice, :setback_dice, :characteristic_level,
-                :skill_level, :min_size, :max_size, :sourcebooks, :challenge_dice, :items, :slug, :name
+                :skill_level, :min_size, :max_size, :sourcebooks, :challenge_dice, :items, :slug, :name,
+                :should_markup
 
   def initialize(opts = {})
     @specialized_shop_id = opts.dig('specialized_shop_id')
@@ -19,6 +20,7 @@ class FreeShop
     @items = opts.dig('items')
     @slug = opts.dig('slug')
     @name = opts.dig('name')
+    @should_markup = opts.dig('should_markup')
   end
 
   def specialized_shop
@@ -27,6 +29,10 @@ class FreeShop
 
   def world
     World.find(@world_id)
+  end
+
+  def should_markup?
+    @should_markup.to_i.positive?
   end
 
   def save!

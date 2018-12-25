@@ -45,7 +45,7 @@ class ItemListGenerator
 
         next unless roll_total[0] > 1
 
-        markup_price!(roll_total, item)
+        markup_price!(roll_total, item) if @shop.should_markup?
 
         item.store('roll_total', roll_total)
         item.store('quantity', -1)

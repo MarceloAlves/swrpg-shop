@@ -20,6 +20,7 @@
 #  updated_at           :datetime         not null
 #  challenge_dice       :integer          default(0)
 #  name                 :string
+#  should_markup        :boolean          default(TRUE)
 #
 # Indexes
 #

@@ -80,6 +80,10 @@
           label.col-sm-2.col-form-label Max Items
           .col-sm-10
             = f.input :max_size, as: :integer, label: false, input_html: { class: 'form-control', min: 0, max: 10_000 }
+        .form-group.row
+          label.col-sm-2.col-form-label Markup Items?
+          .col-sm-10
+            = f.input :should_markup, label: false, input_html: { class: 'form-control' }
         .row.justify-content-center
             .col-sm-6
               = f.button :submit, 'Regenerate Shop', class: 'btn btn-success btn-lg btn-block'
