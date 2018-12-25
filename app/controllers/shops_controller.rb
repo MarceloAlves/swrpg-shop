@@ -33,7 +33,15 @@ class ShopsController < ApplicationController
 
   def update
     shop = Shop.find_by(id: params[:id], user: current_user)
-    shop.update!(shop_params) if params[:shop].present?
+    shop.update(shop_params) if params[:shop].present?
+    shop.generate_items!
+    shop.name = nil if shop_params[:name].blank?
+    shop.save!
+    redirect_to shops_path, notice: 'Shop regenerated'
+  end
+
+  def regenerate
+    shop = Shop.find_by(id: params[:id], user: current_user)
     shop.generate_items!
     shop.save!
     redirect_to shops_path, notice: 'Shop regenerated'

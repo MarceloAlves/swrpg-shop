@@ -30,7 +30,7 @@ class ItemListGenerator
     @shop_modifiers = SHOP_TYPES[shop.shop_type]
     @dice_pool = dice_pool
     @world = shop.world
-    @shop_size = rand(shop.max_size - shop.min_size + 1) + shop.min_size
+    @shop_size = rand(shop.min_size..shop.max_size)
     @all_items = build_item_list(shop.specialized_shop.item_types, shop.sourcebooks)
     @item_list = { armor: {}, gear: {}, item_attachments: {}, weapons: {} }
   end
@@ -38,7 +38,7 @@ class ItemListGenerator
   def generate!
     @all_items.each_key do |item_type|
       @all_items[item_type].each do |item|
-        shop_type_modifier = shop_type_modifier(item)
+        shop_type_modifier = find_shop_modifier(item)
 
         roll_total = @dice_pool.roll(item_rarity: @world.rarity_modifier + item.fetch('rarity', 1))
         roll_total[0] += shop_type_modifier
@@ -53,11 +53,14 @@ class ItemListGenerator
         @item_list[item_type].store(item.fetch('key'), item)
       end
     end
+
+    shop_needs_resizing = @shop_size < @item_list.keys.map { |item_type| @item_list[item_type].keys.count }.sum
+    resize_shop! if shop_needs_resizing
   end
 
   private
 
-  def shop_type_modifier(item)
+  def find_shop_modifier(item)
     if item.dig('type') == 'Lightsaber' || item.dig('skill_key') == 'LTSABER'
       @shop_modifiers.fetch('lightsaber')
     elsif item.dig('is_restricted')
@@ -74,6 +77,21 @@ class ItemListGenerator
     new_price = (@world.price_modifier * item.fetch('price')) * (1 + ((markup + advantage_discount + triumph_discount) / 100.0))
     item.store('price_markup', { advantage_discount: advantage_discount, triumph_discount: triumph_discount, markup: markup, original_price: item['price'] })
     item['price'] = new_price.round
+  end
+
+  def resize_shop!
+    resized_shop = { armor: {}, gear: {}, item_attachments: {}, weapons: {} }
+    keys = resized_shop.keys
+    current_size = 0
+
+    while current_size <= @shop_size
+      item_type = keys.sample
+      item_key = @item_list[item_type].keys.sample
+      resized_shop[item_type].store(item_key, @item_list[item_type][item_key])
+      current_size += 1
+    end
+
+    @item_list = resized_shop
   end
 
   def build_item_list(item_types, sources)

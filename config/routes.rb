@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   devise_for :users, controllers: { registrations: "registrations" }
   
   resources :shops
+  match 'shops/:id/regenerate', to: 'shops#regenerate', via: [:put], as: 'shop_regenerate'
   match 'shops/update_quantity', to: 'shops#update_quantity', via: [:post]
 
   resources :worlds, only: %i[index new create destroy]
