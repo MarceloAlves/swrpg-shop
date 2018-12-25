@@ -4,7 +4,7 @@ tr
     = item.fetch('name')
     = content_tag(:span, '(R)', class: 'restricted-item ml-1') if item.dig('is_restricted')
   td.p-1.align-middle.text-center[data-sort-value="#{item.fetch('price')}"]
-    = number_with_delimiter item.fetch('price')
+    = render partial: 'item_row/price', locals: { is_free: is_free, shop: shop, item: item }
   td.p-1.align-middle.text-center
     = item.fetch('defense')
   td.p-1.align-middle.text-center

@@ -1,0 +1,7 @@
+= number_with_delimiter(item['price'])
+- if !is_free && shop.user.id == current_user&.id
+  div
+  - if item.fetch('price_markup', {}).present?
+    span.text-warning
+      | Original Price: &nbsp;
+      = number_with_delimiter(item['price_markup']['original_price'])

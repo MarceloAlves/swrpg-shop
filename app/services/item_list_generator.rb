@@ -70,8 +70,9 @@ class ItemListGenerator
   def markup_price!(roll, item)
     advantage_discount = -1 * roll[1] * 5
     triumph_discount   = -1 * roll[2] * 10
-    markup = (@shop_modifiers['max'] - @shop_modifiers['min'] + 1) + @shop_modifiers['min']
+    markup = rand(@shop_modifiers['min']..@shop_modifiers['max'])
     new_price = (@world.price_modifier * item.fetch('price')) * (1 + ((markup + advantage_discount + triumph_discount) / 100.0))
+    item.store('price_markup', { advantage_discount: advantage_discount, triumph_discount: triumph_discount, markup: markup, original_price: item['price'] })
     item['price'] = new_price.round
   end
 
