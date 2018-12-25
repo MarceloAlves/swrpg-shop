@@ -9,7 +9,7 @@ end
 # Main
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 3.12'
-gem 'rails', '~> 5.2.1'
+gem 'rails', '~> 5.2.2'
 gem 'slim-rails'
 
 # Assets
@@ -22,7 +22,7 @@ gem 'jquery-rails'
 gem 'newrelic_rpm'
 gem 'popper_js', '~> 1.14.3'
 gem 'premailer-rails'
-gem 'react_on_rails', '11.1.8'
+gem 'react_on_rails', '11.2.1'
 gem 'sass-rails', '~> 5.0'
 gem 'tether-rails'
 gem 'turbolinks', '~> 5'
