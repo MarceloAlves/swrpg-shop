@@ -81,11 +81,11 @@ class ItemListGenerator
 
   def resize_shop!
     resized_shop = { armor: {}, gear: {}, item_attachments: {}, weapons: {} }
-    keys = resized_shop.keys
+    available_types = @item_list.select { |_, v| v.keys.count.positive? }
     current_size = 0
 
     while current_size <= @shop_size
-      item_type = keys.sample
+      item_type = available_types.keys.sample
       item_key = @item_list[item_type].keys.sample
       resized_shop[item_type].store(item_key, @item_list[item_type][item_key])
       current_size += 1
