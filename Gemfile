@@ -13,7 +13,7 @@ gem 'rails', '~> 5.2.2'
 gem 'slim-rails'
 
 # Assets
-gem 'bootstrap', '~> 4.1.3'
+gem 'bootstrap', '~> 4.3.0'
 gem 'bootswatch'
 gem 'coffee-rails', '~> 4.2'
 gem 'font-awesome-rails'
@@ -22,7 +22,7 @@ gem 'jquery-rails'
 gem 'newrelic_rpm'
 gem 'popper_js', '~> 1.14.3'
 gem 'premailer-rails'
-gem 'react_on_rails', '11.2.1'
+gem 'react_on_rails', '~> 11.2.1'
 gem 'sass-rails', '~> 5.0'
 gem 'tether-rails'
 gem 'turbolinks', '~> 5'
@@ -62,6 +62,6 @@ gem 'fakeredis', group: :test
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-gem 'bootsnap', '1.3.2', require: false
+gem 'bootsnap', '~> 1.3.2', require: false
 
 # gem 'therubyracer', platforms: :ruby
