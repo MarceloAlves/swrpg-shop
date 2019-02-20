@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   resources :specialized_shops
   resources :subscriptions
   resources :webhooks, only: %i[create]
+  resources :custom_shops
 
 
   mount StripeEvent::Engine, at: '/stripe/webhooks'
