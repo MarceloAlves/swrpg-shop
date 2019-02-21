@@ -30,4 +30,4 @@ ItemCard.propTypes = {
   isInStore: PropTypes.bool
 }
 
-export default ItemCard
+export default React.memo(ItemCard)

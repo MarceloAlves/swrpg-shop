@@ -2,16 +2,16 @@ import React, { useReducer, useState } from 'react'
 import PropTypes from 'prop-types'
 import ItemCard from './Item/ItemCard'
 import Fuse from 'fuse.js'
-import { useItemList } from '../hooks/useItemlist'
 import ItemContainer from './Item/ItemContainer'
 
 const SEARCH_OPTIONS = {
   shouldSort: true,
-  threshold: 0.6,
+  threshold: 0.3,
   location: 0,
-  distance: 100,
+  distance: 50,
   maxPatternLength: 32,
   minMatchCharLength: 1,
+  id: 'key',
   keys: [
     'name'
   ]
@@ -31,7 +31,8 @@ const reducer = (state, action) => {
 
 const CustomShop = ({ items }) => {
   const [savedItems, dispatch] = useReducer(reducer, { items: [] })
-  const [itemList, setItemList] = useItemList(items)
+  // const [itemList, setItemList] = useState(items)
+  const [filteredItems, setFilteredItems] = useState([])
   const [searchValue, setSearchValue] = useState('')
   const fuse = new Fuse(items, SEARCH_OPTIONS)
 
@@ -45,18 +46,18 @@ const CustomShop = ({ items }) => {
 
   const filterItems = e => {
     const { target: { value } } = e
-    let results = items
+    let results = []
 
     if (value.length !== 0) {
       results = fuse.search(value)
     }
 
-    setItemList(results)
+    setFilteredItems(results)
     setSearchValue(value)
   }
 
   const resetForm = e => {
-    setItemList(items)
+    setFilteredItems([])
   }
 
   return (
@@ -72,8 +73,8 @@ const CustomShop = ({ items }) => {
         </div>
       </div>
       <div className='row'>
-        {['armor', 'gear', 'item_attachments', 'weapons'].map(slug => {
-          return <ItemContainer key={`${slug}-container`} slug={slug} items={itemList[slug]} addItem={addItem} removeItem={removeItem} savedItems={savedItems.items} />
+        {['armor', 'gear', 'item_attachments', 'weapons'].map(itemType => {
+          return <ItemContainer key={`${itemType}-container`} itemType={itemType} items={items} filteredItems={filteredItems} addItem={addItem} removeItem={removeItem} savedItems={savedItems.items} />
         })}
         <div className='col-3'>
           <h3>In Store</h3>
