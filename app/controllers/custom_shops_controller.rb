@@ -5,14 +5,14 @@ class CustomShopsController < ApplicationController
       add_item_type('armor', Armor.select(selectors).order(:name)),
       add_item_type('gear', Gear.select(selectors).order(:name)),
       add_item_type('item_attachments', ItemAttachment.select(selectors).order(:name)),
-      add_item_type('weapons', Weapon.select(selectors).order(:name)),
+      add_item_type('weapons', Weapon.select(selectors).order(:name))
     ].flatten
   end
 
   private
 
   def add_item_type(item_type, items)
-    items.map do |item| 
+    items.map do |item|
       item = item.as_json
       item.store('item_type', item_type)
       item

@@ -11,8 +11,9 @@ const INITIAL_STATE = {
 const parseData = items => {
   let data = INITIAL_STATE
 
-  if(items.length > 0) {
+  if (items.length > 0) {
     data = groupBy(items, 'item_type')
+    data = { ...INITIAL_STATE, ...data }
   }
 
   return data
