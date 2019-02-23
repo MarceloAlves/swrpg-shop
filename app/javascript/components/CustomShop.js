@@ -99,9 +99,12 @@ const CustomShop = ({ items, worlds, specializedShops }) => {
               </div>
             </div>
           </div>
-          <button className='btn btn-block btn-primary' disabled={savedItems.items.length === 0} onClick={saveShop}>Save</button>
+          <button className='btn btn-block btn-success' disabled={savedItems.items.length === 0} onClick={saveShop}>Save Shop</button>
           <hr className='hr' />
-          <h5 className='mt-3'>Items</h5>
+          <div className='d-flex justify-content-between pt-3'>
+            <h5>Items</h5>
+            <p className='text-muted'>Count: {savedItems.items.length}</p>
+          </div>
           <div className='col-12 mt-3 overflow-auto' style={{ maxHeight: '90vh' }}>
             {savedItems.items.length === 0 && <p>No Items</p>}
             {savedItems.items.map(item => (

@@ -12,7 +12,7 @@ const ItemStoreRow = ({ id, name, price, slug, isRestricted, itemType, dispatch,
   }
 
   return (
-    <div className='form-group row py-2 border-bottom'>
+    <div className='form-group row py-1 border-bottom d-flex align-items-center fade-in'>
       <div className='col-5'>
         <label>{name} {price !== originalPrice && `(${originalPrice})`}</label>
       </div>
