@@ -53,18 +53,8 @@ const CustomShop = ({ items, worlds, specializedShops }) => {
 
   return (
     <div className='container-fluid'>
-      <div className='row bg-light'>
-        <div className='col-12 p-5'>
-          <div className='input-group'>
-            <input className='form-control form-control-lg' placeholder='Filter...' name='search' value={searchValue} onChange={filterItems} />
-            <div className='input-group-append'>
-              <button className='btn btn-lg btn-danger' onClick={() => filterItems({ target: { value: '' } })} type='button'><i className='fa fa-times' /></button>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className='row'>
-        <div className='col-3 pt-2 mh-100 bg-light'>
+        <div className='col-3 pt-3 bg-light'>
           <h3>Store</h3>
           <div>
             <h5>Settings</h5>
@@ -128,15 +118,30 @@ const CustomShop = ({ items, worlds, specializedShops }) => {
             ))}
           </div>
         </div>
-        {ITEM_TYPES.map(itemType => (
-          <ItemContainer
-            key={`${itemType}-container`}
-            itemType={itemType}
-            items={items}
-            dispatch={dispatch}
-            filteredItems={filteredItems}
-            savedItems={savedItems.items} />
-        ))}
+
+        <div className='col'>
+          <div className='row'>
+            <div className='col-12 p-3'>
+              <div className='input-group'>
+                <input className='form-control form-control-lg' placeholder='Filter...' name='search' value={searchValue} onChange={filterItems} />
+                <div className='input-group-append'>
+                  <button className='btn btn-lg btn-danger' onClick={() => filterItems({ target: { value: '' } })} type='button'><i className='fa fa-times' /></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='row'>
+            {ITEM_TYPES.map(itemType => (
+              <ItemContainer
+                key={`${itemType}-container`}
+                itemType={itemType}
+                items={items}
+                dispatch={dispatch}
+                filteredItems={filteredItems}
+                savedItems={savedItems.items} />
+            ))}
+          </div>
+        </div>
 
       </div>
     </div> // end container-fluid
