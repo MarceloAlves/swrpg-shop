@@ -21,6 +21,7 @@
 #  challenge_dice       :integer          default(0)
 #  name                 :string
 #  should_markup        :boolean          default(TRUE)
+#  is_custom            :boolean          default(FALSE)
 #
 # Indexes
 #

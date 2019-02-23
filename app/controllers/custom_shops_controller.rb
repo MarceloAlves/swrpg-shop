@@ -18,6 +18,7 @@ class CustomShopsController < ApplicationController
     shop = current_user.shops.build(shop_params)
     shop.slug = shop_id
     shop.name = nil if shop.name.blank?
+    shop.is_custom = true
     shop.format_custom!
     shop.save!
     render json: { slug: shop.slug }
