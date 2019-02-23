@@ -35,6 +35,10 @@ class FreeShop
     @should_markup.to_i.positive?
   end
 
+  def is_custom?
+    false
+  end
+
   def save!
     result = {
       items: items,
