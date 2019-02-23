@@ -46,4 +46,10 @@ class Shop < ApplicationRecord
   def ttl
     -1
   end
+
+  def format_custom!
+    result = CustomShopCreator.new(shop: self)
+    result.generate!
+    self.items = result.item_list
+  end
 end

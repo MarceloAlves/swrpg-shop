@@ -2,6 +2,8 @@ import React, { useReducer, useState } from 'react'
 import PropTypes from 'prop-types'
 import ItemCard from './Item/ItemCard'
 import Fuse from 'fuse.js'
+import findIndex from 'lodash/findIndex'
+import axios from 'axios'
 import ItemContainer from './Item/ItemContainer'
 
 const SEARCH_OPTIONS = {
@@ -20,18 +22,26 @@ const SEARCH_OPTIONS = {
 const reducer = (state, action) => {
   switch (action.type) {
     case 'ADD_ITEM':
-      return { items: state.items.concat(action.item) }
+      state.items = state.items.concat(action.item)
+      return {...state}
     case 'REMOVE_ITEM':
-      const newItems = state.items.filter(item => item.key !== action.key)
-      return { items: newItems }
+      state.items = state.items.filter(item => item.key !== action.key)
+      return { ...state }
+    case 'UPDATE_PRICE':
+      const arr = Array.from(state.items)
+      const itemIndex = findIndex(arr, { key: action.item.key })
+      arr.splice(itemIndex, 1, action.item)
+      return { ...state, items: arr }
+    case 'UPDATE_SHOP_OPTIONS':
+      const newState = Object.assign(state, { [action.name]: action.value})
+      return {...newState}
     default:
       return state
   }
 }
 
-const CustomShop = ({ items }) => {
-  const [savedItems, dispatch] = useReducer(reducer, { items: [] })
-  // const [itemList, setItemList] = useState(items)
+const CustomShop = ({ items, worlds, specializedShops }) => {
+  const [savedItems, dispatch] = useReducer(reducer, { items: [], world_id: "1", specialized_shop_id: "1", name: '', shop_type: 'On The Level' })
   const [filteredItems, setFilteredItems] = useState([])
   const [searchValue, setSearchValue] = useState('')
   const fuse = new Fuse(items, SEARCH_OPTIONS)
@@ -60,6 +70,18 @@ const CustomShop = ({ items }) => {
     setFilteredItems([])
   }
 
+  const onShopChange = e => {
+    const { target: { value, name } } = e
+    dispatch({type: 'UPDATE_SHOP_OPTIONS', value, name })
+  }
+
+  const saveShop = () => {
+    axios.post('/custom_shops', {shop: {...savedItems}, 'authenticity_token': document.querySelector('meta[name="csrf-token"]').content}).then(result => {
+      const { data: { slug } } = result
+      Turbolinks.visit(`/shops/${slug}`)
+    })
+  }
+
   return (
     <div className='container-fluid'>
       <div className='row'>
@@ -77,9 +99,40 @@ const CustomShop = ({ items }) => {
           return <ItemContainer key={`${itemType}-container`} itemType={itemType} items={items} filteredItems={filteredItems} addItem={addItem} removeItem={removeItem} savedItems={savedItems.items} />
         })}
         <div className='col-3'>
-          <h3>In Store</h3>
-          <div style={{ maxHeight: '90vh', overflowY: 'auto' }}>
-            {savedItems.items.map(item => <ItemCard key={item.id} name={item.name} slug={item.key} price={item.price} removeItem={removeItem} isInStore />)}
+          <h3>Store</h3>
+          <div>
+            <h5>Settings</h5>
+            <div className='form-group'>
+              <label htmlFor="shop_name">Name</label>
+              <input type='text' className='form-control' id="shop_name" name="name" onChange={onShopChange} />
+            </div>
+            <div className="form-group">
+              <label htmlFor="shop_type">Shop Type</label>
+              <select className="form-control" id="shop_type" name="shop_type" onChange={onShopChange}>
+                <option value="On The Level">On The Level</option>
+                <option value="Shady">Shady</option>
+                <option value="Black Market">Black Market</option>
+              </select>
+            </div>
+            <div className="form-group">
+              <label htmlFor="world">World</label>
+              <select className="form-control" id="world" name="world_id" onChange={onShopChange}>
+                {worlds.map(world => <option key={world.id} value={world.id}>{world.name}</option>)}
+              </select>
+            </div>
+            <div className="form-group">
+              <label htmlFor="specialized_shop">Shop Type</label>
+              <select className="form-control" id="specialized_shop_id" name="specialized_shop_id" onChange={onShopChange}>
+                {specializedShops.map(shop => <option key={shop.id} value={shop.id}>{shop.name}</option>)}
+              </select>
+            </div>
+          </div>
+          <button className='btn btn-primary' disabled={savedItems.items.length === 0} onClick={saveShop}>Save</button>
+          <hr className="hr" />
+          <h5 className="mt-3">Items</h5>
+          <div className="mt-3" style={{ maxHeight: '60vh', overflowY: 'auto' }}>
+            {savedItems.items.length === 0 && <p>No Items</p>}
+            {savedItems.items.map(item => <ItemCard key={item.id} id={item.id} name={item.name} slug={item.key} price={item.price} removeItem={removeItem} dispatch={dispatch} originalPrice={item.originalPrice || item.price} itemType={item.itemType} isInStore />)}
           </div>
         </div>
       </div>

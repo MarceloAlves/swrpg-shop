@@ -34,6 +34,7 @@ const ItemContainer = ({ itemType, items, addItem, removeItem, isStoreList, save
           isRestricted={item.is_restricted}
           itemType={itemType}
           slug={item.key}
+          originalPrice={item.price}
           addItem={addItem}
           removeItem={removeItem}
           isInStore={isStoreList} />)}
