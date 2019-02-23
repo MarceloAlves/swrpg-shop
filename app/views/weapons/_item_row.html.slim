@@ -24,8 +24,9 @@ tr
   td.p-1.align-middle
     - item.fetch('qualities', []).each do |quality|
       p= format_qualities(quality.values)
-  td.p-1.align-middle
-    = roll_results(item.fetch('roll_total'){ [0,0,0] })
+  - unless shop.is_custom?
+    td.p-1.align-middle
+      = roll_results(item.fetch('roll_total'){ [0,0,0] })
   td.p-1.align-middle
     - list_sources(item.fetch('description'), item.fetch('sources')).each do |source|
       - abbr = content_tag(:abbr, source[:sourcebook].split(' ').map(&:first).join, title: source[:sourcebook])

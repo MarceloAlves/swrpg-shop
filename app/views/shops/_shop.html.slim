@@ -5,12 +5,21 @@
         h4.card-title= shop.name || shop.shop_type
     .card-body
       dl.row
+        dt.col-sm-4 Custom Shop?
+        dd.col-sm-8
+          - if shop.is_custom?
+            i.fa.fa-check-square-o
+          - else
+            i.fa.fa-square-o
+        dt.col-sm-4 Item Count
+        dd.col-sm-8= shop.items.map{|k,v| v.count }.sum
         dt.col-sm-4 Shop Specialization
         dd.col-sm-8= shop.specialized_shop.name
-        dt.col-sm-4 Characteristic Level
-        dd.col-sm-8= shop.characteristic_level
-        dt.col-sm-4 Skill Level
-        dd.col-sm-8= shop.skill_level
+        - unless shop.is_custom?
+          dt.col-sm-4 Characteristic Level
+          dd.col-sm-8= shop.characteristic_level
+          dt.col-sm-4 Skill Level
+          dd.col-sm-8= shop.skill_level
         dt.col-sm-4 World
         dd.col-sm-8 = shop.world.name
         dt.col-sm-4 Modifiers

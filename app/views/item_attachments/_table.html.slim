@@ -4,7 +4,8 @@ table.table.table-hover.table-sm.item-table.table-responsive-md.table-bordered
       th.p-1.text-center.align-middle[data-sort="string-ins" data-sort-onload="yes"] Item Name
       th.p-1.text-center.align-middle[data-sort="int"] Price
       th.p-1.text-center.align-middle Added Mods
-      th.p-1.text-center.align-middle Roll
+      - unless shop.is_custom?
+        th.p-1.text-center.align-middle Roll
       th.p-1.text-center.align-middle Sources
       - if !is_free
         th.p-1.text-center.align-middle Qty
