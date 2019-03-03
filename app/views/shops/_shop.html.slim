@@ -34,4 +34,5 @@
     .card-footer.d-flex.justify-content-around
       = link_to fa_icon("refresh", text: 'Refresh'), shop_regenerate_path(shop.id), method: :put, class: 'mx-2 btn btn-success' unless shop.is_custom?
       = link_to fa_icon('pencil', text: 'Edit'), edit_shop_path(shop.id), class: 'mx-2 btn btn-warning' unless shop.is_custom?
+      = link_to fa_icon('pencil', text: 'Edit'), edit_custom_shop_path(shop.id), class: 'mx-2 btn btn-warning' if shop.is_custom?
       = link_to fa_icon("times", text: 'Delete'), shop_path(shop), method: :delete, class: 'mx-2 btn btn-danger', data: { confirm: 'Are you sure?' }

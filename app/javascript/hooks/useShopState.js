@@ -7,7 +7,8 @@ export const TYPES = {
   ADD_ITEM: 'ADD_ITEM',
   REMOVE_ITEM: 'REMOVE_ITEM',
   UPDATE_PRICE: 'UPDATE_PRICE',
-  UPDATE_SHOP_OPTIONS: 'UPDATE_SHOP_OPTIONS'
+  UPDATE_SHOP_OPTIONS: 'UPDATE_SHOP_OPTIONS',
+  SEED_LIST: 'SEED_LIST'
 }
 
 const reducer = (state, action) => {
@@ -26,6 +27,9 @@ const reducer = (state, action) => {
     case TYPES.UPDATE_SHOP_OPTIONS:
       const newState = Object.assign(state, { [action.name]: action.value })
       return { ...newState }
+    case TYPES.SEED_LIST:
+      state.items = action.items
+      return { ...state }
     default:
       return state
   }

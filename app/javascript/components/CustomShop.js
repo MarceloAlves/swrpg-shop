@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import Fuse from 'fuse.js'
 import axios from 'axios'
@@ -21,11 +21,24 @@ const SEARCH_OPTIONS = {
 
 const ITEM_TYPES = ['armor', 'gear', 'item_attachments', 'weapons']
 
-const CustomShop = ({ items, worlds, specializedShops }) => {
+const CustomShop = ({ items, worlds, specializedShops, currentItems, shopInfo }) => {
   const [savedItems, dispatch] = useShopState()
   const [filteredItems, setFilteredItems] = useState([])
   const [searchValue, setSearchValue] = useState('')
   const fuse = new Fuse(items, SEARCH_OPTIONS)
+
+  useEffect(() => {
+    if (shopInfo) {
+      dispatch({ type: 'UPDATE_SHOP_OPTIONS', name: 'name', value: shopInfo.name })
+      dispatch({ type: 'UPDATE_SHOP_OPTIONS', name: 'shop_type', value: shopInfo.shopType })
+      dispatch({ type: 'UPDATE_SHOP_OPTIONS', name: 'specialized_shop_id', value: shopInfo.specializedShop })
+      dispatch({ type: 'UPDATE_SHOP_OPTIONS', name: 'world_id', value: shopInfo.world })
+    }
+
+    if (currentItems && currentItems.length > 0) {
+      dispatch({ type: 'SEED_LIST', items: currentItems })
+    }
+  }, [currentItems, dispatch, shopInfo])
 
   const filterItems = e => {
     const { target: { value } } = e
@@ -45,7 +58,19 @@ const CustomShop = ({ items, worlds, specializedShops }) => {
   }
 
   const saveShop = () => {
-    axios.post('/custom_shops', { shop: { ...savedItems }, 'authenticity_token': document.querySelector('meta[name="csrf-token"]').content }).then(result => {
+    let url = '/custom_shops'
+    let method = 'post'
+
+    if (shopInfo && shopInfo.id) {
+      url = `/custom_shops/${shopInfo.id}`
+      method = 'put'
+    }
+
+    axios({
+      url,
+      method,
+      data: { shop: { ...savedItems }, 'authenticity_token': document.querySelector('meta[name="csrf-token"]').content }
+    }).then(result => {
       const { data: { slug } } = result
       Turbolinks.visit(`/shops/${slug}`) // eslint-disable-line
     })
@@ -62,7 +87,7 @@ const CustomShop = ({ items, worlds, specializedShops }) => {
               <label htmlFor='shop_name'>Name</label>
             </div>
             <div className='col-9'>
-              <input type='text' className='form-control form-control-sm' id='shop_name' name='name' onChange={onShopChange} />
+              <input type='text' className='form-control form-control-sm' id='shop_name' name='name' onChange={onShopChange} value={savedItems.name} />
             </div>
           </div>
           <div className='form-group row'>
@@ -70,7 +95,7 @@ const CustomShop = ({ items, worlds, specializedShops }) => {
               <label htmlFor='shop_type'>Shop Type</label>
             </div>
             <div className='col-9'>
-              <select className='form-control form-control-sm' id='shop_type' name='shop_type' onChange={onShopChange}>
+              <select className='form-control form-control-sm' id='shop_type' name='shop_type' onChange={onShopChange} value={savedItems.shop_type}>
                 <option value='On The Level'>On The Level</option>
                 <option value='Shady'>Shady</option>
                 <option value='Black Market'>Black Market</option>
@@ -82,7 +107,7 @@ const CustomShop = ({ items, worlds, specializedShops }) => {
               <label htmlFor='world'>World</label>
             </div>
             <div className='col-9'>
-              <select className='form-control form-control-sm' id='world' name='world_id' onChange={onShopChange}>
+              <select className='form-control form-control-sm' id='world' name='world_id' onChange={onShopChange} value={savedItems.world_id}>
                 {worlds.map(world => <option key={world.id} value={world.id}>{world.name}</option>)}
               </select>
             </div>
@@ -92,7 +117,7 @@ const CustomShop = ({ items, worlds, specializedShops }) => {
               <label htmlFor='specialized_shop'>Specialization</label>
             </div>
             <div className='col-9'>
-              <select className='form-control form-control-sm' id='specialized_shop_id' name='specialized_shop_id' onChange={onShopChange}>
+              <select className='form-control form-control-sm' id='specialized_shop_id' name='specialized_shop_id' onChange={onShopChange} value={savedItems.specialized_shop_id}>
                 {specializedShops.map(shop => <option key={shop.id} value={shop.id}>{shop.name}</option>)}
               </select>
             </div>
@@ -150,6 +175,12 @@ const CustomShop = ({ items, worlds, specializedShops }) => {
 }
 
 CustomShop.propTypes = {
+  shopInfo: PropTypes.shape({
+    name: PropTypes.string,
+    world: PropTypes.number,
+    specializedShop: PropTypes.number,
+    shopType: PropTypes.string
+  }),
   items: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.number,
     is_restricted: PropTypes.bool,
@@ -178,6 +209,14 @@ CustomShop.propTypes = {
     updated_at: PropTypes.string,
     is_default: PropTypes.bool,
     user_id: PropTypes.number
+  })),
+  currentItems: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.number,
+    itemType: PropTypes.string,
+    key: PropTypes.string,
+    name: PropTypes.string,
+    originalPrice: PropTypes.number,
+    price: PropTypes.number
   }))
 }
 

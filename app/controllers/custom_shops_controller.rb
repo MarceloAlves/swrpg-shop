@@ -2,13 +2,7 @@ class CustomShopsController < ApplicationController
   before_action :authenticate_user!
 
   def new
-    selectors = 'id,name,key,price,rarity,is_restricted'
-    @items = [
-      add_item_type('armor', Armor.select(selectors).order(:name)),
-      add_item_type('gear', Gear.select(selectors).order(:name)),
-      add_item_type('item_attachments', ItemAttachment.select(selectors).order(:name)),
-      add_item_type('weapons', Weapon.select(selectors).order(:name))
-    ].flatten
+    @items = item_list
     @specialized_shops = SpecializedShop.where(is_default: true).or(SpecializedShop.where(user: current_user))
     @worlds = World.where(is_default: true).or(World.where(user: current_user))
   end
@@ -20,6 +14,24 @@ class CustomShopsController < ApplicationController
     shop.name = nil if shop.name.blank?
     shop.is_custom = true
     shop.format_custom!
+    shop.save!
+    render json: { slug: shop.slug }
+  end
+
+  def edit
+    shop = Shop.find(params[:id])
+    @current_items = collect_items(shop)
+    @shop_info = { id: shop.id, name: shop.name, world: shop.world_id, specializedShop: shop.specialized_shop_id, shopType: shop.shop_type }
+    @items = item_list
+    @specialized_shops = SpecializedShop.where(is_default: true).or(SpecializedShop.where(user: current_user))
+    @worlds = World.where(is_default: true).or(World.where(user: current_user))
+  end
+
+  def update
+    shop = Shop.find_by(id: params[:id], user: current_user)
+    shop.update(shop_params) if params[:shop].present?
+    shop.format_custom!
+    shop.name = nil if shop.name.blank?
     shop.save!
     render json: { slug: shop.slug }
   end
@@ -43,5 +55,24 @@ class CustomShopsController < ApplicationController
       item.store('item_type', item_type)
       item
     end
+  end
+
+  def item_list
+    selectors = 'id,name,key,price,rarity,is_restricted'
+
+    [
+      add_item_type('armor', Armor.select(selectors).order(:name)),
+      add_item_type('gear', Gear.select(selectors).order(:name)),
+      add_item_type('item_attachments', ItemAttachment.select(selectors).order(:name)),
+      add_item_type('weapons', Weapon.select(selectors).order(:name))
+    ].flatten
+  end
+
+  def collect_items(shop)
+    items = []
+    shop.items.keys.each do |category|
+      items << shop.items[category].map { |_,v| { id: v['id'], name: v['name'], price: v['price'], originalPrice: v['price_markup']['original_price'], itemType: category, key: v['key'] } }
+    end
+    items.flatten!
   end
 end
