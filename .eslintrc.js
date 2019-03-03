@@ -21,9 +21,12 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': [
-    'react'
+    'react',
+    'react-hooks'
   ],
   'rules': {
-    'jsx-quotes': ["error", "prefer-single"]
+    'jsx-quotes': ["error", "prefer-single"],
+    'react-hooks/rules-of-hooks': 2,
+    'react-hooks/exhaustive-deps': 2
   }
 }

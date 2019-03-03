@@ -52,102 +52,100 @@ const CustomShop = ({ items, worlds, specializedShops }) => {
   }
 
   return (
-    <div className='container-fluid'>
-      <div className='row'>
-        <div className='col-3 pt-3 bg-light'>
-          <h3>Store</h3>
-          <div>
-            <h5>Settings</h5>
-            <div className='form-group row'>
-              <div className='col-3'>
-                <label htmlFor='shop_name'>Name</label>
-              </div>
-              <div className='col-9'>
-                <input type='text' className='form-control form-control-sm' id='shop_name' name='name' onChange={onShopChange} />
-              </div>
+    <div className='row overflow-hidden' style={{ maxHeight: 'calc(100vh - 115px)' }}>
+      <div className='col-3 pt-3 bg-light'>
+        <h3>Store</h3>
+        <div>
+          <h5>Settings</h5>
+          <div className='form-group row'>
+            <div className='col-3'>
+              <label htmlFor='shop_name'>Name</label>
             </div>
-            <div className='form-group row'>
-              <div className='col-3'>
-                <label htmlFor='shop_type'>Shop Type</label>
-              </div>
-              <div className='col-9'>
-                <select className='form-control form-control-sm' id='shop_type' name='shop_type' onChange={onShopChange}>
-                  <option value='On The Level'>On The Level</option>
-                  <option value='Shady'>Shady</option>
-                  <option value='Black Market'>Black Market</option>
-                </select>
-              </div>
-            </div>
-            <div className='form-group row'>
-              <div className='col-3'>
-                <label htmlFor='world'>World</label>
-              </div>
-              <div className='col-9'>
-                <select className='form-control form-control-sm' id='world' name='world_id' onChange={onShopChange}>
-                  {worlds.map(world => <option key={world.id} value={world.id}>{world.name}</option>)}
-                </select>
-              </div>
-            </div>
-            <div className='form-group row'>
-              <div className='col-3'>
-                <label htmlFor='specialized_shop'>Specialization</label>
-              </div>
-              <div className='col-9'>
-                <select className='form-control form-control-sm' id='specialized_shop_id' name='specialized_shop_id' onChange={onShopChange}>
-                  {specializedShops.map(shop => <option key={shop.id} value={shop.id}>{shop.name}</option>)}
-                </select>
-              </div>
+            <div className='col-9'>
+              <input type='text' className='form-control form-control-sm' id='shop_name' name='name' onChange={onShopChange} />
             </div>
           </div>
-          <button className='btn btn-block btn-success' disabled={savedItems.items.length === 0} onClick={saveShop}>Save Shop</button>
-          <hr className='hr' />
-          <div className='d-flex justify-content-between pt-3'>
-            <h5>Items</h5>
-            <p className='text-muted'>Count: {savedItems.items.length}</p>
+          <div className='form-group row'>
+            <div className='col-3'>
+              <label htmlFor='shop_type'>Shop Type</label>
+            </div>
+            <div className='col-9'>
+              <select className='form-control form-control-sm' id='shop_type' name='shop_type' onChange={onShopChange}>
+                <option value='On The Level'>On The Level</option>
+                <option value='Shady'>Shady</option>
+                <option value='Black Market'>Black Market</option>
+              </select>
+            </div>
           </div>
-          <div className='col-12 mt-3 overflow-auto' style={{ maxHeight: '90vh' }}>
-            {savedItems.items.length === 0 && <p>No Items</p>}
-            {savedItems.items.map(item => (
-              <ItemStoreRow
-                key={item.id}
-                id={item.id}
-                name={item.name}
-                dispatch={dispatch}
-                slug={item.key}
-                price={item.price}
-                originalPrice={item.originalPrice || item.price}
-                itemType={item.itemType}
-                isInStore />
-            ))}
+          <div className='form-group row'>
+            <div className='col-3'>
+              <label htmlFor='world'>World</label>
+            </div>
+            <div className='col-9'>
+              <select className='form-control form-control-sm' id='world' name='world_id' onChange={onShopChange}>
+                {worlds.map(world => <option key={world.id} value={world.id}>{world.name}</option>)}
+              </select>
+            </div>
+          </div>
+          <div className='form-group row'>
+            <div className='col-3'>
+              <label htmlFor='specialized_shop'>Specialization</label>
+            </div>
+            <div className='col-9'>
+              <select className='form-control form-control-sm' id='specialized_shop_id' name='specialized_shop_id' onChange={onShopChange}>
+                {specializedShops.map(shop => <option key={shop.id} value={shop.id}>{shop.name}</option>)}
+              </select>
+            </div>
           </div>
         </div>
-
-        <div className='col'>
-          <div className='row'>
-            <div className='col-12 p-3'>
-              <div className='input-group'>
-                <input className='form-control form-control-lg' placeholder='Filter...' name='search' value={searchValue} onChange={filterItems} />
-                <div className='input-group-append'>
-                  <button className='btn btn-lg btn-danger' onClick={() => filterItems({ target: { value: '' } })} type='button'><i className='fa fa-times' /></button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='row'>
-            {ITEM_TYPES.map(itemType => (
-              <ItemContainer
-                key={`${itemType}-container`}
-                itemType={itemType}
-                items={items}
-                dispatch={dispatch}
-                filteredItems={filteredItems}
-                savedItems={savedItems.items} />
-            ))}
-          </div>
+        <button className='btn btn-block btn-success' disabled={savedItems.items.length === 0} onClick={saveShop}>Save Shop</button>
+        <hr className='hr' />
+        <div className='d-flex justify-content-between pt-3'>
+          <h5>Items</h5>
+          <p className='text-muted'>Count: {savedItems.items.length}</p>
         </div>
-
+        <div className='col-12 mt-3 overflow-auto' style={{ maxHeight: 'calc(100vh - 525px)' }}>
+          {savedItems.items.length === 0 && <p>No Items</p>}
+          {savedItems.items.map(item => (
+            <ItemStoreRow
+              key={item.id}
+              id={item.id}
+              name={item.name}
+              dispatch={dispatch}
+              slug={item.key}
+              price={item.price}
+              originalPrice={item.originalPrice || item.price}
+              itemType={item.itemType}
+              isInStore />
+          ))}
+        </div>
       </div>
-    </div> // end container-fluid
+
+      <div className='col-9'>
+        <div className='row'>
+          <div className='col-12 p-3'>
+            <div className='input-group'>
+              <input className='form-control form-control-lg' placeholder='Filter...' name='search' value={searchValue} onChange={filterItems} />
+              <div className='input-group-append'>
+                <button className='btn btn-lg btn-danger' onClick={() => filterItems({ target: { value: '' } })} type='button'><i className='fa fa-times' /></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='row'>
+          {ITEM_TYPES.map(itemType => (
+            <ItemContainer
+              key={`${itemType}-container`}
+              itemType={itemType}
+              items={items}
+              dispatch={dispatch}
+              filteredItems={filteredItems}
+              savedItems={savedItems.items} />
+          ))}
+        </div>
+      </div>
+
+    </div>
   )
 }
 

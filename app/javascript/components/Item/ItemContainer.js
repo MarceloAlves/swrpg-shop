@@ -25,7 +25,7 @@ const ItemContainer = ({ itemType, items, dispatch, savedItems, filteredItems })
   return (
     <div className='col pt-2'>
       <h3 className='text-capitalize'>{itemType.replace('_', ' ')}</h3>
-      <div className='vh-100 overflow-auto'>
+      <div className='overflow-auto' style={{ maxHeight: 'calc(100vh - 241px)' }}>
         {itemList.map(item => <ItemCard
           key={item.key}
           id={item.id}
