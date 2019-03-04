@@ -23,7 +23,7 @@ $(document).on 'turbolinks:load', ->
     target = $(this)
     if $(target.attr('href')).find('tr').length > 0
       target.tab('show') 
-    false if $('.active').length > 0
+    false if $('#category-tabs .active').length > 0
 
   $('.table').stupidtable().bind 'aftertablesort', (event, data) ->
     icon = if data.direction == 'asc' then "fa-caret-down" else "fa-caret-up"
