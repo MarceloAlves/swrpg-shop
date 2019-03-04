@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   match 'shops/:id/regenerate', to: 'shops#regenerate', via: [:put], as: 'shop_regenerate'
   match 'shops/update_quantity', to: 'shops#update_quantity', via: [:post]
 
-  resources :worlds, only: %i[index new create destroy]
+  resources :worlds
   resources :specialized_shops
   resources :subscriptions
   resources :webhooks, only: %i[create]

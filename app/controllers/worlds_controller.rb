@@ -10,6 +10,18 @@ class WorldsController < ApplicationController
     render :new, locals: { world: current_user.worlds.build }
   end
 
+  def edit
+    world = World.find_by(id: params[:id], user: current_user)
+    render :edit, locals: { world: world }
+  end
+
+  def update
+    world = World.find_by(id: params[:id], user: current_user)
+    world.update(world_params) if params[:world].present?
+    world.save!
+    redirect_to worlds_path, notice: 'World updated'
+  end
+
   def create
     world = World.new(world_params)
     world.user = current_user

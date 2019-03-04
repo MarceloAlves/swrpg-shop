@@ -13,6 +13,6 @@
           dd.col-sm-8= world.rarity_modifier
           dt.col-sm-4 Price Modifier
           dd.col-sm-8= world.price_modifier
-    .card-footer.d-flex.justify-content-between
-      .col-12.text-center
-        = link_to fa_icon("times", text: 'Delete'), world_path(world), method: :delete, class: 'btn btn-danger px-4', data: { confirm: 'Are you sure? This will delete all shops in this world.' }
+    .card-footer.d-flex.justify-content-around
+      = link_to fa_icon('pencil', text: 'Edit'), edit_world_path(world.id), class: 'mx-2 btn btn-warning'
+      = link_to fa_icon("times", text: 'Delete'), world_path(world), method: :delete, class: 'btn btn-danger px-4', data: { confirm: 'Are you sure? This will delete all shops in this world.' }

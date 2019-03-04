@@ -25,7 +25,7 @@ class SpecializedShopsController < ApplicationController
 
   def update
     shop = SpecializedShop.find_by(id: params[:id], user: current_user)
-    shop.update!(specialized_shop_params) if params[:specialized_shop].present?
+    shop.update(specialized_shop_params) if params[:specialized_shop].present?
     shop.save!
     redirect_to specialized_shops_path, notice: 'Specialized Shop updated'
   end
