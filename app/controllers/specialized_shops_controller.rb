@@ -12,7 +12,7 @@ class SpecializedShopsController < ApplicationController
     shop.user = current_user
 
     if shop.save
-      redirect_to specialized_shops_path, notice: 'Specialized Shop saved'
+      redirect_to specialized_shops_path, notice: 'Shop Specialization saved'
     else
       render :new, locals: { specialized_shop: shop, all_types: item_types }
     end
@@ -27,13 +27,13 @@ class SpecializedShopsController < ApplicationController
     shop = SpecializedShop.find_by(id: params[:id], user: current_user)
     shop.update(specialized_shop_params) if params[:specialized_shop].present?
     shop.save!
-    redirect_to specialized_shops_path, notice: 'Specialized Shop updated'
+    redirect_to specialized_shops_path, notice: 'Shop Specialization updated'
   end
 
   def destroy
     shop = SpecializedShop.find(params[:id])
     shop.destroy
-    redirect_to specialized_shops_path, notice: 'Specialized Shop deleted'
+    redirect_to specialized_shops_path, notice: 'Shop Specialization deleted'
   end
 
   private
