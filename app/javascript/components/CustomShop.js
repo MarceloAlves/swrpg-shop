@@ -21,7 +21,7 @@ const SEARCH_OPTIONS = {
 
 const ITEM_TYPES = ['armor', 'gear', 'item_attachments', 'weapons']
 
-const CustomShop = ({ items, worlds, specializedShops, currentItems, shopInfo }) => {
+const CustomShop = ({ items, currentItems, shopInfo }) => {
   const [savedItems, dispatch] = useShopState()
   const [filteredItems, setFilteredItems] = useState([])
   const [searchValue, setSearchValue] = useState('')
@@ -90,46 +90,14 @@ const CustomShop = ({ items, worlds, specializedShops, currentItems, shopInfo })
               <input type='text' className='form-control form-control-sm' id='shop_name' name='name' onChange={onShopChange} value={savedItems.name} />
             </div>
           </div>
-          <div className='form-group row'>
-            <div className='col-3'>
-              <label htmlFor='shop_type'>Shop Type</label>
-            </div>
-            <div className='col-9'>
-              <select className='form-control form-control-sm' id='shop_type' name='shop_type' onChange={onShopChange} value={savedItems.shop_type}>
-                <option value='On The Level'>On The Level</option>
-                <option value='Shady'>Shady</option>
-                <option value='Black Market'>Black Market</option>
-              </select>
-            </div>
-          </div>
-          <div className='form-group row'>
-            <div className='col-3'>
-              <label htmlFor='world'>World</label>
-            </div>
-            <div className='col-9'>
-              <select className='form-control form-control-sm' id='world' name='world_id' onChange={onShopChange} value={savedItems.world_id}>
-                {worlds.map(world => <option key={world.id} value={world.id}>{world.name}</option>)}
-              </select>
-            </div>
-          </div>
-          <div className='form-group row'>
-            <div className='col-3'>
-              <label htmlFor='specialized_shop'>Specialization</label>
-            </div>
-            <div className='col-9'>
-              <select className='form-control form-control-sm' id='specialized_shop_id' name='specialized_shop_id' onChange={onShopChange} value={savedItems.specialized_shop_id}>
-                {specializedShops.map(shop => <option key={shop.id} value={shop.id}>{shop.name}</option>)}
-              </select>
-            </div>
-          </div>
         </div>
         <button className='btn btn-block btn-success' disabled={savedItems.items.length === 0} onClick={saveShop}>Save Shop</button>
         <hr className='hr' />
-        <div className='d-flex justify-content-between pt-3'>
+        <div className='d-flex justify-content-between mt-1'>
           <h5>Items</h5>
           <p className='text-muted'>Count: {savedItems.items.length}</p>
         </div>
-        <div className='col-12 mt-3 overflow-auto' style={{ maxHeight: 'calc(100vh - 525px)' }}>
+        <div className='col-12 mt-2 overflow-auto' style={{ maxHeight: 'calc(100vh - 360px)' }}>
           {savedItems.items.length === 0 && <p>No Items</p>}
           {savedItems.items.map(item => (
             <ItemStoreRow
@@ -140,6 +108,7 @@ const CustomShop = ({ items, worlds, specializedShops, currentItems, shopInfo })
               slug={item.key}
               price={item.price}
               originalPrice={item.originalPrice || item.price}
+              quantity={item.quantity}
               itemType={item.itemType}
               isInStore />
           ))}

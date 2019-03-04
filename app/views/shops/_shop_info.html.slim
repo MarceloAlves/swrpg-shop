@@ -1,8 +1,11 @@
 .col-12.col-md-6
   dl.row
-    dt.col-sm-3.col-5 Shop Type
-    dd.col-sm-9.col-7= shop.shop_type
+    -if shop.name
+      dt.col-sm-3.col-5 Shop Name
+      dd.col-sm-9.col-7= shop.name
     - unless shop.is_custom?
+      dt.col-sm-3.col-5 Shop Type
+      dd.col-sm-9.col-7= shop.shop_type
       dt.col-sm-3.col-5 Shop Specialization
       dd.col-sm-9.col-7= shop.specialized_shop.name
       dt.col-sm-3.col-5 Dice Pool

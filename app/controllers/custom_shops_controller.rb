@@ -3,8 +3,6 @@ class CustomShopsController < ApplicationController
 
   def new
     @items = item_list
-    @specialized_shops = SpecializedShop.where(is_default: true).or(SpecializedShop.where(user: current_user))
-    @worlds = World.where(is_default: true).or(World.where(user: current_user))
   end
 
   def create
@@ -23,8 +21,6 @@ class CustomShopsController < ApplicationController
     @current_items = collect_items(shop)
     @shop_info = { id: shop.id, name: shop.name, world: shop.world_id, specializedShop: shop.specialized_shop_id, shopType: shop.shop_type }
     @items = item_list
-    @specialized_shops = SpecializedShop.where(is_default: true).or(SpecializedShop.where(user: current_user))
-    @worlds = World.where(is_default: true).or(World.where(user: current_user))
   end
 
   def update
@@ -39,7 +35,7 @@ class CustomShopsController < ApplicationController
   private
 
   def shop_params
-    params.require(:shop).permit(:specialized_shop_id, :world_id, :name, :shop_type, items: [:id, :name, :price, :itemType, :key])
+    params.require(:shop).permit(:specialized_shop_id, :world_id, :name, :shop_type, items: [:id, :name, :price, :itemType, :key, :quantity])
   end
 
   def generate_key
@@ -71,7 +67,7 @@ class CustomShopsController < ApplicationController
   def collect_items(shop)
     items = []
     shop.items.keys.each do |category|
-      items << shop.items[category].map { |_,v| { id: v['id'], name: v['name'], price: v['price'], originalPrice: v['price_markup']['original_price'], itemType: category, key: v['key'] } }
+      items << shop.items[category].map { |_,v| { id: v['id'], name: v['name'], price: v['price'], originalPrice: v['price_markup']['original_price'], itemType: category, key: v['key'], quantity: v['quantity'] } }
     end
     items.flatten!
   end

@@ -15,7 +15,7 @@ const ItemCard = ({ id, name, price, slug, isRestricted, itemType, dispatch }) =
       <div className='card-body p-3 d-flex justify-content-between align-items-center'>
         <span>{name}</span>
         <div className='actions ml-2'>
-          <button className='btn btn-sm btn-primary' onClick={() => addItem({ id, name, price, itemType, key: slug })}>
+          <button className='btn btn-sm btn-primary' onClick={() => addItem({ id, name, price, itemType, quantity: -1, key: slug })}>
             <i className={'fa fa-plus'} />
           </button>
         </div>

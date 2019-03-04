@@ -13,24 +13,24 @@
             i.fa.fa-square-o
         dt.col-sm-4 Item Count
         dd.col-sm-8= shop.items.map{|k,v| v.count }.sum
-        dt.col-sm-4 Shop Specialization
-        dd.col-sm-8= shop.specialized_shop.name
         - unless shop.is_custom?
+          dt.col-sm-4 Shop Specialization
+          dd.col-sm-8= shop.specialized_shop.name
           dt.col-sm-4 Characteristic Level
           dd.col-sm-8= shop.characteristic_level
           dt.col-sm-4 Skill Level
           dd.col-sm-8= shop.skill_level
-        dt.col-sm-4 World
-        dd.col-sm-8 = shop.world.name
-        dt.col-sm-4 Modifiers
-        dd.col-sm-8
-          ul.list-unstyled
-            li 
-            | Rarity: &nbsp;
-            = shop.world.rarity_modifier
-            li
-            | Price:&nbsp;
-            = shop.world.price_modifier
+          dt.col-sm-4 World
+          dd.col-sm-8 = shop.world.name
+          dt.col-sm-4 Modifiers
+          dd.col-sm-8
+            ul.list-unstyled
+              li 
+              | Rarity: &nbsp;
+              = shop.world.rarity_modifier
+              li
+              | Price:&nbsp;
+              = shop.world.price_modifier
     .card-footer.d-flex.justify-content-around
       = link_to fa_icon("refresh", text: 'Refresh'), shop_regenerate_path(shop.id), method: :put, class: 'mx-2 btn btn-success' unless shop.is_custom?
       = link_to fa_icon('pencil', text: 'Edit'), edit_shop_path(shop.id), class: 'mx-2 btn btn-warning' unless shop.is_custom?

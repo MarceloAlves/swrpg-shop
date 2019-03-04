@@ -6,7 +6,7 @@ const INITIAL_STATE = { items: [], world_id: '1', specialized_shop_id: '1', name
 export const TYPES = {
   ADD_ITEM: 'ADD_ITEM',
   REMOVE_ITEM: 'REMOVE_ITEM',
-  UPDATE_PRICE: 'UPDATE_PRICE',
+  UPDATE_SHOP_ITEM: 'UPDATE_SHOP_ITEM',
   UPDATE_SHOP_OPTIONS: 'UPDATE_SHOP_OPTIONS',
   SEED_LIST: 'SEED_LIST'
 }
@@ -19,7 +19,7 @@ const reducer = (state, action) => {
     case TYPES.REMOVE_ITEM:
       state.items = state.items.filter(item => item.key !== action.key)
       return { ...state }
-    case TYPES.UPDATE_PRICE:
+    case TYPES.UPDATE_SHOP_ITEM:
       const arr = Array.from(state.items)
       const itemIndex = findIndex(arr, { key: action.item.key })
       arr.splice(itemIndex, 1, action.item)

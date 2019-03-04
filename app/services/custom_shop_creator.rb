@@ -19,7 +19,7 @@ class CustomShopCreator
 
       set_price!(raw, item.fetch('price'))
       raw.store('roll_total', [])
-      raw.store('quantity', -1)
+      raw.store('quantity', item.fetch('quantity', -1).to_i)
       key = item.fetch('itemType')
       @item_list[key.to_sym].store(raw['key'], raw)
     end
