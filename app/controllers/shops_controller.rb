@@ -3,7 +3,7 @@ class ShopsController < ApplicationController
   # before_action :validate_subscription
 
   def index
-    shops = Shop.where(user: current_user).order(:name)
+    shops = Shop.where(user: current_user, is_custom: false).order(:name)
     render :index, locals: { shops: shops }
   end
 

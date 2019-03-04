@@ -37,6 +37,12 @@ class CustomShopsController < ApplicationController
     render json: { slug: shop.slug }
   end
 
+  def destroy
+    shop = Shop.find_by(id: params[:id], user: current_user)
+    shop.destroy
+    redirect_to custom_shops_path, notice: 'Shop deleted'
+  end
+
   private
 
   def shop_params

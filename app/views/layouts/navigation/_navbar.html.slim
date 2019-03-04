@@ -8,6 +8,7 @@
       = link_to 'Home', root_path, class: "nav-item nav-link #{controller_name === 'static' ? 'active' : ''}"
       - if current_user
         = link_to 'Shops', shops_path, class: "nav-item nav-link #{controller_name === 'shops' ? 'active' : ''}"
+        = link_to 'Custom Shops', custom_shops_path, class: "nav-item nav-link #{controller_name === 'custom_shops' ? 'active' : ''}"
         = link_to 'Worlds', worlds_path, class: "nav-item nav-link #{controller_name === 'worlds' ? 'active' : ''}"
         = link_to 'Shop Specializations', specialized_shops_path, class: "nav-item nav-link #{controller_name === 'specialized_shops' ? 'active' : ''}"
     .navbar-nav
