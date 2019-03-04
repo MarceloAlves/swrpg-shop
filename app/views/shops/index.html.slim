@@ -9,7 +9,7 @@
             p No shops found. 
 
 .col-12.d-flex.justify-content-center.py-5
-  = link_to 'Create New Shop', new_shop_path, class: 'btn btn-primary'
+  = link_to 'Create New Shop', (controller_name == 'shops' ? new_shop_path : new_custom_shop_path), class: 'btn btn-primary'
 
 .container-fluid
   .d-flex.flex-wrap

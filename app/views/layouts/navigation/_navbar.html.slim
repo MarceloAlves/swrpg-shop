@@ -5,11 +5,11 @@
     i.fa.fa-bars  
   .collapse.navbar-collapse#navbar-links
     .navbar-nav.mr-auto
-      = link_to 'Home', root_path, class: 'nav-item nav-link'
+      = link_to 'Home', root_path, class: "nav-item nav-link #{controller_name === 'static' ? 'active' : ''}"
       - if current_user
-        = link_to 'Shops', shops_path, class: 'nav-item nav-link'
-        = link_to 'Worlds', worlds_path, class: 'nav-item nav-link'
-        = link_to 'Specialized Shops', specialized_shops_path, class: 'nav-item nav-link'
+        = link_to 'Shops', shops_path, class: "nav-item nav-link #{controller_name === 'shops' ? 'active' : ''}"
+        = link_to 'Worlds', worlds_path, class: "nav-item nav-link #{controller_name === 'worlds' ? 'active' : ''}"
+        = link_to 'Shop Specializations', specialized_shops_path, class: "nav-item nav-link #{controller_name === 'specialized_shops' ? 'active' : ''}"
     .navbar-nav
       = link_to 'Log in', new_user_session_path, class: 'btn btn-success mx-sm-1 my-sm-0 my-1' unless current_user
       = link_to 'Sign up', new_user_registration_path, class: 'btn btn-primary mx-sm-1 my-sm-0 my-1' unless current_user

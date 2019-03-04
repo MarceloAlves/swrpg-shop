@@ -1,15 +1,15 @@
-= content_for(:title) { 'Specialized Shops | SWRPG Shop Generator' }
+= content_for(:title) { 'Shop Specializations | SWRPG Shop Generator' }
 - if specialized_shops.empty?
   .d-flex.justify-content-center.h-100.align-content-center.mt-5
     .card.col-md-6.p-0
-      h4.card-header Create A Specialized Shop
+      h4.card-header Create A Shop Specialization
       .card-body.p-0
         .row.no-gutters
           .col-12.px-3.py-2
-            p No specialized shops found. 
+            p No shop specializations found. 
 
 .col-12.d-flex.justify-content-center.py-5
-  = link_to 'Create New Specialized Shop', new_specialized_shop_path, class: 'btn btn-primary'
+  = link_to 'Create New Shop Specialization', new_specialized_shop_path, class: 'btn btn-primary'
 
 .container-fluid
   .d-flex.flex-wrap

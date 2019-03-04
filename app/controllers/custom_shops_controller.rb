@@ -1,6 +1,11 @@
 class CustomShopsController < ApplicationController
   before_action :authenticate_user!
 
+  def index
+    shops = Shop.where(user: current_user, is_custom: true).order(:name)
+    render template: 'shops/index', locals: { shops: shops }
+  end
+
   def new
     @items = item_list
   end

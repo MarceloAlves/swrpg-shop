@@ -1,8 +1,8 @@
-= content_for(:title) { 'Edit Specialized Shop | SWRPG Shop Generator' }
+= content_for(:title) { 'Edit Shop Specialization | SWRPG Shop Generator' }
 
 .d-flex.justify-content-center.h-100.align-content-center.mt-5
   .card.col-sm-12.col-md-12.col-lg-6.col-xl-6.p-0
-    h4.card-header Edit Specialized Shop
+    h4.card-header Edit Shop Specialization
     .card-body.p-0
       .row.no-gutters
         .col-md-12.px-3.py-2
@@ -26,4 +26,4 @@
                         = f.input :item_types, as: :boolean, inline_label: true, label: item_type, required: false, checked_value: item_type, unchecked_value: nil, include_hidden: false, input_html: { id: item_type, name: 'specialized_shop[item_types][]' }
             .d-flex.justify-content-center
               .col-sm-8
-                = f.button :submit, 'Create', class: 'btn btn-primary btn-lg btn-block'
+                = f.button :submit, 'Save', class: 'btn btn-primary btn-lg btn-block'
