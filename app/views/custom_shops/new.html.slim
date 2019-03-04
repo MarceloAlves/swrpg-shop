@@ -1,3 +1,3 @@
 = content_for(:title) { 'New Custom Shop | SWRPG Shop Generator' }
 = content_for(:body_attributes) { 'false' }
-= react_component("CustomShop", items: @items)
+= react_component("CustomShop", items: @items, isEditMode: false)

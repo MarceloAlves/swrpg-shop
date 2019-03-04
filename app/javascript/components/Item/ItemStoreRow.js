@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import PropTypes from 'prop-types'
 import { TYPES } from '../../hooks/useShopState'
+import StoreContext from '../context/StoreContext'
 
-const ItemStoreRow = ({ id, name, price, slug, itemType, dispatch, originalPrice, quantity }) => {
-  const removeItem = key => {
-    dispatch({ type: TYPES.REMOVE_ITEM, key })
+const ItemStoreRow = ({ id, itemType, name, originalPrice, price, quantity, slug }) => {
+  const dispatch = useContext(StoreContext)
+
+  const removeItem = () => {
+    dispatch({ type: TYPES.REMOVE_ITEM, key: slug })
   }
 
   const handleChangePrice = e => {
@@ -38,7 +41,7 @@ const ItemStoreRow = ({ id, name, price, slug, itemType, dispatch, originalPrice
           </div>
 
           <div className='col-2 p-1 d-flex align-items-end'>
-            <button className='btn btn-sm btn-danger' onClick={() => removeItem(slug)}><i className={'fa fa-minus'} /></button>
+            <button className='btn btn-sm btn-danger' onClick={removeItem}><i className={'fa fa-minus'} /></button>
           </div>
         </div>
       </div>
@@ -49,13 +52,12 @@ const ItemStoreRow = ({ id, name, price, slug, itemType, dispatch, originalPrice
 
 ItemStoreRow.propTypes = {
   id: PropTypes.number,
-  slug: PropTypes.string,
-  name: PropTypes.string,
-  price: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   itemType: PropTypes.string,
+  name: PropTypes.string,
   originalPrice: PropTypes.number,
+  price: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   quantity: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  dispatch: PropTypes.func
+  slug: PropTypes.string
 }
 
 export default React.memo(ItemStoreRow)

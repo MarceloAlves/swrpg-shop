@@ -4,7 +4,7 @@ import filter from 'lodash/filter'
 import includes from 'lodash/includes'
 import ItemCard from './ItemCard'
 
-const ItemContainer = ({ itemType, items, dispatch, savedItems, filteredItems }) => {
+const ItemContainer = ({ filteredItems, items, itemType, savedItems }) => {
   const isFiltered = key => {
     if (filteredItems.length === 0) {
       return true
@@ -33,19 +33,17 @@ const ItemContainer = ({ itemType, items, dispatch, savedItems, filteredItems })
           price={item.price}
           isRestricted={item.is_restricted}
           itemType={itemType}
-          slug={item.key}
-          dispatch={dispatch} />)}
+          slug={item.key} />)}
       </div>
     </div>
   )
 }
 
 ItemContainer.propTypes = {
-  itemType: PropTypes.string,
+  filteredItems: PropTypes.array,
   items: PropTypes.array,
-  dispatch: PropTypes.func,
-  savedItems: PropTypes.array,
-  filteredItems: PropTypes.array
+  itemType: PropTypes.string,
+  savedItems: PropTypes.array
 }
 
 export default ItemContainer
