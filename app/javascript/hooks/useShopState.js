@@ -12,26 +12,24 @@ export const TYPES = {
 }
 
 const reducer = (state, action) => {
+  let newState = { ...state }
   switch (action.type) {
     case TYPES.ADD_ITEM:
-      state.items = state.items.concat(action.item)
-      return { ...state }
-    case TYPES.REMOVE_ITEM:
-      state.items = state.items.filter(item => item.key !== action.key)
-      return { ...state }
-    case TYPES.UPDATE_SHOP_ITEM:
-      const arr = Array.from(state.items)
-      const itemIndex = findIndex(arr, { key: action.item.key })
-      arr.splice(itemIndex, 1, action.item)
-      return { ...state, items: arr }
-    case TYPES.UPDATE_SHOP_OPTIONS:
-      const newState = Object.assign(state, { [action.name]: action.value })
+      newState.items = newState.items.concat(action.item)
       return { ...newState }
+    case TYPES.REMOVE_ITEM:
+      newState.items = newState.items.filter(item => item.key !== action.key)
+      return { ...newState }
+    case TYPES.UPDATE_SHOP_ITEM:
+      const itemIndex = findIndex(newState.items, { key: action.item.key })
+      newState.items.splice(itemIndex, 1, action.item)
+      return { ...newState }
+    case TYPES.UPDATE_SHOP_OPTIONS:
+      return { ...newState, [action.name]: action.value }
     case TYPES.SEED_LIST:
-      state.items = action.items
-      return { ...state }
+      return { ...newState, items: action.items }
     default:
-      return state
+      throw new Error('Missing Type')
   }
 }
 

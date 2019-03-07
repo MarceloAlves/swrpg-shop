@@ -30,11 +30,11 @@ const CustomShop = ({ items, currentItems, shopInfo, isEditMode }) => {
 
   useEffect(() => {
     if (isEditMode) {
-      dispatch({ type: 'UPDATE_SHOP_OPTIONS', name: 'name', value: shopInfo.name })
-      dispatch({ type: 'UPDATE_SHOP_OPTIONS', name: 'shop_type', value: shopInfo.shopType })
-      dispatch({ type: 'UPDATE_SHOP_OPTIONS', name: 'specialized_shop_id', value: shopInfo.specializedShop })
-      dispatch({ type: 'UPDATE_SHOP_OPTIONS', name: 'world_id', value: shopInfo.world })
-      dispatch({ type: 'SEED_LIST', items: currentItems })
+      dispatch({ type: TYPES.UPDATE_SHOP_OPTIONS, name: 'name', value: shopInfo.name })
+      dispatch({ type: TYPES.UPDATE_SHOP_OPTIONS, name: 'shop_type', value: shopInfo.shopType })
+      dispatch({ type: TYPES.UPDATE_SHOP_OPTIONS, name: 'specialized_shop_id', value: shopInfo.specializedShop })
+      dispatch({ type: TYPES.UPDATE_SHOP_OPTIONS, name: 'world_id', value: shopInfo.world })
+      dispatch({ type: TYPES.SEED_LIST, items: currentItems })
     }
   }, [currentItems, dispatch, isEditMode, shopInfo])
 
