@@ -67,7 +67,7 @@ GEM
     bootswatch (4.3.1)
       autoprefixer-rails (>= 6.0.3)
     builder (3.2.3)
-    byebug (11.0.0)
+    byebug (11.0.1)
     capybara (3.13.2)
       addressable
       mini_mime (>= 0.1.3)
