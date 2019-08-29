@@ -58,7 +58,7 @@ GEM
       execjs (~> 2.0)
     bcrypt (3.1.12)
     bindex (0.5.0)
-    bootsnap (1.4.0)
+    bootsnap (1.4.5)
       msgpack (~> 1.0)
     bootstrap (4.3.1)
       autoprefixer-rails (>= 9.1.0)
@@ -143,7 +143,7 @@ GEM
     mini_mime (1.0.1)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
-    msgpack (1.2.6)
+    msgpack (1.3.1)
     multi_json (1.13.1)
     multipart-post (2.0.0)
     net-http-persistent (3.0.0)
@@ -320,7 +320,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
-  bootsnap (~> 1.4.0)
+  bootsnap (~> 1.4.5)
   bootstrap (~> 4.3.0)
   bootswatch
   byebug
