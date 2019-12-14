@@ -1,4 +1,4 @@
-ruby '2.6.0'
+ruby '2.6.5'
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
@@ -8,14 +8,14 @@ end
 
 # Main
 gem 'pg', '~> 1.1'
-gem 'puma', '~> 3.12'
-gem 'rails', '~> 5.2.2'
+gem 'puma'
+gem 'rails', '~> 6.0.2'
 gem 'slim-rails'
 
 # Assets
 gem 'bootstrap', '~> 4.3.0'
-gem 'bootswatch'
-gem 'coffee-rails', '~> 4.2'
+gem 'bootswatch', '4.3.1'
+gem 'coffee-rails'
 gem 'font-awesome-rails'
 gem 'jbuilder', '~> 2.8'
 gem 'jquery-rails'
@@ -23,26 +23,26 @@ gem 'newrelic_rpm'
 gem 'popper_js', '~> 1.14.3'
 gem 'premailer-rails'
 gem 'react-rails'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '>= 6'
 gem 'tether-rails'
 gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
-gem 'webpacker'
+gem 'webpacker', '~> 4.0'
 
 # Other
 gem 'devise'
 gem 'redis', '~> 4.0'
-gem 'simple_form'
+gem 'simple_form', '4.1.0'
 gem 'stripe'
 gem 'stripe_event'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'capybara'
-  gem 'chromedriver-helper'
   gem 'dotenv-rails'
-  gem 'rspec-rails', '~> 3.8'
+  gem 'rspec-rails'
   gem 'selenium-webdriver'
+  gem 'webdrivers'
 end
 
 group :production do
@@ -51,17 +51,17 @@ end
 
 group :development do
   gem 'annotate'
-  gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'listen'
   gem 'pry-rails'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'web-console', '>= 3.3.0'
+  gem 'spring-watcher-listen'
+  gem 'web-console'
 end
 
 gem 'fakeredis', group: :test
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-gem 'bootsnap', '~> 1.4.0', require: false
+gem 'bootsnap', '>= 1.4.2', require: false
 
 # gem 'therubyracer', platforms: :ruby
