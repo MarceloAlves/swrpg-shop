@@ -48,11 +48,11 @@
         .form-group.row
           label.col-sm-2.col-form-label Boost Dice
           .col-sm-10
-            = f.input :boost_dice, as: :integer, label: false, input_html: { min: 0, max: 10, value: 0 }
+            = f.input :boost_dice, as: :integer, label: false, input_html: { min: 0, max: 10, value: 1 }
         .form-group.row
           label.col-sm-2.col-form-label Setback Dice
           .col-sm-10
-            = f.input :setback_dice, as: :integer, label: false, input_html: { min: 0, max: 10, value: 0 }
+            = f.input :setback_dice, as: :integer, label: false, input_html: { min: 0, max: 10, value: 1 }
         .form-group.row
           label.col-sm-2.col-form-label Challenge Dice
           .col-sm-10
@@ -60,11 +60,11 @@
         .form-group.row
           label.col-sm-2.col-form-label#shop-characteristic-level-label Presence Level
           .col-sm-10
-            = f.input :characteristic_level, as: :integer, label: false, input_html: { min: 0, max: 10, value: 0 }
+            = f.input :characteristic_level, as: :integer, label: false, input_html: { min: 0, max: 10, value: 1 }
         .form-group.row
           label.col-sm-2.col-form-label#shop-skill-level-label Negotiation Level
           .col-sm-10
-            = f.input :skill_level, as: :integer, label: false, input_html: { min: 0, max: 10, value: 0 }
+            = f.input :skill_level, as: :integer, label: false, input_html: { min: 0, max: 10, value: 1 }
         .form-group.row
           label.col-sm-2.col-form-label World
           .col-sm-10
