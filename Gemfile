@@ -32,7 +32,7 @@ gem 'webpacker', '~> 4.0'
 # Other
 gem 'devise'
 gem 'redis', '~> 4.0'
-gem 'simple_form', '4.1.0'
+gem 'simple_form', '5.0.0'
 gem 'stripe'
 gem 'stripe_event'
 

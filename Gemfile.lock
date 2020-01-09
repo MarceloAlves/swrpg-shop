@@ -124,7 +124,7 @@ GEM
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     htmlentities (4.3.4)
-    i18n (1.7.0)
+    i18n (1.8.0)
       concurrent-ruby (~> 1.0)
     jbuilder (2.9.1)
       activesupport (>= 4.2.0)
@@ -171,7 +171,7 @@ GEM
     public_suffix (4.0.1)
     puma (4.3.1)
       nio4r (~> 2.0)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-proxy (0.6.5)
       rack
     rack-test (1.1.0)
@@ -250,7 +250,7 @@ GEM
       rubyzip (>= 1.2.2)
     sentry-raven (2.12.3)
       faraday (>= 0.7.6, < 1.0)
-    simple_form (4.1.0)
+    simple_form (5.0.0)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
     slim (4.0.1)
@@ -284,7 +284,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.6)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
@@ -341,7 +341,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver
   sentry-raven
-  simple_form (= 4.1.0)
+  simple_form (= 5.0.0)
   slim-rails
   spring
   spring-watcher-listen
