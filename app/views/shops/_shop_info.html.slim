@@ -40,3 +40,6 @@
         span.input-group-btn
           button.btn.btn-sm.btn-secondary.btn-clipboard[type="button" data-clipboard-target="#url" data-toggle="popover" data-placement="bottom" data-content="Copied!"]
             i.fa.fa-clipboard
+    dt.col-sm-3.col-5
+    dd.col-sm-9.col-7
+      = link_to 'Export Shop', shop_export_path, id: shop.slug

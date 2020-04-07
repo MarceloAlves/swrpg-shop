@@ -82,6 +82,77 @@ class ShopsController < ApplicationController
     ShopChannel.broadcast_to(shop, action: 'update_quantity', key: item.fetch('key'), value: item.fetch('quantity'), direction: params[:direction])
   end
 
+  def export
+    puts params
+    shop = Shop.find_by(slug: params[:id]) || JSON.parse(Redis.current.get("shops:#{params[:id]}") || '[]')
+    return if shop.nil?
+
+    item_categories = ['armor', 'gear', 'item_attachments', 'weapons']
+
+    csv_string = CSV.generate do |csv|
+      item_categories.each do |category|
+        case category
+        when 'armor'
+          csv << fill_array(11, ['armor'])
+          csv << fill_array(11, ['name', 'price', 'defense', 'soak', 'encumbrance', 'hard points', 'rarity'])
+        when 'gear'
+          csv << fill_array(11, ['gear'])
+          csv << fill_array(11, ['name', 'price', 'encumbrance', 'rarity', 'type'])
+        when 'item_attachments'
+          csv << fill_array(11, ['item attachments'])
+          csv << fill_array(11, ['name', 'price', 'added mods'])
+        when 'weapons'
+          csv << fill_array(11, ['weapons'])
+          csv << fill_array(11, ['name', 'price', 'damage', 'crit', 'encumbrance', 'hard points', 'rarity', 'weapon type', 'skill key', 'range value', 'qualities'])
+        end
+
+        shop['items'][category].map do |key, item|
+          case category
+          when 'armor'
+            csv << fill_array(11, ['name', 'price', 'defense', 'soak', 'encumbrance', 'hard_points', 'rarity'].map{ |x| item.fetch(x)})
+          when 'gear'
+            csv << fill_array(11, ['name', 'price', 'encumbrance', 'rarity', 'type'].map{ |x| item.fetch(x)})
+          when 'item_attachments'
+            csv << fill_array(11, ['name', 'price', 'added_mods'].map do |x| 
+              if x === 'added_mods'
+                item.fetch(x, []).map{ |mod| mod.fetch('misc_desc', nil) }.compact.join(', ')
+              else
+                item.fetch(x)
+              end
+            end)
+          when 'weapons'
+            csv << fill_array(11, ['name', 'price', 'damage', 'crit', 'encumbrance', 'hard_points', 'rarity', 'weapon_type', 'skill_key', 'range_value', 'qualities'].map do |x|
+              if x == 'qualities'
+                results = item.fetch(x, []).map do |quality|
+                  helpers.format_qualities(quality.values)
+                end
+
+                results.is_a?(Array) ? results.join(', ') : results
+              elsif x == 'range_value'
+                item.fetch(x).remove(/^wr/)
+              elsif x == 'skill_key'
+                helpers.format_skill(item.fetch(x))
+              elsif x == 'weapon_type'
+                item.fetch(x, item.dig('type'))
+              else
+                item.fetch(x)
+              end
+            end)
+          end
+        end
+
+        csv << fill_array(11, [])
+        csv << fill_array(11, [])
+      end
+
+    end
+
+    send_data(csv_string,
+      filename: "store_export_#{params[:id]}.csv",
+      type: :csv
+    )
+  end
+
   private
 
   def shop_params
@@ -119,5 +190,9 @@ class ShopsController < ApplicationController
       'skill_level' => shop_info.dig('skill_level'),
       'items' => result.dig('items')
     }
+  end
+
+  def fill_array(size, entries)
+    size.times.collect{ |i| entries[i] }
   end
 end
