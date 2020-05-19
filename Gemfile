@@ -13,7 +13,7 @@ gem 'rails', '~> 6.0.2'
 gem 'slim-rails'
 
 # Assets
-gem 'bootstrap', '~> 4.3.0'
+gem 'bootstrap', '~> 4.5.0'
 gem 'bootswatch', '4.3.1'
 gem 'coffee-rails'
 gem 'font-awesome-rails'
