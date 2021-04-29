@@ -1,0 +1,31 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "09:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: stripe
+    versions:
+    - 5.29.0
+    - 5.29.1
+    - 5.30.0
+    - 5.31.0
+  - dependency-name: nokogiri
+    versions:
+    - 1.11.1
+    - 1.11.2
+  - dependency-name: capybara
+    versions:
+    - 3.35.1
+  - dependency-name: webdrivers
+    versions:
+    - 4.5.0
+  - dependency-name: newrelic_rpm
+    versions:
+    - 6.15.0
+  - dependency-name: sentry-raven
+    versions:
+    - 3.1.1
