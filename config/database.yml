@@ -24,6 +24,7 @@ default: &default
 development:
   <<: *default
   database: StarWarsShop_development
+  url: postgres://postgres:postgres@localhost:5432
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -58,6 +59,7 @@ development:
 test:
   <<: *default
   database: StarWarsShop_test
+  url: postgres://postgres:postgres@localhost:5432
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -80,6 +82,6 @@ test:
 #
 production:
   <<: *default
-  database: StarWarsShop_production
+  database: starwarsshop_production
   username: StarWarsShop
   password: <%= ENV['STARWARSSHOP_DATABASE_PASSWORD'] %>

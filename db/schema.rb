@@ -13,7 +13,6 @@
 ActiveRecord::Schema.define(version: 2019_12_14_063934) do
 
   # These are extensions that must be enabled in order to support this database
-  enable_extension "pgcrypto"
   enable_extension "plpgsql"
 
   create_table "armors", force: :cascade do |t|
@@ -35,8 +34,6 @@ ActiveRecord::Schema.define(version: 2019_12_14_063934) do
     t.string "image_filename", default: "missing.png"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["key"], name: "armors_key_key", unique: true
-    t.index ["key"], name: "index_armors_on_key", unique: true
   end
 
   create_table "gears", force: :cascade do |t|
@@ -57,10 +54,8 @@ ActiveRecord::Schema.define(version: 2019_12_14_063934) do
     t.json "weapon_modifiers", default: []
     t.string "adv_import_path"
     t.json "modifiers", default: []
-    t.string "item_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["key"], name: "index_gears_on_key", unique: true
   end
 
   create_table "item_attachments", force: :cascade do |t|
@@ -101,7 +96,6 @@ ActiveRecord::Schema.define(version: 2019_12_14_063934) do
     t.string "image_filename", default: "missing.png"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["key"], name: "index_item_attachments_on_key", unique: true
   end
 
   create_table "shops", force: :cascade do |t|
@@ -221,7 +215,6 @@ ActiveRecord::Schema.define(version: 2019_12_14_063934) do
     t.string "image_filename", default: "missing.png"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["key"], name: "index_weapons_on_key", unique: true
   end
 
   create_table "worlds", force: :cascade do |t|
