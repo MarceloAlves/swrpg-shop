@@ -9,7 +9,7 @@ end
 # Main
 gem 'pg', '~> 1.1'
 gem 'puma'
-gem 'rails', '~> 6.0.2'
+gem 'rails', '~> 6.0.6'
 gem 'slim-rails'
 
 # Assets
