@@ -1,1 +1,1 @@
-Redis.current = Redis.new(url: Rails.application.secrets.redis_url)
+Redis = Redis.new(url: Rails.application.secrets.redis_url)

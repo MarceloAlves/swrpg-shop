@@ -44,8 +44,8 @@ class FreeShop
       items: items,
       info: shop_info
     }
-    Redis.current.setex "shops:#{slug}", 24.hours, result.to_json
-    Redis.current.incr 'shops_generated'
+    Redis.setex "shops:#{slug}", 24.hours, result.to_json
+    Redis.incr 'shops_generated'
     true
   end
 end

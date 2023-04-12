@@ -8,14 +8,14 @@ class ShopsController < ApplicationController
   end
 
   def show
-    shop = Shop.find_by(slug: params[:id]) || JSON.parse(Redis.current.get("shops:#{params[:id]}") || '[]')
+    shop = Shop.find_by(slug: params[:id]) || JSON.parse(Redis.get("shops:#{params[:id]}") || '[]')
 
     if shop.blank?
       render :missing_shop
     elsif shop.is_a?(Shop)
       render :show, locals: { shop: shop, ttl: shop.ttl }
     else
-      time_left = Redis.current.pttl("shops:#{params[:id]}")
+      time_left = Redis.pttl("shops:#{params[:id]}")
       shop = parse_free_shop(shop)
       free_shop = FreeShop.new(shop.to_h)
       render :show, locals: { shop: free_shop, ttl: time_left / 1000 }
@@ -84,7 +84,7 @@ class ShopsController < ApplicationController
 
   def export
     puts params
-    shop = Shop.find_by(slug: params[:id]) || JSON.parse(Redis.current.get("shops:#{params[:id]}") || '[]')
+    shop = Shop.find_by(slug: params[:id]) || JSON.parse(Redis.get("shops:#{params[:id]}") || '[]')
     return if shop.nil?
 
     item_categories = ['armor', 'gear', 'item_attachments', 'weapons']

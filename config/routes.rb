@@ -8,12 +8,7 @@ Rails.application.routes.draw do
 
   resources :worlds
   resources :specialized_shops
-  resources :subscriptions
-  resources :webhooks, only: %i[create]
   resources :custom_shops
-
-
-  mount StripeEvent::Engine, at: '/stripe/webhooks'
 
   match 'changelog', to: 'static#changelog', via: [:get]
   root 'static#index'
