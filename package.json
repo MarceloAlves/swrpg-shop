@@ -2,7 +2,7 @@
   "name": "star_wars_shop",
   "private": true,
   "engines": {
-    "node": "8.16.2"
+    "node": "12.22.12"
   },
   "dependencies": {
     "@rails/webpacker": "^3.5.5",
