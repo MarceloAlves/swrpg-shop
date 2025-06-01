@@ -95,10 +95,10 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'swrpg-shop.com' }
   config.action_mailer.asset_host = 'http://swrpg-shop.com'
   config.action_mailer.smtp_settings = {
-    user_name: ENV['SENDGRID_USERNAME'],
-    password: ENV['SENDGRID_PASSWORD'],
+    user_name: ENV['EMAIL_USERNAME'],
+    password: ENV['EMAIL_PASSWORD'],
     domain: 'swrpg-shop.com',
-    address: 'smtp.sendgrid.net',
+    address: ENV['EMAIL_SEND_DOMAIN'],
     port: 587,
     authentication: :plain,
     enable_starttls_auto: true

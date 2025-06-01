@@ -27,32 +27,32 @@ ARG BUNDLER_VERSION=2.1.4
 ARG RAILS_ENV=production
 ENV RAILS_ENV=${RAILS_ENV}
 
-ENV RAILS_SERVE_STATIC_FILES true
-ENV RAILS_LOG_TO_STDOUT true
-ENV USE_FREEDESKTOP_PLACEHOLDER true
+ENV RAILS_SERVE_STATIC_FILES=true
+ENV RAILS_LOG_TO_STDOUT=true
+ENV USE_FREEDESKTOP_PLACEHOLDER=true
 
 ARG BUNDLE_WITHOUT=development:test
 ARG BUNDLE_PATH=vendor/bundle
-ENV BUNDLE_PATH ${BUNDLE_PATH}
-ENV BUNDLE_WITHOUT ${BUNDLE_WITHOUT}
+ENV BUNDLE_PATH=${BUNDLE_PATH}
+ENV BUNDLE_WITHOUT=${BUNDLE_WITHOUT}
 
 RUN mkdir /app
 WORKDIR /app
 RUN mkdir -p tmp/pids
 
 RUN curl https://get.volta.sh | bash
-ENV VOLTA_HOME /root/.volta
-ENV PATH $VOLTA_HOME/bin:/usr/local/bin:$PATH
+ENV VOLTA_HOME=/root/.volta
+ENV PATH=$VOLTA_HOME/bin:/usr/local/bin:$PATH
 RUN volta install node@${NODE_VERSION} yarn@1
 
 #######################################################################
 
 # install packages only needed at build time
 
-FROM base as build_deps
+FROM base AS build_deps
 
 ARG BUILD_PACKAGES="git build-essential patch ruby-dev zlib1g-dev liblzma-dev libpq-dev wget vim curl gzip xz-utils libsqlite3-dev"
-ENV BUILD_PACKAGES ${BUILD_PACKAGES}
+ENV BUILD_PACKAGES=${BUILD_PACKAGES}
 
 RUN --mount=type=cache,id=dev-apt-cache,sharing=locked,target=/var/cache/apt \
     --mount=type=cache,id=dev-apt-lib,sharing=locked,target=/var/lib/apt \
@@ -64,10 +64,10 @@ RUN --mount=type=cache,id=dev-apt-cache,sharing=locked,target=/var/cache/apt \
 
 # install gems
 
-FROM build_deps as gems
+FROM build_deps AS gems
 
-RUN gem update --system --no-document && \
-    gem install -N bundler -v ${BUNDLER_VERSION}
+# RUN gem update --system --no-document && \
+RUN gem install -N bundler -v ${BUNDLER_VERSION}
 
 COPY Gemfile* ./
 RUN bundle install &&  rm -rf vendor/bundle/ruby/*/cache
@@ -76,7 +76,7 @@ RUN bundle install &&  rm -rf vendor/bundle/ruby/*/cache
 
 # install node modules
 
-FROM build_deps as node_modules
+FROM build_deps AS node_modules
 
 COPY package*json ./
 COPY yarn.* ./
